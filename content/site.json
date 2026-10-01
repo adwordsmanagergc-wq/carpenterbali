@@ -1,0 +1,236 @@
+{
+  "_comment": "Shared site configuration. Replace the placeholder contact details below with your real ones, then run: python3 build.py",
+  "domain": "https://carpenterbali.com",
+  "brand": "Carpenter Bali",
+  "whatsapp": "6285237896850",
+  "phone_display": "+62 852-3789-6850",
+  "email": "hello@carpenterbali.com",
+  "address_locality": "Badung",
+  "address_region": "Bali",
+  "address_country": "ID",
+  "geo": {
+    "lat": -8.6478,
+    "lng": 115.1385
+  },
+  "opening_hours": "Mo-Sa 08:00-17:00",
+  "instagram": "",
+  "facebook": "",
+  "default_lang": "en",
+  "languages": [
+    "en",
+    "id",
+    "fr",
+    "ru"
+  ],
+  "services": [
+    "kitchens",
+    "wardrobes",
+    "walk-in-wardrobes",
+    "bathroom-vanities",
+    "tv-units",
+    "doors-windows",
+    "decking",
+    "pergolas",
+    "staircases",
+    "ceilings-panelling",
+    "beds",
+    "shelving-office",
+    "custom-furniture",
+    "villa-fitout",
+    "commercial-fitout",
+    "repairs"
+  ],
+  "featured_services": [
+    "kitchens",
+    "wardrobes",
+    "walk-in-wardrobes",
+    "bathroom-vanities",
+    "decking",
+    "doors-windows",
+    "villa-fitout",
+    "custom-furniture"
+  ],
+  "areas": [
+    {
+      "key": "canggu",
+      "lat": -8.6478,
+      "lng": 115.1385,
+      "nearby": [
+        "berawa",
+        "pererenan",
+        "umalas",
+        "kerobokan"
+      ]
+    },
+    {
+      "key": "pererenan",
+      "lat": -8.6428,
+      "lng": 115.1236,
+      "nearby": [
+        "canggu",
+        "tabanan",
+        "berawa",
+        "kerobokan"
+      ]
+    },
+    {
+      "key": "berawa",
+      "lat": -8.6584,
+      "lng": 115.1431,
+      "nearby": [
+        "canggu",
+        "umalas",
+        "seminyak",
+        "pererenan"
+      ]
+    },
+    {
+      "key": "seminyak",
+      "lat": -8.6913,
+      "lng": 115.1683,
+      "nearby": [
+        "kerobokan",
+        "legian",
+        "umalas",
+        "berawa"
+      ]
+    },
+    {
+      "key": "kerobokan",
+      "lat": -8.6655,
+      "lng": 115.1663,
+      "nearby": [
+        "umalas",
+        "seminyak",
+        "canggu",
+        "denpasar"
+      ]
+    },
+    {
+      "key": "umalas",
+      "lat": -8.6616,
+      "lng": 115.1551,
+      "nearby": [
+        "kerobokan",
+        "berawa",
+        "canggu",
+        "seminyak"
+      ]
+    },
+    {
+      "key": "kuta",
+      "lat": -8.718,
+      "lng": 115.1686,
+      "nearby": [
+        "legian",
+        "jimbaran",
+        "seminyak",
+        "denpasar"
+      ]
+    },
+    {
+      "key": "legian",
+      "lat": -8.7045,
+      "lng": 115.169,
+      "nearby": [
+        "kuta",
+        "seminyak",
+        "kerobokan",
+        "denpasar"
+      ]
+    },
+    {
+      "key": "jimbaran",
+      "lat": -8.7908,
+      "lng": 115.1606,
+      "nearby": [
+        "uluwatu",
+        "ungasan",
+        "nusa-dua",
+        "kuta"
+      ]
+    },
+    {
+      "key": "uluwatu",
+      "lat": -8.8291,
+      "lng": 115.0849,
+      "nearby": [
+        "ungasan",
+        "jimbaran",
+        "nusa-dua",
+        "kuta"
+      ]
+    },
+    {
+      "key": "ungasan",
+      "lat": -8.8247,
+      "lng": 115.1661,
+      "nearby": [
+        "uluwatu",
+        "nusa-dua",
+        "jimbaran",
+        "kuta"
+      ]
+    },
+    {
+      "key": "nusa-dua",
+      "lat": -8.8008,
+      "lng": 115.2317,
+      "nearby": [
+        "ungasan",
+        "jimbaran",
+        "uluwatu",
+        "sanur"
+      ]
+    },
+    {
+      "key": "sanur",
+      "lat": -8.6878,
+      "lng": 115.262,
+      "nearby": [
+        "denpasar",
+        "nusa-dua",
+        "ubud",
+        "kuta"
+      ]
+    },
+    {
+      "key": "ubud",
+      "lat": -8.5069,
+      "lng": 115.2625,
+      "nearby": [
+        "sanur",
+        "denpasar",
+        "tabanan",
+        "canggu"
+      ]
+    },
+    {
+      "key": "tabanan",
+      "lat": -8.62,
+      "lng": 115.09,
+      "nearby": [
+        "pererenan",
+        "canggu",
+        "ubud",
+        "kerobokan"
+      ]
+    },
+    {
+      "key": "denpasar",
+      "lat": -8.6705,
+      "lng": 115.2126,
+      "nearby": [
+        "sanur",
+        "kerobokan",
+        "kuta",
+        "ubud"
+      ]
+    }
+  ],
+  "guides": [
+    "kitchen-cost",
+    "materials"
+  ],
+  "contact_name": "Gede"
+}
