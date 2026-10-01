@@ -1,0 +1,2020 @@
+{
+  "lang": "id",
+  "locale": "id_ID",
+  "hreflang": "id",
+  "label": "Bahasa Indonesia",
+  "short": "ID",
+  "path_prefix": "id",
+  "ui": {
+    "skip": "Langsung ke konten",
+    "nav_services": "Layanan",
+    "nav_areas": "Area",
+    "nav_guides": "Panduan",
+    "nav_about": "Tentang Kami",
+    "nav_contact": "Kontak",
+    "cta_quote": "Minta penawaran gratis",
+    "cta_whatsapp": "Chat WhatsApp",
+    "cta_call": "Telepon kami",
+    "cta_view": "Lihat detail",
+    "cta_all_services": "Semua layanan",
+    "cta_all_areas": "Semua area",
+    "language": "Bahasa",
+    "menu": "Menu",
+    "close": "Tutup",
+    "home": "Beranda",
+    "breadcrumb": "Navigasi breadcrumb",
+    "services_title": "Jasa tukang kayu di Bali",
+    "services_lead": "Dari satu kabinet wastafel hingga interior villa lengkap — didesain, dibuat di workshop kami, dan dipasang oleh tim kami sendiri.",
+    "areas_title": "Area layanan kami",
+    "areas_lead": "Kami mengukur, membuat, dan memasang di seluruh Bali selatan dan Ubud. Pilih area Anda untuk info lokal, gaya populer, dan FAQ.",
+    "features_title": "Yang kami buat",
+    "materials_title": "Material & finishing",
+    "pricing_title": "Kisaran harga",
+    "pricing_note": "Harga adalah kisaran anggaran dalam Rupiah, belum termasuk PPN, peralatan dapur (appliance), dan top batu, serta dikonfirmasi dalam penawaran tertulis setelah survei lokasi.",
+    "pricing_item": "Item",
+    "pricing_price": "Kisaran harga",
+    "process_title": "Cara kerja kami",
+    "faq_title": "Pertanyaan yang sering diajukan",
+    "related_services": "Layanan lainnya {in_area}",
+    "nearby_areas": "{service} di area sekitar",
+    "services_in_area": "Layanan kami {in_area}",
+    "service_areas_title": "{service}: area layanan",
+    "local_title": "Kondisi lokal: {area}",
+    "style_title": "Gaya populer {in_area}",
+    "homes_title": "Hunian & proyek {in_area}",
+    "lead_time": "Estimasi waktu pengerjaan",
+    "gallery_title": "Proyek terbaru",
+    "gallery_note": "Foto proyek segera hadir.",
+    "cta_band_title": "Sedang merencanakan proyek?",
+    "cta_band_text": "Kirimkan denah, sketsa, atau beberapa foto lewat WhatsApp. Kami membalas dalam satu hari kerja dan biasanya bisa survei ke lokasi Anda dalam minggu yang sama.",
+    "form_title": "Minta penawaran gratis",
+    "form_name": "Nama Anda",
+    "form_area": "Area",
+    "form_service": "Layanan",
+    "form_message": "Ceritakan proyek Anda (ukuran, gaya, jadwal)",
+    "form_send": "Kirim lewat WhatsApp",
+    "form_email": "Atau kirim email",
+    "form_select": "Pilih…",
+    "form_other": "Lainnya",
+    "footer_about": "Jasa tukang kayu, furniture custom, dan lemari built-in untuk villa, rumah, dan bisnis di seluruh Bali.",
+    "footer_services": "Layanan",
+    "footer_areas": "Area",
+    "footer_company": "Perusahaan",
+    "footer_rights": "Hak cipta dilindungi.",
+    "lang_suggest": "Halaman ini tersedia dalam Bahasa Indonesia.",
+    "lang_suggest_btn": "Buka",
+    "read_more": "Baca selengkapnya",
+    "guides_title": "Panduan & tips",
+    "guides_lead": "Tips praktis membuat furniture yang awet di iklim tropis Bali.",
+    "updated": "Diperbarui",
+    "placeholder_img": "Foto segera hadir",
+    "why_title": "Mengapa klien memilih kami",
+    "trust": [
+      {
+        "t": "Workshop sendiri",
+        "d": "Semua dibuat di workshop kami di Bali oleh tukang kayu kami sendiri — tanpa subkontraktor yang tidak jelas."
+      },
+      {
+        "t": "Dibuat untuk iklim tropis",
+        "d": "Multiplek marine, kayu keras oven (kiln-dried), anti-rayap, dan hardware tahan lembap sebagai standar."
+      },
+      {
+        "t": "Penawaran tertulis yang jelas",
+        "d": "Penawaran terperinci berisi material, finishing, dan jadwal secara tertulis sebelum Anda membayar DP."
+      },
+      {
+        "t": "Kami bicara bahasa Anda",
+        "d": "Komunikasi dalam Bahasa Indonesia, Inggris, Prancis, atau Rusia — dengan gambar 3D agar tidak ada salah paham."
+      }
+    ],
+    "process": [
+      {
+        "t": "Konsultasi",
+        "d": "Kirim foto, denah, atau inspirasi lewat WhatsApp. Kita diskusikan gaya, anggaran, dan jadwal."
+      },
+      {
+        "t": "Survei & pengukuran",
+        "d": "Kami mengukur di lokasi, mengecek dinding, lantai, dan kelembapan, serta memberi saran material."
+      },
+      {
+        "t": "Desain & penawaran",
+        "d": "Anda menerima gambar kerja atau render 3D beserta penawaran tertulis yang terperinci."
+      },
+      {
+        "t": "Produksi di workshop",
+        "d": "Furniture Anda dibuat dan di-finishing di workshop kami. Kami kirimkan foto progres."
+      },
+      {
+        "t": "Pemasangan",
+        "d": "Tim kami sendiri yang memasang, menyetel, dan membersihkan. Kami jelaskan cara perawatannya."
+      },
+      {
+        "t": "Layanan purna jual",
+        "d": "Garansi pengerjaan dan kunjungan pengecekan untuk menyetel engsel dan pintu setelah musim hujan pertama."
+      }
+    ],
+    "faq_general": [
+      {
+        "q": "Apakah survei lokasi dan penawaran dikenakan biaya?",
+        "a": "Tidak. Survei dan penawaran gratis di seluruh area layanan kami di Bali selatan dan Ubud. Untuk lokasi yang jauh, kami bisa menyepakati biaya transport kecil di awal."
+      },
+      {
+        "q": "Berapa DP yang diperlukan?",
+        "a": "Umumnya 50% untuk mulai produksi, 40% saat barang siap dipasang, dan 10% setelah selesai. Ketentuan pastinya tertulis di penawaran Anda."
+      },
+      {
+        "q": "Bisakah dikerjakan dari gambar arsitek atau desainer interior saya?",
+        "a": "Bisa. Kami rutin mengerjakan proyek dari gambar arsitek dan desainer interior, dan dapat menyiapkan shop drawing untuk disetujui sebelum produksi."
+      }
+    ],
+    "contact_role": "Kepala Tukang Kayu",
+    "contact_direct": "Bicara langsung dengan {name}, kepala tukang kayu kami, lewat WhatsApp.",
+    "wa_greeting": "Halo {name}, saya menemukan Anda di carpenterbali.com."
+  },
+  "home": {
+    "title": "Carpenter Bali | Kitchen Set, Lemari & Furniture Custom Villa",
+    "meta": "Jasa tukang kayu di Bali: kitchen set, lemari built-in, walk-in closet, kabinet kamar mandi, pintu, decking & interior villa. Survei gratis di Canggu, Ubud dll.",
+    "eyebrow": "Jasa tukang kayu & furniture custom di Bali",
+    "h1": "Kitchen set, lemari, dan furniture kayu custom, dibuat untuk Bali",
+    "lead": "Kami mendesain, membuat, dan memasang furniture custom untuk villa, rumah, dan bisnis — dari kayu jati solid, multiplek marine, dan finishing modern yang tahan kelembapan tropis.",
+    "points": [
+      "Survei & penawaran gratis",
+      "Workshop sendiri di Bali",
+      "Bahasa · English · Français · Русский"
+    ],
+    "intro_title": "Furniture kayu yang dibuat untuk iklim tropis",
+    "intro": [
+      "Bali adalah salah satu tempat tinggal terindah di dunia — sekaligus salah satu yang paling berat bagi furniture. Kelembapan berada di kisaran 70%–90% hampir sepanjang tahun, udara asin datang dari pantai, dan rayap adalah hal biasa. Kabinet murah cepat mengembang, pintu tidak bisa menutup, dan engsel berkarat dalam satu musim.",
+      "{brand} membuat furniture dengan cara berbeda. Kami memilih material yang tepat untuk setiap ruangan — kayu jati atau merbau solid untuk bagian yang terlihat, multiplek marine untuk bagian yang harus stabil, HPL atau cat duco untuk permukaan yang mudah dibersihkan — dan setiap furniture kami beri perlindungan, sealing, dan ventilasi agar awet di Bali."
+    ],
+    "areas_teaser": "Dari Canggu dan Pererenan hingga Uluwatu, Sanur, dan Ubud — kami melayani semua area utama di Bali."
+  },
+  "pages": {
+    "services": {
+      "slug": "layanan",
+      "title": "Jasa Tukang Kayu Bali | Kitchen Set, Lemari, Decking & Lainnya",
+      "meta": "Layanan tukang kayu kami di Bali: kitchen set, lemari pakaian, walk-in closet, kabinet kamar mandi, pintu, decking, gazebo, tangga, plafon & interior villa.",
+      "h1": "Jasa tukang kayu & furniture custom di Bali"
+    },
+    "areas": {
+      "slug": "area",
+      "title": "Area Layanan Carpenter Bali | Canggu, Seminyak, Uluwatu, Ubud",
+      "meta": "Furniture custom di seluruh Bali: Canggu, Pererenan, Berawa, Seminyak, Kerobokan, Umalas, Kuta, Jimbaran, Uluwatu, Sanur, Ubud & lainnya.",
+      "h1": "Area layanan tukang kayu di Bali"
+    },
+    "guides": {
+      "slug": "panduan",
+      "title": "Panduan Furniture Kayu di Bali | Harga, Material & Perawatan",
+      "meta": "Panduan praktis furniture custom di Bali: harga kitchen set, kayu dan papan terbaik untuk iklim lembap, serta cara melindungi furniture dari rayap.",
+      "h1": "Panduan & tips"
+    },
+    "about": {
+      "slug": "tentang-kami",
+      "title": "Tentang Carpenter Bali | Workshop Furniture Custom di Bali",
+      "meta": "Kenali Carpenter Bali: workshop kayu di Bali yang membuat kitchen set, lemari, dan interior villa custom untuk pemilik rumah, developer, dan bisnis.",
+      "h1": "Tentang {brand}",
+      "body": [
+        "{brand} adalah workshop tukang kayu dan furniture custom di Bali. Kami bekerja sama dengan pemilik rumah, pemilik villa, developer properti, arsitek, dan bisnis perhotelan untuk mendesain, membuat, dan memasang furniture yang indah dan awet di iklim tropis.",
+        "Tim kami memadukan keahlian pertukangan kayu tradisional Bali dengan teknik pembuatan kabinet modern bergaya Eropa: pemotongan panel yang presisi, hardware soft-close, edging yang rapi, dan finishing yang benar. Setiap proyek ditangani oleh satu kontak, dalam bahasa Anda, dari sketsa pertama hingga penyetelan engsel terakhir.",
+        "Kami percaya pada penawaran yang jujur, jadwal yang realistis, dan material yang dipilih untuk iklim Bali — bukan sekadar harga termurah di atas kertas."
+      ],
+      "values_title": "Prinsip kami",
+      "values": [
+        {
+          "t": "Material yang jujur",
+          "d": "Kami jelaskan dengan pasti isinya: jenis papan, ketebalan, edging, merek hardware, dan finishing."
+        },
+        {
+          "t": "Kayu yang bertanggung jawab",
+          "d": "Kami mengutamakan kayu jati perkebunan dan kayu keras dari sumber legal, dan dapat menyediakan dokumen jika diminta."
+        },
+        {
+          "t": "Pemasangan yang bersih",
+          "d": "Tim kami melindungi lantai Anda, bekerja rapi, dan meninggalkan lokasi dalam keadaan bersih setiap hari."
+        }
+      ]
+    },
+    "contact": {
+      "slug": "kontak",
+      "title": "Kontak Carpenter Bali | Penawaran & Survei Lokasi Gratis",
+      "meta": "Hubungi Carpenter Bali via WhatsApp atau email untuk survei dan penawaran gratis kitchen set, lemari, dan pekerjaan kayu di Bali selatan dan Ubud.",
+      "h1": "Hubungi kami",
+      "lead": "Cara tercepat menghubungi kami adalah lewat WhatsApp. Kirim foto, denah, atau sketsa kasar, dan kami akan membalas dalam satu hari kerja.",
+      "hours_title": "Jam kerja",
+      "hours": "Senin – Sabtu, 08.00 – 17.00 WITA",
+      "area_title": "Area layanan",
+      "area": "Seluruh Bali selatan, semenanjung Bukit, Sanur, Denpasar, Tabanan, dan Ubud."
+    },
+    "notfound": {
+      "title": "Halaman tidak ditemukan | Carpenter Bali",
+      "h1": "Halaman tidak ditemukan",
+      "text": "Maaf, halaman ini tidak ada. Silakan lihat layanan atau area kami di bawah ini."
+    }
+  },
+  "services": {
+    "kitchens": {
+      "slug": "kitchen-set-bali",
+      "combo_slug": "kitchen-set",
+      "name": "Kitchen Set Custom",
+      "short": "Kitchen set custom dari kayu jati, multiplek, HPL, atau duco, lengkap dengan kitchen island, pantry, dan dapur outdoor.",
+      "title": "Kitchen Set Bali | Kitchen Set Custom & Kabinet Dapur",
+      "meta": "Kitchen set custom di Bali yang tahan lembap: multiplek marine, kayu jati, HPL atau duco, hardware soft-close, island & pantry. Desain & penawaran gratis.",
+      "h1": "Kitchen set custom di Bali",
+      "lead_time": "4–8 minggu",
+      "intro": [
+        "Dapur adalah jantung setiap villa — sekaligus ruangan yang paling menderita akibat iklim Bali. Uap, cipratan air, dan kelembapan tropis merusak kabinet partikel board dalam hitungan bulan. Kami membuat kitchen set dengan badan kabinet dari multiplek marine tahan air, edging yang tersegel, plint stainless atau aluminium, serta hardware soft-close berkualitas, sehingga pintu tetap lurus dan laci tetap lancar dari tahun ke tahun.",
+        "Apa pun keinginan Anda — kitchen set minimalis tanpa handle, dapur tropis hangat dari kayu jati solid, tampilan Japandi dengan veneer bernuansa oak, atau finishing cat duco high-gloss — kami mendesainnya sesuai layout, peralatan dapur, dan cara Anda memasak. Kami juga membuat butler's pantry, kitchen island dengan tempat duduk, dapur outdoor, dan kitchenette ringkas untuk villa sewa."
+      ],
+      "features": [
+        {
+          "t": "Kitchen island & meja bar",
+          "d": "Island dengan penyimpanan, overhang untuk duduk, serta sink atau kompor tanam."
+        },
+        {
+          "t": "Tanpa handle & push-to-open",
+          "d": "Garis modern yang bersih dengan profil J, gola, atau push latch."
+        },
+        {
+          "t": "Kitchen set jati solid & veneer",
+          "d": "Karakter tropis yang hangat dari kayu jati perkebunan atau veneer jati."
+        },
+        {
+          "t": "Pantry & lemari tinggi",
+          "d": "Lemari pantry, appliance garage, dan housing kulkas tanam."
+        },
+        {
+          "t": "Dapur outdoor & BBQ",
+          "d": "Dapur outdoor tahan cuaca dari kayu keras, HPL compact, atau stainless steel."
+        },
+        {
+          "t": "Top batu & solid surface",
+          "d": "Kami koordinasikan countertop terrazzo, granit, quartz, marmer, atau solid surface."
+        }
+      ],
+      "materials": "Badan kabinet dari multiplek marine (WBP) 18 mm, tersegel di semua sisi. Pintu dari HPL, cat duco, veneer jati, atau jati solid. Hardware Blum, Hettich, atau setara kelas Hafele dengan soft-close. Plint aluminium atau stainless steel agar tahan air pel.",
+      "price": [
+        [
+          "Kitchen set multiplek + HPL (kabinet bawah + atas)",
+          "mulai Rp 3,5 – 5 juta / meter lari"
+        ],
+        [
+          "Kitchen set finishing duco",
+          "mulai Rp 4,5 – 7 juta / meter lari"
+        ],
+        [
+          "Kitchen set kayu jati solid",
+          "mulai Rp 8 – 14 juta / meter lari"
+        ],
+        [
+          "Kitchen island",
+          "mulai Rp 15 juta"
+        ],
+        [
+          "Dapur outdoor",
+          "mulai Rp 20 juta"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Apa material terbaik untuk kitchen set di Bali?",
+          "a": "Untuk badan kabinet, multiplek marine adalah pilihan paling andal di iklim lembap Bali — jauh lebih stabil daripada MDF atau partikel board. Untuk pintu, HPL paling awet dan mudah dibersihkan, cat duco memberi tampilan modern yang mulus, dan jati solid memberi karakter tropis paling hangat."
+        },
+        {
+          "q": "Apakah Anda juga memasang countertop dan peralatan dapur?",
+          "a": "Kami menyediakan dan memasang countertop terrazzo, granit, quartz, marmer, atau solid surface melalui mitra batu terpercaya, serta dapat memasang peralatan tanam, sink, dan kran berkoordinasi dengan tukang ledeng dan teknisi listrik Anda."
+        },
+        {
+          "q": "Bagaimana cara melindungi kitchen set dari rayap?",
+          "a": "Semua kayu dan multiplek diberi obat anti-rayap sebelum dirakit, kabinet berdiri di atas kaki atau plint yang tersegel, dan kami sediakan akses inspeksi di balik plint. Untuk bangunan baru, kami juga menyarankan perawatan anti-rayap tanah secara profesional."
+        }
+      ],
+      "combo_title": "Kitchen Set {in_area} | Kitchen Set Custom Bali",
+      "combo_meta": "Kitchen set custom {in_area}, Bali: didesain, dibuat, dan dipasang tim kami sendiri. Multiplek marine, jati, atau HPL, island & pantry. Survei gratis.",
+      "combo_h1": "Kitchen set custom {in_area}",
+      "combo_intro": "Mencari kitchen set custom {in_area}? {brand} mendesain, membuat, dan memasang kitchen set sesuai ukuran untuk villa, rumah, properti sewa, dan restoran {in_area} — dari kitchenette ringkas hingga dapur lengkap dengan island dan walk-in pantry, semuanya dibuat tahan kelembapan Bali.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga kitchen set custom {in_area}?",
+          "a": "Kitchen set multiplek dan HPL {in_area} umumnya mulai sekitar Rp 3,5–5 juta per meter lari untuk kabinet bawah dan atas. Finishing duco dan jati solid lebih mahal. Setelah survei gratis, kami berikan penawaran terperinci agar Anda tahu persis apa yang Anda bayar."
+        },
+        {
+          "q": "Berapa lama pembuatan kitchen set baru {in_area}?",
+          "a": "Sebagian besar kitchen set membutuhkan 4–8 minggu dari desain disetujui hingga pemasangan, tergantung ukuran dan finishing. Pemasangan di lokasi {in_area} biasanya 2–4 hari, ditambah pemasangan countertop."
+        },
+        {
+          "q": "Bisakah kitchen set lama di villa sewa {in_area} diganti dengan cepat?",
+          "a": "Bisa. Untuk villa sewa, kami merencanakan produksi sehingga kitchen set lama dibongkar dan yang baru dipasang dalam waktu singkat, agar malam booking yang hilang seminimal mungkin."
+        }
+      ]
+    },
+    "wardrobes": {
+      "slug": "lemari-pakaian-bali",
+      "combo_slug": "lemari-pakaian",
+      "name": "Lemari Pakaian Built-in",
+      "short": "Lemari pakaian built-in dari lantai hingga plafon dengan pintu sliding atau swing, berventilasi untuk iklim lembap Bali.",
+      "title": "Lemari Pakaian Bali | Lemari Built-in Custom & Wardrobe",
+      "meta": "Lemari pakaian built-in custom di Bali: pintu sliding atau swing, jati, rotan, HPL atau duco, dengan ventilasi anti-jamur. Pengukuran & penawaran gratis.",
+      "h1": "Lemari pakaian built-in custom di Bali",
+      "lead_time": "3–6 minggu",
+      "intro": [
+        "Lemari yang baik di Bali bukan sekadar tempat menyimpan pakaian — tetapi juga melindunginya. Di dalam lemari tertutup, kelembapan tropis cepat berubah menjadi jamur dan bau apek. Lemari built-in kami dirancang agar bisa 'bernapas': plint dan bagian atas berventilasi, pilihan pintu rotan atau krepyak, papan tahan lembap di bagian dalam, serta ruang untuk dehumidifier atau lampu hangat berdaya rendah.",
+        "Kami membuat lemari pakaian built-in dari lantai hingga plafon untuk kamar tidur utama, kamar tamu, kamar anak, dan villa sewa, dengan area gantung, laci, rak sepatu, brankas, dan tempat koper yang disesuaikan dengan kebutuhan Anda. Pilih pintu sliding, pintu swing, panel rotan khas Bali, krepyak jati, pintu cermin, atau finishing cat yang mulus."
+      ],
+      "features": [
+        {
+          "t": "Pintu sliding & swing",
+          "d": "Sliding rel atas atau rel bawah yang halus, atau pintu swing dengan soft-close."
+        },
+        {
+          "t": "Pintu rotan & krepyak",
+          "d": "Pintu alami yang bisa bernapas, cantik, dan mencegah jamur."
+        },
+        {
+          "t": "Ventilasi terintegrasi",
+          "d": "Plint dan atas berventilasi, celah sirkulasi udara, dan opsi ruang dehumidifier."
+        },
+        {
+          "t": "Interior cerdas",
+          "d": "Gantungan dua tingkat, rak celana tarik, laci, brankas, dan lampu LED."
+        },
+        {
+          "t": "Pintu cermin & kaca",
+          "d": "Cermin full-height atau kaca riben dengan rangka aluminium."
+        },
+        {
+          "t": "Desain siap villa sewa",
+          "d": "Lemari awet dan mudah dibersihkan untuk villa dengan tamu silih berganti."
+        }
+      ],
+      "materials": "Badan lemari dari multiplek 18 mm (multiplek marine untuk kamar mandi dan villa dekat pantai), dengan interior HPL atau melamin agar mudah dibersihkan. Pintu dari HPL, cat duco, veneer jati, rangka jati solid dengan rotan, atau cermin. Sistem sliding dan engsel soft-close yang tahan iklim tropis.",
+      "price": [
+        [
+          "Lemari multiplek + HPL, full-height",
+          "mulai Rp 3 – 5 juta / meter lari"
+        ],
+        [
+          "Lemari veneer jati atau duco",
+          "mulai Rp 4,5 – 7 juta / meter lari"
+        ],
+        [
+          "Rangka jati solid + pintu rotan",
+          "mulai Rp 6 – 10 juta / meter lari"
+        ],
+        [
+          "Tambahan interior (laci, LED, rak tarik)",
+          "mulai Rp 750.000 per item"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bagaimana mencegah jamur di dalam lemari di Bali?",
+          "a": "Kami merancang lemari agar berventilasi: plint dan atas berlubang udara, celah kecil di balik panel belakang agar udara bersirkulasi dari dinding, pintu rotan atau krepyak bila sesuai, serta interior yang mudah dilap. Dehumidifier kecil atau lampu LED hangat di dalam lemari juga sangat membantu."
+        },
+        {
+          "q": "Pintu sliding atau pintu swing — mana yang lebih baik?",
+          "a": "Pintu sliding menghemat ruang di kamar yang lebih kecil dan cocok untuk desain modern. Pintu swing memberi akses penuh ke seluruh lemari sekaligus dan lebih mudah dipadukan dengan panel rotan atau krepyak. Kami akan merekomendasikan yang paling sesuai setelah mengukur kamar Anda."
+        },
+        {
+          "q": "Bisakah lemari dibuat di dinding dan lantai yang tidak rata?",
+          "a": "Bisa. Dinding dan lantai villa di Bali sering tidak rata. Kami menyesuaikan setiap lemari di lokasi agar menempel rapat ke dinding dan plafon dengan celah yang rapi dan seragam."
+        }
+      ],
+      "combo_title": "Lemari Pakaian {in_area} | Lemari Built-in Custom Bali",
+      "combo_meta": "Lemari pakaian built-in custom {in_area}: sliding atau swing, jati, rotan atau HPL, berventilasi anti-jamur. Diukur, dibuat & dipasang oleh Carpenter Bali.",
+      "combo_h1": "Lemari pakaian built-in {in_area}",
+      "combo_intro": "Butuh lemari pakaian {in_area}? {brand} membuat lemari built-in custom dari lantai hingga plafon untuk villa, apartemen, dan properti sewa {in_area}, dirancang agar pakaian tetap kering dan segar di iklim lembap Bali.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga lemari built-in {in_area}?",
+          "a": "Lemari full-height multiplek dan HPL {in_area} mulai sekitar Rp 3–5 juta per meter lari. Finishing jati, rotan, dan duco lebih mahal. Kami berikan penawaran terperinci gratis setelah mengukur kamar Anda."
+        },
+        {
+          "q": "Seberapa cepat lemari bisa dipasang {in_area}?",
+          "a": "Sebagian besar proyek lemari memakan waktu 3–6 minggu sejak desain disetujui, dan pemasangan {in_area} biasanya satu atau dua hari per kamar."
+        },
+        {
+          "q": "Bisakah lemari disesuaikan dengan gaya villa saya {in_area}?",
+          "a": "Bisa. Kami menyesuaikan warna kayu, model pintu, dan hardware dengan interior Anda, baik jati Bali klasik, tropis modern, maupun putih minimalis."
+        }
+      ]
+    },
+    "walk-in-wardrobes": {
+      "slug": "walk-in-closet-bali",
+      "combo_slug": "walk-in-closet",
+      "name": "Walk-in Closet",
+      "short": "Walk-in closet dan ruang ganti mewah dengan island, pencahayaan, dan rak terbuka atau berpintu kaca.",
+      "title": "Walk-in Closet Bali | Walk-in Wardrobe & Ruang Ganti Custom",
+      "meta": "Walk-in closet dan ruang ganti mewah di Bali: rak terbuka, pintu kaca, island, lampu LED, dan desain sesuai iklim. Desain 3D & penawaran gratis.",
+      "h1": "Walk-in closet & ruang ganti di Bali",
+      "lead_time": "5–9 minggu",
+      "intro": [
+        "Walk-in closet membuat berpakaian menjadi kesenangan sehari-hari. Kami mendesain dan membuat walk-in closet dan ruang ganti custom untuk villa dan rumah keluarga di seluruh Bali — dari walk-through ringkas antara kamar tidur dan kamar mandi hingga ruang ganti bergaya butik dengan island di tengah, rak display, dan pencahayaan yang menawan.",
+        "Di daerah tropis, walk-in closet harus direncanakan dengan memperhatikan sirkulasi udara. Rak terbuka, kabinet berpintu kaca, serta ruangan ber-AC atau ber-dehumidifier menjaga pakaian, sepatu, dan tas tetap prima. Kami merencanakan layout dalam 3D bersama Anda, lalu membuat setiap bagian di workshop agar pemasangan presisi dan cepat."
+      ],
+      "features": [
+        {
+          "t": "Desain layout 3D",
+          "d": "Lihat walk-in closet Anda dalam 3D sebelum mulai dibuat."
+        },
+        {
+          "t": "Island ruang ganti",
+          "d": "Island di tengah dengan laci, tempat perhiasan, dan top batu atau kaca."
+        },
+        {
+          "t": "Kabinet berpintu kaca",
+          "d": "Pintu kaca rangka aluminium yang melindungi dari debu sekaligus memajang koleksi Anda."
+        },
+        {
+          "t": "Lampu LED terintegrasi",
+          "d": "Lampu rak, gantungan, dan laci dengan sensor."
+        },
+        {
+          "t": "Display sepatu & tas",
+          "d": "Rak sepatu miring, kotak tas, dan baki aksesori tarik."
+        },
+        {
+          "t": "Meja rias & cermin",
+          "d": "Meja rias, cermin full-length, dan tempat duduk."
+        }
+      ],
+      "materials": "Badan kabinet multiplek dengan finishing veneer premium, HPL, atau cat duco; aksen jati solid atau motif oak; pintu kaca rangka aluminium; laci berlapis kulit atau kain; profil LED dengan sensor; rel laci full-extension soft-close.",
+      "price": [
+        [
+          "Walk-through closet ringkas",
+          "mulai Rp 25 – 45 juta"
+        ],
+        [
+          "Walk-in closet sedang (bentuk U)",
+          "mulai Rp 45 – 90 juta"
+        ],
+        [
+          "Ruang ganti mewah dengan island",
+          "mulai Rp 90 juta"
+        ],
+        [
+          "Island ruang ganti saja",
+          "mulai Rp 15 juta"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Seberapa besar ruangan yang dibutuhkan untuk walk-in closet?",
+          "a": "Walk-in satu sisi bisa dibuat mulai lebar sekitar 1,5 m; layout dua sisi mulai sekitar 2,1 m; dan layout bentuk U atau dengan island mulai sekitar 3 m × 3 m. Kami juga bisa mengubah sebagian kamar tidur besar menjadi walk-in closet dengan partisi."
+        },
+        {
+          "q": "Apakah walk-in closet di Bali perlu AC?",
+          "a": "Kami sangat menyarankan AC, dehumidifier khusus, atau ventilasi silang yang sangat baik. Tanpa itu, kelembapan dapat merusak barang kulit, sepatu, dan kain yang halus. Kami bisa mengintegrasikan ventilasi dan tempat dehumidifier ke dalam desain."
+        },
+        {
+          "q": "Bisakah ditambahkan lampu dan stopkontak?",
+          "a": "Bisa. Kami mengintegrasikan strip LED, sensor gerak, lampu cermin, dan stopkontak untuk setrika uap atau charger, berkoordinasi dengan teknisi listrik Anda."
+        }
+      ],
+      "combo_title": "Walk-in Closet {in_area} | Walk-in Wardrobe Custom Bali",
+      "combo_meta": "Walk-in closet dan ruang ganti custom {in_area}, Bali. Desain 3D, island, pintu kaca & lampu LED. Dibuat dan dipasang oleh tim kami sendiri.",
+      "combo_h1": "Walk-in closet {in_area}",
+      "combo_intro": "Mendambakan walk-in closet {in_area}? {brand} mendesain dan membuat walk-in closet dan ruang ganti mewah untuk villa dan rumah keluarga {in_area}, direncanakan dalam 3D dan dibuat di workshop kami agar sesuai iklim Bali.",
+      "combo_faqs": [
+        {
+          "q": "Berapa biaya walk-in closet {in_area}?",
+          "a": "Walk-through closet ringkas {in_area} mulai sekitar Rp 25–45 juta, sedangkan ruang ganti yang lebih besar dengan island dan pencahayaan umumnya mulai Rp 90 juta. Harga tergantung ukuran, finishing, dan hardware."
+        },
+        {
+          "q": "Berapa lama proyek walk-in closet {in_area}?",
+          "a": "Siapkan waktu 5–9 minggu dari desain 3D disetujui hingga selesai. Pemasangan di lokasi {in_area} biasanya 3–5 hari."
+        },
+        {
+          "q": "Bisakah walk-in closet didesain untuk villa yang masih dibangun {in_area}?",
+          "a": "Bisa — dan itulah waktu terbaik. Kami dapat berkoordinasi dengan kontraktor Anda soal posisi dinding, titik listrik, dan AC agar walk-in closet terintegrasi sempurna."
+        }
+      ]
+    },
+    "bathroom-vanities": {
+      "slug": "kabinet-kamar-mandi-bali",
+      "combo_slug": "kabinet-kamar-mandi",
+      "name": "Kabinet Kamar Mandi (Vanity)",
+      "short": "Kabinet wastafel tahan air dari jati, HPL compact, atau terrazzo, model gantung atau berdiri.",
+      "title": "Kabinet Kamar Mandi Bali | Wastafel Kabinet Jati & Tahan Air",
+      "meta": "Kabinet kamar mandi (vanity) custom di Bali: jati solid, multiplek marine + HPL, atau compact laminate, gantung atau berdiri, dengan top batu atau terrazzo.",
+      "h1": "Kabinet kamar mandi & wastafel kabinet custom di Bali",
+      "lead_time": "3–5 minggu",
+      "intro": [
+        "Kamar mandi di Bali sering semi-terbuka atau outdoor — indah, tetapi berat bagi furniture. Kami membuat kabinet wastafel yang memang siap basah: jati solid dengan minyak marine, multiplek marine dengan HPL tahan air, atau compact laminate yang sepenuhnya tahan air untuk area outdoor dan villa sewa.",
+        "Pilih vanity gantung untuk tampilan modern yang bersih, konsol jati berdiri untuk nuansa resort tropis, atau double vanity dengan laci dalam untuk kamar mandi keluarga. Kami koordinasikan top-nya — terrazzo, batu alam, beton, atau solid surface — beserta wastafel, cermin, dan penyimpanan."
+      ],
+      "features": [
+        {
+          "t": "Vanity gantung",
+          "d": "Kabinet menempel dinding agar lantai mudah dibersihkan dan tetap kering."
+        },
+        {
+          "t": "Konsol jati solid",
+          "d": "Vanity terbuka bergaya resort dari jati perkebunan dengan finishing marine."
+        },
+        {
+          "t": "Double vanity",
+          "d": "Dua wastafel dengan laci dalam soft-close untuk kamar mandi bersama."
+        },
+        {
+          "t": "Siap kamar mandi outdoor",
+          "d": "Pilihan compact laminate dan jati untuk kamar mandi terbuka."
+        },
+        {
+          "t": "Cermin & kabinet",
+          "d": "Cermin berbingkai serasi, kabinet cermin, dan rak handuk."
+        },
+        {
+          "t": "Top terrazzo & batu",
+          "d": "Top custom dengan wastafel undermount, wastafel atas meja, atau wastafel menyatu."
+        }
+      ],
+      "materials": "Jati perkebunan solid dengan finishing minyak marine atau polyurethane; multiplek marine (WBP) dengan HPL tahan air dan edging tersegel penuh; compact laminate untuk area basah; hardware stainless steel; top terrazzo, granit, marmer, beton, atau solid surface.",
+      "price": [
+        [
+          "Vanity gantung tunggal (multiplek + HPL)",
+          "mulai Rp 4 – 7 juta"
+        ],
+        [
+          "Vanity jati solid",
+          "mulai Rp 6 – 12 juta"
+        ],
+        [
+          "Double vanity dengan laci",
+          "mulai Rp 8 – 16 juta"
+        ],
+        [
+          "Cermin berbingkai / kabinet cermin",
+          "mulai Rp 1,5 juta"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Apakah kabinet kayu tahan di kamar mandi Bali?",
+          "a": "Ya, jika dibuat dengan benar. Jati solid secara alami tahan air dan pelapukan, dan multiplek marine dengan HPL yang tersegel penuh tahan cipratan dan uap. Kami menyegel setiap sisi dan lubang potongan serta memakai hardware stainless steel."
+        },
+        {
+          "q": "Bisakah dibuatkan vanity untuk kamar mandi outdoor?",
+          "a": "Bisa. Untuk kamar mandi terbuka, kami menyarankan jati solid atau compact laminate yang ditinggikan dari lantai, dengan fitting stainless dan top batu atau terrazzo yang tersegel."
+        },
+        {
+          "q": "Apakah Anda menyediakan wastafel dan kran?",
+          "a": "Kami bisa menyediakan wastafel dan mengoordinasikan kran serta top, atau membuat kabinet sesuai sanitair yang sudah Anda pilih."
+        }
+      ],
+      "combo_title": "Kabinet Kamar Mandi {in_area} | Vanity Jati & HPL Custom",
+      "combo_meta": "Kabinet kamar mandi (vanity) custom {in_area}, Bali: jati, HPL tahan air, atau compact laminate, gantung atau berdiri, dengan top terrazzo & batu.",
+      "combo_h1": "Kabinet kamar mandi {in_area}",
+      "combo_intro": "Ingin merenovasi kamar mandi {in_area}? {brand} membuat kabinet wastafel custom untuk villa, rumah, dan hotel {in_area} — tahan air sejak desain dan di-finishing serasi dengan interior Anda.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga kabinet kamar mandi custom {in_area}?",
+          "a": "Vanity gantung tunggal dari multiplek dan HPL {in_area} mulai sekitar Rp 4–7 juta; jati solid dan double vanity lebih mahal. Top dan wastafel dihitung terpisah atau sebagai paket."
+        },
+        {
+          "q": "Berapa lama pemasangan vanity {in_area}?",
+          "a": "Produksi memakan waktu 3–5 minggu. Pemasangan {in_area} biasanya setengah hari per vanity, berkoordinasi dengan tukang ledeng Anda."
+        }
+      ]
+    },
+    "tv-units": {
+      "slug": "rak-tv-backdrop-bali",
+      "combo_slug": "rak-tv",
+      "name": "Rak TV & Backdrop TV",
+      "short": "Backdrop TV built-in, rak TV gantung, dan lemari entertainment dengan kabel tersembunyi.",
+      "title": "Rak TV Bali | Backdrop TV & Lemari TV Custom",
+      "meta": "Rak TV dan backdrop TV custom di Bali: rak TV gantung, panel dinding kisi kayu, kabel tersembunyi, dan penyimpanan. Didesain dan dibuat sesuai ukuran.",
+      "h1": "Rak TV & backdrop TV custom di Bali",
+      "lead_time": "3–5 minggu",
+      "intro": [
+        "Backdrop TV custom membuat ruang keluarga terlihat utuh. Kami mendesain rak TV gantung, lemari entertainment setinggi plafon dengan rak dan ceruk display, serta dinding aksen kisi-kisi kayu yang menyembunyikan kabel, router, dan speaker.",
+        "Setiap unit direncanakan sesuai ukuran layar, perangkat Anda, ventilasi untuk elektronik, dan ketinggian menonton yang ideal — serta di-finishing serasi dengan lantai, pintu, dan furniture Anda."
+      ],
+      "features": [
+        {
+          "t": "Rak TV gantung",
+          "d": "Rak TV menempel dinding dengan laci push-open."
+        },
+        {
+          "t": "Backdrop TV penuh",
+          "d": "Unit lantai hingga plafon dengan rak terbuka dan lemari tertutup."
+        },
+        {
+          "t": "Dinding aksen kisi kayu",
+          "d": "Panel kisi-kisi kayu dengan jalur kabel tersembunyi."
+        },
+        {
+          "t": "Kabel tersembunyi",
+          "d": "Jalur kabel terintegrasi, kompartemen perangkat berventilasi, dan stopkontak."
+        },
+        {
+          "t": "Ceruk display & LED",
+          "d": "Ceruk dengan lampu belakang untuk buku, karya seni, dan pajangan."
+        },
+        {
+          "t": "Unit kamar tidur & outdoor",
+          "d": "Rak TV ringkas untuk kamar dan lemari TV outdoor yang terlindung cuaca."
+        }
+      ],
+      "materials": "Badan multiplek dengan finishing HPL, veneer, atau cat; kisi-kisi jati atau merbau solid; panel belakang berventilasi; hardware push-to-open atau soft-close; profil LED.",
+      "price": [
+        [
+          "Rak TV gantung",
+          "mulai Rp 5 – 10 juta"
+        ],
+        [
+          "Backdrop TV full-height",
+          "mulai Rp 12 – 30 juta"
+        ],
+        [
+          "Dinding aksen kisi kayu",
+          "mulai Rp 1,5 – 3 juta / m²"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bisakah semua kabel disembunyikan?",
+          "a": "Bisa. Kami merencanakan jalur kabel, grommet, dan kompartemen berventilasi untuk router, konsol, dan sound system, serta berkoordinasi dengan teknisi listrik untuk stopkontak di balik layar."
+        },
+        {
+          "q": "Apakah unitnya kuat untuk TV besar?",
+          "a": "Kami merancang struktur dinding dan pengikatnya sesuai ukuran layar Anda, dan menyarankan bracket TV yang dipasang ke dinding bata/beton atau panel yang diperkuat."
+        }
+      ],
+      "combo_title": "Rak TV {in_area} | Backdrop TV & Lemari TV Custom Bali",
+      "combo_meta": "Rak TV dan backdrop TV custom {in_area}, Bali: rak TV gantung, dinding kisi kayu, dan kabel tersembunyi. Didesain, dibuat & dipasang tim kami.",
+      "combo_h1": "Rak TV & backdrop TV {in_area}",
+      "combo_intro": "Ingin backdrop TV built-in yang rapi {in_area}? {brand} mendesain dan membuat rak TV dan lemari entertainment custom untuk ruang keluarga, kamar tidur, dan lounge outdoor {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga rak TV custom {in_area}?",
+          "a": "Rak TV gantung {in_area} mulai sekitar Rp 5–10 juta, dan backdrop TV full-height mulai sekitar Rp 12 juta, tergantung ukuran dan finishing."
+        },
+        {
+          "q": "Berapa lama pembuatan backdrop TV {in_area}?",
+          "a": "Umumnya 3–5 minggu produksi, dengan pemasangan {in_area} dalam satu hari."
+        }
+      ]
+    },
+    "doors-windows": {
+      "slug": "pintu-jendela-kusen-kayu-bali",
+      "combo_slug": "pintu-kusen-kayu",
+      "name": "Pintu, Jendela & Kusen",
+      "short": "Pintu kayu jati dan merbau solid, kusen, krepyak, jendela jalusi, dan pintu pivot.",
+      "title": "Pintu Kayu Jati Bali | Pintu, Jendela & Kusen Kayu Custom",
+      "meta": "Pintu dan jendela kayu custom di Bali: pintu kayu jati dan merbau solid, kusen, pintu pivot, krepyak, dan jalusi. Dibuat dan dipasang sesuai ukuran.",
+      "h1": "Pintu kayu, jendela & kusen custom di Bali",
+      "lead_time": "4–8 minggu",
+      "intro": [
+        "Pintu dan jendela harus melawan cuaca Bali setiap hari — hujan deras, terik matahari, kelembapan, dan rayap. Kami membuatnya dari kayu jati, merbau, atau bengkirai solid yang dikeringkan dengan oven (kiln-dried), dengan sambungan yang benar, sehingga tetap lurus dan menutup dengan lancar.",
+        "Kami membuat pintu utama dan pintu pivot, pintu dalam, pintu lipat dan sliding ke taman dan kolam, kusen jendela, krepyak, serta pintu ukir tradisional Bali — dikirim sebagai set lengkap dengan kusen, hardware, dan finishing."
+      ],
+      "features": [
+        {
+          "t": "Pintu utama & pintu pivot",
+          "d": "Pintu statement setinggi 3 m lebih dengan sistem pivot heavy-duty."
+        },
+        {
+          "t": "Pintu dalam",
+          "d": "Pintu solid, panel, flush, atau kisi dengan kusen serasi."
+        },
+        {
+          "t": "Pintu lipat & sliding",
+          "d": "Pintu kaca lipat (bi-fold) dan sliding yang membuka villa ke taman dan kolam."
+        },
+        {
+          "t": "Kusen kayu",
+          "d": "Kusen pintu dan jendela dari kayu keras solid untuk bangunan baru dan renovasi."
+        },
+        {
+          "t": "Jalusi & krepyak",
+          "d": "Jalusi dan krepyak untuk privasi dan sirkulasi udara."
+        },
+        {
+          "t": "Pintu tradisional Bali",
+          "d": "Pintu ukir dan prada yang dikerjakan oleh pengrajin Bali."
+        }
+      ],
+      "materials": "Kayu jati, merbau, atau bengkirai solid kiln-dried; inti engineered untuk pintu besar agar tidak melengkung; engsel dan kunci stainless steel atau kuningan; kaca bening atau tempered; finishing minyak marine, polyurethane, atau cat eksterior.",
+      "price": [
+        [
+          "Pintu dalam jati solid + kusen",
+          "mulai Rp 6 – 12 juta"
+        ],
+        [
+          "Pintu utama / pintu pivot",
+          "mulai Rp 15 – 45 juta"
+        ],
+        [
+          "Kusen jendela + daun jendela",
+          "mulai Rp 2,5 – 6 juta per unit"
+        ],
+        [
+          "Pintu kaca lipat",
+          "mulai Rp 6 – 10 juta / m²"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Mengapa pintu kayu melengkung di Bali, dan bagaimana mencegahnya?",
+          "a": "Pintu melengkung karena kayu tidak dikeringkan dengan benar atau hanya disegel di satu sisi. Kami memakai kayu kiln-dried, inti engineered yang stabil untuk pintu besar, dan menyegel keenam sisinya — termasuk tepi atas dan bawah — sebelum dipasang."
+        },
+        {
+          "q": "Apakah Anda memasang pintu dan jendela di villa yang sudah jadi?",
+          "a": "Ya. Kami mengganti pintu dan kusen lama di bangunan yang sudah ada, termasuk pembongkaran, penyesuaian bukaan, dan perapian di sekitar kusen baru."
+        },
+        {
+          "q": "Jati atau merbau — mana yang sebaiknya dipilih?",
+          "a": "Jati paling stabil dan secara alami tahan cuaca, dengan warna keemasan yang indah. Merbau sangat keras dan awet dengan warna cokelat kemerahan yang lebih gelap, dan sering lebih ekonomis untuk jumlah besar."
+        }
+      ],
+      "combo_title": "Pintu Kayu Jati {in_area} | Pintu, Jendela & Kusen Bali",
+      "combo_meta": "Pintu kayu jati & merbau, jendela, dan kusen custom {in_area}, Bali. Pintu pivot, lipat, dan krepyak yang dibuat tahan melengkung dan rayap.",
+      "combo_h1": "Pintu, jendela & kusen kayu {in_area}",
+      "combo_intro": "Ingin mengganti pintu atau sedang membangun {in_area}? {brand} membuat pintu kayu solid, kusen jendela, krepyak, dan pintu lipat untuk villa dan rumah {in_area}, dari kayu keras kiln-dried agar tetap lurus di iklim Bali.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga pintu kayu jati {in_area}?",
+          "a": "Pintu dalam jati solid lengkap dengan kusen {in_area} mulai sekitar Rp 6–12 juta. Pintu utama dan pintu pivot besar dihitung per desain."
+        },
+        {
+          "q": "Bisakah Anda menyediakan pintu dan kusen untuk villa baru {in_area}?",
+          "a": "Bisa. Kami menyediakan dan memasang paket pintu dan jendela lengkap untuk bangunan baru {in_area}, berdasarkan daftar dari arsitek Anda."
+        }
+      ]
+    },
+    "decking": {
+      "slug": "decking-kayu-bali",
+      "combo_slug": "decking-kayu",
+      "name": "Decking Kayu & Deck Kolam",
+      "short": "Decking kayu keras dan komposit untuk kolam renang, teras, rooftop, dan jalan setapak.",
+      "title": "Decking Kayu Bali | Deck Kolam Merbau, Ulin & WPC",
+      "meta": "Decking kayu dan komposit di Bali: deck kolam renang, teras, rooftop, dan jalan setapak dari kayu merbau, ulin, bengkirai, atau WPC. Material & pemasangan.",
+      "h1": "Decking kayu & komposit di Bali",
+      "lead_time": "2–5 minggu",
+      "intro": [
+        "Decking adalah tempat kehidupan villa berlangsung — di sekitar kolam, di teras, dan di rooftop saat matahari terbenam. Di Bali, deck harus tahan terhadap matahari, hujan deras, air berkaporit, dan rayap. Kami memasang decking kayu keras dari merbau, ulin (kayu besi), dan bengkirai, serta WPC komposit premium untuk area yang minim perawatan.",
+        "Cara pemasangan sama pentingnya dengan kayunya: kami membangun di atas rangka kayu yang diawetkan atau baja galvanis dengan jarak dan drainase yang tepat, memakai sekrup stainless steel atau klip tersembunyi, dan finishing dengan minyak pelindung UV."
+      ],
+      "features": [
+        {
+          "t": "Deck kolam renang",
+          "d": "Decking anti-slip dan tahan kaporit di sekitar kolam dan spa."
+        },
+        {
+          "t": "Teras & balkon",
+          "d": "Area outdoor yang dibangun di atas rangka stabil dan berventilasi."
+        },
+        {
+          "t": "Deck rooftop",
+          "d": "Decking ringan di atas pedestal di atas atap yang sudah waterproofing."
+        },
+        {
+          "t": "Jalan setapak & dermaga",
+          "d": "Jalan taman, deck pijakan, dan jembatan kolam ikan."
+        },
+        {
+          "t": "Decking komposit (WPC)",
+          "d": "Papan minim perawatan yang tidak perlu diminyaki."
+        },
+        {
+          "t": "Restorasi deck",
+          "d": "Amplas, minyak ulang, dan penggantian papan untuk deck yang kusam."
+        }
+      ],
+      "materials": "Kayu keras merbau, ulin (kayu besi Kalimantan), atau bengkirai; papan komposit WPC; rangka kayu yang diawetkan atau baja galvanis; sekrup stainless steel atau sistem klip tersembunyi; minyak deck pelindung UV.",
+      "price": [
+        [
+          "Decking merbau / bengkirai, terpasang",
+          "mulai Rp 1,3 – 2 juta / m²"
+        ],
+        [
+          "Decking ulin (kayu besi), terpasang",
+          "mulai Rp 2 – 3 juta / m²"
+        ],
+        [
+          "Decking komposit WPC, terpasang",
+          "mulai Rp 1,3 – 2,3 juta / m²"
+        ],
+        [
+          "Amplas & minyak ulang deck",
+          "mulai Rp 150.000 / m²"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Apa kayu decking terbaik untuk Bali?",
+          "a": "Ulin (kayu besi Kalimantan) paling keras dan awet, tetapi lebih mahal. Merbau dan bengkirai menawarkan keseimbangan yang sangat baik antara keawetan dan harga. Untuk nol perawatan, komposit (WPC) adalah pilihan bagus, meski bisa terasa lebih panas di kaki saat terik."
+        },
+        {
+          "q": "Seberapa sering decking kayu perlu diminyaki?",
+          "a": "Di bawah matahari Bali, kami menyarankan minyak ulang setiap 6–12 bulan untuk deck yang terbuka agar warnanya terjaga dan permukaannya terlindungi. Jika tidak diminyaki, kayu keras akan berubah alami menjadi abu-abu keperakan."
+        },
+        {
+          "q": "Apakah Anda juga membuat rangkanya?",
+          "a": "Ya. Kami membuat rangka dari kayu keras yang diawetkan atau baja galvanis dengan jarak dan drainase yang tepat — bagian terpenting agar deck awet."
+        }
+      ],
+      "combo_title": "Decking Kayu {in_area} | Deck Kolam Merbau, Ulin & WPC",
+      "combo_meta": "Deck kolam renang, teras, dan decking rooftop {in_area}, Bali dari merbau, ulin, bengkirai, atau WPC. Material, rangka & pemasangan oleh tim kami.",
+      "combo_h1": "Decking kayu & deck kolam {in_area}",
+      "combo_intro": "Butuh deck kolam renang atau teras {in_area}? {brand} menyediakan dan memasang decking kayu keras dan komposit untuk villa, hotel, dan beach club {in_area}, di atas rangka kokoh dengan drainase dan ventilasi yang baik.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga decking kayu per meter persegi {in_area}?",
+          "a": "Decking merbau atau bengkirai terpasang {in_area} mulai sekitar Rp 1,3–2 juta per m², ulin mulai sekitar Rp 2 juta per m², dan komposit WPC mulai sekitar Rp 1,3 juta per m², tergantung rangka dan akses lokasi."
+        },
+        {
+          "q": "Berapa lama pemasangan decking {in_area}?",
+          "a": "Deck kolam renang pada umumnya {in_area} memakan waktu 1–2 minggu di lokasi setelah material siap."
+        }
+      ]
+    },
+    "pergolas": {
+      "slug": "pergola-gazebo-bale-bali",
+      "combo_slug": "pergola-gazebo",
+      "name": "Pergola, Gazebo & Bale",
+      "short": "Pergola kayu, carport, gazebo, dan bale tradisional Bali beratap alang-alang atau sirap.",
+      "title": "Gazebo & Pergola Kayu Bali | Bale Bali, Carport Kayu",
+      "meta": "Pergola kayu, gazebo, carport, dan bale tradisional Bali. Struktur kayu keras dengan atap alang-alang, sirap ulin, atau polikarbonat.",
+      "h1": "Pergola, gazebo & bale Bali",
+      "lead_time": "4–8 minggu",
+      "intro": [
+        "Keteduhan adalah segalanya di Bali. Kami mendesain dan membangun pergola kayu di atas teras dan kolam, carport, gazebo tepi kolam, dan bale tradisional Bali — paviliun terbuka yang sempurna untuk bersantai, pijat, atau makan di luar.",
+        "Strukturnya dibuat dari kayu keras yang awet dengan sambungan dan pondasi yang diperhitungkan, dan bisa diberi atap alang-alang, sirap ulin, genteng, kaca, polikarbonat, atau dibiarkan terbuka dengan tanaman rambat."
+      ],
+      "features": [
+        {
+          "t": "Pergola teras",
+          "d": "Pergola kayu keras berdiri sendiri atau menempel dinding."
+        },
+        {
+          "t": "Bale Bali",
+          "d": "Paviliun terbuka tradisional dengan balai-balai."
+        },
+        {
+          "t": "Gazebo tepi kolam",
+          "d": "Lounge teduh dan cabana di samping kolam."
+        },
+        {
+          "t": "Carport",
+          "d": "Carport kayu untuk mobil dan motor."
+        },
+        {
+          "t": "Pilihan atap",
+          "d": "Alang-alang, sirap ulin, genteng, kaca, atau polikarbonat."
+        },
+        {
+          "t": "Lampu & kipas",
+          "d": "Instalasi kabel terintegrasi untuk lampu dan kipas angin plafon."
+        }
+      ],
+      "materials": "Tiang dan balok jati, merbau, bengkirai, atau kayu kelapa solid; konektor galvanis atau stainless; pondasi beton; atap alang-alang, sirap ulin, genteng, kaca tempered, atau polikarbonat.",
+      "price": [
+        [
+          "Pergola kayu (terbuka)",
+          "mulai Rp 1,8 – 3,5 juta / m²"
+        ],
+        [
+          "Gazebo tepi kolam",
+          "mulai Rp 35 juta"
+        ],
+        [
+          "Bale tradisional Bali",
+          "mulai Rp 60 juta"
+        ],
+        [
+          "Carport kayu",
+          "mulai Rp 30 juta"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Berapa lama atap alang-alang bertahan?",
+          "a": "Atap alang-alang yang dipasang dengan baik umumnya bertahan 5–8 tahun, tergantung paparan cuaca dan perawatan. Sirap ulin jauh lebih awet, sering 20 tahun atau lebih."
+        },
+        {
+          "q": "Apakah perlu izin untuk pergola atau bale?",
+          "a": "Struktur taman kecil sering tidak memerlukannya, tetapi aturannya berbeda per kabupaten dan jenis properti. Kami sarankan memastikannya dengan notaris atau konsultan bangunan Anda; kami bisa menyediakan gambar untuk mendukung pengajuan."
+        }
+      ],
+      "combo_title": "Gazebo & Pergola Kayu {in_area} | Bale & Carport Bali",
+      "combo_meta": "Pergola kayu, gazebo, carport, dan bale Bali {in_area}. Struktur kayu keras beratap alang-alang, sirap, atau kaca, dibuat oleh Carpenter Bali.",
+      "combo_h1": "Pergola, gazebo & bale {in_area}",
+      "combo_intro": "Ingin lebih banyak keteduhan dan ruang outdoor {in_area}? {brand} membangun pergola kayu, gazebo tepi kolam, carport, dan bale tradisional Bali untuk villa dan resort {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga pergola {in_area}?",
+          "a": "Pergola kayu terbuka {in_area} mulai sekitar Rp 1,8–3,5 juta per m². Gazebo mulai sekitar Rp 35 juta dan bale tradisional mulai sekitar Rp 60 juta."
+        },
+        {
+          "q": "Berapa lama pembuatan bale {in_area}?",
+          "a": "Siapkan waktu 4–8 minggu termasuk fabrikasi, pondasi, dan pemasangan atap."
+        }
+      ]
+    },
+    "staircases": {
+      "slug": "tangga-kayu-bali",
+      "combo_slug": "tangga-kayu",
+      "name": "Tangga Kayu",
+      "short": "Tangga kayu solid, tangga melayang, pelapis kayu untuk tangga beton, dan railing.",
+      "title": "Tangga Kayu Bali | Tangga Melayang, Anak Tangga & Railing",
+      "meta": "Tangga kayu custom di Bali: anak tangga jati melayang, pelapis kayu untuk tangga beton, tangga putar, dan railing kayu, besi, atau kaca.",
+      "h1": "Tangga kayu custom di Bali",
+      "lead_time": "4–7 minggu",
+      "intro": [
+        "Tangga sering menjadi hal pertama yang terlihat di sebuah villa. Kami membuat tangga melayang dengan anak tangga jati atau merbau solid, melapisi tangga beton dengan kayu, dan membuat tangga kayu lengkap untuk loteng dan mezanin.",
+        "Kami memadukan kayu dengan stringer besi, railing kaca, tali, atau kisi-kisi agar sesuai dengan interior tropis modern, industrial, maupun Bali klasik — selalu dirancang untuk keamanan dan kekokohan."
+      ],
+      "features": [
+        {
+          "t": "Tangga melayang",
+          "d": "Anak tangga solid tebal yang menempel dari dinding atau di atas tulang besi tersembunyi."
+        },
+        {
+          "t": "Pelapis tangga",
+          "d": "Anak tangga dan tegak tangga kayu yang dipasang di atas tangga beton."
+        },
+        {
+          "t": "Tangga loteng & mezanin",
+          "d": "Desain hemat ruang dan anak tangga selang-seling."
+        },
+        {
+          "t": "Railing & balustrade",
+          "d": "Kayu, besi, kaca, tali, atau kisi-kisi."
+        },
+        {
+          "t": "Tangga putar",
+          "d": "Tangga putar dan spiral ringkas untuk ruang sempit."
+        },
+        {
+          "t": "Finishing anti-slip",
+          "d": "Alur anti-slip di tepi anak tangga dan minyak anti-slip untuk keamanan."
+        }
+      ],
+      "materials": "Anak tangga jati, merbau, atau bengkirai solid (40–80 mm); stringer atau tulang besi; railing kaca tempered, besi, atau kayu; finishing polyurethane atau minyak yang tahan aus.",
+      "price": [
+        [
+          "Pelapis kayu untuk tangga beton",
+          "mulai Rp 1,2 – 2,5 juta / anak tangga"
+        ],
+        [
+          "Tangga melayang (anak tangga + pengikat)",
+          "mulai Rp 2,5 – 5 juta / anak tangga"
+        ],
+        [
+          "Tangga kayu lengkap",
+          "mulai Rp 35 juta"
+        ],
+        [
+          "Balustrade / railing",
+          "mulai Rp 1,5 juta / meter lari"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bisakah tangga beton saya dilapisi kayu?",
+          "a": "Bisa. Kami mengukur setiap anak tangga satu per satu dan membuat anak tangga serta tegak tangga dari kayu solid yang dipasang dan disegel di atas beton."
+        },
+        {
+          "q": "Apakah tangga melayang aman?",
+          "a": "Ya, jika direkayasa dan dipasang dengan benar. Kami memakai anak tangga solid yang tebal dan memasangnya ke dinding struktural atau tulang besi, serta menyarankan railing di setiap sisi yang terbuka."
+        }
+      ],
+      "combo_title": "Tangga Kayu {in_area} | Tangga Melayang & Railing Bali",
+      "combo_meta": "Tangga kayu custom {in_area}, Bali: tangga jati melayang, pelapis kayu untuk tangga beton, dan railing. Diukur, dibuat, dan dipasang.",
+      "combo_h1": "Tangga kayu {in_area}",
+      "combo_intro": "Merencanakan tangga {in_area}? {brand} membuat tangga melayang, pelapis tangga kayu, dan railing untuk villa dan rumah {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga tangga melayang {in_area}?",
+          "a": "Tangga melayang {in_area} umumnya mulai sekitar Rp 2,5–5 juta per anak tangga, termasuk anak tangga dan pengikatnya. Pelapis untuk tangga yang sudah ada mulai sekitar Rp 1,2 juta per anak tangga."
+        },
+        {
+          "q": "Berapa lama pemasangan tangga {in_area}?",
+          "a": "Biasanya 2–4 hari di lokasi setelah 4–7 minggu fabrikasi."
+        }
+      ]
+    },
+    "ceilings-panelling": {
+      "slug": "plafon-kayu-panel-dinding-bali",
+      "combo_slug": "plafon-kayu",
+      "name": "Plafon Kayu & Panel Dinding",
+      "short": "Plafon kayu, panel akustik kisi-kisi, pelapis dinding, dan dinding aksen.",
+      "title": "Plafon Kayu Bali | Panel Dinding Kayu & Kisi-kisi",
+      "meta": "Plafon kayu, panel dinding kisi-kisi, dan pelapis dinding di Bali: jati, merbau, bambu, dan panel veneer untuk villa, restoran, dan kantor.",
+      "h1": "Plafon kayu & panel dinding di Bali",
+      "lead_time": "3–6 minggu",
+      "intro": [
+        "Plafon dan panel dinding kayu menambah kehangatan, tekstur, dan kualitas akustik ruangan. Kami memasang plafon lambersering dan kisi-kisi, dinding aksen di belakang tempat tidur dan TV, panel akustik kisi untuk restoran dan kantor, serta pelapis fasad eksterior.",
+        "Pilih jati, merbau, bambu, pinus, atau panel veneer, lengkap dengan lampu terintegrasi, pintu akses tersembunyi, dan ventilasi untuk iklim tropis."
+      ],
+      "features": [
+        {
+          "t": "Plafon kayu",
+          "d": "Plafon lambersering, kisi-kisi, atau berpetak (coffered)."
+        },
+        {
+          "t": "Dinding aksen",
+          "d": "Dinding kisi atau panel di belakang tempat tidur, TV, dan meja resepsionis."
+        },
+        {
+          "t": "Panel akustik",
+          "d": "Panel kisi di atas felt akustik untuk restoran dan studio."
+        },
+        {
+          "t": "Pelapis eksterior",
+          "d": "Pelapis fasad dari kayu keras atau komposit."
+        },
+        {
+          "t": "Plafon bambu",
+          "d": "Bambu anyam atau belah alami untuk sentuhan tropis."
+        },
+        {
+          "t": "Lampu terintegrasi",
+          "d": "LED tanam, lampu cove, dan pintu akses."
+        }
+      ],
+      "materials": "Jati, merbau, pinus, bambu, atau multiplek veneer; rangka reng kayu yang diawetkan; lapisan felt akustik; finishing minyak, melamin, atau pewarna.",
+      "price": [
+        [
+          "Plafon kisi kayu",
+          "mulai Rp 600.000 – 1,2 juta / m²"
+        ],
+        [
+          "Dinding aksen kisi kayu",
+          "mulai Rp 1,5 – 3 juta / m²"
+        ],
+        [
+          "Panel akustik kisi",
+          "mulai Rp 1,2 – 2 juta / m²"
+        ],
+        [
+          "Plafon bambu",
+          "mulai Rp 350.000 – 700.000 / m²"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Apakah plafon kayu mengundang rayap?",
+          "a": "Kami memberi obat anti-rayap pada semua kayu dan reng serta menyediakan akses inspeksi. Dikombinasikan dengan perlindungan anti-rayap profesional untuk bangunan, plafon kayu sangat awet."
+        },
+        {
+          "q": "Apakah panel dinding bisa memperbaiki akustik?",
+          "a": "Bisa. Panel kisi di atas felt akustik secara nyata mengurangi gema di restoran, kantor, dan villa dengan ruang terbuka."
+        }
+      ],
+      "combo_title": "Plafon Kayu {in_area} | Panel Dinding Kayu & Kisi Bali",
+      "combo_meta": "Plafon kayu, dinding aksen kisi-kisi, dan panel akustik {in_area}, Bali. Jati, merbau, dan bambu, dipasang oleh Carpenter Bali.",
+      "combo_h1": "Plafon kayu & panel dinding {in_area}",
+      "combo_intro": "Ingin ruangan yang lebih hangat dan bertekstur {in_area}? {brand} memasang plafon kayu, dinding aksen kisi-kisi, dan panel akustik di villa, restoran, dan kantor {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga plafon kayu {in_area}?",
+          "a": "Plafon kisi kayu {in_area} mulai sekitar Rp 600.000–1,2 juta per m², dan plafon bambu mulai sekitar Rp 350.000 per m²."
+        },
+        {
+          "q": "Berapa lama pemasangan panel {in_area}?",
+          "a": "Sebagian besar ruangan selesai dalam 2–5 hari di lokasi setelah fabrikasi."
+        }
+      ]
+    },
+    "beds": {
+      "slug": "tempat-tidur-headboard-custom-bali",
+      "combo_slug": "tempat-tidur-custom",
+      "name": "Tempat Tidur & Headboard",
+      "short": "Tempat tidur custom, headboard, nakas, dan ranjang susun untuk villa dan rumah keluarga.",
+      "title": "Tempat Tidur Custom Bali | Ranjang Jati, Headboard & Nakas",
+      "meta": "Tempat tidur dan headboard custom di Bali: ranjang jati solid dan multiplek, headboard jok dan rotan, ranjang susun, dan nakas sesuai ukuran.",
+      "h1": "Tempat tidur & furniture kamar custom di Bali",
+      "lead_time": "3–6 minggu",
+      "intro": [
+        "Kami membuat tempat tidur dan furniture kamar yang membuat villa terasa seperti hotel butik: ranjang platform jati solid, headboard selebar dinding dengan rak nakas dan lampu baca terintegrasi, headboard rotan dan jok, serta ranjang susun hemat ruang untuk kamar anak.",
+        "Tempat tidur dibuat sesuai ukuran kasur standar atau dimensi custom, dengan laci penyimpanan, dipan angkat, dan alas kisi-kisi yang membuat kasur bisa bernapas di udara lembap."
+      ],
+      "features": [
+        {
+          "t": "Ranjang platform",
+          "d": "Ranjang kayu solid yang rendah dengan alas kisi berventilasi."
+        },
+        {
+          "t": "Headboard selebar dinding",
+          "d": "Rak nakas, stopkontak, dan lampu baca terintegrasi."
+        },
+        {
+          "t": "Headboard rotan & jok",
+          "d": "Anyaman rotan alami atau panel kain."
+        },
+        {
+          "t": "Ranjang susun & tempat tidur anak",
+          "d": "Ranjang susun dan ranjang loteng yang kokoh dan aman, dengan penyimpanan."
+        },
+        {
+          "t": "Tempat tidur dengan laci",
+          "d": "Laci dan dipan angkat untuk penyimpanan ekstra."
+        },
+        {
+          "t": "Nakas & bangku",
+          "d": "Nakas, meja rias, dan bangku ujung ranjang yang serasi."
+        }
+      ],
+      "materials": "Jati perkebunan solid, merbau, atau multiplek dengan veneer/HPL; alas kisi untuk sirkulasi udara; rotan alami atau kain berkualitas; lampu baca LED terintegrasi.",
+      "price": [
+        [
+          "Ranjang jati solid queen/king",
+          "mulai Rp 9 – 20 juta"
+        ],
+        [
+          "Headboard selebar dinding dengan nakas",
+          "mulai Rp 7 – 18 juta"
+        ],
+        [
+          "Ranjang susun",
+          "mulai Rp 8 – 15 juta"
+        ],
+        [
+          "Nakas",
+          "mulai Rp 1,8 juta"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bisakah dibuatkan tempat tidur untuk ukuran kasur Eropa atau Amerika?",
+          "a": "Bisa. Kami membuat untuk ukuran kasur apa pun — Indonesia, Eropa, Inggris, Amerika, atau Australia — maupun dimensi custom."
+        },
+        {
+          "q": "Mengapa Anda menyarankan alas kisi-kisi?",
+          "a": "Alas kisi-kisi membuat udara bersirkulasi di bawah kasur, sehingga mencegah jamur dan lembap di iklim Bali."
+        }
+      ],
+      "combo_title": "Tempat Tidur Custom {in_area} | Headboard & Ranjang Bali",
+      "combo_meta": "Tempat tidur, headboard, dan furniture kamar custom {in_area}, Bali: jati solid, rotan, dan jok, dibuat untuk ukuran kasur apa pun.",
+      "combo_h1": "Tempat tidur & headboard custom {in_area}",
+      "combo_intro": "Sedang mengisi furniture villa {in_area}? {brand} membuat tempat tidur custom, headboard, ranjang susun, dan nakas untuk rumah dan villa sewa {in_area}, sesuai ukuran kasur apa pun.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga ranjang jati custom {in_area}?",
+          "a": "Ranjang jati solid ukuran queen atau king {in_area} mulai sekitar Rp 9–20 juta, tergantung desain dan ukuran."
+        },
+        {
+          "q": "Apakah tempat tidur diantar dan dirakit {in_area}?",
+          "a": "Ya. Pengiriman dan perakitan {in_area} sudah termasuk dalam penawaran kami."
+        }
+      ]
+    },
+    "shelving-office": {
+      "slug": "rak-buku-meja-kerja-bali",
+      "combo_slug": "rak-meja-kerja",
+      "name": "Rak & Ruang Kerja",
+      "short": "Rak buku, rak built-in, meja kerja, dan ruang kerja di rumah untuk pekerja remote.",
+      "title": "Meja Kerja & Rak Buku Bali | Home Office & Rak Built-in",
+      "meta": "Home office built-in, meja kerja, rak buku, dan rak dinding di Bali untuk pekerja remote dan keluarga. Didesain, dibuat, dan dipasang custom.",
+      "h1": "Rak built-in & ruang kerja di Bali",
+      "lead_time": "3–5 minggu",
+      "intro": [
+        "Bali menjadi rumah bagi ribuan pekerja remote, dan ruang kerja yang layak mengubah segalanya. Kami membuat home office yang ergonomis dengan meja kerja built-in, manajemen kabel, penyimpanan, dan rak — di sudut kamar tidur maupun di ruang kerja khusus.",
+        "Kami juga mendesain rak buku, rak ceruk dinding, lemari bawah tangga, kabinet laundry, dan gudang penyimpanan yang memaksimalkan setiap meter ruang."
+      ],
+      "features": [
+        {
+          "t": "Meja kerja built-in",
+          "d": "Meja ergonomis dengan tray kabel dan stopkontak."
+        },
+        {
+          "t": "Rak buku & ceruk",
+          "d": "Rak dari lantai hingga plafon di ceruk atau dinding mana pun."
+        },
+        {
+          "t": "Lemari bawah tangga",
+          "d": "Laci tarik dan lemari di bawah tangga."
+        },
+        {
+          "t": "Laundry & utilitas",
+          "d": "Kabinet laundry, lemari sapu, dan gudang."
+        },
+        {
+          "t": "Interior kantor & coworking",
+          "d": "Meja dan penyimpanan untuk kantor dan coworking space."
+        },
+        {
+          "t": "Rak dinding melayang",
+          "d": "Rak kayu solid dengan bracket tersembunyi."
+        }
+      ],
+      "materials": "Multiplek dengan HPL, veneer, atau cat; rak jati atau merbau solid; manajemen kabel terintegrasi, grommet, dan LED; bracket rak tersembunyi heavy-duty.",
+      "price": [
+        [
+          "Meja kerja built-in dengan penyimpanan",
+          "mulai Rp 5 – 12 juta"
+        ],
+        [
+          "Rak buku full-height",
+          "mulai Rp 3 – 6 juta / meter lari"
+        ],
+        [
+          "Rak dinding kayu solid melayang",
+          "mulai Rp 600.000 / meter"
+        ],
+        [
+          "Set kabinet laundry",
+          "mulai Rp 6 juta"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bisakah dibuatkan home office di kamar tidur?",
+          "a": "Bisa. Kami mendesain kombinasi meja dan lemari yang ringkas, meja lipat, dan ruang kerja di ceruk yang pas di kamar tidur maupun kamar tamu."
+        },
+        {
+          "q": "Apakah sudah termasuk manajemen kabel?",
+          "a": "Selalu — grommet, tray kabel, stopkontak tersembunyi, dan ruang untuk router serta UPS."
+        }
+      ],
+      "combo_title": "Meja Kerja & Rak Buku {in_area} | Home Office Built-in",
+      "combo_meta": "Home office built-in, meja kerja, rak buku, dan rak {in_area}, Bali. Ideal untuk pekerja remote. Dibuat custom dan dipasang oleh Carpenter Bali.",
+      "combo_h1": "Ruang kerja & rak built-in {in_area}",
+      "combo_intro": "Bekerja remote {in_area}? {brand} membuat meja kerja built-in, home office, rak buku, dan penyimpanan untuk villa dan apartemen {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga meja kerja built-in {in_area}?",
+          "a": "Meja kerja built-in dengan penyimpanan {in_area} mulai sekitar Rp 5–12 juta, tergantung ukuran dan finishing."
+        },
+        {
+          "q": "Seberapa cepat home office bisa dipasang {in_area}?",
+          "a": "Biasanya 3–5 minggu dari desain hingga pemasangan satu hari {in_area}."
+        }
+      ]
+    },
+    "custom-furniture": {
+      "slug": "furniture-custom-bali",
+      "combo_slug": "furniture-custom",
+      "name": "Furniture Custom",
+      "short": "Meja makan, daybed, rangka sofa, bangku, furniture outdoor, dan furniture satuan sesuai desain.",
+      "title": "Furniture Custom Bali | Meja Jati, Daybed & Furniture Outdoor",
+      "meta": "Furniture custom sesuai ukuran di Bali: meja makan jati solid, daybed, bangku, rangka sofa, furniture outdoor dan lepas untuk villa dan restoran.",
+      "h1": "Furniture custom buatan Bali",
+      "lead_time": "3–6 minggu",
+      "intro": [
+        "Selain furniture built-in, kami membuat furniture lepas sesuai desain Anda atau desain kami: meja makan jati solid dan kayu suar, daybed dan kursi santai outdoor, rangka sofa, meja kopi, bangku, bufet, dan meja konsol.",
+        "Kirimkan foto, board Pinterest, atau gambar — kami akan menyarankan kayu dan finishing yang tepat untuk indoor atau outdoor, dan membuatnya sesuai ukuran persis yang Anda mau."
+      ],
+      "features": [
+        {
+          "t": "Meja makan",
+          "d": "Meja dari jati solid, slab kayu suar, dan kayu daur ulang."
+        },
+        {
+          "t": "Daybed & kursi santai outdoor",
+          "d": "Daybed jati dan sun lounger untuk area kolam."
+        },
+        {
+          "t": "Rangka sofa & tempat duduk",
+          "d": "Sofa built-in, banquette, dan rangka siap diberi bantalan."
+        },
+        {
+          "t": "Meja kopi & meja samping",
+          "d": "Furniture statement dari kayu, terrazzo, dan besi."
+        },
+        {
+          "t": "Bufet & meja konsol",
+          "d": "Furniture penyimpanan dengan pintu rotan, kisi, atau solid."
+        },
+        {
+          "t": "Replika & tiruan",
+          "d": "Kami bisa membuat berdasarkan foto referensi atau gambar."
+        }
+      ],
+      "materials": "Jati perkebunan, suar, jati daur ulang, merbau, kayu mangga, dan rotan; kombinasi besi dan terrazzo; finishing minyak, melamin, atau marine untuk outdoor.",
+      "price": [
+        [
+          "Meja makan jati solid (6–8 kursi)",
+          "mulai Rp 12 – 30 juta"
+        ],
+        [
+          "Daybed jati outdoor",
+          "mulai Rp 12 – 25 juta"
+        ],
+        [
+          "Rangka sofa built-in / banquette",
+          "mulai Rp 3 – 6 juta / meter lari"
+        ],
+        [
+          "Meja kopi",
+          "mulai Rp 4 juta"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bisakah meniru furniture dari foto?",
+          "a": "Bisa. Kirimkan foto dan perkiraan ukuran, lalu kami siapkan gambar dan penawaran. Kami menyesuaikan desain dengan iklim Bali dan ruangan Anda."
+        },
+        {
+          "q": "Apakah Anda membuat furniture untuk ekspor?",
+          "a": "Fokus kami adalah pemasangan di Bali, tetapi kami bisa mendiskusikan pengemasan dan ekspor untuk klien yang pindah ke luar negeri."
+        }
+      ],
+      "combo_title": "Furniture Custom {in_area} | Meja Jati, Daybed & Lainnya",
+      "combo_meta": "Furniture custom sesuai ukuran {in_area}, Bali: meja makan jati, daybed, banquette, dan furniture outdoor. Dibuat di workshop kami dan diantar.",
+      "combo_h1": "Furniture custom {in_area}",
+      "combo_intro": "Sedang mengisi rumah, villa, atau restoran {in_area}? {brand} membuat meja, daybed, banquette, dan furniture outdoor custom sesuai ukuran dan mengantarnya {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Apakah furniture custom diantar {in_area}?",
+          "a": "Ya. Pengiriman dan penempatan {in_area} sudah termasuk dalam penawaran kami untuk sebagian besar item."
+        },
+        {
+          "q": "Berapa lama pembuatan furniture custom {in_area}?",
+          "a": "Sebagian besar furniture membutuhkan 3–6 minggu untuk dibuat dan di-finishing sebelum diantar {in_area}."
+        }
+      ]
+    },
+    "villa-fitout": {
+      "slug": "interior-villa-bali",
+      "combo_slug": "interior-villa",
+      "name": "Interior Villa Lengkap",
+      "short": "Paket pekerjaan kayu lengkap untuk villa baru dan renovasi — kitchen set, lemari, vanity, pintu, dan lainnya.",
+      "title": "Interior Villa Bali | Paket Furniture & Kayu Lengkap Villa",
+      "meta": "Interior villa lengkap di Bali: kitchen set, lemari, kabinet kamar mandi, pintu, plafon & furniture dalam satu paket terkoordinasi untuk pemilik & developer.",
+      "h1": "Interior villa lengkap di Bali",
+      "lead_time": "8–16 minggu",
+      "intro": [
+        "Membangun atau merenovasi villa berarti puluhan item pekerjaan kayu — dan mengoordinasikan banyak vendor sering menjadi sumber masalah. Kami mengerjakan paket lengkapnya: kitchen set, lemari, vanity, pintu dan kusen, rak TV, plafon, tempat tidur, dan furniture lepas, semuanya didesain serasi dan dipasang dalam satu jadwal.",
+        "Kami bekerja langsung untuk pemilik atau bersama arsitek, desainer interior, dan kontraktor, dari satu villa hingga proyek multi-unit, dengan satu manajer proyek dan jadwal yang jelas."
+      ],
+      "features": [
+        {
+          "t": "Satu paket terkoordinasi",
+          "d": "Semua pekerjaan kayu didesain, dibuat, dan dipasang oleh satu tim."
+        },
+        {
+          "t": "Paket untuk developer",
+          "d": "Interior yang seragam dan biaya terkendali untuk proyek multi-villa."
+        },
+        {
+          "t": "Shop drawing",
+          "d": "Gambar kerja detail untuk disetujui sebelum produksi."
+        },
+        {
+          "t": "Jadwal & koordinasi",
+          "d": "Kami menyesuaikan dengan timeline kontraktor dan jadwal proyek Anda."
+        },
+        {
+          "t": "Renovasi & penyegaran",
+          "d": "Upgrade villa lama untuk hasil sewa yang lebih tinggi."
+        },
+        {
+          "t": "Paket furniture",
+          "d": "Furniture lepas dan dekorasi untuk melengkapi tampilan."
+        }
+      ],
+      "materials": "Ditentukan per proyek: badan kabinet multiplek marine, HPL, veneer, cat duco, jati solid dan kayu keras, rotan, top batu dan terrazzo, hardware premium.",
+      "price": [
+        [
+          "Paket kayu villa 1–2 kamar tidur",
+          "mulai Rp 150 – 300 juta"
+        ],
+        [
+          "Paket kayu villa 3–4 kamar tidur",
+          "mulai Rp 300 – 650 juta"
+        ],
+        [
+          "Proyek multi-villa",
+          "dihitung per proyek"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bisakah bekerja sama dengan arsitek atau desainer interior saya?",
+          "a": "Bisa. Kami sering mengerjakan proyek dari spesifikasi arsitek dan desainer, serta menyediakan shop drawing, sampel, dan prototipe untuk disetujui."
+        },
+        {
+          "q": "Apakah ada paket untuk developer properti?",
+          "a": "Ada. Untuk proyek multi-unit, kami menstandarkan detail dan material agar biaya dan jadwal terkendali dengan tetap menjaga finishing premium."
+        },
+        {
+          "q": "Bisakah mengerjakan interior villa saya saat saya berada di luar negeri?",
+          "a": "Bisa. Banyak klien kami tinggal di luar negeri. Kami berbagi gambar, sampel melalui foto dan video, update progres, dan video walkthrough di setiap tahap."
+        }
+      ],
+      "combo_title": "Interior Villa {in_area} | Paket Furniture Kayu Lengkap",
+      "combo_meta": "Interior villa lengkap {in_area}: kitchen set, lemari, kabinet kamar mandi, pintu, dan furniture dalam satu paket untuk pemilik, investor & developer.",
+      "combo_h1": "Interior villa lengkap {in_area}",
+      "combo_intro": "Membangun atau merenovasi villa {in_area}? {brand} mengerjakan paket interior kayu lengkap untuk pemilik, investor, dan developer {in_area} — didesain, dibuat, dan dipasang oleh satu tim dalam satu jadwal.",
+      "combo_faqs": [
+        {
+          "q": "Berapa biaya interior villa {in_area}?",
+          "a": "Paket pekerjaan kayu lengkap untuk villa 1–2 kamar tidur {in_area} umumnya mulai Rp 150–300 juta, dan mulai Rp 300 juta untuk 3–4 kamar tidur, tergantung finishing dan lingkup pekerjaan."
+        },
+        {
+          "q": "Berapa lama pengerjaan interior villa lengkap {in_area}?",
+          "a": "Siapkan waktu 8–16 minggu sejak gambar disetujui, berkoordinasi dengan jadwal kontraktor Anda {in_area}."
+        }
+      ]
+    },
+    "commercial-fitout": {
+      "slug": "interior-restoran-kafe-bali",
+      "combo_slug": "interior-restoran-kafe",
+      "name": "Interior Restoran, Kafe & Toko",
+      "short": "Meja bar, counter, banquette, rak, dan pekerjaan kayu untuk restoran, kafe, toko, dan hotel.",
+      "title": "Interior Restoran & Kafe Bali | Meja Bar, Counter & Booth",
+      "meta": "Interior kayu komersial di Bali untuk restoran, kafe, bar, beach club, toko, dan hotel: meja bar, banquette, rak, dan display.",
+      "h1": "Interior restoran, kafe & toko di Bali",
+      "lead_time": "4–10 minggu",
+      "intro": [
+        "Pariwisata adalah industri terbesar di Bali, dan interior adalah bagian penting dari brand. Kami membuat meja bar, coffee counter, kursi banquette, rak back-bar, meja host, display toko, furniture kamar hotel, dan meja resepsionis.",
+        "Furniture komersial harus tahan pemakaian berat setiap hari. Kami memilih permukaan yang tahan aus, hardware kelas komersial, dan finishing yang mudah dibersihkan — dan kami bekerja sesuai tanggal pembukaan yang ketat."
+      ],
+      "features": [
+        {
+          "t": "Meja bar & coffee counter",
+          "d": "Counter awet dengan top batu, terrazzo, atau kayu."
+        },
+        {
+          "t": "Banquette & booth",
+          "d": "Rangka tempat duduk built-in siap diberi jok."
+        },
+        {
+          "t": "Rak back-bar",
+          "d": "Rak display dengan lampu terintegrasi."
+        },
+        {
+          "t": "Display toko",
+          "d": "Rak, meja display, dan meja kasir untuk butik."
+        },
+        {
+          "t": "Furniture hotel",
+          "d": "Paket kamar: lemari, meja, headboard, dan minibar."
+        },
+        {
+          "t": "Meja resepsionis",
+          "d": "Meja resepsionis yang menonjol untuk hotel, gym, dan kantor."
+        }
+      ],
+      "materials": "Multiplek kelas komersial, compact laminate, HPL, kayu keras solid, stainless steel, batu, dan terrazzo; hardware heavy-duty; finishing food-safe dan mudah dibersihkan.",
+      "price": [
+        [
+          "Meja bar / coffee counter",
+          "mulai Rp 4 – 9 juta / meter lari"
+        ],
+        [
+          "Rangka kursi banquette",
+          "mulai Rp 3 – 6 juta / meter lari"
+        ],
+        [
+          "Paket furniture kamar hotel",
+          "dihitung per tipe kamar"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bisakah memenuhi tanggal pembukaan yang sudah ditentukan?",
+          "a": "Bisa. Kami menyepakati jadwal di awal, memproduksi di workshop kami, dan memasang dalam waktu sesingkat mungkin."
+        },
+        {
+          "q": "Apakah Anda mengerjakan konsep dari desainer?",
+          "a": "Ya. Kami rutin mengerjakan konsep dari desainer interior dan mengembangkan shop drawing serta sampel material untuk disetujui."
+        }
+      ],
+      "combo_title": "Interior Restoran & Kafe {in_area} | Meja Bar & Booth Bali",
+      "combo_meta": "Interior restoran, kafe, bar, dan toko {in_area}, Bali: meja bar, banquette, rak, dan display kayu yang dikerjakan sesuai tenggat ketat.",
+      "combo_h1": "Interior restoran, kafe & toko {in_area}",
+      "combo_intro": "Membuka restoran, kafe, bar, atau toko {in_area}? {brand} membuat furniture komersial yang tahan banting untuk bisnis hospitality dan retail {in_area}, selesai tepat waktu.",
+      "combo_faqs": [
+        {
+          "q": "Berapa harga meja bar {in_area}?",
+          "a": "Meja bar dan coffee counter {in_area} umumnya mulai Rp 4–9 juta per meter lari, tergantung top dan finishing."
+        },
+        {
+          "q": "Seberapa cepat interior kafe bisa selesai {in_area}?",
+          "a": "Kafe kecil bisa selesai dalam 4–6 minggu; restoran dan hotel yang lebih besar dalam 6–10 minggu atau lebih."
+        }
+      ]
+    },
+    "repairs": {
+      "slug": "reparasi-furniture-bali",
+      "combo_slug": "reparasi-furniture",
+      "name": "Reparasi & Restorasi",
+      "short": "Reparasi furniture, penyetelan pintu dan engsel, finishing ulang, kerusakan rayap, dan restorasi deck.",
+      "title": "Reparasi Furniture Bali | Servis Kayu, Restorasi & Finishing",
+      "meta": "Jasa reparasi kayu di Bali: kabinet mengembang, pintu macet, engsel rusak, kerusakan rayap, restorasi furniture, dan finishing ulang jati.",
+      "h1": "Reparasi & restorasi furniture di Bali",
+      "lead_time": "1–3 minggu",
+      "intro": [
+        "Iklim Bali berat bagi kayu, dan furniture yang bagus pun perlu perawatan. Kami memperbaiki kabinet dapur yang mengembang, pintu dan laci yang macet, engsel dan rel yang rusak, kayu yang dimakan rayap, serta vanity yang rusak karena air.",
+        "Kami juga merestorasi dan melakukan finishing ulang furniture jati, meminyaki ulang deck dan pintu, serta menyegarkan villa sewa antar musim — sering kali jauh lebih murah daripada mengganti baru."
+      ],
+      "features": [
+        {
+          "t": "Reparasi kabinet & pintu",
+          "d": "Ganti panel yang mengembang, engsel, rel, dan handle."
+        },
+        {
+          "t": "Pintu & jendela macet",
+          "d": "Serut, pasang ulang, dan segel ulang pintu yang tidak bisa menutup."
+        },
+        {
+          "t": "Kerusakan rayap",
+          "d": "Bongkar dan ganti kayu yang rusak setelah perawatan anti-rayap."
+        },
+        {
+          "t": "Restorasi jati",
+          "d": "Amplas, minyak ulang, dan finishing ulang furniture jati."
+        },
+        {
+          "t": "Restorasi deck",
+          "d": "Penggantian papan, amplas, dan minyak ulang."
+        },
+        {
+          "t": "Perawatan villa",
+          "d": "Perawatan pekerjaan kayu berkala untuk villa sewa."
+        }
+      ],
+      "materials": "Kayu dan papan yang disesuaikan, hardware stainless dan soft-close, minyak marine, polyurethane, dan finishing cat.",
+      "price": [
+        [
+          "Kunjungan & pengecekan",
+          "mulai Rp 300.000 (dipotong dari biaya pekerjaan)"
+        ],
+        [
+          "Penggantian engsel / rel",
+          "mulai Rp 150.000 per item + sparepart"
+        ],
+        [
+          "Finishing ulang furniture jati",
+          "dihitung per item"
+        ],
+        [
+          "Kunjungan perawatan villa",
+          "dihitung per villa"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Apakah kabinet dapur yang mengembang bisa diperbaiki?",
+          "a": "Sering kali bisa. Jika badan kabinet masih bagus, kami ganti pintu, panel, atau plint yang mengembang dengan material tahan lembap. Jika badannya dari partikel board yang sudah rusak, mengganti dengan multiplek biasanya pilihan jangka panjang yang lebih baik."
+        },
+        {
+          "q": "Apakah ada kontrak perawatan untuk villa sewa?",
+          "a": "Ada. Kami menawarkan kunjungan terjadwal untuk menyetel pintu, mengganti hardware yang aus, meminyaki ulang kayu, dan memperbaiki kerusakan oleh tamu."
+        }
+      ],
+      "combo_title": "Reparasi Furniture {in_area} | Servis & Restorasi Kayu",
+      "combo_meta": "Reparasi kayu dan furniture {in_area}, Bali: kabinet mengembang, pintu macet, engsel, kerusakan rayap, finishing ulang jati, dan perawatan villa.",
+      "combo_h1": "Reparasi & restorasi furniture {in_area}",
+      "combo_intro": "Butuh tukang kayu untuk reparasi {in_area}? {brand} memperbaiki kabinet yang mengembang, pintu macet, engsel rusak, dan kerusakan rayap, serta merestorasi furniture jati untuk rumah dan villa {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Seberapa cepat tukang kayu bisa datang untuk reparasi {in_area}?",
+          "a": "Biasanya kami bisa menjadwalkan kunjungan pengecekan {in_area} dalam beberapa hari kerja, dan lebih cepat untuk pekerjaan mendesak jika tim sedang berada di dekat lokasi."
+        },
+        {
+          "q": "Berapa biaya reparasi kayu {in_area}?",
+          "a": "Kunjungan pengecekan {in_area} mulai sekitar Rp 300.000, yang akan dipotong dari biaya pekerjaan jika Anda lanjut. Reparasi kemudian dihitung per item."
+        }
+      ]
+    }
+  },
+  "areas": {
+    "canggu": {
+      "name": "Canggu",
+      "slug": "tukang-kayu-canggu",
+      "in_area": "di Canggu",
+      "title": "Tukang Kayu Canggu | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Canggu, Bali: kitchen set, lemari pakaian, walk-in closet, kabinet kamar mandi, decking & interior villa. Survei & penawaran gratis.",
+      "h1": "Tukang kayu di Canggu",
+      "intro": "Canggu adalah pusat ekspatriat dan digital nomad tersibuk di Bali, penuh dengan villa modern, properti sewa, kafe, dan coworking space. Kami membuat kitchen set, lemari, vanity, decking, dan interior villa lengkap di seluruh Canggu — dari Batu Bolong dan Echo Beach hingga Padang Linjong dan Tumbak Bayuh.",
+      "homes": "Sebagian besar hunian di Canggu adalah villa modern dua hingga empat kamar, banyak di antaranya untuk disewakan, ditambah townhouse dan apartemen yang terus bertambah. Pemilik menginginkan furniture kayu yang awet dan menarik, yang memukau tamu dan tahan pemakaian berat.",
+      "climate": "Dekat dengan laut dan dikelilingi sawah, Canggu memadukan udara asin dengan kelembapan tinggi. Kami memakai multiplek marine, hardware stainless steel atau berlapis, dan desain lemari berventilasi untuk mencegah papan mengembang, karat, dan jamur.",
+      "style": "Tropis modern, Japandi, putih bergaya Skandinavia dengan nuansa oak alami, terrazzo, dan rotan adalah gaya yang paling banyak diminta di Canggu, sering dipadukan dengan aksen jati daur ulang.",
+      "faqs": [
+        {
+          "q": "Apakah Anda melayani semua bagian Canggu?",
+          "a": "Ya — Batu Bolong, Echo Beach, Berawa, Padang Linjong, Tumbak Bayuh, Babakan, Nelayan, dan area persawahan di sekitarnya."
+        },
+        {
+          "q": "Bisakah pekerjaan diatur di sela jadwal booking villa di Canggu?",
+          "a": "Bisa. Kami memproduksi di workshop dan menjadwalkan pemasangan di antara booking agar villa tidak lama kosong."
+        }
+      ]
+    },
+    "pererenan": {
+      "name": "Pererenan",
+      "slug": "tukang-kayu-pererenan",
+      "in_area": "di Pererenan",
+      "title": "Tukang Kayu Pererenan | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Pererenan, Bali: kitchen set, lemari pakaian, walk-in closet, kabinet kamar mandi & interior villa baru maupun lama. Penawaran gratis.",
+      "h1": "Tukang kayu di Pererenan",
+      "intro": "Pererenan adalah tetangga Canggu yang lebih tenang dan berkembang pesat, dengan villa mewah baru, proyek butik, dan rumah keluarga jangka panjang. Kami membuat kitchen set, lemari, vanity, dan interior kayu lengkap untuk pemilik dan developer di seluruh Pererenan dan Seseh.",
+      "homes": "Pererenan memiliki banyak villa baru dan proyek off-plan, sehingga sangat cocok untuk paket pekerjaan kayu terkoordinasi yang direncanakan selama pembangunan, bukan sesudahnya.",
+      "climate": "Dengan pantai di satu sisi dan sawah di sisi lain, villa di Pererenan menghadapi udara asin, kelembapan tinggi, dan hujan deras di musim hujan. Kami menetapkan material marine yang tersegel dan kayu anti-rayap sebagai standar.",
+      "style": "Klien di Pererenan sering memilih warm minimalism: veneer kayu alami, limewash dan microcement, lengkung lembut, detail rotan, dan pencahayaan terintegrasi.",
+      "faqs": [
+        {
+          "q": "Apakah Anda mengerjakan proyek villa baru di Pererenan?",
+          "a": "Ya. Kami bekerja sama dengan developer dan kontraktor di Pererenan untuk menyediakan paket pekerjaan kayu lengkap sesuai jadwal."
+        },
+        {
+          "q": "Apakah Anda juga melayani Seseh dan Cemagi?",
+          "a": "Ya, kami rutin bekerja di Seseh, Cemagi, dan Munggu, tak jauh dari Pererenan."
+        }
+      ]
+    },
+    "berawa": {
+      "name": "Berawa",
+      "slug": "tukang-kayu-berawa",
+      "in_area": "di Berawa",
+      "title": "Tukang Kayu Berawa | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Berawa, Canggu: kitchen set, lemari built-in, walk-in closet, kabinet kamar mandi, rak TV & interior villa. Survei lokasi gratis.",
+      "h1": "Tukang kayu di Berawa",
+      "intro": "Berawa adalah salah satu lingkungan keluarga paling mapan di Canggu, dekat sekolah internasional, beach club, dan gym. Kami membuat kitchen set, lemari, kamar anak, ruang kerja, dan decking outdoor untuk villa dan rumah keluarga di Berawa.",
+      "homes": "Berawa memiliki campuran villa keluarga, sewa jangka panjang, dan perumahan berpagar yang lebih baru. Keluarga di sini sering membutuhkan penyimpanan ekstra — lemari, ranjang susun, meja belajar, dan kabinet laundry.",
+      "climate": "Berawa dekat dengan pantai, sehingga udara asin dan kelembapan selalu ada. Kami memakai multiplek marine, edging tersegel, dan hardware tahan karat di seluruh pekerjaan.",
+      "style": "Interior yang cerah dan ramah keluarga dengan kabinet putih atau oak muda, aksen rotan, dan finishing HPL yang awet populer di Berawa, di samping villa jati yang lebih mewah di dekat pantai.",
+      "faqs": [
+        {
+          "q": "Apakah Anda membuat kamar anak dan ranjang susun di Berawa?",
+          "a": "Ya. Kami mendesain ranjang susun yang aman dan kokoh, meja belajar, dan penyimpanan untuk keluarga di Berawa."
+        },
+        {
+          "q": "Bisakah bekerja di perumahan berpagar (gated community) di Berawa?",
+          "a": "Bisa. Kami mengikuti aturan perumahan soal jam kerja, akses, dan pengiriman barang."
+        }
+      ]
+    },
+    "seminyak": {
+      "name": "Seminyak",
+      "slug": "tukang-kayu-seminyak",
+      "in_area": "di Seminyak",
+      "title": "Tukang Kayu Seminyak | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Seminyak, Bali: kitchen set mewah, lemari, walk-in closet, kabinet kamar mandi & interior restoran. Konsultasi desain & penawaran gratis.",
+      "h1": "Tukang kayu di Seminyak",
+      "intro": "Seminyak adalah kawasan elit pertama di Bali, rumah bagi villa mewah, hotel butik, toko desainer, dan beberapa restoran terbaik di pulau ini. Kami mengerjakan kitchen set kelas atas, walk-in closet, vanity, dan interior komersial di seluruh Seminyak dan Petitenget.",
+      "homes": "Properti di Seminyak beragam, dari villa mewah lama yang perlu direnovasi hingga villa private pool ringkas yang disewakan, ditambah padatnya restoran, bar, dan butik.",
+      "climate": "Lokasi Seminyak di tepi pantai berarti udara sarat garam dan kelembapan tinggi. Hardware berkarat dan papan murah yang mengembang adalah masalah umum yang kami perbaiki — dan kami cegah dengan material yang tepat.",
+      "style": "Seminyak menyukai kemewahan yang elegan: jati gelap dengan kuningan, terrazzo dan marmer, walk-in closet bergaya hotel butik, pintu statement, dan interior komersial yang rapi.",
+      "faqs": [
+        {
+          "q": "Apakah Anda merenovasi villa lama di Seminyak?",
+          "a": "Ya. Kami sering mengganti kitchen set, lemari, dan pintu yang sudah usang di villa lama Seminyak untuk meningkatkan daya tarik sewanya."
+        },
+        {
+          "q": "Apakah Anda mengerjakan interior restoran dan butik di Seminyak?",
+          "a": "Ya. Kami membuat meja bar, banquette, rak, dan display kayu untuk bisnis hospitality dan retail di Seminyak dan Petitenget."
+        }
+      ]
+    },
+    "kerobokan": {
+      "name": "Kerobokan",
+      "slug": "tukang-kayu-kerobokan",
+      "in_area": "di Kerobokan",
+      "title": "Tukang Kayu Kerobokan | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Kerobokan, Bali: kitchen set, lemari, kabinet kamar mandi, pintu & interior villa untuk rumah dan properti sewa. Survei & penawaran gratis.",
+      "h1": "Tukang kayu di Kerobokan",
+      "intro": "Kerobokan terletak di antara Seminyak dan Canggu dan populer di kalangan ekspatriat jangka panjang serta keluarga yang menginginkan ruang luas dan harga yang lebih terjangkau. Kami membuat kitchen set, lemari, pintu, vanity, dan furniture custom untuk rumah dan villa di seluruh Kerobokan.",
+      "homes": "Kerobokan menawarkan lahan lebih luas, rumah keluarga, villa sewa jangka panjang, dan semakin banyak rumah lama yang direnovasi — cocok untuk upgrade furniture kayu yang benar-benar menambah nilai.",
+      "climate": "Kerobokan yang berada di pedalaman sedikit kurang asin dibanding pesisir, tetapi tetap sangat lembap, dengan banjir sesekali di musim hujan. Plint yang ditinggikan dan papan tahan lembap sangat penting.",
+      "style": "Rumah di Kerobokan sering memadukan jati Bali klasik dan detail ukiran dengan kitchen set modern dan penyimpanan keluarga yang praktis.",
+      "faqs": [
+        {
+          "q": "Apakah Anda meng-upgrade rumah sewa jangka panjang di Kerobokan?",
+          "a": "Ya. Kami mengganti kitchen set, lemari, dan pintu di rumah sewa jangka panjang untuk menaikkan nilainya dan mengurangi biaya perawatan."
+        },
+        {
+          "q": "Apakah Anda bekerja di Kerobokan Kelod dan Kaja?",
+          "a": "Ya, seluruh Kerobokan, termasuk Kerobokan Kelod, Kerobokan Kaja, dan Banjar Taman."
+        }
+      ]
+    },
+    "umalas": {
+      "name": "Umalas",
+      "slug": "tukang-kayu-umalas",
+      "in_area": "di Umalas",
+      "title": "Tukang Kayu Umalas | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Umalas, Bali: kitchen set, walk-in closet, lemari built-in & interior villa lengkap untuk rumah keluarga. Penawaran gratis.",
+      "h1": "Tukang kayu di Umalas",
+      "intro": "Umalas adalah kawasan hunian yang hijau dan tenang di antara Kerobokan dan Canggu, disukai keluarga dan ekspatriat jangka panjang karena villanya yang luas dan pemandangan sawah. Kami membuat kitchen set, walk-in closet, ruang kerja, dan interior villa lengkap di seluruh Umalas.",
+      "homes": "Umalas dikenal dengan villa keluarga yang luas dan taman besar, banyak yang ditempati pemiliknya dalam jangka panjang — ideal untuk berinvestasi pada furniture kayu berkualitas tinggi yang awet.",
+      "climate": "Dikelilingi sawah dan taman, villa di Umalas mengalami kelembapan tinggi dan banyak serangga. Kami memakai material anti-rayap dan desain berventilasi di seluruh pekerjaan.",
+      "style": "Keluarga di Umalas menyukai interior yang hangat dan alami: nuansa jati dan oak, dapur luas dengan island, walk-in closet, dan ruang indoor-outdoor.",
+      "faqs": [
+        {
+          "q": "Apakah Anda membuat kitchen set keluarga yang besar di Umalas?",
+          "a": "Ya. Banyak proyek di Umalas mencakup dapur besar dengan island, pantry, dan dapur BBQ outdoor."
+        },
+        {
+          "q": "Bisakah mengerjakan interior villa lengkap di Umalas?",
+          "a": "Bisa, kami mengerjakan paket pekerjaan kayu lengkap untuk bangunan baru maupun renovasi di Umalas."
+        }
+      ]
+    },
+    "kuta": {
+      "name": "Kuta",
+      "slug": "tukang-kayu-kuta",
+      "in_area": "di Kuta",
+      "title": "Tukang Kayu Kuta | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Kuta, Bali: kitchen set, lemari, kabinet kamar mandi, furniture hotel & restoran, serta reparasi. Survei & penawaran gratis.",
+      "h1": "Tukang kayu di Kuta",
+      "intro": "Kuta adalah salah satu kawasan wisata tersibuk di Bali, dengan hotel, guesthouse, apartemen, restoran, dan toko yang dekat dengan bandara. Kami membuat kitchen set, lemari, vanity, dan furniture komersial yang awet, serta melayani reparasi untuk properti di seluruh Kuta dan Tuban.",
+      "homes": "Kuta memiliki banyak apartemen, guesthouse, hotel kecil, dan tempat usaha, di mana furniture kayu harus tahan pemakaian berat oleh tamu setiap hari.",
+      "climate": "Udara di pesisir Kuta asin dan lembap. HPL yang tahan aus, compact laminate, dan hardware stainless menjaga furniture tetap bagus meski dipakai terus-menerus.",
+      "style": "Desain yang praktis, awet, dan mudah dibersihkan populer di Kuta, di samping gaya tropis modern untuk hotel dan restoran.",
+      "faqs": [
+        {
+          "q": "Apakah Anda mengerjakan furniture hotel dan guesthouse di Kuta?",
+          "a": "Ya. Kami membuat paket furniture kamar — lemari, meja, headboard, dan vanity — untuk hotel dan guesthouse di Kuta."
+        },
+        {
+          "q": "Apakah Anda melayani Tuban dekat bandara?",
+          "a": "Ya, kami melayani Kuta, Tuban, dan area sekitar bandara."
+        }
+      ]
+    },
+    "legian": {
+      "name": "Legian",
+      "slug": "tukang-kayu-legian",
+      "in_area": "di Legian",
+      "title": "Tukang Kayu Legian | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Legian, Bali: kitchen set, lemari, kabinet kamar mandi, furniture villa & hotel, serta reparasi furniture. Survei & penawaran gratis.",
+      "h1": "Tukang kayu di Legian",
+      "intro": "Legian terletak di antara Kuta dan Seminyak, dengan campuran villa liburan, apartemen, hotel, dan penduduk jangka panjang. Kami membuat kitchen set, lemari, vanity, dan furniture hotel, serta menangani renovasi dan reparasi di seluruh Legian.",
+      "homes": "Legian memiliki banyak villa dan hotel lama yang siap direnovasi, serta apartemen ringkas di mana penyimpanan built-in yang cerdas membuat perbedaan besar.",
+      "climate": "Dekat pantai, properti di Legian menghadapi udara asin dan kelembapan. Kami mengganti furniture partikel board yang rusak dengan material marine yang dibuat untuk awet.",
+      "style": "Desain modern yang bersih dengan aksen kayu paling populer di Legian, seiring pemilik menyegarkan properti lama untuk tamu masa kini.",
+      "faqs": [
+        {
+          "q": "Bisakah merenovasi villa lama di Legian?",
+          "a": "Bisa. Kami mengganti kitchen set, lemari, vanity, dan pintu agar villa lama di Legian tampil kekinian."
+        },
+        {
+          "q": "Apakah Anda membuat penyimpanan hemat ruang untuk apartemen di Legian?",
+          "a": "Ya. Kami mendesain lemari built-in, tempat tidur dengan laci, dan kitchen set ringkas untuk apartemen."
+        }
+      ]
+    },
+    "jimbaran": {
+      "name": "Jimbaran",
+      "slug": "tukang-kayu-jimbaran",
+      "in_area": "di Jimbaran",
+      "title": "Tukang Kayu Jimbaran | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Jimbaran, Bali: kitchen set, lemari, walk-in closet, decking & interior villa untuk rumah dan resort. Penawaran gratis.",
+      "h1": "Tukang kayu di Jimbaran",
+      "intro": "Jimbaran adalah teluk yang santai dengan resort mewah, villa di perbukitan, dan rumah keluarga, dekat bandara dan sekolah internasional. Kami membuat kitchen set, lemari, decking, dan interior villa lengkap di seluruh Jimbaran.",
+      "homes": "Jimbaran memadukan villa bergaya resort di perbukitan dengan pemandangan laut, perumahan berpagar, dan rumah keluarga jangka panjang.",
+      "climate": "Jimbaran lebih kering daripada pesisir barat, tetapi terpapar angin laut dan terik matahari di perbukitan. Kami memakai finishing outdoor yang tahan UV dan hardware tahan karat.",
+      "style": "Interior bergaya resort dengan jati, batu alam, dan dapur terbuka populer di Jimbaran, bersama deck kolam yang luas dan area outdoor.",
+      "faqs": [
+        {
+          "q": "Apakah Anda membuat deck kolam renang di Jimbaran?",
+          "a": "Ya. Kami membuat deck kolam dari kayu keras dan komposit untuk villa perbukitan dan villa pantai di Jimbaran."
+        },
+        {
+          "q": "Apakah Anda bekerja di perumahan berpagar di Jimbaran?",
+          "a": "Ya, kami bekerja di perumahan di seluruh Jimbaran dan mengikuti aturan aksesnya."
+        }
+      ]
+    },
+    "uluwatu": {
+      "name": "Uluwatu",
+      "slug": "tukang-kayu-uluwatu",
+      "in_area": "di Uluwatu",
+      "title": "Tukang Kayu Uluwatu | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Uluwatu, Bali: kitchen set, lemari, decking, pintu & interior villa tebing di Bingin, Padang Padang & Pecatu.",
+      "h1": "Tukang kayu di Uluwatu",
+      "intro": "Uluwatu, di semenanjung Bukit, terkenal dengan tebing, ombak selancar, dan villa mewah di tepi tebing. Kami membuat kitchen set, lemari, decking, pintu, dan interior villa lengkap di Uluwatu, Bingin, Padang Padang, Pecatu, dan Labuan Sait.",
+      "homes": "Bukit mengalami ledakan villa modern, surf retreat, dan hotel butik, banyak yang dibangun dengan ruang terbuka, pintu kaca besar, dan decking outdoor yang luas.",
+      "climate": "Uluwatu lebih kering dibanding wilayah Bali selatan lainnya, tetapi terpapar terik matahari, angin, dan percikan air laut di tebing. Pekerjaan kayu outdoor memerlukan finishing tahan UV, pengikat stainless, dan kayu yang dipilih karena ketahanannya terhadap cuaca.",
+      "style": "Gaya Uluwatu bernuansa pesisir dan natural: kayu alami, batu kapur, beton, rotan, dan konsep indoor-outdoor yang berani dengan pemandangan laut.",
+      "faqs": [
+        {
+          "q": "Apakah Anda bekerja di Bingin, Padang Padang, dan Pecatu?",
+          "a": "Ya, kami melayani seluruh area Uluwatu, termasuk Bingin, Padang Padang, Pecatu, Suluban, Labuan Sait, dan Dreamland."
+        },
+        {
+          "q": "Material apa yang Anda sarankan untuk villa di tepi tebing?",
+          "a": "Untuk area outdoor kami menyarankan ulin, merbau, atau jati dengan minyak UV, pengikat stainless steel, dan decking komposit di titik yang sangat terbuka."
+        }
+      ]
+    },
+    "ungasan": {
+      "name": "Ungasan",
+      "slug": "tukang-kayu-ungasan",
+      "in_area": "di Ungasan",
+      "title": "Tukang Kayu Ungasan | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Ungasan, Bali: kitchen set, lemari, walk-in closet, decking & interior villa mewah di Bukit. Penawaran gratis.",
+      "h1": "Tukang kayu di Ungasan",
+      "intro": "Ungasan, di ujung selatan Bukit, adalah rumah bagi villa mewah di atas tebing, resort, dan rumah keluarga dengan pemandangan laut yang luas. Kami membuat kitchen set, walk-in closet, decking, dan interior villa lengkap di seluruh Ungasan, Kutuh, dan Melasti.",
+      "homes": "Villa di Ungasan umumnya besar dan kelas atas — banyak dengan beberapa kamar tidur, infinity pool, dan teras luas — di mana furniture kayu berkualitas menjadi keharusan.",
+      "climate": "Ungasan kering, cerah, dan berangin dengan udara laut yang asin. Kami fokus pada finishing outdoor tahan UV, furniture indoor yang tersegel, dan hardware stainless atau kuningan.",
+      "style": "Kemewahan tropis kelas atas: jati dan batu alam, ruang ganti walk-in, pintu utama yang menonjol, dan deck outdoor yang luas.",
+      "faqs": [
+        {
+          "q": "Apakah Anda membuat walk-in closet mewah di Ungasan?",
+          "a": "Ya. Banyak proyek kami di Ungasan mencakup walk-in closet dan ruang ganti yang didesain dalam 3D."
+        },
+        {
+          "q": "Apakah Anda melayani Kutuh dan Melasti?",
+          "a": "Ya, kami bekerja di seluruh Ungasan, Kutuh, Melasti, dan Sawangan."
+        }
+      ]
+    },
+    "nusa-dua": {
+      "name": "Nusa Dua",
+      "slug": "tukang-kayu-nusa-dua",
+      "in_area": "di Nusa Dua",
+      "title": "Tukang Kayu Nusa Dua | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Nusa Dua, Bali: kitchen set, lemari, kabinet kamar mandi, furniture hotel & interior villa. Survei & penawaran gratis.",
+      "h1": "Tukang kayu di Nusa Dua",
+      "intro": "Nusa Dua adalah kawasan resort Bali yang tertata rapi, dengan hotel bintang lima, lapangan golf, rumah keluarga, dan perumahan di sekitar Benoa dan Sawangan. Kami membuat kitchen set, lemari, vanity, furniture hotel, dan interior villa di seluruh area ini.",
+      "homes": "Nusa Dua memadukan properti resort dengan lingkungan hunian yang tenang dan villa keluarga yang populer di kalangan ekspatriat jangka panjang.",
+      "climate": "Pesisir dan cerah, properti di Nusa Dua membutuhkan hardware tahan karat dan finishing tahan UV, terutama untuk furniture outdoor.",
+      "style": "Interior elegan bergaya resort dengan kayu alami, batu, dan garis yang bersih menjadi ciri khas rumah dan hotel di Nusa Dua.",
+      "faqs": [
+        {
+          "q": "Apakah Anda mengerjakan proyek hotel di Nusa Dua?",
+          "a": "Ya. Kami menyediakan furniture kamar, meja resepsionis, dan furniture outdoor untuk proyek hospitality di Nusa Dua."
+        },
+        {
+          "q": "Apakah Anda melayani Tanjung Benoa dan Sawangan?",
+          "a": "Ya, kami bekerja di seluruh Nusa Dua, Tanjung Benoa, Bualu, dan Sawangan."
+        }
+      ]
+    },
+    "sanur": {
+      "name": "Sanur",
+      "slug": "tukang-kayu-sanur",
+      "in_area": "di Sanur",
+      "title": "Tukang Kayu Sanur | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Sanur, Bali: kitchen set, lemari, kabinet kamar mandi, pintu & reparasi untuk rumah keluarga, pensiunan, dan villa. Survei lokasi gratis.",
+      "h1": "Tukang kayu di Sanur",
+      "intro": "Sanur adalah kota pantai yang tenang dan ramah keluarga dengan komunitas ekspatriat keluarga dan pensiunan yang sudah lama mapan, dekat sekolah internasional dan rumah sakit. Kami membuat kitchen set, lemari, vanity, pintu, dan furniture, serta menangani reparasi di seluruh Sanur.",
+      "homes": "Sanur memiliki banyak rumah keluarga jangka panjang, villa lama dengan arsitektur Bali klasik, dan hunian baru — rumah yang pemiliknya mengutamakan keawetan dan kenyamanan.",
+      "climate": "Lokasi Sanur di pesisir timur yang terlindung terasa lembap dan asin di dekat pantai. Kami memakai papan tahan lembap, edging tersegel, dan hardware tahan karat.",
+      "style": "Interior di Sanur sering menyeimbangkan jati dan ukiran Bali klasik dengan kitchen set dan penyimpanan modern yang nyaman dan praktis.",
+      "faqs": [
+        {
+          "q": "Apakah Anda merenovasi rumah lama di Sanur?",
+          "a": "Ya. Kami menyegarkan kitchen set, lemari, dan pintu di rumah lama di Sanur dengan tetap mempertahankan karakternya."
+        },
+        {
+          "q": "Bisakah dibuatkan dapur dan penyimpanan yang mudah dijangkau?",
+          "a": "Bisa. Kami mendesain dengan ketinggian yang nyaman, penyimpanan tarik, dan handle yang mudah digenggam, ideal untuk para pensiunan."
+        }
+      ]
+    },
+    "ubud": {
+      "name": "Ubud",
+      "slug": "tukang-kayu-ubud",
+      "in_area": "di Ubud",
+      "title": "Tukang Kayu Ubud | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Ubud, Bali: kitchen set, lemari, furniture jati, pintu & interior villa yang dirancang untuk kelembapan hutan Ubud. Penawaran gratis.",
+      "h1": "Tukang kayu di Ubud",
+      "intro": "Ubud adalah jantung budaya dan wellness Bali, dikelilingi hutan, sungai, dan sawah terasering. Kami membuat kitchen set, lemari, pintu jati, furniture, dan interior villa lengkap di Ubud, Penestanan, Sayan, Mas, dan Tegallalang.",
+      "homes": "Hunian di Ubud beragam, dari villa di tengah hutan dan eco-retreat hingga rumah keluarga jangka panjang, yoga retreat, dan hotel butik — banyak dengan desain alami dan terbuka.",
+      "climate": "Ubud lebih sejuk tetapi jauh lebih basah dan lembap daripada pesisir, dengan kelembapan hutan yang memicu jamur dan rayap. Ventilasi, perawatan anti-rayap, dan kayu yang tersegel penuh sangat penting di sini.",
+      "style": "Alami dan buatan tangan: jati solid, bambu, rotan, kayu daur ulang, detail ukiran, dan finishing bernuansa tanah yang menyatu dengan hutan.",
+      "faqs": [
+        {
+          "q": "Bagaimana Anda mengatasi kelembapan tinggi di Ubud?",
+          "a": "Kami memakai kayu yang dikeringkan dengan baik dan papan kelas marine, menyegel semua sisi, menambahkan ventilasi pada lemari dan kabinet, serta memberi perlindungan anti-rayap pada semuanya."
+        },
+        {
+          "q": "Apakah Anda melayani desa-desa di sekitar Ubud?",
+          "a": "Ya — Penestanan, Sayan, Kedewatan, Mas, Peliatan, Lodtunduh, Tegallalang, dan Keliki."
+        }
+      ]
+    },
+    "tabanan": {
+      "name": "Tabanan",
+      "slug": "tukang-kayu-tabanan",
+      "in_area": "di Tabanan",
+      "title": "Tukang Kayu Tabanan | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Tabanan, Bali: kitchen set, lemari, pintu, decking & interior villa di Kedungu, Nyanyi, Tanah Lot, dan Kaba-Kaba.",
+      "h1": "Tukang kayu di Tabanan",
+      "intro": "Pesisir Tabanan — Kedungu, Nyanyi, Tanah Lot, dan Kaba-Kaba — adalah kawasan baru pembangunan villa di barat Canggu. Kami membuat kitchen set, lemari, pintu, decking, dan paket pekerjaan kayu lengkap untuk villa baru di seluruh Tabanan.",
+      "homes": "Tabanan didominasi villa baru, eco-retreat, dan proyek yang dikelilingi sawah — sempurna untuk pekerjaan kayu yang direncanakan selama pembangunan.",
+      "climate": "Lingkungan persawahan dan angin pantai membuat Tabanan sangat lembap. Kami menetapkan kayu anti-rayap, multiplek marine, dan desain berventilasi sebagai standar.",
+      "style": "Interior natural bernuansa tanah dengan kayu, rotan, batu, dan bukaan besar ke arah sawah menjadi ciri khas villa baru di Tabanan.",
+      "faqs": [
+        {
+          "q": "Apakah Anda bekerja di Kedungu dan Nyanyi?",
+          "a": "Ya, kami rutin bekerja di Kedungu, Nyanyi, Tanah Lot, Kaba-Kaba, Cepaka, dan Buwit."
+        },
+        {
+          "q": "Bisakah menyediakan pekerjaan kayu untuk villa off-plan di Tabanan?",
+          "a": "Bisa. Kami bekerja sama dengan kontraktor untuk merencanakan pekerjaan kayu selama pembangunan agar hasilnya rapi dan terintegrasi."
+        }
+      ]
+    },
+    "denpasar": {
+      "name": "Denpasar",
+      "slug": "tukang-kayu-denpasar",
+      "in_area": "di Denpasar",
+      "title": "Tukang Kayu Denpasar | Kitchen Set, Lemari & Furniture Custom",
+      "meta": "Jasa tukang kayu di Denpasar, Bali: kitchen set, lemari pakaian, pintu, interior kantor & toko, serta reparasi furniture. Survei & penawaran gratis.",
+      "h1": "Tukang kayu di Denpasar",
+      "intro": "Denpasar adalah ibu kota dan pusat bisnis Bali, dengan rumah keluarga, kantor, toko, dan klinik. Kami membuat kitchen set, lemari, pintu, furniture kantor, dan interior toko, serta melayani reparasi di seluruh Denpasar, termasuk Renon dan Sesetan.",
+      "homes": "Denpasar memiliki campuran rumah keluarga, ruko, kantor, dan klinik — proyek di mana furniture kayu yang praktis, awet, dan bernilai baik sangat penting.",
+      "climate": "Denpasar yang urban terasa panas dan lembap. Papan tahan lembap dan ventilasi yang baik menjaga kabinet dan lemari tetap dalam kondisi prima.",
+      "style": "Desain modern yang bersih, penyimpanan praktis, serta interior kantor dan toko yang profesional paling banyak diminta di Denpasar.",
+      "faqs": [
+        {
+          "q": "Apakah Anda mengerjakan interior kantor dan toko di Denpasar?",
+          "a": "Ya. Kami membuat meja resepsionis, meja kantor, lemari penyimpanan, dan display toko untuk bisnis di Denpasar."
+        },
+        {
+          "q": "Apakah Anda melayani Renon dan Sesetan?",
+          "a": "Ya, kami bekerja di seluruh Denpasar, termasuk Renon, Sesetan, Panjer, Sidakarya, dan Pemogan."
+        }
+      ]
+    }
+  },
+  "guides": {
+    "kitchen-cost": {
+      "slug": "harga-kitchen-set-bali",
+      "title": "Berapa Harga Kitchen Set Custom di Bali? (Panduan 2026)",
+      "meta": "Panduan harga kitchen set custom di Bali 2026: harga per meter lari untuk HPL, duco, dan jati, countertop, hardware, serta faktor yang memengaruhi penawaran.",
+      "h1": "Berapa harga kitchen set custom di Bali?",
+      "intro": "Harga kitchen set di Bali sangat bervariasi — dari kitchen set partikel board murah yang rusak dalam setahun hingga kitchen set jati mewah yang awet puluhan tahun. Panduan ini menjelaskan cara kitchen set dihitung di Bali, apa yang memengaruhi biayanya, dan cara membandingkan penawaran dengan benar.",
+      "sections": [
+        {
+          "h": "Cara menghitung harga kitchen set: per meter lari",
+          "p": [
+            "Sebagian besar workshop di Bali menghitung harga kitchen set per meter lari — panjang deretan kabinet yang diukur sepanjang dinding. Harga per meter biasanya sudah mencakup kabinet bawah dan kabinet atas di atasnya. Lemari tinggi, island, countertop, peralatan dapur, dan sink biasanya dihitung terpisah.",
+            "Saat membandingkan penawaran, selalu periksa apakah harga per meter sudah termasuk kabinet atas, interior dengan finishing yang sama, edging di semua sisi, merek hardware, dan pemasangan."
+          ]
+        },
+        {
+          "h": "Kisaran harga umum tahun 2026",
+          "p": [
+            "Badan multiplek dengan pintu HPL: mulai sekitar Rp 3,5–5 juta per meter lari. Ini pilihan paling bernilai dan tahan aus untuk sebagian besar villa dan properti sewa.",
+            "Pintu finishing cat duco: mulai sekitar Rp 4,5–7 juta per meter, untuk tampilan modern yang mulus dalam warna apa pun.",
+            "Pintu jati solid atau veneer jati: mulai sekitar Rp 6–14 juta per meter, tergantung apakah pintunya veneer atau kayu solid.",
+            "Kitchen island mulai sekitar Rp 15 juta; dapur outdoor mulai sekitar Rp 20 juta. Top batu umumnya menambah Rp 2,5–8 juta per meter, tergantung materialnya."
+          ]
+        },
+        {
+          "h": "Faktor yang menaikkan (atau menurunkan) biaya",
+          "p": [
+            "Material badan kabinet: multiplek marine lebih mahal daripada partikel board atau MDF, tetapi wajib untuk iklim lembap Bali.",
+            "Finishing: HPL paling ekonomis; cat duco, veneer, dan kayu solid semakin mahal secara bertahap.",
+            "Hardware: engsel soft-close, rel laci full-extension, rak sudut putar, dan mekanisme lift-up dari merek berkualitas menambah biaya tetapi sangat memudahkan pemakaian sehari-hari.",
+            "Kerumitan: panel lengkung, handle terintegrasi, pintu kaca, dan banyak laci membutuhkan waktu kerja lebih lama di workshop."
+          ]
+        },
+        {
+          "h": "Di mana bisa hemat — dan di mana jangan",
+          "p": [
+            "Hemat dengan memilih HPL untuk pintu dan laci yang lebih sedikit tetapi lebih lebar. Jangan berhemat pada material badan kabinet, penyegelan edging, atau hardware: bagian inilah yang paling dulu rusak di Bali.",
+            "Jangan pernah menerima partikel board (chipboard) untuk kitchen set di Bali. Papan ini mengembang permanen begitu terkena air untuk pertama kalinya."
+          ]
+        },
+        {
+          "h": "Mendapatkan penawaran yang akurat",
+          "p": [
+            "Kirimkan denah atau ukuran ruangan, foto ruangan, daftar peralatan dapur, dan beberapa gambar inspirasi. Setelah survei lokasi, kami siapkan gambar kerja dan penawaran terperinci berisi material, hardware, dan jadwal secara tertulis."
+          ]
+        }
+      ]
+    },
+    "materials": {
+      "slug": "kayu-material-furniture-terbaik-iklim-lembap-bali",
+      "title": "Kayu & Material Furniture Terbaik untuk Iklim Lembap Bali",
+      "meta": "Jati, merbau, ulin, multiplek marine, MDF, atau HPL? Panduan praktis memilih material furniture yang tahan kelembapan, udara asin, dan rayap di Bali.",
+      "h1": "Kayu dan material terbaik untuk furniture di iklim Bali",
+      "intro": "Kelembapan, udara asin, dan rayap di Bali cepat merusak material yang salah. Berikut panduan sederhana tentang material yang cocok untuk iklim tropis — dan yang sebaiknya dihindari.",
+      "sections": [
+        {
+          "h": "Kayu keras solid",
+          "p": [
+            "Kayu jati adalah standar emas: stabil, berminyak alami, tahan air, pelapukan, dan rayap, serta indah. Jati perkebunan mudah didapat di Bali; jati tua daur ulang dihargai karena karakternya.",
+            "Merbau sangat keras dan awet dengan warna cokelat kemerahan yang kaya — sangat baik untuk pintu, tangga, dan decking. Kayu ulin (kayu besi Kalimantan) paling kuat di antara semuanya dan ideal untuk decking, tiang, dan sirap. Bengkirai adalah pilihan awet yang lebih ekonomis untuk decking dan struktur outdoor."
+          ]
+        },
+        {
+          "h": "Papan untuk kabinet dan lemari",
+          "p": [
+            "Multiplek marine (WBP) adalah papan terbaik untuk kitchen set, kabinet kamar mandi, dan lemari di Bali. Lapisan silangnya dan lem tahan air mencegah pengembangan dan menahan sekrup dengan baik.",
+            "MDF bisa dipakai untuk pintu cat di ruangan kering ber-AC, tetapi harus disegel di semua sisi. Partikel board (chipboard) sebaiknya dihindari: begitu menyerap lembap, papan ini mengembang dan hancur."
+          ]
+        },
+        {
+          "h": "Finishing",
+          "p": [
+            "HPL (high-pressure laminate) kuat, tahan air, dan mudah dilap — finishing paling praktis untuk kitchen set dan properti sewa. Cat duco memberi tampilan mulus tetapi memerlukan aplikasi yang teliti. Minyak alami cocok untuk jati dan kayu outdoor; polyurethane memberi permukaan yang lebih tahan aus untuk indoor."
+          ]
+        },
+        {
+          "h": "Hardware dan detail",
+          "p": [
+            "Pilih hardware stainless steel atau berlapis berkualitas di dekat pantai, serta engsel dan rel soft-close yang tahan lembap. Segel setiap sisi dan lubang potongan, tinggikan kabinet dari lantai yang basah, dan buat ventilasi untuk lemari."
+          ]
+        },
+        {
+          "h": "Melindungi dari rayap",
+          "p": [
+            "Beri obat anti-rayap pada semua kayu dan papan sebelum dirakit, hindari kontak langsung kayu dengan tanah dan beton bila memungkinkan, sediakan akses inspeksi, dan lakukan perlindungan anti-rayap tanah secara profesional untuk bangunan baru."
+          ]
+        }
+      ]
+    }
+  }
+}
