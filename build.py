@@ -471,11 +471,6 @@ def faq_block(faqs):
         f'<details><summary>{esc(f["q"])}</summary><div><p>{esc(f["a"])}</p></div></details>' for f in faqs) + "</div>"
 
 
-def gallery(L, keys, alt):
-    items = "".join(f"<figure>{img(k, f'{alt} {i + 1}', w=800, h=600, L=L)}</figure>" for i, k in enumerate(keys))
-    return f'<div class="gallery">{items}</div>'
-
-
 def quote_form(L, service=None, area=None):
     u = L["ui"]
     svc_opts = "".join(
@@ -578,7 +573,6 @@ def build_service(L, k):
     body += section(u["features_title"], features(S["features"]), "section-alt")
     body += section(u["materials_title"], f'<div class="prose"><p>{esc(S["materials"])}</p></div>')
     body += section(u["pricing_title"], price_table(L, S["price"], S["lead_time"]), "section-alt")
-    body += section(u["gallery_title"], gallery(L, [f"{k}-2", f"{k}-3", f"{k}-4"], S["name"]))
     body += section(fill(u["service_areas_title"], service=S["name"]), area_chips(L, [a["key"] for a in site["areas"]], k), "section-alt")
     body += section(u["process_title"], process(L))
     faqs = S["faqs"] + u["faq_general"]

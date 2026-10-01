@@ -153,9 +153,6 @@ ul, ol { padding-left: 1.2em; }
 .chips a svg { color: var(--accent); }
 .chips a:hover { border-color: var(--wood); color: var(--wood); }
 
-.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.gallery figure { margin: 0; border-radius: var(--radius); overflow: hidden; aspect-ratio: 4 / 3; }
-.gallery img, .gallery .ph { width: 100%; height: 100%; object-fit: cover; }
 
 /* Pricing */
 .table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); }
@@ -245,7 +242,6 @@ ul, ol { padding-left: 1.2em; }
   .hero { padding: 28px 0 40px; }
   .hero-grid, .split, .cta-grid { grid-template-columns: 1fr; gap: 28px; }
   .process, .info-grid { grid-template-columns: 1fr; }
-  .gallery { grid-template-columns: 1fr 1fr; }
   .section { padding: 52px 0; }
 }
 @media (max-width: 560px) {
@@ -254,7 +250,6 @@ ul, ol { padding-left: 1.2em; }
   .header-cta { padding: .55em; }
   .logo { font-size: 1.05rem; }
   .trust, .footer-grid, .row2 { grid-template-columns: 1fr; }
-  .gallery { grid-template-columns: 1fr; }
   .prices td { white-space: normal; }
   .prices th, .prices td { padding: 12px 14px; }
   .quote-form { padding: 20px; }

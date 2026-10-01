@@ -41,7 +41,6 @@ Every image placeholder shows the filename it expects (e.g. `images/kitchens.jpg
 | `workshop.jpg`, `about.jpg` | Home, About |
 | `services.jpg`, `areas.jpg` | Services index, Areas index |
 | `kitchens.jpg`, `wardrobes.jpg`, `walk-in-wardrobes.jpg`, `bathroom-vanities.jpg`, `tv-units.jpg`, `doors-windows.jpg`, `decking.jpg`, `pergolas.jpg`, `staircases.jpg`, `ceilings-panelling.jpg`, `beds.jpg`, `shelving-office.jpg`, `custom-furniture.jpg`, `villa-fitout.jpg`, `commercial-fitout.jpg`, `repairs.jpg` | Service page heroes and cards, and the fallback for every area version of that service |
-| `kitchens-2.jpg`, `kitchens-3.jpg`, `kitchens-4.jpg` (same pattern for every service) | Gallery on each service page |
 | `kitchens-canggu.jpg`, `wardrobes-uluwatu.jpg` … *(optional)* | A specific photo for one service × area page |
 | `area-canggu.jpg`, `area-ubud.jpg` … | Area page heroes and cards |
 | `guide-kitchen-cost.jpg`, `guide-materials.jpg` | Guide pages |
