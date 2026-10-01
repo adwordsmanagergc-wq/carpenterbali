@@ -1,0 +1,2020 @@
+{
+  "lang": "fr",
+  "locale": "fr_FR",
+  "hreflang": "fr",
+  "label": "Français",
+  "short": "FR",
+  "path_prefix": "fr",
+  "ui": {
+    "skip": "Aller au contenu",
+    "nav_services": "Services",
+    "nav_areas": "Zones",
+    "nav_guides": "Guides",
+    "nav_about": "À propos",
+    "nav_contact": "Contact",
+    "cta_quote": "Devis gratuit",
+    "cta_whatsapp": "Écrivez-nous sur WhatsApp",
+    "cta_call": "Appelez-nous",
+    "cta_view": "Voir le détail",
+    "cta_all_services": "Tous les services",
+    "cta_all_areas": "Toutes les zones",
+    "language": "Langue",
+    "menu": "Menu",
+    "close": "Fermer",
+    "home": "Accueil",
+    "breadcrumb": "Fil d'Ariane",
+    "services_title": "Nos services de menuiserie à Bali",
+    "services_lead": "Du simple meuble vasque à l'aménagement intérieur complet d'une villa : conçu et fabriqué dans notre atelier, puis posé par notre propre équipe.",
+    "areas_title": "Zones d'intervention",
+    "areas_lead": "Nous prenons les mesures, fabriquons et posons dans tout le sud de Bali et à Ubud. Choisissez votre zone pour découvrir les informations locales, les styles et les questions fréquentes.",
+    "features_title": "Ce que nous réalisons",
+    "materials_title": "Matériaux et finitions",
+    "pricing_title": "Prix indicatifs",
+    "pricing_note": "Les prix sont des fourchettes budgétaires indicatives en roupies indonésiennes, hors TVA, électroménager et plans de travail en pierre. Ils sont confirmés par un devis écrit après visite sur place.",
+    "pricing_item": "Prestation",
+    "pricing_price": "Prix indicatif",
+    "process_title": "Comment ça se passe",
+    "faq_title": "Questions fréquentes",
+    "related_services": "Autres services {in_area}",
+    "nearby_areas": "{service} dans les zones voisines",
+    "services_in_area": "Nos services {in_area}",
+    "service_areas_title": "{service} : zones desservies",
+    "local_title": "Conditions locales : {area}",
+    "style_title": "Styles prisés {in_area}",
+    "homes_title": "Maisons et projets {in_area}",
+    "lead_time": "Délai habituel",
+    "gallery_title": "Réalisations récentes",
+    "gallery_note": "Photos de projets bientôt disponibles.",
+    "cta_band_title": "Un projet en tête ?",
+    "cta_band_text": "Envoyez-nous votre plan, un croquis ou quelques photos sur WhatsApp. Nous répondons sous un jour ouvré et pouvons généralement visiter votre propriété dans la semaine.",
+    "form_title": "Demander un devis gratuit",
+    "form_name": "Votre nom",
+    "form_area": "Zone",
+    "form_service": "Service",
+    "form_message": "Décrivez votre projet (dimensions, style, délais)",
+    "form_send": "Envoyer via WhatsApp",
+    "form_email": "Ou écrivez-nous par e-mail",
+    "form_select": "Choisir…",
+    "form_other": "Autre",
+    "footer_about": "Menuiserie, agencement et mobilier sur mesure pour villas, maisons et commerces dans tout Bali.",
+    "footer_services": "Services",
+    "footer_areas": "Zones",
+    "footer_company": "Entreprise",
+    "footer_rights": "Tous droits réservés.",
+    "lang_suggest": "Cette page est disponible en français.",
+    "lang_suggest_btn": "Voir",
+    "read_more": "Lire la suite",
+    "guides_title": "Guides et conseils",
+    "guides_lead": "Des conseils pratiques pour des meubles qui durent sous le climat tropical de Bali.",
+    "updated": "Mis à jour",
+    "placeholder_img": "Photo bientôt disponible",
+    "why_title": "Pourquoi nos clients nous choisissent",
+    "trust": [
+      {
+        "t": "Notre propre atelier",
+        "d": "Tout est fabriqué dans notre atelier à Bali par nos propres menuisiers, sans sous-traitance anonyme."
+      },
+      {
+        "t": "Pensé pour les tropiques",
+        "d": "Contreplaqué marine, bois massifs séchés au four, traitement anti-termites et quincaillerie adaptée à l'humidité, en standard."
+      },
+      {
+        "t": "Des devis écrits et clairs",
+        "d": "Des devis détaillés avec matériaux, finitions et planning, par écrit, avant tout acompte."
+      },
+      {
+        "t": "Nous parlons votre langue",
+        "d": "Échangez en français, en anglais, en indonésien ou en russe, avec des plans 3D pour que rien ne se perde en route."
+      }
+    ],
+    "process": [
+      {
+        "t": "Premier échange",
+        "d": "Partagez photos, plans ou inspirations sur WhatsApp. Nous discutons du style, du budget et des délais."
+      },
+      {
+        "t": "Visite et prise de mesures",
+        "d": "Nous mesurons sur place, contrôlons murs, sols et humidité, et vous conseillons sur les matériaux."
+      },
+      {
+        "t": "Conception et devis",
+        "d": "Vous recevez des plans ou un rendu 3D, accompagnés d'un devis écrit détaillé."
+      },
+      {
+        "t": "Fabrication en atelier",
+        "d": "Vos meubles sont fabriqués et finis dans notre atelier. Nous vous envoyons des photos d'avancement."
+      },
+      {
+        "t": "Pose",
+        "d": "Notre équipe pose, règle et nettoie. Nous vous expliquons l'entretien de vos meubles."
+      },
+      {
+        "t": "Suivi après la pose",
+        "d": "Garantie sur la main-d'œuvre et visite de contrôle pour régler charnières et portes après la première saison des pluies."
+      }
+    ],
+    "faq_general": [
+      {
+        "q": "La visite et le devis sont-ils payants ?",
+        "a": "Non. La visite sur place et le devis sont gratuits dans nos zones d'intervention du sud de Bali et d'Ubud. Pour les lieux plus éloignés, de petits frais de déplacement peuvent être convenus à l'avance."
+      },
+      {
+        "q": "Quel acompte demandez-vous ?",
+        "a": "En général 50 % pour lancer la fabrication, 40 % lorsque les meubles sont prêts à être posés et 10 % à la fin du chantier. Les conditions exactes figurent sur votre devis."
+      },
+      {
+        "q": "Pouvez-vous travailler à partir des plans de mon architecte ou de mon designer ?",
+        "a": "Oui. Nous réalisons régulièrement des projets à partir de plans d'architectes et d'architectes d'intérieur, et pouvons préparer des plans d'exécution à valider avant fabrication."
+      }
+    ],
+    "contact_role": "Maître menuisier",
+    "contact_direct": "Parlez directement avec {name}, notre maître menuisier, sur WhatsApp.",
+    "wa_greeting": "Bonjour {name}, je vous ai trouvé sur carpenterbali.com."
+  },
+  "home": {
+    "title": "Menuisier Bali | Cuisines, placards et dressings sur mesure",
+    "meta": "Menuisier à Bali : cuisine sur mesure, placards, dressing, meuble vasque, portes, terrasse bois et aménagement de villa. Visite gratuite à Canggu, Ubud…",
+    "eyebrow": "Menuiserie et ébénisterie sur mesure à Bali",
+    "h1": "Cuisines, placards et boiseries sur mesure, pensés pour Bali",
+    "lead": "Nous concevons, fabriquons et posons des meubles sur mesure pour villas, maisons et commerces, en teck massif, contreplaqué marine et finitions modernes conçues pour résister à l'humidité tropicale.",
+    "points": [
+      "Visite et devis gratuits",
+      "Notre propre atelier à Bali",
+      "English · Bahasa · Français · Русский"
+    ],
+    "intro_title": "Une menuiserie conçue pour les tropiques",
+    "intro": [
+      "Bali est l'un des plus beaux endroits au monde pour vivre, et l'un des plus rudes pour les meubles. L'humidité oscille entre 70 % et 90 % une grande partie de l'année, l'air salin arrive de la côte et les termites font partie du quotidien. Les meubles bon marché gonflent, les portes ne ferment plus et les charnières rouillent en une saison.",
+      "{brand} fabrique autrement. Nous choisissons le bon matériau pour chaque pièce : teck massif ou merbau pour les parties visibles, contreplaqué marine là où la stabilité compte, stratifié HPL ou laque bi-composant là où tout doit se nettoyer d'un coup d'éponge. Chaque meuble est traité, scellé et ventilé pour durer à Bali."
+    ],
+    "areas_teaser": "De Canggu et Pererenan à Uluwatu, Sanur et Ubud : nous intervenons dans tous les principaux quartiers d'expatriés de Bali."
+  },
+  "pages": {
+    "services": {
+      "slug": "services",
+      "title": "Menuiserie à Bali | Cuisines, placards, terrasses et plus",
+      "meta": "Tous nos services de menuiserie à Bali : cuisine sur mesure, placards, dressing, meuble vasque, portes, terrasse bois, pergola, escalier, plafond et villa.",
+      "h1": "Services de menuiserie et d'agencement à Bali"
+    },
+    "areas": {
+      "slug": "zones",
+      "title": "Zones d'intervention | Menuisier à Canggu, Seminyak, Ubud",
+      "meta": "Menuiserie sur mesure dans tout Bali : Canggu, Pererenan, Berawa, Seminyak, Kerobokan, Umalas, Kuta, Jimbaran, Uluwatu, Sanur, Ubud et plus encore.",
+      "h1": "Nos zones d'intervention à Bali"
+    },
+    "guides": {
+      "slug": "guides",
+      "title": "Guides menuiserie à Bali | Prix, matériaux et entretien",
+      "meta": "Guides pratiques sur le mobilier sur mesure à Bali : prix d'une cuisine, meilleurs bois et panneaux contre l'humidité, protection contre les termites.",
+      "h1": "Guides et conseils"
+    },
+    "about": {
+      "slug": "a-propos",
+      "title": "À propos de Carpenter Bali | Atelier de menuiserie à Bali",
+      "meta": "Découvrez Carpenter Bali : un atelier de menuiserie à Bali qui fabrique cuisines, placards et intérieurs de villas sur mesure pour expatriés et promoteurs.",
+      "h1": "À propos de {brand}",
+      "body": [
+        "{brand} est un atelier de menuiserie et d'agencement sur mesure à Bali. Nous travaillons avec des particuliers, des propriétaires de villas, des promoteurs, des architectes et des professionnels de l'hôtellerie pour concevoir, fabriquer et poser des meubles beaux et durables sous les tropiques.",
+        "Notre équipe allie le savoir-faire traditionnel des artisans balinais à une ébénisterie moderne de style européen : découpe de panneaux précise, quincaillerie à fermeture amortie, chants nets et finitions soignées. Chaque projet est suivi par un interlocuteur unique, dans votre langue, du premier croquis au dernier réglage de charnière.",
+        "Nous croyons aux devis honnêtes, aux délais réalistes et aux matériaux choisis pour le climat de Bali, pas pour afficher le prix le plus bas sur le papier."
+      ],
+      "values_title": "Nos engagements",
+      "values": [
+        {
+          "t": "Des matériaux transparents",
+          "d": "Nous vous disons exactement ce qu'il y a à l'intérieur : type et épaisseur de panneau, chants, marque de quincaillerie et finition."
+        },
+        {
+          "t": "Un bois responsable",
+          "d": "Nous privilégions le teck de plantation et les bois durs d'origine légale, et pouvons fournir les justificatifs sur demande."
+        },
+        {
+          "t": "Une pose propre",
+          "d": "Notre équipe protège vos sols, travaille avec soin et laisse le chantier propre chaque jour."
+        }
+      ]
+    },
+    "contact": {
+      "slug": "contact",
+      "title": "Contact Carpenter Bali | Devis et visite gratuits",
+      "meta": "Contactez Carpenter Bali sur WhatsApp ou par e-mail pour une visite et un devis gratuits : cuisine, placards et menuiserie sur mesure, sud de Bali et Ubud.",
+      "h1": "Nous contacter",
+      "lead": "Le plus rapide est de nous écrire sur WhatsApp. Envoyez photos, plans ou un simple croquis : nous répondons sous un jour ouvré.",
+      "hours_title": "Horaires",
+      "hours": "Du lundi au samedi, de 8 h à 17 h (WITA)",
+      "area_title": "Zone d'intervention",
+      "area": "Tout le sud de Bali, la péninsule du Bukit, Sanur, Denpasar, Tabanan et Ubud."
+    },
+    "notfound": {
+      "title": "Page introuvable | Carpenter Bali",
+      "h1": "Page introuvable",
+      "text": "Désolé, cette page n'existe pas. Découvrez nos services ou nos zones d'intervention ci-dessous."
+    }
+  },
+  "services": {
+    "kitchens": {
+      "slug": "cuisine-sur-mesure-bali",
+      "combo_slug": "cuisine-sur-mesure",
+      "name": "Cuisines sur mesure",
+      "short": "Cuisines équipées sur mesure en teck, contreplaqué, stratifié HPL ou laque, avec îlot, cellier et cuisine d'extérieur.",
+      "title": "Cuisine sur mesure Bali | Cuisines équipées et meubles de cuisine",
+      "meta": "Cuisine sur mesure à Bali, conçue pour l'humidité : contreplaqué marine, teck, HPL ou laque, fermetures amorties, îlot et cellier. Conception et devis gratuits.",
+      "h1": "Cuisines sur mesure à Bali",
+      "lead_time": "4 à 8 semaines",
+      "intro": [
+        "La cuisine est le cœur de chaque villa, et la pièce qui souffre le plus du climat de Bali. Vapeur, éclaboussures et humidité tropicale détruisent les caissons en aggloméré en quelques mois. Nous fabriquons nos cuisines avec des caissons en contreplaqué marine résistant à l'humidité, aux chants scellés, avec des plinthes en inox ou en aluminium et une quincaillerie de qualité à fermeture amortie : les portes restent alignées et les tiroirs coulissent année après année.",
+        "Cuisine minimaliste sans poignées, cuisine tropicale chaleureuse en teck massif, style japandi en placage aspect chêne ou laque brillante : nous concevons votre cuisine autour de votre plan, de votre électroménager et de votre façon de cuisiner. Nous réalisons aussi des arrière-cuisines, des îlots avec coin repas, des cuisines d'extérieur et des kitchenettes compactes pour villas en location."
+      ],
+      "features": [
+        {
+          "t": "Îlots et bars",
+          "d": "Îlots avec rangements, débord pour s'asseoir, évier ou plaque de cuisson intégrés."
+        },
+        {
+          "t": "Sans poignées et push-to-open",
+          "d": "Lignes modernes et épurées avec profils J, gorges type gola ou systèmes à pression."
+        },
+        {
+          "t": "Cuisines en teck massif et en placage",
+          "d": "Le charme tropical du teck de plantation ou du placage teck."
+        },
+        {
+          "t": "Cellier et colonnes",
+          "d": "Colonnes garde-manger, niches pour petit électroménager et habillage de réfrigérateur intégré."
+        },
+        {
+          "t": "Cuisines d'extérieur et barbecue",
+          "d": "Cuisines d'extérieur résistantes aux intempéries en bois dur, HPL compact ou inox."
+        },
+        {
+          "t": "Plans de travail en pierre et en résine",
+          "d": "Nous coordonnons les plans en terrazzo, granit, quartz, marbre ou résine minérale (solid surface)."
+        }
+      ],
+      "materials": "Caissons en contreplaqué marine (WBP) de 18 mm, scellés sur tous les chants. Façades en stratifié HPL, laque bi-composant, placage teck ou teck massif. Quincaillerie Blum, Hettich ou équivalent de gamme Hafele, à fermeture amortie. Plinthes en aluminium ou en inox pour résister à l'eau de lavage des sols.",
+      "price": [
+        [
+          "Cuisine contreplaqué + HPL (meubles bas et hauts)",
+          "à partir de 3,5 – 5 millions Rp / mètre linéaire"
+        ],
+        [
+          "Cuisine laquée (laque bi-composant)",
+          "à partir de 4,5 – 7 millions Rp / mètre linéaire"
+        ],
+        [
+          "Cuisine en teck massif",
+          "à partir de 8 – 14 millions Rp / mètre linéaire"
+        ],
+        [
+          "Îlot de cuisine",
+          "à partir de 15 millions Rp"
+        ],
+        [
+          "Cuisine d'extérieur",
+          "à partir de 20 millions Rp"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Quel est le meilleur matériau pour une cuisine à Bali ?",
+          "a": "Pour les caissons, le contreplaqué marine est le choix le plus fiable face à l'humidité de Bali, bien plus stable que le MDF ou l'aggloméré. Pour les façades, le stratifié HPL est le plus résistant et le plus facile à nettoyer, la laque bi-composant offre un rendu moderne sans joint, et le teck massif apporte le caractère tropical le plus chaleureux."
+        },
+        {
+          "q": "Posez-vous les plans de travail et l'électroménager ?",
+          "a": "Nous fournissons et posons des plans de travail en terrazzo, granit, quartz, marbre ou résine minérale grâce à des marbriers partenaires de confiance, et pouvons installer l'électroménager encastrable, l'évier et la robinetterie en coordination avec votre plombier et votre électricien."
+        },
+        {
+          "q": "Comment protégez-vous les cuisines contre les termites ?",
+          "a": "Tout le bois et le contreplaqué sont traités anti-termites avant assemblage, les meubles reposent sur des pieds surélevés ou des plinthes scellées, et nous laissons un accès d'inspection derrière la plinthe. Pour une construction neuve, nous recommandons aussi un traitement professionnel du sol."
+        }
+      ],
+      "combo_title": "Cuisine sur mesure {in_area} | Cuisines équipées Bali",
+      "combo_meta": "Cuisine sur mesure {in_area}, Bali : conçue, fabriquée et posée par notre équipe. Contreplaqué marine, teck ou HPL, îlot et cellier. Visite gratuite.",
+      "combo_h1": "Cuisine sur mesure {in_area}",
+      "combo_intro": "Vous cherchez une cuisine sur mesure {in_area} ? {brand} conçoit, fabrique et pose des cuisines équipées sur mesure pour villas, maisons, locations et restaurants {in_area}, de la kitchenette compacte à la grande cuisine avec îlot et cellier, toutes pensées pour résister à l'humidité de Bali.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte une cuisine sur mesure {in_area} ?",
+          "a": "Une cuisine en contreplaqué et HPL {in_area} démarre autour de 3,5 – 5 millions Rp par mètre linéaire pour les meubles bas et hauts. Les finitions laquées et le teck massif coûtent davantage. Après une visite gratuite, nous vous remettons un devis détaillé pour que vous sachiez exactement ce que vous payez."
+        },
+        {
+          "q": "Quel délai pour une nouvelle cuisine {in_area} ?",
+          "a": "La plupart des cuisines demandent 4 à 8 semaines entre la validation du projet et la pose, selon la taille et la finition. La pose sur place {in_area} prend généralement 2 à 4 jours, plus la pose du plan de travail."
+        },
+        {
+          "q": "Pouvez-vous remplacer rapidement la cuisine d'une villa en location {in_area} ?",
+          "a": "Oui. Pour les villas en location, nous organisons la fabrication pour que la dépose de l'ancienne cuisine et la pose de la nouvelle se fassent sur une courte période, afin de limiter les nuits de réservation perdues."
+        }
+      ]
+    },
+    "wardrobes": {
+      "slug": "placards-sur-mesure-bali",
+      "combo_slug": "placards-sur-mesure",
+      "name": "Placards sur mesure",
+      "short": "Placards et armoires encastrées du sol au plafond, portes coulissantes ou battantes, ventilés contre l'humidité de Bali.",
+      "title": "Placard sur mesure Bali | Armoires encastrées et penderies",
+      "meta": "Placards sur mesure à Bali : portes coulissantes ou battantes en teck, rotin, HPL ou laque, ventilés contre les moisissures. Métré et devis gratuits.",
+      "h1": "Placards et armoires encastrées sur mesure à Bali",
+      "lead_time": "3 à 6 semaines",
+      "intro": [
+        "À Bali, un bon placard ne se contente pas de ranger vos vêtements : il les protège. Dans une armoire fermée, l'humidité tropicale se transforme vite en moisissures et en odeurs de renfermé. Nos placards encastrés sont conçus pour respirer : plinthes et dessus ventilés, portes en rotin ou à persiennes, panneaux intérieurs résistants à l'humidité et emplacement prévu pour un déshumidificateur ou un éclairage chauffant basse consommation.",
+        "Nous fabriquons des placards du sol au plafond pour chambres parentales, chambres d'amis, chambres d'enfants et villas en location, avec penderies, tiroirs, range-chaussures, coffre-fort et rangement pour valises, pensés selon votre façon de vivre. Au choix : portes coulissantes, portes battantes, panneaux en rotin balinais, persiennes en teck, façades miroir ou laque sans joint."
+      ],
+      "features": [
+        {
+          "t": "Portes coulissantes et battantes",
+          "d": "Coulissants suspendus ou sur rail bas, ou portes battantes à fermeture amortie."
+        },
+        {
+          "t": "Façades en rotin et à persiennes",
+          "d": "Des façades naturelles et respirantes, belles et efficaces contre les moisissures."
+        },
+        {
+          "t": "Ventilation intégrée",
+          "d": "Plinthes et dessus ventilés, lames d'air et emplacement optionnel pour déshumidificateur."
+        },
+        {
+          "t": "Aménagements intérieurs malins",
+          "d": "Double penderie, porte-pantalons coulissant, tiroirs, coffre-fort et éclairage LED."
+        },
+        {
+          "t": "Portes miroir et vitrées",
+          "d": "Miroirs pleine hauteur ou verre teinté avec cadre aluminium."
+        },
+        {
+          "t": "Conçus pour la location",
+          "d": "Des placards robustes et faciles à entretenir pour les villas très fréquentées."
+        }
+      ],
+      "materials": "Caissons en contreplaqué de 18 mm (qualité marine dans les salles de bain et les villas en bord de mer), intérieurs en HPL ou mélaminé faciles à nettoyer. Portes en HPL, laque bi-composant, placage teck, cadre en teck massif avec rotin, ou miroir. Systèmes coulissants et charnières amorties adaptés au climat tropical.",
+      "price": [
+        [
+          "Placard contreplaqué + HPL, pleine hauteur",
+          "à partir de 3 – 5 millions Rp / mètre linéaire"
+        ],
+        [
+          "Placard en placage teck ou laqué",
+          "à partir de 4,5 – 7 millions Rp / mètre linéaire"
+        ],
+        [
+          "Cadre en teck massif + portes en rotin",
+          "à partir de 6 – 10 millions Rp / mètre linéaire"
+        ],
+        [
+          "Options intérieures (tiroirs, LED, coulissants)",
+          "à partir de 750 000 Rp l'unité"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Comment éviter les moisissures dans les placards à Bali ?",
+          "a": "Nous concevons des placards ventilés : plinthes et dessus aérés, petit espace derrière le fond pour que l'air circule le long du mur, portes en rotin ou à persiennes quand c'est adapté, et intérieurs lessivables. Un petit déshumidificateur ou un ruban LED légèrement chauffant à l'intérieur fait aussi une grande différence."
+        },
+        {
+          "q": "Portes coulissantes ou battantes : que choisir ?",
+          "a": "Les portes coulissantes font gagner de la place dans les petites chambres et conviennent aux intérieurs modernes. Les portes battantes donnent accès à tout le placard d'un coup et se prêtent mieux aux panneaux en rotin ou à persiennes. Nous vous conseillons la meilleure option après la prise de mesures."
+        },
+        {
+          "q": "Pouvez-vous poser des placards sur des murs et des sols irréguliers ?",
+          "a": "Oui. Les villas à Bali ont souvent des murs et des sols hors d'aplomb. Nous ajustons chaque placard sur place pour qu'il épouse parfaitement les murs et le plafond, avec des jeux nets et réguliers."
+        }
+      ],
+      "combo_title": "Placard sur mesure {in_area} | Armoires encastrées Bali",
+      "combo_meta": "Placards sur mesure {in_area} : coulissants ou battants, en teck, rotin ou HPL, ventilés contre les moisissures. Fabriqués et posés par Carpenter Bali.",
+      "combo_h1": "Placards sur mesure {in_area}",
+      "combo_intro": "Besoin de placards {in_area} ? {brand} fabrique des placards et armoires encastrées sur mesure, du sol au plafond, pour villas, appartements et biens locatifs {in_area}, conçus pour garder vos vêtements secs et frais malgré l'humidité de Bali.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un placard sur mesure {in_area} ?",
+          "a": "Un placard pleine hauteur en contreplaqué et HPL {in_area} démarre autour de 3 – 5 millions Rp par mètre linéaire. Les finitions teck, rotin et laquées coûtent davantage. Nous vous remettons un devis détaillé gratuit après avoir mesuré la pièce."
+        },
+        {
+          "q": "En combien de temps pouvez-vous poser des placards {in_area} ?",
+          "a": "La plupart des projets de placards demandent 3 à 6 semaines après validation du projet, et la pose {in_area} prend généralement un à deux jours par pièce."
+        },
+        {
+          "q": "Pouvez-vous assortir les placards au style de ma villa {in_area} ?",
+          "a": "Oui. Nous accordons teintes de bois, styles de portes et quincaillerie à votre intérieur existant, qu'il soit en teck balinais classique, tropical contemporain ou blanc minimaliste."
+        }
+      ]
+    },
+    "walk-in-wardrobes": {
+      "slug": "dressing-sur-mesure-bali",
+      "combo_slug": "dressing-sur-mesure",
+      "name": "Dressings sur mesure",
+      "short": "Dressings et walk-in closets haut de gamme avec îlot central, éclairage et rangements ouverts ou vitrés.",
+      "title": "Dressing sur mesure Bali | Dressings et walk-in closets de luxe",
+      "meta": "Dressing sur mesure à Bali : étagères ouvertes, portes vitrées, îlot central, éclairage LED et conception adaptée au climat. Plan 3D et devis gratuits.",
+      "h1": "Dressings sur mesure à Bali",
+      "lead_time": "5 à 9 semaines",
+      "intro": [
+        "Un dressing fait de l'habillage un plaisir quotidien. Nous concevons et fabriquons des dressings sur mesure pour villas et maisons familiales partout à Bali, du dressing de passage compact entre la chambre et la salle de bain jusqu'au dressing façon boutique avec îlot central, étagères d'exposition et éclairage soigné.",
+        "Sous les tropiques, un dressing se conçoit autour de la circulation de l'air. Étagères ouvertes, vitrines et pièce climatisée ou déshumidifiée gardent vêtements, chaussures et sacs en parfait état. Nous concevons l'agencement en 3D avec vous, puis fabriquons chaque élément dans notre atelier pour une pose précise et rapide."
+      ],
+      "features": [
+        {
+          "t": "Conception en 3D",
+          "d": "Visualisez votre dressing en 3D avant toute fabrication."
+        },
+        {
+          "t": "Îlots de dressing",
+          "d": "Îlot central avec tiroirs, plateaux à bijoux et dessus en pierre ou en verre."
+        },
+        {
+          "t": "Vitrines",
+          "d": "Portes vitrées à cadre aluminium qui protègent de la poussière tout en mettant votre collection en valeur."
+        },
+        {
+          "t": "Éclairage LED intégré",
+          "d": "Éclairage des étagères, des tringles et des tiroirs avec détecteurs."
+        },
+        {
+          "t": "Présentoirs à chaussures et à sacs",
+          "d": "Étagères à chaussures inclinées, cases à sacs et plateaux coulissants pour accessoires."
+        },
+        {
+          "t": "Coiffeuse et miroirs",
+          "d": "Coiffeuse, miroirs pleine hauteur et assise."
+        }
+      ],
+      "materials": "Caissons en contreplaqué avec placage haut de gamme, HPL ou laque bi-composant ; touches de teck massif ou aspect chêne ; portes vitrées à cadre aluminium ; tiroirs garnis de cuir ou de tissu ; profils LED avec détecteurs ; coulisses à sortie totale et fermeture amortie.",
+      "price": [
+        [
+          "Dressing de passage compact",
+          "à partir de 25 – 45 millions Rp"
+        ],
+        [
+          "Dressing moyen (en U)",
+          "à partir de 45 – 90 millions Rp"
+        ],
+        [
+          "Dressing de luxe avec îlot",
+          "à partir de 90 millions Rp"
+        ],
+        [
+          "Îlot de dressing seul",
+          "à partir de 15 millions Rp"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Quelle taille de pièce faut-il pour un dressing ?",
+          "a": "Un dressing sur un seul côté est possible à partir d'environ 1,5 m de large ; sur deux côtés à partir d'environ 2,1 m ; en U ou avec îlot à partir d'environ 3 m × 3 m. Nous pouvons aussi transformer une partie d'une grande chambre en dressing grâce à une cloison."
+        },
+        {
+          "q": "Un dressing à Bali doit-il être climatisé ?",
+          "a": "Nous recommandons vivement la climatisation, un déshumidificateur dédié ou une excellente ventilation traversante. Sans cela, l'humidité peut abîmer le cuir, les chaussures et les tissus délicats. Nous pouvons intégrer des grilles d'aération et un logement pour déshumidificateur dans le projet."
+        },
+        {
+          "q": "Pouvez-vous ajouter éclairage et prises électriques ?",
+          "a": "Oui. Nous intégrons rubans LED, détecteurs de mouvement, éclairage de miroir et prises pour défroisseur ou chargeurs, en coordination avec votre électricien."
+        }
+      ],
+      "combo_title": "Dressing sur mesure {in_area} | Walk-in closets Bali",
+      "combo_meta": "Dressing sur mesure {in_area}, Bali : plan 3D, îlot central, portes vitrées et éclairage LED. Fabriqué et posé par notre propre équipe.",
+      "combo_h1": "Dressing sur mesure {in_area}",
+      "combo_intro": "Vous rêvez d'un dressing {in_area} ? {brand} conçoit et fabrique des dressings haut de gamme pour villas et maisons familiales {in_area}, dessinés en 3D et fabriqués dans notre atelier pour s'adapter au climat de Bali.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un dressing sur mesure {in_area} ?",
+          "a": "Un dressing de passage compact {in_area} démarre autour de 25 – 45 millions Rp, tandis qu'un grand dressing avec îlot et éclairage démarre généralement à 90 millions Rp. Le prix dépend de la taille, des finitions et de la quincaillerie."
+        },
+        {
+          "q": "Quel délai pour un projet de dressing {in_area} ?",
+          "a": "Comptez 5 à 9 semaines entre la validation du plan 3D et la fin du chantier. La pose sur place {in_area} prend généralement 3 à 5 jours."
+        },
+        {
+          "q": "Pouvez-vous concevoir un dressing pour une villa en construction {in_area} ?",
+          "a": "Oui, et c'est le meilleur moment. Nous pouvons nous coordonner avec votre constructeur sur la position des murs, les points électriques et la climatisation pour un dressing parfaitement intégré."
+        }
+      ]
+    },
+    "bathroom-vanities": {
+      "slug": "meuble-salle-de-bain-bali",
+      "combo_slug": "meuble-salle-de-bain",
+      "name": "Meubles de salle de bain",
+      "short": "Meubles vasque étanches en teck, HPL compact ou terrazzo, suspendus ou sur pieds.",
+      "title": "Meuble salle de bain Bali | Meubles vasque en teck et étanches",
+      "meta": "Meuble de salle de bain sur mesure à Bali : teck massif, contreplaqué marine + HPL ou stratifié compact, suspendu ou sur pieds, plan en pierre ou terrazzo.",
+      "h1": "Meubles de salle de bain sur mesure à Bali",
+      "lead_time": "3 à 5 semaines",
+      "intro": [
+        "À Bali, les salles de bain sont souvent ouvertes ou semi-extérieures : superbes, mais impitoyables pour les meubles. Nous fabriquons des meubles vasque faits pour être mouillés : teck massif traité à l'huile marine, contreplaqué marine revêtu de HPL étanche, ou stratifié compact entièrement étanche pour l'extérieur et la location.",
+        "Choisissez un meuble suspendu pour un look moderne et épuré, une console en teck sur pieds pour une ambiance resort tropical, ou un double meuble vasque avec grands tiroirs pour une salle de bain familiale. Nous coordonnons le plan (terrazzo, pierre, béton ou résine minérale), la vasque, le miroir et les rangements."
+      ],
+      "features": [
+        {
+          "t": "Meubles suspendus",
+          "d": "Meubles fixés au mur pour des sols faciles à nettoyer et à garder secs."
+        },
+        {
+          "t": "Consoles en teck massif",
+          "d": "Meubles vasque ouverts façon resort en teck de plantation, finition marine."
+        },
+        {
+          "t": "Doubles vasques",
+          "d": "Deux vasques et de grands tiroirs à fermeture amortie pour les salles de bain partagées."
+        },
+        {
+          "t": "Pour salle de bain extérieure",
+          "d": "Options en stratifié compact et en teck pour les salles de bain à ciel ouvert."
+        },
+        {
+          "t": "Miroirs et armoires",
+          "d": "Miroirs encadrés assortis, armoires de toilette et étagères à serviettes."
+        },
+        {
+          "t": "Plans en terrazzo et en pierre",
+          "d": "Plans sur mesure avec vasque sous plan, à poser ou intégrée."
+        }
+      ],
+      "materials": "Teck de plantation massif, finition huile marine ou polyuréthane ; contreplaqué marine (WBP) revêtu de HPL étanche aux chants entièrement scellés ; stratifié compact pour les zones humides ; quincaillerie en inox ; plans en terrazzo, granit, marbre, béton ou résine minérale.",
+      "price": [
+        [
+          "Meuble vasque suspendu simple (contreplaqué + HPL)",
+          "à partir de 4 – 7 millions Rp"
+        ],
+        [
+          "Meuble vasque en teck massif",
+          "à partir de 6 – 12 millions Rp"
+        ],
+        [
+          "Double meuble vasque avec tiroirs",
+          "à partir de 8 – 16 millions Rp"
+        ],
+        [
+          "Miroir encadré / armoire de toilette",
+          "à partir de 1,5 million Rp"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Un meuble vasque en bois résiste-t-il dans une salle de bain à Bali ?",
+          "a": "Oui, s'il est bien fabriqué. Le teck massif résiste naturellement à l'eau et à la pourriture, et le contreplaqué marine revêtu de HPL entièrement scellé supporte éclaboussures et vapeur. Nous scellons chaque chant et chaque découpe, et utilisons une quincaillerie en inox."
+        },
+        {
+          "q": "Pouvez-vous fabriquer un meuble vasque pour une salle de bain extérieure ?",
+          "a": "Oui. Pour les salles de bain à ciel ouvert, nous recommandons le teck massif ou le stratifié compact, surélevé du sol, avec quincaillerie inox et plan scellé en pierre ou en terrazzo."
+        },
+        {
+          "q": "Fournissez-vous les vasques et la robinetterie ?",
+          "a": "Nous pouvons fournir les vasques et coordonner robinetterie et plans, ou fabriquer le meuble autour des sanitaires que vous avez déjà choisis."
+        }
+      ],
+      "combo_title": "Meuble salle de bain {in_area} | Meubles vasque teck et HPL",
+      "combo_meta": "Meuble de salle de bain sur mesure {in_area}, Bali : teck, HPL étanche ou stratifié compact, suspendu ou sur pieds, plan en terrazzo ou en pierre.",
+      "combo_h1": "Meubles de salle de bain {in_area}",
+      "combo_intro": "Vous rénovez une salle de bain {in_area} ? {brand} fabrique des meubles vasque sur mesure pour villas, maisons et hôtels {in_area}, étanches dès la conception et assortis à votre intérieur.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un meuble de salle de bain sur mesure {in_area} ?",
+          "a": "Un meuble vasque suspendu simple en contreplaqué et HPL {in_area} démarre autour de 4 – 7 millions Rp ; le teck massif et les doubles vasques coûtent davantage. Plans et vasques sont chiffrés séparément ou en formule complète."
+        },
+        {
+          "q": "Combien de temps faut-il pour poser un meuble vasque {in_area} ?",
+          "a": "La fabrication prend 3 à 5 semaines. La pose {in_area} prend généralement une demi-journée par meuble, en coordination avec votre plombier."
+        }
+      ]
+    },
+    "tv-units": {
+      "slug": "meuble-tv-sur-mesure-bali",
+      "combo_slug": "meuble-tv-sur-mesure",
+      "name": "Meubles TV et multimédia",
+      "short": "Murs TV intégrés, meubles TV suspendus et ensembles multimédia avec câbles dissimulés.",
+      "title": "Meuble TV sur mesure Bali | Murs TV et meubles multimédia",
+      "meta": "Meuble TV sur mesure à Bali : meubles suspendus, murs TV en tasseaux de bois, câbles dissimulés et rangements. Conçus et fabriqués sur mesure.",
+      "h1": "Meubles TV et multimédia sur mesure à Bali",
+      "lead_time": "3 à 5 semaines",
+      "intro": [
+        "Un mur TV sur mesure structure tout un salon. Nous concevons des meubles TV suspendus, des murs multimédia pleine hauteur avec étagères et niches d'exposition, et des murs décoratifs en tasseaux de bois qui dissimulent câbles, box internet et enceintes.",
+        "Chaque meuble est pensé selon la taille de votre écran, vos appareils, la ventilation de l'électronique et la meilleure hauteur de visionnage, avec une finition assortie à vos sols, portes et meubles."
+      ],
+      "features": [
+        {
+          "t": "Meubles TV suspendus",
+          "d": "Meubles multimédia fixés au mur, avec tiroirs à ouverture par pression."
+        },
+        {
+          "t": "Murs TV complets",
+          "d": "Ensembles du sol au plafond avec étagères ouvertes et rangements fermés."
+        },
+        {
+          "t": "Murs en tasseaux",
+          "d": "Panneaux en tasseaux de bois avec passages de câbles invisibles."
+        },
+        {
+          "t": "Câbles dissimulés",
+          "d": "Passages de câbles intégrés, compartiments ventilés pour les appareils et prises."
+        },
+        {
+          "t": "Niches et LED",
+          "d": "Niches rétroéclairées pour livres, œuvres et objets."
+        },
+        {
+          "t": "Chambre et extérieur",
+          "d": "Meubles TV compacts pour chambre et meubles TV d'extérieur protégés des intempéries."
+        }
+      ],
+      "materials": "Caissons en contreplaqué avec finition HPL, placage ou laque ; tasseaux en teck massif ou en merbau ; fonds ventilés ; quincaillerie push-to-open ou à fermeture amortie ; profils LED.",
+      "price": [
+        [
+          "Meuble TV suspendu",
+          "à partir de 5 – 10 millions Rp"
+        ],
+        [
+          "Mur TV pleine hauteur",
+          "à partir de 12 – 30 millions Rp"
+        ],
+        [
+          "Mur décoratif en tasseaux de bois",
+          "à partir de 1,5 – 3 millions Rp / m²"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Pouvez-vous cacher tous les câbles ?",
+          "a": "Oui. Nous prévoyons passages de câbles, passe-câbles et compartiments ventilés pour box, consoles et systèmes audio, et nous coordonnons avec votre électricien pour les prises derrière l'écran."
+        },
+        {
+          "q": "Le meuble peut-il supporter un grand téléviseur ?",
+          "a": "Nous concevons la structure et les fixations en fonction de la taille de votre écran, et recommandons un support TV adapté fixé dans la maçonnerie ou dans un panneau renforcé."
+        }
+      ],
+      "combo_title": "Meuble TV sur mesure {in_area} | Murs TV Bali",
+      "combo_meta": "Meuble TV sur mesure {in_area}, Bali : meubles suspendus, murs en tasseaux et câbles dissimulés. Conçus, fabriqués et posés par notre équipe.",
+      "combo_h1": "Meubles TV et multimédia {in_area}",
+      "combo_intro": "Envie d'un mur TV intégré et épuré {in_area} ? {brand} conçoit et fabrique des meubles TV et des murs multimédia sur mesure pour salons, chambres et espaces lounge extérieurs {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un meuble TV sur mesure {in_area} ?",
+          "a": "Les meubles TV suspendus {in_area} démarrent autour de 5 – 10 millions Rp, et les murs TV pleine hauteur à environ 12 millions Rp, selon la taille et la finition."
+        },
+        {
+          "q": "Quel délai pour un mur TV {in_area} ?",
+          "a": "Généralement 3 à 5 semaines de fabrication, avec une pose {in_area} en une journée."
+        }
+      ]
+    },
+    "doors-windows": {
+      "slug": "portes-fenetres-bois-bali",
+      "combo_slug": "portes-fenetres-bois",
+      "name": "Portes, fenêtres et huisseries",
+      "short": "Portes en teck et en merbau massifs, huisseries (kusen), persiennes, volets et portes pivotantes.",
+      "title": "Portes en teck Bali | Portes, fenêtres et volets en bois",
+      "meta": "Portes et fenêtres en bois sur mesure à Bali : portes en teck et merbau massifs, huisseries kusen, portes pivotantes, persiennes et volets. Fabriqués et posés.",
+      "h1": "Portes, fenêtres et huisseries en bois sur mesure à Bali",
+      "lead_time": "4 à 8 semaines",
+      "intro": [
+        "Les portes et fenêtres affrontent chaque jour le climat de Bali : pluies battantes, soleil intense, humidité et termites. Nous les fabriquons en teck, merbau ou bengkirai massifs séchés au four, avec de vrais assemblages, pour qu'elles restent droites et continuent de fermer en douceur.",
+        "Nous réalisons portes d'entrée et portes pivotantes, portes intérieures, portes pliantes et coulissantes donnant sur le jardin ou la piscine, huisseries de fenêtres (kusen), volets à persiennes et portes balinaises traditionnelles sculptées, livrées en ensembles complets avec dormant, quincaillerie et finition."
+      ],
+      "features": [
+        {
+          "t": "Portes d'entrée et pivotantes",
+          "d": "Portes d'exception de plus de 3 m de haut avec pivots renforcés."
+        },
+        {
+          "t": "Portes intérieures",
+          "d": "Portes pleines, à panneaux, planes ou à lames, avec huisseries assorties."
+        },
+        {
+          "t": "Portes pliantes et coulissantes",
+          "d": "Baies vitrées pliantes en accordéon et coulissantes ouvrant la villa sur le jardin et la piscine."
+        },
+        {
+          "t": "Huisseries kusen",
+          "d": "Dormants de portes et de fenêtres en bois dur massif, pour le neuf comme la rénovation."
+        },
+        {
+          "t": "Persiennes et volets",
+          "d": "Persiennes et volets ventilés pour l'intimité et la circulation de l'air."
+        },
+        {
+          "t": "Portes balinaises traditionnelles",
+          "d": "Portes sculptées et peintes à la main par des artisans balinais."
+        }
+      ],
+      "materials": "Teck (jati), merbau ou bengkirai massifs séchés au four ; âmes reconstituées pour les grandes portes afin d'éviter le voilage ; paumelles et serrures en inox ou en laiton ; verre clair ou trempé ; huile marine, polyuréthane ou peinture extérieure.",
+      "price": [
+        [
+          "Porte intérieure en teck massif + huisserie",
+          "à partir de 6 – 12 millions Rp"
+        ],
+        [
+          "Porte d'entrée / pivotante",
+          "à partir de 15 – 45 millions Rp"
+        ],
+        [
+          "Huisserie de fenêtre (kusen) + ouvrant",
+          "à partir de 2,5 – 6 millions Rp l'unité"
+        ],
+        [
+          "Portes vitrées pliantes",
+          "à partir de 6 – 10 millions Rp / m²"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Pourquoi les portes en bois se voilent-elles à Bali, et comment l'éviter ?",
+          "a": "Le voilage survient quand le bois est mal séché ou scellé sur une seule face. Nous utilisons du bois séché au four, des âmes reconstituées stables pour les grandes portes, et scellons les six faces, y compris les chants haut et bas, avant la pose."
+        },
+        {
+          "q": "Posez-vous des portes et fenêtres dans des villas existantes ?",
+          "a": "Oui. Nous remplaçons les anciennes portes et huisseries dans les bâtiments existants : dépose, reprise des ouvertures et finitions autour du nouveau dormant."
+        },
+        {
+          "q": "Teck ou merbau : lequel choisir ?",
+          "a": "Le teck est le plus stable et naturellement résistant aux intempéries, avec une belle teinte dorée. Le merbau est très dur et durable, d'une couleur rougeâtre plus foncée, et souvent plus économique pour de grandes quantités."
+        }
+      ],
+      "combo_title": "Portes en bois {in_area} | Portes en teck et kusen Bali",
+      "combo_meta": "Portes, fenêtres et huisseries kusen en teck et merbau {in_area}, Bali. Portes pivotantes, pliantes et à persiennes, sans voilage ni termites.",
+      "combo_h1": "Portes et fenêtres en bois {in_area}",
+      "combo_intro": "Vous remplacez vos portes ou construisez {in_area} ? {brand} fabrique portes en bois massif, huisseries, persiennes et portes pliantes pour villas et maisons {in_area}, en bois dur séché au four pour rester droites sous le climat de Bali.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte une porte en teck {in_area} ?",
+          "a": "Une porte intérieure en teck massif avec huisserie {in_area} démarre autour de 6 – 12 millions Rp. Les grandes portes d'entrée et pivotantes sont chiffrées selon le modèle."
+        },
+        {
+          "q": "Pouvez-vous fournir portes et huisseries pour une villa neuve {in_area} ?",
+          "a": "Oui. Nous fournissons et posons des lots complets de portes et fenêtres pour les constructions neuves {in_area}, à partir du tableau des menuiseries de votre architecte."
+        }
+      ]
+    },
+    "decking": {
+      "slug": "terrasse-bois-bali",
+      "combo_slug": "terrasse-bois",
+      "name": "Terrasses et decks de piscine",
+      "short": "Terrasses en bois dur et en composite pour piscines, terrasses, toits-terrasses et allées.",
+      "title": "Terrasse bois Bali | Deck de piscine en merbau, ulin, composite",
+      "meta": "Terrasse en bois ou en composite à Bali : deck de piscine, terrasses, toits-terrasses et allées en merbau, ulin, bengkirai ou WPC. Fourniture et pose.",
+      "h1": "Terrasses en bois et en composite à Bali",
+      "lead_time": "2 à 5 semaines",
+      "intro": [
+        "La terrasse, c'est là que se vit la villa : autour de la piscine, sur la terrasse ou sur le toit au coucher du soleil. À Bali, un deck doit supporter le soleil, les fortes pluies, l'eau chlorée et les termites. Nous posons des terrasses en bois dur, merbau, ulin (bois de fer) et bengkirai, ainsi qu'en composite WPC haut de gamme pour les zones sans entretien.",
+        "La qualité de la pose compte autant que le bois : nous construisons sur une ossature en bois traité ou en acier galvanisé, avec espacement et drainage adaptés, des fixations inox ou des clips invisibles, et une finition à l'huile anti-UV."
+      ],
+      "features": [
+        {
+          "t": "Decks de piscine",
+          "d": "Terrasses antidérapantes et résistantes au chlore autour des piscines et des spas."
+        },
+        {
+          "t": "Terrasses et balcons",
+          "d": "Espaces de vie extérieurs sur ossature stable et ventilée."
+        },
+        {
+          "t": "Toits-terrasses",
+          "d": "Terrasses surélevées légères sur plots, au-dessus des toits étanchés."
+        },
+        {
+          "t": "Allées et pontons",
+          "d": "Chemins de jardin, pas japonais en bois et passerelles au-dessus des bassins."
+        },
+        {
+          "t": "Terrasse composite (WPC)",
+          "d": "Des lames sans entretien qui n'ont jamais besoin d'être huilées."
+        },
+        {
+          "t": "Rénovation de terrasse",
+          "d": "Ponçage, huilage et remplacement de lames pour les terrasses fatiguées."
+        }
+      ],
+      "materials": "Bois durs merbau, ulin (bois de fer de Bornéo) ou bengkirai ; lames composite WPC ; ossature en bois traité ou en acier galvanisé ; vis inox ou systèmes de clips invisibles ; huile de terrasse anti-UV.",
+      "price": [
+        [
+          "Terrasse merbau / bengkirai, posée",
+          "à partir de 1,3 – 2 millions Rp / m²"
+        ],
+        [
+          "Terrasse en ulin (bois de fer), posée",
+          "à partir de 2 – 3 millions Rp / m²"
+        ],
+        [
+          "Terrasse composite WPC, posée",
+          "à partir de 1,3 – 2,3 millions Rp / m²"
+        ],
+        [
+          "Ponçage et huilage de terrasse",
+          "à partir de 150 000 Rp / m²"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Quel est le meilleur bois de terrasse à Bali ?",
+          "a": "L'ulin (bois de fer de Bornéo) est le plus dur et le plus durable, mais aussi le plus cher. Le merbau et le bengkirai offrent un excellent équilibre entre durabilité et prix. Pour zéro entretien, le composite (WPC) est une bonne option, même s'il peut chauffer davantage sous les pieds en plein soleil."
+        },
+        {
+          "q": "À quelle fréquence faut-il huiler une terrasse en bois ?",
+          "a": "Sous le soleil de Bali, nous recommandons de réhuiler les terrasses exposées tous les 6 à 12 mois pour préserver la couleur et protéger la surface. Sans huile, le bois dur grisera naturellement pour prendre une teinte argentée."
+        },
+        {
+          "q": "Construisez-vous aussi l'ossature ?",
+          "a": "Oui. Nous réalisons la structure porteuse en bois dur traité ou en acier galvanisé, avec l'espacement et le drainage adaptés : c'est l'élément clé d'une terrasse qui dure."
+        }
+      ],
+      "combo_title": "Terrasse bois {in_area} | Deck piscine merbau, ulin, composite",
+      "combo_meta": "Deck de piscine, terrasse et toit-terrasse {in_area}, Bali, en merbau, ulin, bengkirai ou composite WPC. Fourniture, ossature et pose par notre équipe.",
+      "combo_h1": "Terrasses et decks de piscine {in_area}",
+      "combo_intro": "Besoin d'un deck de piscine ou d'une terrasse {in_area} ? {brand} fournit et pose des terrasses en bois dur et en composite pour villas, hôtels et beach clubs {in_area}, sur des ossatures solides, bien drainées et ventilées.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte une terrasse au mètre carré {in_area} ?",
+          "a": "Une terrasse en merbau ou bengkirai posée {in_area} démarre autour de 1,3 – 2 millions Rp le m², l'ulin à environ 2 millions Rp le m² et le composite WPC à environ 1,3 million Rp le m², selon l'ossature et l'accès."
+        },
+        {
+          "q": "Combien de temps faut-il pour poser une terrasse {in_area} ?",
+          "a": "Un deck de piscine classique {in_area} demande 1 à 2 semaines sur place une fois les matériaux prêts."
+        }
+      ]
+    },
+    "pergolas": {
+      "slug": "pergola-gazebo-bali",
+      "combo_slug": "pergola-gazebo",
+      "name": "Pergolas, gazebos et balé",
+      "short": "Pergolas en bois, carports, gazebos et balé balinais traditionnels avec toiture en alang-alang ou en bardeaux.",
+      "title": "Pergola bois Bali | Pergolas, gazebos, carports et balé",
+      "meta": "Pergolas en bois, gazebos, carports et balé balinais traditionnels à Bali. Structures en bois dur, toiture en alang-alang, bardeaux d'ulin ou polycarbonate.",
+      "h1": "Pergolas, gazebos et balé balinais",
+      "lead_time": "4 à 8 semaines",
+      "intro": [
+        "À Bali, l'ombre est essentielle. Nous concevons et construisons des pergolas en bois au-dessus des terrasses et des piscines, des carports, des gazebos de bord de piscine et des balé balinais traditionnels : des pavillons ouverts parfaits pour se détendre, recevoir un massage ou dîner dehors.",
+        "Les structures sont réalisées en bois durs résistants, avec assemblages calculés et fondations, et peuvent être couvertes de chaume d'alang-alang, de bardeaux d'ulin, de tuiles, de verre, de polycarbonate, ou laissées ouvertes avec des plantes grimpantes."
+      ],
+      "features": [
+        {
+          "t": "Pergolas de terrasse",
+          "d": "Pergolas autoportantes ou adossées en bois dur."
+        },
+        {
+          "t": "Balé balinais",
+          "d": "Pavillons ouverts traditionnels avec plateforme de repos."
+        },
+        {
+          "t": "Gazebos de bord de piscine",
+          "d": "Coins lounge ombragés et cabanas au bord de la piscine."
+        },
+        {
+          "t": "Carports",
+          "d": "Abris en bois pour voitures et scooters."
+        },
+        {
+          "t": "Choix de toitures",
+          "d": "Alang-alang, bardeaux d'ulin, tuiles, verre ou polycarbonate."
+        },
+        {
+          "t": "Éclairage et ventilateurs",
+          "d": "Câblage intégré pour luminaires et ventilateurs de plafond."
+        }
+      ],
+      "materials": "Poteaux et poutres en teck, merbau, bengkirai ou bois de cocotier massifs ; connecteurs galvanisés ou inox ; fondations en béton ; toiture en alang-alang, bardeaux d'ulin, tuiles, verre trempé ou polycarbonate.",
+      "price": [
+        [
+          "Pergola en bois (ouverte)",
+          "à partir de 1,8 – 3,5 millions Rp / m²"
+        ],
+        [
+          "Gazebo de bord de piscine",
+          "à partir de 35 millions Rp"
+        ],
+        [
+          "Balé balinais traditionnel",
+          "à partir de 60 millions Rp"
+        ],
+        [
+          "Carport en bois",
+          "à partir de 30 millions Rp"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Combien de temps dure une toiture en alang-alang ?",
+          "a": "Un chaume d'alang-alang bien posé dure généralement 5 à 8 ans selon l'exposition et l'entretien. Les bardeaux d'ulin durent bien plus longtemps, souvent 20 ans ou plus."
+        },
+        {
+          "q": "Faut-il un permis pour une pergola ou un balé ?",
+          "a": "Les petites structures de jardin n'en nécessitent souvent pas, mais les règles varient selon la régence et le type de bien. Nous vous conseillons de vérifier auprès de votre notaire ou de votre consultant en construction ; nous pouvons fournir des plans pour appuyer une demande."
+        }
+      ],
+      "combo_title": "Pergola bois {in_area} | Gazebos, balé et carports Bali",
+      "combo_meta": "Pergolas en bois, gazebos, carports et balé balinais {in_area}. Structures en bois dur, toiture alang-alang, bardeaux ou verre, par Carpenter Bali.",
+      "combo_h1": "Pergolas, gazebos et balé {in_area}",
+      "combo_intro": "Envie de plus d'ombre et d'espace de vie extérieur {in_area} ? {brand} construit des pergolas en bois, des gazebos de bord de piscine, des carports et des balé balinais traditionnels pour villas et resorts {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte une pergola {in_area} ?",
+          "a": "Les pergolas ouvertes en bois {in_area} démarrent autour de 1,8 – 3,5 millions Rp le m². Les gazebos démarrent à environ 35 millions Rp et les balé traditionnels à environ 60 millions Rp."
+        },
+        {
+          "q": "Combien de temps faut-il pour construire un balé {in_area} ?",
+          "a": "Comptez 4 à 8 semaines, fabrication, fondations et toiture comprises."
+        }
+      ]
+    },
+    "staircases": {
+      "slug": "escalier-bois-bali",
+      "combo_slug": "escalier-bois",
+      "name": "Escaliers en bois",
+      "short": "Escaliers en bois massif, marches suspendues, habillage d'escaliers béton et garde-corps.",
+      "title": "Escalier bois Bali | Escaliers suspendus, marches et garde-corps",
+      "meta": "Escalier en bois sur mesure à Bali : marches suspendues en teck, habillage d'escalier béton, escaliers hélicoïdaux et garde-corps en bois, acier ou verre.",
+      "h1": "Escaliers en bois sur mesure à Bali",
+      "lead_time": "4 à 7 semaines",
+      "intro": [
+        "L'escalier est souvent la première chose que l'on voit dans une villa. Nous réalisons des escaliers suspendus avec marches en teck ou en merbau massif, habillons de bois les escaliers en béton et fabriquons des escaliers entièrement en bois pour mezzanines et combles.",
+        "Nous associons le bois à des limons en acier, des garde-corps en verre, en corde ou à lames pour s'accorder aux intérieurs tropicaux contemporains, industriels ou balinais classiques, toujours conçus pour la sécurité et la stabilité."
+      ],
+      "features": [
+        {
+          "t": "Escaliers suspendus",
+          "d": "Marches massives épaisses en porte-à-faux depuis le mur ou sur limon central en acier invisible."
+        },
+        {
+          "t": "Habillage d'escalier",
+          "d": "Marches et contremarches en bois posées sur un escalier en béton."
+        },
+        {
+          "t": "Escaliers de mezzanine",
+          "d": "Modèles gain de place et escaliers à pas japonais."
+        },
+        {
+          "t": "Rampes et garde-corps",
+          "d": "Bois, acier, verre, corde ou claustras à lames."
+        },
+        {
+          "t": "Escaliers hélicoïdaux",
+          "d": "Escaliers colimaçons et hélicoïdaux compacts pour les espaces restreints."
+        },
+        {
+          "t": "Finitions antidérapantes",
+          "d": "Nez de marche rainurés et huiles antidérapantes pour plus de sécurité."
+        }
+      ],
+      "materials": "Marches en teck, merbau ou bengkirai massifs (40–80 mm) ; limons ou poutre centrale en acier ; garde-corps en verre trempé, acier ou bois ; finitions polyuréthane ou huile très résistantes.",
+      "price": [
+        [
+          "Habillage bois d'escalier béton",
+          "à partir de 1,2 – 2,5 millions Rp / marche"
+        ],
+        [
+          "Escalier suspendu (marches + fixation)",
+          "à partir de 2,5 – 5 millions Rp / marche"
+        ],
+        [
+          "Escalier complet en bois",
+          "à partir de 35 millions Rp"
+        ],
+        [
+          "Garde-corps / rampe",
+          "à partir de 1,5 million Rp / mètre linéaire"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Pouvez-vous habiller de bois mon escalier en béton existant ?",
+          "a": "Oui. Nous mesurons chaque marche individuellement et fabriquons des marches et contremarches en bois massif, fixées et scellées sur le béton."
+        },
+        {
+          "q": "Les escaliers suspendus sont-ils sûrs ?",
+          "a": "Oui, lorsqu'ils sont correctement conçus et fixés. Nous utilisons des marches massives épaisses ancrées dans des murs porteurs ou sur une poutre en acier, et recommandons un garde-corps partout où il y a du vide."
+        }
+      ],
+      "combo_title": "Escalier bois {in_area} | Escaliers suspendus et garde-corps",
+      "combo_meta": "Escalier en bois sur mesure {in_area}, Bali : escaliers suspendus en teck, habillage bois d'escalier béton et garde-corps. Mesurés, fabriqués et posés.",
+      "combo_h1": "Escaliers en bois {in_area}",
+      "combo_intro": "Vous prévoyez un escalier {in_area} ? {brand} réalise escaliers suspendus, habillages d'escaliers en bois et garde-corps pour villas et maisons {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un escalier suspendu {in_area} ?",
+          "a": "Un escalier suspendu {in_area} démarre généralement autour de 2,5 – 5 millions Rp par marche, marches et fixations comprises. L'habillage d'un escalier existant démarre à environ 1,2 million Rp par marche."
+        },
+        {
+          "q": "Combien de temps dure la pose d'un escalier {in_area} ?",
+          "a": "Généralement 2 à 4 jours sur place, après 4 à 7 semaines de fabrication."
+        }
+      ]
+    },
+    "ceilings-panelling": {
+      "slug": "plafond-lambris-bois-bali",
+      "combo_slug": "plafond-lambris-bois",
+      "name": "Plafonds et lambris",
+      "short": "Plafonds en bois, panneaux acoustiques à tasseaux, bardage et murs décoratifs.",
+      "title": "Plafond bois et lambris Bali | Panneaux à tasseaux et bardage",
+      "meta": "Plafonds en bois, lambris, panneaux muraux à tasseaux et bardage à Bali : teck, merbau, bambou et placage pour villas, restaurants et bureaux.",
+      "h1": "Plafonds en bois et lambris à Bali",
+      "lead_time": "3 à 6 semaines",
+      "intro": [
+        "Les plafonds et lambris en bois apportent chaleur, texture et confort acoustique à tout espace. Nous posons des plafonds en lames à rainure et languette ou à tasseaux, des murs décoratifs derrière les lits et les téléviseurs, des panneaux acoustiques à tasseaux pour restaurants et bureaux, ainsi que du bardage extérieur.",
+        "Au choix : teck massif, merbau, bambou, pin ou panneaux plaqués, avec éclairage intégré, trappes de visite invisibles et ventilation adaptée aux tropiques."
+      ],
+      "features": [
+        {
+          "t": "Plafonds en bois",
+          "d": "Plafonds en lames rainurées, à tasseaux ou à caissons."
+        },
+        {
+          "t": "Murs décoratifs",
+          "d": "Murs à tasseaux ou lambrissés derrière les lits, les téléviseurs et les comptoirs d'accueil."
+        },
+        {
+          "t": "Panneaux acoustiques",
+          "d": "Panneaux à tasseaux sur feutre acoustique pour restaurants et studios."
+        },
+        {
+          "t": "Bardage extérieur",
+          "d": "Bardage de façade en bois dur ou en composite."
+        },
+        {
+          "t": "Plafonds en bambou",
+          "d": "Bambou tressé ou fendu pour une touche tropicale naturelle."
+        },
+        {
+          "t": "Éclairage intégré",
+          "d": "Spots LED encastrés, éclairage indirect et trappes de visite."
+        }
+      ],
+      "materials": "Teck, merbau, pin, bambou ou contreplaqué plaqué ; tasseaux en bois traité ; sous-couche en feutre acoustique ; finition huile, vernis ou lasure.",
+      "price": [
+        [
+          "Plafond à tasseaux de bois",
+          "à partir de 600 000 Rp – 1,2 million Rp / m²"
+        ],
+        [
+          "Mur décoratif à tasseaux",
+          "à partir de 1,5 – 3 millions Rp / m²"
+        ],
+        [
+          "Panneaux acoustiques à tasseaux",
+          "à partir de 1,2 – 2 millions Rp / m²"
+        ],
+        [
+          "Plafond en bambou",
+          "à partir de 350 000 – 700 000 Rp / m²"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Un plafond en bois attire-t-il les termites ?",
+          "a": "Nous traitons tout le bois et les tasseaux avec un produit anti-termites et laissons un accès d'inspection. Associés à une barrière anti-termites professionnelle pour le bâtiment, les plafonds en bois sont très durables."
+        },
+        {
+          "q": "Les panneaux muraux améliorent-ils l'acoustique ?",
+          "a": "Oui. Les panneaux à tasseaux sur feutre acoustique réduisent nettement l'écho dans les restaurants, les bureaux et les villas à espaces ouverts."
+        }
+      ],
+      "combo_title": "Plafond bois et lambris {in_area} | Panneaux à tasseaux Bali",
+      "combo_meta": "Plafonds en bois, murs décoratifs à tasseaux et panneaux acoustiques {in_area}, Bali. Teck, merbau et bambou, posés par Carpenter Bali.",
+      "combo_h1": "Plafonds et lambris {in_area}",
+      "combo_intro": "Envie de chaleur et de texture dans votre intérieur {in_area} ? {brand} pose plafonds en bois, murs décoratifs à tasseaux et panneaux acoustiques dans les villas, restaurants et bureaux {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un plafond en bois {in_area} ?",
+          "a": "Les plafonds à tasseaux de bois {in_area} démarrent autour de 600 000 Rp – 1,2 million Rp le m², et les plafonds en bambou à environ 350 000 Rp le m²."
+        },
+        {
+          "q": "Combien de temps dure la pose de lambris {in_area} ?",
+          "a": "La plupart des pièces sont terminées en 2 à 5 jours sur place après fabrication."
+        }
+      ]
+    },
+    "beds": {
+      "slug": "lit-tete-de-lit-sur-mesure-bali",
+      "combo_slug": "lit-sur-mesure",
+      "name": "Lits et têtes de lit",
+      "short": "Lits sur mesure, têtes de lit, tables de chevet et lits superposés pour villas et maisons familiales.",
+      "title": "Lit sur mesure Bali | Lits en teck, têtes de lit et chambres",
+      "meta": "Lits et têtes de lit sur mesure à Bali : lits en teck massif ou contreplaqué, têtes de lit en rotin ou capitonnées, lits superposés et chevets.",
+      "h1": "Lits et mobilier de chambre sur mesure à Bali",
+      "lead_time": "3 à 6 semaines",
+      "intro": [
+        "Nous fabriquons des lits et du mobilier de chambre qui donnent aux villas des airs d'hôtel de charme : lits plateforme en teck massif, têtes de lit murales avec chevets intégrés et liseuses, têtes de lit en rotin ou capitonnées, et lits superposés gain de place pour les chambres d'enfants.",
+        "Les lits sont fabriqués aux dimensions standard des matelas ou entièrement sur mesure, avec tiroirs de rangement, sommiers relevables et sommiers à lattes qui laissent respirer le matelas malgré l'humidité."
+      ],
+      "features": [
+        {
+          "t": "Lits plateforme",
+          "d": "Lits bas en bois massif avec sommier à lattes ventilé."
+        },
+        {
+          "t": "Têtes de lit murales",
+          "d": "Chevets, prises et liseuses intégrés."
+        },
+        {
+          "t": "Têtes de lit en rotin et capitonnées",
+          "d": "Cannage en rotin naturel ou panneaux en tissu."
+        },
+        {
+          "t": "Lits superposés et lits d'enfant",
+          "d": "Lits superposés et lits mezzanine solides et sûrs, avec rangements."
+        },
+        {
+          "t": "Lits coffres",
+          "d": "Tiroirs et sommiers relevables pour plus de rangement."
+        },
+        {
+          "t": "Chevets et bancs",
+          "d": "Tables de chevet, commodes et bouts de lit assortis."
+        }
+      ],
+      "materials": "Teck de plantation massif, merbau ou contreplaqué plaqué / HPL ; sommiers à lattes pour la circulation de l'air ; rotin naturel ou tissus techniques ; liseuses LED intégrées.",
+      "price": [
+        [
+          "Lit queen/king en teck massif",
+          "à partir de 9 – 20 millions Rp"
+        ],
+        [
+          "Tête de lit murale avec chevets",
+          "à partir de 7 – 18 millions Rp"
+        ],
+        [
+          "Lit superposé",
+          "à partir de 8 – 15 millions Rp"
+        ],
+        [
+          "Table de chevet",
+          "à partir de 1,8 million Rp"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Pouvez-vous fabriquer des lits aux dimensions des matelas européens ou américains ?",
+          "a": "Oui. Nous fabriquons pour toutes les tailles de matelas (indonésiennes, européennes, britanniques, américaines ou australiennes) ou à des dimensions entièrement sur mesure."
+        },
+        {
+          "q": "Pourquoi recommandez-vous les sommiers à lattes ?",
+          "a": "Les sommiers à lattes laissent l'air circuler sous le matelas, ce qui évite moisissures et taches d'humidité dans le climat de Bali."
+        }
+      ],
+      "combo_title": "Lit sur mesure {in_area} | Têtes de lit et chambres Bali",
+      "combo_meta": "Lits, têtes de lit et mobilier de chambre sur mesure {in_area}, Bali : teck massif, rotin ou capitonné, pour toutes les tailles de matelas.",
+      "combo_h1": "Lits et têtes de lit sur mesure {in_area}",
+      "combo_intro": "Vous meublez une villa {in_area} ? {brand} fabrique lits sur mesure, têtes de lit, lits superposés et tables de chevet pour maisons et villas en location {in_area}, pour toutes les tailles de matelas.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un lit en teck sur mesure {in_area} ?",
+          "a": "Les lits queen ou king en teck massif {in_area} démarrent autour de 9 – 20 millions Rp, selon le modèle et la taille."
+        },
+        {
+          "q": "Livrez-vous et montez-vous les lits {in_area} ?",
+          "a": "Oui. La livraison et le montage {in_area} sont inclus dans nos devis."
+        }
+      ]
+    },
+    "shelving-office": {
+      "slug": "bibliotheque-bureau-sur-mesure-bali",
+      "combo_slug": "bureau-bibliotheque",
+      "name": "Bibliothèques et bureaux",
+      "short": "Bibliothèques, étagères intégrées, bureaux et espaces de télétravail.",
+      "title": "Bureau et bibliothèque sur mesure Bali | Étagères intégrées",
+      "meta": "Bureaux intégrés, espaces de télétravail, bibliothèques et étagères sur mesure à Bali pour télétravailleurs et familles. Conçus, fabriqués et posés.",
+      "h1": "Bibliothèques et bureaux sur mesure à Bali",
+      "lead_time": "3 à 5 semaines",
+      "intro": [
+        "Bali accueille des milliers de télétravailleurs, et un vrai poste de travail change tout. Nous aménageons des bureaux ergonomiques avec plan de travail intégré, gestion des câbles, rangements et étagères, glissés dans un coin de chambre ou occupant tout un bureau dédié.",
+        "Nous concevons aussi des bibliothèques, des étagères en niche, des rangements sous escalier, des meubles de buanderie et des placards techniques qui exploitent chaque mètre."
+      ],
+      "features": [
+        {
+          "t": "Bureaux intégrés",
+          "d": "Bureaux ergonomiques avec goulottes et alimentation électrique."
+        },
+        {
+          "t": "Bibliothèques et niches",
+          "d": "Étagères du sol au plafond dans n'importe quelle niche ou sur n'importe quel mur."
+        },
+        {
+          "t": "Rangements sous escalier",
+          "d": "Tiroirs coulissants et placards sous l'escalier."
+        },
+        {
+          "t": "Buanderie et cellier",
+          "d": "Meubles de buanderie, placards à balais et locaux de rangement."
+        },
+        {
+          "t": "Bureaux et coworking",
+          "d": "Postes de travail et rangements pour bureaux et espaces de coworking."
+        },
+        {
+          "t": "Étagères flottantes",
+          "d": "Étagères en bois massif à fixations invisibles."
+        }
+      ],
+      "materials": "Contreplaqué revêtu de HPL, placage ou laque ; étagères en teck ou merbau massif ; gestion des câbles, passe-câbles et LED intégrés ; supports d'étagères invisibles renforcés.",
+      "price": [
+        [
+          "Bureau intégré avec rangements",
+          "à partir de 5 – 12 millions Rp"
+        ],
+        [
+          "Bibliothèque / étagères pleine hauteur",
+          "à partir de 3 – 6 millions Rp / mètre linéaire"
+        ],
+        [
+          "Étagère flottante en bois massif",
+          "à partir de 600 000 Rp / mètre"
+        ],
+        [
+          "Ensemble de meubles de buanderie",
+          "à partir de 6 millions Rp"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Pouvez-vous aménager un bureau dans une chambre ?",
+          "a": "Oui. Nous concevons des combinaisons compactes bureau-placard, des bureaux escamotables et des bureaux en niche qui s'intègrent dans les chambres et chambres d'amis."
+        },
+        {
+          "q": "Incluez-vous la gestion des câbles ?",
+          "a": "Toujours : passe-câbles, goulottes, alimentation dissimulée et emplacement pour box internet et onduleur."
+        }
+      ],
+      "combo_title": "Bureau sur mesure {in_area} | Bibliothèques et étagères",
+      "combo_meta": "Bureaux intégrés, bibliothèques et étagères sur mesure {in_area}, Bali. Idéal pour le télétravail. Fabriqués et posés par Carpenter Bali.",
+      "combo_h1": "Bureaux et bibliothèques {in_area}",
+      "combo_intro": "Vous télétravaillez {in_area} ? {brand} fabrique bureaux intégrés, espaces de travail, bibliothèques et rangements pour villas et appartements {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un bureau intégré {in_area} ?",
+          "a": "Les bureaux intégrés avec rangements {in_area} démarrent autour de 5 – 12 millions Rp selon la taille et la finition."
+        },
+        {
+          "q": "En combien de temps pouvez-vous aménager un bureau {in_area} ?",
+          "a": "Généralement 3 à 5 semaines entre la conception et une pose en une journée {in_area}."
+        }
+      ]
+    },
+    "custom-furniture": {
+      "slug": "meubles-sur-mesure-bali",
+      "combo_slug": "meubles-sur-mesure",
+      "name": "Meubles sur mesure",
+      "short": "Tables à manger, daybeds, structures de canapé, bancs, mobilier d'extérieur et pièces uniques.",
+      "title": "Meubles sur mesure Bali | Tables en teck, daybeds et extérieur",
+      "meta": "Meubles sur mesure à Bali : tables à manger en teck massif, daybeds, bancs, structures de canapé, mobilier d'extérieur pour villas et restaurants.",
+      "h1": "Meubles sur mesure fabriqués à Bali",
+      "lead_time": "3 à 6 semaines",
+      "intro": [
+        "Au-delà de l'agencement, nous fabriquons du mobilier selon vos plans ou les nôtres : tables à manger en teck massif ou en suar, daybeds et bains de soleil d'extérieur, structures de canapé, tables basses, bancs, buffets et consoles.",
+        "Envoyez-nous une photo, un tableau Pinterest ou un dessin : nous vous conseillons le bois et la finition adaptés à un usage intérieur ou extérieur, et fabriquons la pièce à vos dimensions exactes."
+      ],
+      "features": [
+        {
+          "t": "Tables à manger",
+          "d": "Tables en teck massif, en plateau de suar et en bois recyclé."
+        },
+        {
+          "t": "Daybeds et bains de soleil",
+          "d": "Daybeds et transats en teck pour les abords de piscine."
+        },
+        {
+          "t": "Canapés et assises",
+          "d": "Canapés intégrés, banquettes et structures prêtes à recevoir des coussins."
+        },
+        {
+          "t": "Tables basses et d'appoint",
+          "d": "Pièces fortes en bois, terrazzo et acier."
+        },
+        {
+          "t": "Buffets et consoles",
+          "d": "Meubles de rangement à façades en rotin, à lames ou pleines."
+        },
+        {
+          "t": "Reproductions",
+          "d": "Nous pouvons fabriquer à partir d'une photo de référence ou d'un dessin."
+        }
+      ],
+      "materials": "Teck de plantation, suar, teck recyclé, merbau, manguier et rotin ; associations acier et terrazzo ; finition huile, vernis ou marine pour l'extérieur.",
+      "price": [
+        [
+          "Table à manger en teck massif (6–8 places)",
+          "à partir de 12 – 30 millions Rp"
+        ],
+        [
+          "Daybed d'extérieur en teck",
+          "à partir de 12 – 25 millions Rp"
+        ],
+        [
+          "Structure de canapé / banquette intégrée",
+          "à partir de 3 – 6 millions Rp / mètre linéaire"
+        ],
+        [
+          "Table basse",
+          "à partir de 4 millions Rp"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Pouvez-vous reproduire un meuble à partir d'une photo ?",
+          "a": "Oui. Envoyez-nous des photos et des dimensions approximatives : nous préparons un dessin et un devis. Nous adaptons les modèles au climat de Bali et à votre espace."
+        },
+        {
+          "q": "Fabriquez-vous des meubles pour l'export ?",
+          "a": "Nous nous concentrons sur la pose à Bali, mais nous pouvons étudier l'emballage et l'export pour les clients qui partent s'installer à l'étranger."
+        }
+      ],
+      "combo_title": "Meubles sur mesure {in_area} | Tables en teck et daybeds",
+      "combo_meta": "Meubles sur mesure {in_area}, Bali : tables à manger en teck, daybeds, banquettes et mobilier d'extérieur. Fabriqués dans notre atelier et livrés.",
+      "combo_h1": "Meubles sur mesure {in_area}",
+      "combo_intro": "Vous meublez une maison, une villa ou un restaurant {in_area} ? {brand} fabrique tables, daybeds, banquettes et mobilier d'extérieur sur mesure, livrés {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Livrez-vous les meubles sur mesure {in_area} ?",
+          "a": "Oui. La livraison et la mise en place {in_area} sont incluses dans nos devis pour la plupart des pièces."
+        },
+        {
+          "q": "Quel délai pour un meuble sur mesure {in_area} ?",
+          "a": "La plupart des pièces demandent 3 à 6 semaines de fabrication et de finition avant la livraison {in_area}."
+        }
+      ]
+    },
+    "villa-fitout": {
+      "slug": "amenagement-interieur-villa-bali",
+      "combo_slug": "amenagement-villa",
+      "name": "Aménagement intérieur de villa",
+      "short": "Lots de menuiserie complets pour villas neuves et rénovations : cuisines, placards, meubles vasque, portes et plus.",
+      "title": "Aménagement intérieur de villa Bali | Menuiserie complète",
+      "meta": "Aménagement intérieur de villa à Bali : cuisines, placards, meubles vasque, portes, plafonds et mobilier en un lot coordonné pour propriétaires et promoteurs.",
+      "h1": "Aménagement intérieur complet de villa à Bali",
+      "lead_time": "8 à 16 semaines",
+      "intro": [
+        "Construire ou rénover une villa, c'est des dizaines d'éléments de menuiserie, et c'est en coordonnant plusieurs fournisseurs que les projets dérapent. Nous livrons le lot menuiserie complet : cuisine, placards, meubles vasque, portes et huisseries, meubles TV, plafonds, lits et mobilier, conçus pour fonctionner ensemble et posés selon un planning unique.",
+        "Nous travaillons directement pour les propriétaires ou aux côtés d'architectes, d'architectes d'intérieur et d'entreprises générales, de la villa individuelle aux programmes de plusieurs unités, avec un seul chef de projet et un planning clair."
+      ],
+      "features": [
+        {
+          "t": "Un lot coordonné",
+          "d": "Toute la menuiserie conçue, fabriquée et posée par une seule équipe."
+        },
+        {
+          "t": "Offres promoteurs",
+          "d": "Aménagements reproductibles et maîtrisés en coût pour les programmes de plusieurs villas."
+        },
+        {
+          "t": "Plans d'exécution",
+          "d": "Plans détaillés à valider avant fabrication."
+        },
+        {
+          "t": "Planning et coordination",
+          "d": "Nous suivons le calendrier de votre constructeur et l'organisation du chantier."
+        },
+        {
+          "t": "Rénovation et rafraîchissement",
+          "d": "Modernisez une villa ancienne pour améliorer sa rentabilité locative."
+        },
+        {
+          "t": "Lots de mobilier",
+          "d": "Mobilier et décoration pour parfaire l'ensemble."
+        }
+      ],
+      "materials": "Définis selon le projet : caissons en contreplaqué marine, HPL, placage, laque bi-composant, teck massif et bois durs, rotin, plans en pierre et terrazzo, quincaillerie haut de gamme.",
+      "price": [
+        [
+          "Lot menuiserie villa 1–2 chambres",
+          "à partir de 150 – 300 millions Rp"
+        ],
+        [
+          "Lot menuiserie villa 3–4 chambres",
+          "à partir de 300 – 650 millions Rp"
+        ],
+        [
+          "Programmes de plusieurs villas",
+          "sur devis selon le projet"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Pouvez-vous travailler avec mon architecte ou mon architecte d'intérieur ?",
+          "a": "Oui. Nous réalisons souvent des projets selon les prescriptions d'architectes et de designers, et fournissons plans d'exécution, échantillons et prototypes à valider."
+        },
+        {
+          "q": "Proposez-vous des offres pour les promoteurs immobiliers ?",
+          "a": "Oui. Pour les programmes de plusieurs unités, nous standardisons détails et matériaux afin de maîtriser coûts et délais tout en conservant une finition haut de gamme."
+        },
+        {
+          "q": "Pouvez-vous aménager ma villa si je vis à l'étranger ?",
+          "a": "Oui. Beaucoup de nos clients sont à l'étranger. Nous partageons plans, échantillons en photo et vidéo, points d'avancement et visites vidéo à chaque étape."
+        }
+      ],
+      "combo_title": "Aménagement de villa {in_area} | Menuiserie intérieure complète",
+      "combo_meta": "Aménagement intérieur de villa {in_area} : cuisines, placards, meubles vasque, portes et mobilier en un seul lot pour propriétaires et promoteurs.",
+      "combo_h1": "Aménagement intérieur de villa {in_area}",
+      "combo_intro": "Vous construisez ou rénovez une villa {in_area} ? {brand} livre des lots de menuiserie intérieure complets pour propriétaires, investisseurs et promoteurs {in_area}, conçus, fabriqués et posés par une seule équipe selon un planning unique.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte l'aménagement d'une villa {in_area} ?",
+          "a": "Un lot menuiserie complet pour une villa de 1 à 2 chambres {in_area} démarre généralement à 150 – 300 millions Rp, et à 300 millions Rp pour 3 à 4 chambres, selon les finitions et le périmètre."
+        },
+        {
+          "q": "Combien de temps dure l'aménagement complet d'une villa {in_area} ?",
+          "a": "Comptez 8 à 16 semaines après validation des plans, en coordination avec le planning de votre constructeur {in_area}."
+        }
+      ]
+    },
+    "commercial-fitout": {
+      "slug": "agencement-restaurant-cafe-bali",
+      "combo_slug": "agencement-restaurant-cafe",
+      "name": "Agencement de restaurants, cafés et boutiques",
+      "short": "Bars, comptoirs, banquettes, étagères et menuiserie pour restaurants, cafés, boutiques et hôtels.",
+      "title": "Agencement restaurant et café Bali | Bars et comptoirs",
+      "meta": "Agencement à Bali pour restaurants, cafés, bars, beach clubs, boutiques et hôtels : comptoirs de bar, banquettes, étagères et présentoirs sur mesure.",
+      "h1": "Agencement de restaurants, cafés et boutiques à Bali",
+      "lead_time": "4 à 10 semaines",
+      "intro": [
+        "L'hôtellerie-restauration est le premier secteur de Bali, et l'intérieur fait partie intégrante de la marque. Nous réalisons comptoirs de bar et de café, banquettes, étagères d'arrière-bar, pupitres d'accueil, présentoirs de boutique, menuiseries de chambres d'hôtel et banques d'accueil.",
+        "L'agencement commercial doit supporter un usage intensif au quotidien. Nous prescrivons des surfaces très résistantes, une quincaillerie de qualité professionnelle et des finitions faciles à nettoyer, et nous travaillons avec des dates d'ouverture serrées."
+      ],
+      "features": [
+        {
+          "t": "Comptoirs de bar et de café",
+          "d": "Comptoirs robustes avec plan en pierre, terrazzo ou bois."
+        },
+        {
+          "t": "Banquettes et box",
+          "d": "Structures d'assises intégrées prêtes pour la tapisserie."
+        },
+        {
+          "t": "Étagères d'arrière-bar",
+          "d": "Étagères d'exposition avec éclairage intégré."
+        },
+        {
+          "t": "Présentoirs de boutique",
+          "d": "Étagères, tables de présentation et caisses pour boutiques."
+        },
+        {
+          "t": "Menuiserie hôtelière",
+          "d": "Lots par chambre : placards, bureaux, têtes de lit et meubles minibar."
+        },
+        {
+          "t": "Banques d'accueil",
+          "d": "Banques d'accueil remarquables pour hôtels, salles de sport et bureaux."
+        }
+      ],
+      "materials": "Contreplaqué de qualité professionnelle, stratifié compact, HPL, bois dur massif, inox, pierre et terrazzo ; quincaillerie renforcée ; finitions compatibles contact alimentaire et faciles à nettoyer.",
+      "price": [
+        [
+          "Comptoir de bar / café",
+          "à partir de 4 – 9 millions Rp / mètre linéaire"
+        ],
+        [
+          "Structure de banquette",
+          "à partir de 3 – 6 millions Rp / mètre linéaire"
+        ],
+        [
+          "Lot menuiserie de chambre d'hôtel",
+          "sur devis par type de chambre"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Pouvez-vous respecter une date d'ouverture fixe ?",
+          "a": "Oui. Nous convenons d'un planning dès le départ, fabriquons hors site dans notre atelier et posons dans le délai le plus court possible."
+        },
+        {
+          "q": "Travaillez-vous à partir du concept d'un designer ?",
+          "a": "Oui. Nous travaillons régulièrement à partir de concepts d'architectes d'intérieur et développons les plans d'exécution et les échantillons à valider."
+        }
+      ],
+      "combo_title": "Agencement restaurant et café {in_area} | Bali",
+      "combo_meta": "Agencement de restaurant, café, bar et boutique {in_area}, Bali : comptoirs de bar, banquettes, étagères et présentoirs réalisés dans des délais serrés.",
+      "combo_h1": "Agencement de restaurants, cafés et boutiques {in_area}",
+      "combo_intro": "Vous ouvrez un restaurant, un café, un bar ou une boutique {in_area} ? {brand} réalise des agencements commerciaux robustes pour les professionnels de l'hôtellerie, de la restauration et du commerce {in_area}, livrés dans les temps.",
+      "combo_faqs": [
+        {
+          "q": "Combien coûte un comptoir de bar {in_area} ?",
+          "a": "Les comptoirs de bar et de café {in_area} démarrent généralement à 4 – 9 millions Rp par mètre linéaire, selon le plan et la finition."
+        },
+        {
+          "q": "En combien de temps pouvez-vous agencer un café {in_area} ?",
+          "a": "Un petit café peut être terminé en 4 à 6 semaines ; les restaurants et hôtels plus grands en 6 à 10 semaines ou plus."
+        }
+      ]
+    },
+    "repairs": {
+      "slug": "reparation-meubles-bali",
+      "combo_slug": "reparation-meubles",
+      "name": "Réparation et restauration",
+      "short": "Réparation de meubles, réglage de portes et de charnières, rénovation de finitions, dégâts de termites et rénovation de terrasses.",
+      "title": "Réparation de meubles Bali | Menuiserie, restauration, finitions",
+      "meta": "Réparations de menuiserie à Bali : meubles de cuisine gonflés, portes qui frottent, charnières cassées, dégâts de termites, restauration de meubles en teck.",
+      "h1": "Réparation et restauration de meubles à Bali",
+      "lead_time": "1 à 3 semaines",
+      "intro": [
+        "Le climat de Bali est rude pour le bois, et même de bons meubles demandent de l'entretien. Nous réparons les meubles de cuisine gonflés, les portes et tiroirs qui frottent, les charnières et coulisses cassées, le bois attaqué par les termites et les meubles vasque abîmés par l'eau.",
+        "Nous restaurons et rénovons aussi les meubles en teck, réhuilons terrasses et portes, et remettons en état les villas en location entre deux saisons, souvent pour bien moins cher qu'un remplacement."
+      ],
+      "features": [
+        {
+          "t": "Réparation de meubles et de portes",
+          "d": "Remplacement des panneaux gonflés, charnières, coulisses et poignées."
+        },
+        {
+          "t": "Portes et fenêtres qui frottent",
+          "d": "Rabotage, remise en jeu et nouveau scellement des portes qui ne ferment plus."
+        },
+        {
+          "t": "Dégâts de termites",
+          "d": "Dépose et remplacement du bois endommagé après traitement."
+        },
+        {
+          "t": "Restauration du teck",
+          "d": "Ponçage, huilage et rénovation des meubles en teck."
+        },
+        {
+          "t": "Rénovation de terrasse",
+          "d": "Remplacement de lames, ponçage et huilage."
+        },
+        {
+          "t": "Entretien de villa",
+          "d": "Entretien saisonnier de la menuiserie des villas en location."
+        }
+      ],
+      "materials": "Bois et panneaux assortis, quincaillerie inox et à fermeture amortie, huiles marines, finitions polyuréthane et peinture.",
+      "price": [
+        [
+          "Déplacement et diagnostic",
+          "à partir de 300 000 Rp (déduits des travaux)"
+        ],
+        [
+          "Remplacement de charnière / coulisse",
+          "à partir de 150 000 Rp l'unité + pièces"
+        ],
+        [
+          "Rénovation de meubles en teck",
+          "sur devis par pièce"
+        ],
+        [
+          "Visite d'entretien de villa",
+          "sur devis par villa"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Peut-on réparer des meubles de cuisine gonflés ?",
+          "a": "Souvent, oui. Si le caisson est sain, nous remplaçons les portes, panneaux ou plinthes gonflés par des matériaux résistants à l'humidité. Si le caisson est en aggloméré et a cédé, le remplacement en contreplaqué est généralement la meilleure solution à long terme."
+        },
+        {
+          "q": "Proposez-vous des contrats d'entretien pour les villas en location ?",
+          "a": "Oui. Nous proposons des visites programmées pour régler les portes, remplacer la quincaillerie usée, réhuiler le bois et réparer les dégâts causés par les locataires."
+        }
+      ],
+      "combo_title": "Réparation de meubles {in_area} | Menuiserie et restauration",
+      "combo_meta": "Réparations de menuiserie et de meubles {in_area}, Bali : meubles gonflés, portes qui frottent, charnières, termites, rénovation du teck, entretien de villa.",
+      "combo_h1": "Réparation et restauration de meubles {in_area}",
+      "combo_intro": "Besoin d'un menuisier pour des réparations {in_area} ? {brand} répare meubles gonflés, portes qui frottent, charnières cassées et dégâts de termites, et restaure les meubles en teck des maisons et villas {in_area}.",
+      "combo_faqs": [
+        {
+          "q": "Sous quel délai un menuisier peut-il venir pour une réparation {in_area} ?",
+          "a": "Nous pouvons généralement programmer une visite de diagnostic {in_area} sous quelques jours ouvrés, et plus vite pour les urgences lorsque l'équipe est à proximité."
+        },
+        {
+          "q": "Combien coûtent les réparations de menuiserie {in_area} ?",
+          "a": "Une visite de diagnostic {in_area} démarre autour de 300 000 Rp, déduits des travaux si vous donnez suite. Les réparations sont ensuite chiffrées par élément."
+        }
+      ]
+    }
+  },
+  "areas": {
+    "canggu": {
+      "name": "Canggu",
+      "slug": "menuisier-canggu",
+      "in_area": "à Canggu",
+      "title": "Menuisier à Canggu | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Canggu, Bali : cuisine sur mesure, placards, dressing, meuble vasque, terrasse bois et aménagement de villa. Visite et devis gratuits.",
+      "h1": "Menuisier à Canggu",
+      "intro": "Canggu est le quartier d'expatriés et de digital nomads le plus animé de Bali, rempli de villas modernes, de biens locatifs, de cafés et d'espaces de coworking. Nous réalisons cuisines sur mesure, placards, meubles vasque, terrasses et aménagements complets de villas dans tout Canggu, de Batu Bolong et Echo Beach à Padang Linjong et Tumbak Bayuh.",
+      "homes": "À Canggu, la plupart des logements sont des villas modernes de deux à quatre chambres, souvent destinées à la location saisonnière, ainsi qu'un nombre croissant de maisons de ville et d'appartements. Les propriétaires veulent une menuiserie belle et robuste, qui impressionne les voyageurs et résiste à un usage intensif.",
+      "climate": "Proche de l'océan et entouré de rizières, Canggu cumule air salin et forte humidité. Nous utilisons du contreplaqué marine, une quincaillerie en inox ou traitée et des placards bien ventilés pour éviter gonflement, rouille et moisissures.",
+      "style": "Tropical contemporain, japandi, blancs d'inspiration scandinave et tons chêne naturel, terrazzo et rotin sont les styles les plus demandés à Canggu, souvent associés à des touches de teck recyclé.",
+      "faqs": [
+        {
+          "q": "Intervenez-vous dans tous les quartiers de Canggu ?",
+          "a": "Oui : Batu Bolong, Echo Beach, Berawa, Padang Linjong, Tumbak Bayuh, Babakan, Nelayan et les zones de rizières alentour."
+        },
+        {
+          "q": "Pouvez-vous travailler entre les réservations des villas à Canggu ?",
+          "a": "Oui. Nous fabriquons en atelier et programmons la pose entre deux réservations pour limiter l'indisponibilité."
+        }
+      ]
+    },
+    "pererenan": {
+      "name": "Pererenan",
+      "slug": "menuisier-pererenan",
+      "in_area": "à Pererenan",
+      "title": "Menuisier à Pererenan | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Pererenan, Bali : cuisine sur mesure, placards, dressing, meuble vasque et aménagement de villas neuves ou existantes. Devis gratuit.",
+      "h1": "Menuisier à Pererenan",
+      "intro": "Pererenan est le voisin plus calme et en plein essor de Canggu, avec de nouvelles villas de luxe, des programmes de standing et des maisons familiales à l'année. Nous réalisons cuisines, placards, meubles vasque et menuiseries intérieures complètes pour propriétaires et promoteurs à Pererenan et Seseh.",
+      "homes": "Pererenan compte de nombreuses villas neuves et programmes sur plan, idéaux pour un lot menuiserie coordonné, prévu pendant la construction plutôt qu'après.",
+      "climate": "Entre la plage d'un côté et les rizières de l'autre, les villas de Pererenan subissent air salin, forte humidité et pluies abondantes en saison humide. Nous prescrivons en standard des matériaux de qualité marine scellés et du bois traité anti-termites.",
+      "style": "À Pererenan, les clients choisissent souvent un minimalisme chaleureux : placages de bois naturel, enduits à la chaux et béton ciré, courbes douces, détails en rotin et éclairage intégré.",
+      "faqs": [
+        {
+          "q": "Travaillez-vous sur les nouveaux programmes de villas à Pererenan ?",
+          "a": "Oui. Nous travaillons avec les promoteurs et constructeurs de Pererenan pour livrer des lots menuiserie complets dans le respect du planning."
+        },
+        {
+          "q": "Intervenez-vous aussi à Seseh et Cemagi ?",
+          "a": "Oui, nous travaillons régulièrement à Seseh, Cemagi et Munggu, juste après Pererenan."
+        }
+      ]
+    },
+    "berawa": {
+      "name": "Berawa",
+      "slug": "menuisier-berawa",
+      "in_area": "à Berawa",
+      "title": "Menuisier à Berawa | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Berawa, Canggu : cuisine sur mesure, placards et dressings, meubles vasque, meubles TV et aménagement de villa. Visite gratuite.",
+      "h1": "Menuisier à Berawa",
+      "intro": "Berawa est l'un des quartiers familiaux les plus établis de Canggu, proche des écoles internationales, des beach clubs et des salles de sport. Nous réalisons cuisines sur mesure, placards, chambres d'enfants, bureaux et terrasses en bois pour les villas et maisons familiales de Berawa.",
+      "homes": "Berawa mêle villas familiales, locations longue durée et résidences fermées plus récentes. Les familles y ont souvent besoin de rangements supplémentaires : placards, lits superposés, bureaux d'étude et meubles de buanderie.",
+      "climate": "Berawa est tout près de la plage : l'air salin et l'humidité y sont constants. Nous utilisons partout du contreplaqué marine, des chants scellés et une quincaillerie résistante à la corrosion.",
+      "style": "À Berawa, on apprécie les intérieurs lumineux et familiaux, avec des meubles blancs ou chêne clair, des touches de rotin et des finitions HPL résistantes, à côté de villas en teck plus luxueuses près de la plage.",
+      "faqs": [
+        {
+          "q": "Réalisez-vous des chambres d'enfants et des lits superposés à Berawa ?",
+          "a": "Oui. Nous concevons des lits superposés solides et sûrs, des bureaux d'étude et des rangements pour les familles de Berawa."
+        },
+        {
+          "q": "Pouvez-vous intervenir dans les résidences fermées de Berawa ?",
+          "a": "Oui. Nous respectons le règlement de la résidence concernant les horaires de travail, l'accès et les livraisons."
+        }
+      ]
+    },
+    "seminyak": {
+      "name": "Seminyak",
+      "slug": "menuisier-seminyak",
+      "in_area": "à Seminyak",
+      "title": "Menuisier à Seminyak | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Seminyak, Bali : cuisines haut de gamme, placards, dressings, meubles vasque et agencement de restaurants. Conseil et devis gratuits.",
+      "h1": "Menuisier à Seminyak",
+      "intro": "Seminyak est le quartier chic historique de Bali, avec ses villas de luxe, ses hôtels de charme, ses boutiques de créateurs et certains des meilleurs restaurants de l'île. Nous réalisons cuisines haut de gamme, dressings, meubles vasque et agencements commerciaux à Seminyak et Petitenget.",
+      "homes": "À Seminyak, on trouve aussi bien des villas de luxe établies à rénover que des villas compactes avec piscine privée exploitées en location saisonnière, ainsi qu'une forte densité de restaurants, bars et boutiques.",
+      "climate": "En bord de plage, Seminyak est exposé à un air chargé de sel et à une forte humidité. La corrosion de la quincaillerie et le gonflement des panneaux bas de gamme sont des problèmes fréquents que nous réparons, et que nous évitons grâce aux bons matériaux.",
+      "style": "Seminyak privilégie le luxe raffiné : teck foncé et laiton, terrazzo et marbre, dressings façon hôtel de charme, portes d'exception et intérieurs commerciaux soignés.",
+      "faqs": [
+        {
+          "q": "Rénovez-vous des villas anciennes à Seminyak ?",
+          "a": "Oui. Nous remplaçons souvent cuisines, placards et portes fatigués dans les villas anciennes de Seminyak pour les rendre plus attractives à la location."
+        },
+        {
+          "q": "Réalisez-vous l'agencement de restaurants et de boutiques à Seminyak ?",
+          "a": "Oui. Nous réalisons comptoirs de bar, banquettes, étagères et présentoirs pour les professionnels de la restauration et du commerce à Seminyak et Petitenget."
+        }
+      ]
+    },
+    "kerobokan": {
+      "name": "Kerobokan",
+      "slug": "menuisier-kerobokan",
+      "in_area": "à Kerobokan",
+      "title": "Menuisier à Kerobokan | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Kerobokan, Bali : cuisine sur mesure, placards, meubles vasque, portes et aménagement de villa pour résidences et locations. Visite gratuite.",
+      "h1": "Menuisier à Kerobokan",
+      "intro": "Situé entre Seminyak et Canggu, Kerobokan attire les expatriés installés à long terme et les familles en quête d'espace et de bon rapport qualité-prix. Nous réalisons cuisines sur mesure, placards, portes, meubles vasque et mobilier pour les maisons et villas de tout Kerobokan.",
+      "homes": "Kerobokan offre de plus grands terrains, des maisons familiales, des villas en location longue durée et de plus en plus de maisons anciennes rénovées : idéal pour des améliorations de menuiserie qui apportent une vraie valeur.",
+      "climate": "À l'intérieur des terres, Kerobokan est un peu moins exposé au sel que la côte mais reste très humide, avec des inondations ponctuelles en saison des pluies. Plinthes surélevées et panneaux résistants à l'humidité y sont indispensables.",
+      "style": "Les maisons de Kerobokan associent souvent teck balinais classique et détails sculptés à des cuisines modernes et des rangements familiaux pratiques.",
+      "faqs": [
+        {
+          "q": "Rénovez-vous des maisons en location longue durée à Kerobokan ?",
+          "a": "Oui. Nous remplaçons cuisines, placards et portes dans les locations longue durée pour augmenter leur valeur et réduire l'entretien."
+        },
+        {
+          "q": "Intervenez-vous à Kerobokan Kelod et Kaja ?",
+          "a": "Oui, dans tout Kerobokan, y compris Kerobokan Kelod, Kerobokan Kaja et Banjar Taman."
+        }
+      ]
+    },
+    "umalas": {
+      "name": "Umalas",
+      "slug": "menuisier-umalas",
+      "in_area": "à Umalas",
+      "title": "Menuisier à Umalas | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Umalas, Bali : cuisine sur mesure, dressings, placards encastrés et aménagement complet de villas familiales. Devis gratuit.",
+      "h1": "Menuisier à Umalas",
+      "intro": "Umalas est un quartier résidentiel verdoyant et paisible entre Kerobokan et Canggu, apprécié des familles et des expatriés de longue date pour ses grandes villas et ses vues sur les rizières. Nous réalisons cuisines, dressings, bureaux et aménagements complets de villas dans tout Umalas.",
+      "homes": "Umalas est connu pour ses villas familiales spacieuses avec grands jardins, souvent occupées par leurs propriétaires sur le long terme : idéal pour investir dans une menuiserie de qualité et durable.",
+      "climate": "Entourées de rizières et de jardins, les villas d'Umalas connaissent une forte humidité et beaucoup d'insectes. Nous utilisons partout des matériaux traités anti-termites et des conceptions ventilées.",
+      "style": "Les familles d'Umalas aiment les intérieurs chaleureux et naturels : tons teck et chêne, grandes cuisines avec îlot, dressings et espaces de vie ouverts entre intérieur et extérieur.",
+      "faqs": [
+        {
+          "q": "Réalisez-vous de grandes cuisines familiales à Umalas ?",
+          "a": "Oui. De nombreux projets à Umalas comprennent de grandes cuisines avec îlot, cellier et cuisine d'extérieur avec barbecue."
+        },
+        {
+          "q": "Pouvez-vous aménager entièrement une villa à Umalas ?",
+          "a": "Oui, nous livrons des lots menuiserie complets pour les constructions neuves et les rénovations à Umalas."
+        }
+      ]
+    },
+    "kuta": {
+      "name": "Kuta",
+      "slug": "menuisier-kuta",
+      "in_area": "à Kuta",
+      "title": "Menuisier à Kuta | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Kuta, Bali : cuisine sur mesure, placards, meubles vasque, agencement d'hôtels et de restaurants, réparations. Visite et devis gratuits.",
+      "h1": "Menuisier à Kuta",
+      "intro": "Kuta est l'une des zones les plus touristiques de Bali, avec hôtels, guesthouses, appartements, restaurants et boutiques à deux pas de l'aéroport. Nous réalisons cuisines, placards, meubles vasque et agencements commerciaux robustes, et assurons les réparations dans tout Kuta et Tuban.",
+      "homes": "Kuta compte beaucoup d'appartements, de guesthouses, de petits hôtels et de locaux commerciaux, où la menuiserie doit résister à un usage quotidien intensif.",
+      "climate": "En bord de plage, l'air de Kuta est salin et humide. Le HPL résistant, le stratifié compact et la quincaillerie inox gardent la menuiserie impeccable malgré un usage constant.",
+      "style": "À Kuta, on privilégie des conceptions pratiques, robustes et faciles à entretenir, ainsi que des ambiances tropicales modernes pour les hôtels et restaurants.",
+      "faqs": [
+        {
+          "q": "Réalisez-vous la menuiserie d'hôtels et de guesthouses à Kuta ?",
+          "a": "Oui. Nous fabriquons des lots par chambre (placards, bureaux, têtes de lit et meubles vasque) pour les hôtels et guesthouses de Kuta."
+        },
+        {
+          "q": "Intervenez-vous à Tuban, près de l'aéroport ?",
+          "a": "Oui, nous couvrons Kuta, Tuban et les environs de l'aéroport."
+        }
+      ]
+    },
+    "legian": {
+      "name": "Legian",
+      "slug": "menuisier-legian",
+      "in_area": "à Legian",
+      "title": "Menuisier à Legian | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Legian, Bali : cuisine sur mesure, placards, meubles vasque, menuiserie de villas et d'hôtels, réparation de meubles. Visite gratuite.",
+      "h1": "Menuisier à Legian",
+      "intro": "Legian, entre Kuta et Seminyak, mêle villas de vacances, appartements, hôtels et résidents à l'année. Nous réalisons cuisines, placards, meubles vasque et menuiseries hôtelières, et prenons en charge rénovations et réparations dans tout Legian.",
+      "homes": "Legian compte de nombreuses villas et hôtels anciens prêts à être rénovés, ainsi que des appartements compacts où des rangements intégrés astucieux font toute la différence.",
+      "climate": "Près de la plage, les biens de Legian sont exposés à l'air salin et à l'humidité. Nous remplaçons les menuiseries en aggloméré défaillantes par des matériaux de qualité marine conçus pour durer.",
+      "style": "À Legian, les conceptions modernes et épurées avec touches de bois sont les plus prisées, les propriétaires rafraîchissant leurs biens anciens pour les voyageurs d'aujourd'hui.",
+      "faqs": [
+        {
+          "q": "Pouvez-vous rénover une villa ancienne à Legian ?",
+          "a": "Oui. Nous remplaçons cuisines, placards, meubles vasque et portes pour remettre au goût du jour les villas anciennes de Legian."
+        },
+        {
+          "q": "Réalisez-vous des rangements gain de place pour les appartements à Legian ?",
+          "a": "Oui. Nous concevons placards encastrés, lits avec rangements et cuisines compactes pour appartements."
+        }
+      ]
+    },
+    "jimbaran": {
+      "name": "Jimbaran",
+      "slug": "menuisier-jimbaran",
+      "in_area": "à Jimbaran",
+      "title": "Menuisier à Jimbaran | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Jimbaran, Bali : cuisine sur mesure, placards, dressings, terrasse bois et aménagement de villas et de resorts. Devis gratuit.",
+      "h1": "Menuisier à Jimbaran",
+      "intro": "Jimbaran est une baie paisible avec resorts de luxe, villas à flanc de colline et maisons familiales, proche de l'aéroport et des écoles internationales. Nous réalisons cuisines sur mesure, placards, terrasses et aménagements complets de villas dans tout Jimbaran.",
+      "homes": "Jimbaran associe villas à flanc de colline façon resort avec vue sur l'océan, résidences fermées et maisons familiales à l'année.",
+      "climate": "Jimbaran est plus sec que la côte ouest, mais exposé aux brises marines et à un soleil intense sur les hauteurs. Nous utilisons des finitions extérieures stables aux UV et une quincaillerie résistante à la corrosion.",
+      "style": "Les intérieurs d'inspiration resort, avec teck, pierre naturelle et cuisines ouvertes, sont prisés à Jimbaran, tout comme les grands decks de piscine et les espaces de vie extérieurs.",
+      "faqs": [
+        {
+          "q": "Construisez-vous des decks de piscine à Jimbaran ?",
+          "a": "Oui. Nous réalisons des decks de piscine en bois dur et en composite pour les villas à flanc de colline et en bord de plage à Jimbaran."
+        },
+        {
+          "q": "Intervenez-vous dans les résidences fermées de Jimbaran ?",
+          "a": "Oui, nous travaillons dans les résidences de tout Jimbaran en respectant leurs règles d'accès."
+        }
+      ]
+    },
+    "uluwatu": {
+      "name": "Uluwatu",
+      "slug": "menuisier-uluwatu",
+      "in_area": "à Uluwatu",
+      "title": "Menuisier à Uluwatu | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Uluwatu, Bali : cuisine sur mesure, placards, terrasse bois, portes et aménagement de villas sur falaise à Bingin, Padang Padang et Pecatu.",
+      "h1": "Menuisier à Uluwatu",
+      "intro": "Uluwatu, sur la péninsule du Bukit, est célèbre pour ses falaises, ses spots de surf et ses villas de luxe à flanc de falaise. Nous réalisons cuisines sur mesure, placards, terrasses, portes et aménagements complets de villas à Uluwatu, Bingin, Padang Padang, Pecatu et Labuan Sait.",
+      "homes": "Le Bukit connaît un boom de villas modernes, de surf camps et d'hôtels de charme, souvent conçus avec des pièces de vie ouvertes, de grandes baies vitrées et de vastes terrasses en bois.",
+      "climate": "Uluwatu est plus sec que le reste du sud de Bali, mais exposé au soleil intense, au vent et aux embruns sur les falaises. La menuiserie extérieure exige des finitions anti-UV, des fixations inox et des bois choisis pour leur résistance aux intempéries.",
+      "style": "Le style d'Uluwatu est côtier et brut : bois naturel, pierre calcaire, béton, rotin et vie audacieusement ouverte sur l'extérieur avec vue sur l'océan.",
+      "faqs": [
+        {
+          "q": "Intervenez-vous à Bingin, Padang Padang et Pecatu ?",
+          "a": "Oui, nous couvrons toute la zone d'Uluwatu, y compris Bingin, Padang Padang, Pecatu, Suluban, Labuan Sait et Dreamland."
+        },
+        {
+          "q": "Quels matériaux recommandez-vous pour les villas en bord de falaise ?",
+          "a": "Pour l'extérieur, nous recommandons l'ulin, le merbau ou le teck avec huile anti-UV, des fixations inox et une terrasse composite dans les endroits très exposés."
+        }
+      ]
+    },
+    "ungasan": {
+      "name": "Ungasan",
+      "slug": "menuisier-ungasan",
+      "in_area": "à Ungasan",
+      "title": "Menuisier à Ungasan | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Ungasan, Bali : cuisine sur mesure, placards, dressings, terrasse bois et aménagement de villas de luxe sur le Bukit. Devis gratuit.",
+      "h1": "Menuisier à Ungasan",
+      "intro": "Ungasan, à la pointe sud du Bukit, accueille villas de luxe en haut des falaises, resorts et maisons familiales aux vues panoramiques sur l'océan. Nous réalisons cuisines, dressings, terrasses et intérieurs de villas complets dans tout Ungasan, Kutuh et Melasti.",
+      "homes": "Les villas d'Ungasan sont généralement de grandes propriétés haut de gamme, souvent avec plusieurs chambres, piscine à débordement et vastes terrasses, où une menuiserie de qualité est attendue.",
+      "climate": "Ungasan est sec, ensoleillé et venteux, avec un air marin salin. Nous misons sur des finitions extérieures stables aux UV, une menuiserie intérieure scellée et une quincaillerie en inox ou en laiton.",
+      "style": "Luxe tropical haut de gamme : teck et pierre, dressings spacieux, portes d'entrée d'exception et grandes terrasses extérieures.",
+      "faqs": [
+        {
+          "q": "Réalisez-vous des dressings de luxe à Ungasan ?",
+          "a": "Oui. Beaucoup de nos projets à Ungasan comprennent des dressings conçus en 3D."
+        },
+        {
+          "q": "Intervenez-vous à Kutuh et Melasti ?",
+          "a": "Oui, nous travaillons dans tout Ungasan, Kutuh, Melasti et Sawangan."
+        }
+      ]
+    },
+    "nusa-dua": {
+      "name": "Nusa Dua",
+      "slug": "menuisier-nusa-dua",
+      "in_area": "à Nusa Dua",
+      "title": "Menuisier à Nusa Dua | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Nusa Dua, Bali : cuisine sur mesure, placards, meubles vasque, menuiserie hôtelière et aménagement de villa. Visite et devis gratuits.",
+      "h1": "Menuisier à Nusa Dua",
+      "intro": "Nusa Dua est l'enclave balnéaire soignée de Bali, avec hôtels cinq étoiles, golf, maisons familiales et résidences à proximité, à Benoa et Sawangan. Nous réalisons cuisines, placards, meubles vasque, menuiseries hôtelières et aménagements de villas dans tout le secteur.",
+      "homes": "Nusa Dua associe complexes hôteliers, quartiers résidentiels calmes et villas familiales appréciées des expatriés installés à long terme.",
+      "climate": "Côtier et ensoleillé, Nusa Dua exige une quincaillerie résistante à la corrosion et des finitions stables aux UV, surtout pour la menuiserie extérieure.",
+      "style": "Des intérieurs élégants façon resort, avec bois naturel, pierre et lignes épurées, caractérisent les maisons et hôtels de Nusa Dua.",
+      "faqs": [
+        {
+          "q": "Travaillez-vous pour des hôtels à Nusa Dua ?",
+          "a": "Oui. Nous fournissons menuiseries de chambres, banques d'accueil et mobilier d'extérieur pour les projets hôteliers de Nusa Dua."
+        },
+        {
+          "q": "Intervenez-vous à Tanjung Benoa et Sawangan ?",
+          "a": "Oui, nous travaillons à Nusa Dua, Tanjung Benoa, Bualu et Sawangan."
+        }
+      ]
+    },
+    "sanur": {
+      "name": "Sanur",
+      "slug": "menuisier-sanur",
+      "in_area": "à Sanur",
+      "title": "Menuisier à Sanur | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Sanur, Bali : cuisine sur mesure, placards, meubles vasque, portes et réparations pour familles, retraités et villas. Visite gratuite.",
+      "h1": "Menuisier à Sanur",
+      "intro": "Sanur est une station balnéaire calme et familiale, avec une communauté d'expatriés établie de longue date, familles et retraités, proche des écoles internationales et des hôpitaux. Nous réalisons cuisines, placards, meubles vasque, portes et mobilier, et assurons les réparations dans tout Sanur.",
+      "homes": "Sanur compte de nombreuses maisons familiales à l'année, des villas anciennes à l'architecture balinaise classique et des résidences récentes : des logements où les propriétaires privilégient durabilité et confort.",
+      "climate": "Abrité sur la côte est, Sanur est humide et salin près de la plage. Nous utilisons des panneaux résistants à l'humidité, des chants scellés et une quincaillerie résistante à la corrosion.",
+      "style": "Les intérieurs de Sanur conjuguent souvent teck balinais classique et sculptures avec des cuisines et rangements modernes, confortables et pratiques.",
+      "faqs": [
+        {
+          "q": "Rénovez-vous des maisons anciennes à Sanur ?",
+          "a": "Oui. Nous rafraîchissons cuisines, placards et portes dans les maisons anciennes de Sanur tout en préservant leur caractère."
+        },
+        {
+          "q": "Pouvez-vous concevoir des cuisines et rangements accessibles ?",
+          "a": "Oui. Nous concevons à des hauteurs confortables, avec rangements coulissants et poignées faciles à saisir, idéal pour les retraités."
+        }
+      ]
+    },
+    "ubud": {
+      "name": "Ubud",
+      "slug": "menuisier-ubud",
+      "in_area": "à Ubud",
+      "title": "Menuisier à Ubud | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Ubud, Bali : cuisine sur mesure, placards, meubles en teck, portes et aménagement de villa pensés pour l'humidité de la jungle. Devis gratuit.",
+      "h1": "Menuisier à Ubud",
+      "intro": "Ubud est le cœur culturel et bien-être de Bali, entouré de jungle, de rivières et de rizières en terrasses. Nous réalisons cuisines sur mesure, placards, portes en teck, mobilier et intérieurs de villas complets à Ubud, Penestanan, Sayan, Mas et Tegallalang.",
+      "homes": "À Ubud, les logements vont des villas dans la jungle et éco-retraites aux maisons familiales, centres de yoga et hôtels de charme, souvent avec des conceptions naturelles et ouvertes.",
+      "climate": "Ubud est plus frais mais bien plus pluvieux et humide que la côte, avec une humidité de jungle qui favorise moisissures et termites. Ventilation, traitement anti-termites et bois entièrement scellé y sont indispensables.",
+      "style": "Naturel et artisanal : teck massif, bambou, rotin, bois recyclé, détails sculptés et finitions terreuses qui se fondent dans la jungle.",
+      "faqs": [
+        {
+          "q": "Comment gérez-vous la forte humidité d'Ubud ?",
+          "a": "Nous utilisons du bois bien sec et des panneaux de qualité marine, scellons toutes les faces, ventilons placards et meubles, et traitons tout contre les termites."
+        },
+        {
+          "q": "Intervenez-vous dans les villages autour d'Ubud ?",
+          "a": "Oui : Penestanan, Sayan, Kedewatan, Mas, Peliatan, Lodtunduh, Tegallalang et Keliki."
+        }
+      ]
+    },
+    "tabanan": {
+      "name": "Tabanan",
+      "slug": "menuisier-tabanan",
+      "in_area": "à Tabanan",
+      "title": "Menuisier à Tabanan | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Tabanan, Bali : cuisine sur mesure, placards, portes, terrasse bois et aménagement de villa à Kedungu, Nyanyi, Tanah Lot et Kaba-Kaba.",
+      "h1": "Menuisier à Tabanan",
+      "intro": "Le littoral de Tabanan (Kedungu, Nyanyi, Tanah Lot et Kaba-Kaba) est la nouvelle frontière de la construction de villas à l'ouest de Canggu. Nous réalisons cuisines, placards, portes, terrasses et lots menuiserie complets pour les villas neuves de tout Tabanan.",
+      "homes": "Tabanan est dominé par les villas neuves, les éco-retraites et les programmes entourés de rizières : idéal pour une menuiserie prévue pendant la construction.",
+      "climate": "Les rizières alentour et les brises côtières rendent Tabanan très humide. Nous prescrivons en standard du bois traité anti-termites, du contreplaqué marine et des conceptions ventilées.",
+      "style": "Des intérieurs naturels aux tons terreux, avec bois, rotin, pierre et grandes ouvertures sur les rizières, caractérisent les nouvelles villas de Tabanan.",
+      "faqs": [
+        {
+          "q": "Intervenez-vous à Kedungu et Nyanyi ?",
+          "a": "Oui, nous travaillons régulièrement à Kedungu, Nyanyi, Tanah Lot, Kaba-Kaba, Cepaka et Buwit."
+        },
+        {
+          "q": "Pouvez-vous fournir la menuiserie d'une villa sur plan à Tabanan ?",
+          "a": "Oui. Nous travaillons avec les constructeurs pour prévoir la menuiserie pendant la construction, pour une finition nette et intégrée."
+        }
+      ]
+    },
+    "denpasar": {
+      "name": "Denpasar",
+      "slug": "menuisier-denpasar",
+      "in_area": "à Denpasar",
+      "title": "Menuisier à Denpasar | Cuisine, placards et dressing sur mesure",
+      "meta": "Menuisier à Denpasar, Bali : cuisines équipées, placards, portes, agencement de bureaux et de boutiques, réparation de meubles. Visite et devis gratuits.",
+      "h1": "Menuisier à Denpasar",
+      "intro": "Denpasar est la capitale et le centre commercial de Bali, avec maisons familiales, bureaux, boutiques et cliniques. Nous réalisons cuisines équipées, placards, portes, mobilier de bureau et agencements de boutiques, et proposons des réparations dans tout Denpasar, y compris Renon et Sesetan.",
+      "homes": "Denpasar mêle maisons familiales, compartiments commerciaux, bureaux et cliniques : des projets où comptent une menuiserie pratique et robuste et un bon rapport qualité-prix.",
+      "climate": "En ville, Denpasar est chaud et humide. Des panneaux résistants à l'humidité et une bonne ventilation gardent meubles et placards en bon état.",
+      "style": "À Denpasar, les demandes portent surtout sur des conceptions modernes et épurées, des rangements pratiques et des intérieurs professionnels pour bureaux et commerces.",
+      "faqs": [
+        {
+          "q": "Réalisez-vous l'agencement de bureaux et de boutiques à Denpasar ?",
+          "a": "Oui. Nous fabriquons banques d'accueil, bureaux, rangements et présentoirs pour les entreprises de Denpasar."
+        },
+        {
+          "q": "Intervenez-vous à Renon et Sesetan ?",
+          "a": "Oui, nous travaillons dans tout Denpasar, y compris Renon, Sesetan, Panjer, Sidakarya et Pemogan."
+        }
+      ]
+    }
+  },
+  "guides": {
+    "kitchen-cost": {
+      "slug": "prix-cuisine-sur-mesure-bali",
+      "title": "Prix d'une cuisine sur mesure à Bali : guide 2026",
+      "meta": "Guide 2026 du prix d'une cuisine sur mesure à Bali : coût au mètre linéaire en HPL, laque ou teck, plans de travail, quincaillerie, ce qui fait varier le devis.",
+      "h1": "Combien coûte une cuisine sur mesure à Bali ?",
+      "intro": "Les prix des cuisines à Bali varient énormément, de la cuisine équipée bon marché en aggloméré qui se désagrège en un an à la cuisine de luxe en teck qui dure des décennies. Ce guide explique comment les cuisines sont chiffrées à Bali, ce qui fait varier le coût et comment comparer correctement les devis.",
+      "sections": [
+        {
+          "h": "Un prix au mètre linéaire",
+          "p": [
+            "La plupart des ateliers de Bali chiffrent les cuisines au mètre linéaire (en indonésien : per meter lari), c'est-à-dire la longueur de meubles mesurée le long du mur. Le prix au mètre comprend généralement les meubles bas et les meubles hauts au-dessus. Colonnes, îlots, plans de travail, électroménager et éviers sont normalement chiffrés à part.",
+            "Pour comparer des devis, vérifiez toujours si le prix au mètre inclut les meubles hauts, des intérieurs dans la même finition, des chants sur toutes les arêtes, la marque de la quincaillerie et la pose."
+          ]
+        },
+        {
+          "h": "Fourchettes de prix 2026",
+          "p": [
+            "Caissons en contreplaqué et façades HPL : à partir d'environ 3,5 – 5 millions Rp par mètre linéaire. C'est l'option la plus résistante et au meilleur rapport qualité-prix pour la plupart des villas et des locations.",
+            "Façades en laque bi-composant : à partir d'environ 4,5 – 7 millions Rp par mètre, pour un rendu moderne sans joint dans la couleur de votre choix.",
+            "Façades en teck massif ou en placage teck : à partir d'environ 6 – 14 millions Rp par mètre, selon que les façades sont en placage ou en bois massif.",
+            "Un îlot de cuisine démarre à environ 15 millions Rp, une cuisine d'extérieur à environ 20 millions Rp. Les plans de travail en pierre ajoutent généralement 2,5 – 8 millions Rp par mètre selon le matériau."
+          ]
+        },
+        {
+          "h": "Ce qui fait monter (ou baisser) le prix",
+          "p": [
+            "Matériau des caissons : le contreplaqué marine coûte plus cher que l'aggloméré ou le MDF, mais il est indispensable face à l'humidité de Bali.",
+            "Finition : le HPL est le plus économique ; la laque, le placage et le bois massif coûtent de plus en plus cher.",
+            "Quincaillerie : charnières amorties, coulisses à sortie totale, plateaux d'angle tournants et systèmes relevables de marques reconnues augmentent le coût, mais transforment l'usage au quotidien.",
+            "Complexité : panneaux cintrés, poignées intégrées, façades vitrées et nombreux tiroirs demandent plus de temps en atelier."
+          ]
+        },
+        {
+          "h": "Où économiser, et où ne pas le faire",
+          "p": [
+            "Économisez en choisissant le HPL pour les portes et des tiroirs moins nombreux mais plus larges. N'économisez pas sur le matériau des caissons, le scellement des chants ou la quincaillerie : ce sont eux qui lâchent en premier à Bali.",
+            "N'acceptez jamais d'aggloméré dans une cuisine à Bali. Il gonfle définitivement dès la première infiltration d'eau."
+          ]
+        },
+        {
+          "h": "Obtenir un devis précis",
+          "p": [
+            "Envoyez votre plan ou vos mesures, des photos de l'espace, la liste de votre électroménager et quelques images d'inspiration. Après une visite sur place, nous préparons des plans et un devis détaillé avec matériaux, quincaillerie et planning, par écrit."
+          ]
+        }
+      ]
+    },
+    "materials": {
+      "slug": "meilleur-bois-materiaux-humidite-bali",
+      "title": "Quel bois et quels matériaux choisir face à l'humidité de Bali",
+      "meta": "Teck, merbau, ulin, contreplaqué marine, MDF ou HPL ? Guide pour choisir des matériaux de meubles qui résistent à l'humidité, au sel et aux termites à Bali.",
+      "h1": "Les meilleurs bois et matériaux pour vos meubles sous le climat de Bali",
+      "intro": "L'humidité, l'air salin et les termites de Bali détruisent vite les mauvais matériaux. Voici un guide simple de ce qui fonctionne sous les tropiques, et de ce qu'il faut éviter.",
+      "sections": [
+        {
+          "h": "Les bois durs massifs",
+          "p": [
+            "Le teck (jati) est la référence : stable, naturellement huileux, résistant à l'eau, à la pourriture et aux termites, et magnifique. Le teck de plantation est facile à trouver à Bali ; le vieux teck recyclé est recherché pour son caractère.",
+            "Le merbau est très dur et durable, d'une riche couleur brun-rouge : excellent pour les portes, les escaliers et les terrasses. L'ulin (bois de fer de Bornéo) est le plus résistant de tous, idéal pour les terrasses, les poteaux et les bardeaux. Le bengkirai est un choix durable et plus économique pour les terrasses et les structures extérieures."
+          ]
+        },
+        {
+          "h": "Les panneaux pour meubles et placards",
+          "p": [
+            "Le contreplaqué marine (WBP) est le meilleur panneau pour les cuisines, meubles vasque et placards à Bali. Ses plis croisés et sa colle hydrofuge résistent au gonflement et tiennent bien les vis.",
+            "Le MDF peut servir pour des portes laquées dans des pièces sèches et climatisées, à condition d'être scellé sur toutes les faces. L'aggloméré est à éviter : dès qu'il absorbe l'humidité, il gonfle et s'effrite."
+          ]
+        },
+        {
+          "h": "Les finitions",
+          "p": [
+            "Le stratifié HPL (haute pression) est résistant, étanche et lessivable : la finition la plus pratique pour les cuisines et les locations. La laque bi-composant offre un rendu sans joint mais demande une application soignée. Les huiles naturelles conviennent au teck et au bois extérieur ; le polyuréthane donne une surface plus résistante à l'intérieur."
+          ]
+        },
+        {
+          "h": "Quincaillerie et détails",
+          "p": [
+            "Près de la côte, choisissez une quincaillerie en inox ou traitée de qualité, ainsi que des charnières et coulisses amorties adaptées à l'humidité. Scellez chaque chant et chaque découpe, surélevez les meubles au-dessus des sols humides et prévoyez une ventilation dans les placards."
+          ]
+        },
+        {
+          "h": "Se protéger des termites",
+          "p": [
+            "Traitez tout le bois et les panneaux avec un produit anti-termites avant assemblage, évitez autant que possible le contact direct du bois avec la terre et le béton, laissez un accès d'inspection et faites réaliser une barrière anti-termites professionnelle dans le sol pour les constructions neuves."
+          ]
+        }
+      ]
+    }
+  }
+}
