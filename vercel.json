@@ -1,0 +1,7 @@
+{
+  "buildCommand": "python3 build.py",
+  "outputDirectory": "public",
+  "installCommand": "",
+  "framework": null,
+  "trailingSlash": true
+}

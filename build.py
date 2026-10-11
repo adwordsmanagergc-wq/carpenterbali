@@ -363,6 +363,8 @@ def layout(L, pid, title, meta, body, ld=(), og_keys=(), og_type="website"):
 {footer(L, pid)}
 <script id="i18n" type="application/json">{i18n_blob()}</script>
 <script src="/assets/js/main.js?v={JS_VER}" defer></script>
+<script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
 """

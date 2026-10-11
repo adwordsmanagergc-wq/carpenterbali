@@ -64,6 +64,8 @@ You only need Python 3. Nothing else has to be installed.
 
 ## Deploy
 
+- **Vercel (recommended):** import this repo. `vercel.json` already sets the build command (`python3 build.py`) and output folder (`public`). Vercel Web Analytics is built into every page; enable it under the project's *Analytics* tab.
+
 The built site is in `public/` (committed, so it can be deployed as-is).
 
 - **Netlify / Cloudflare Pages:** connect this repo. Build command `python3 build.py`, output directory `public` (Netlify reads `netlify.toml` for these automatically).
