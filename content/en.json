@@ -24,7 +24,7 @@
     "home": "Home",
     "breadcrumb": "Breadcrumb",
     "services_title": "Carpentry services in Bali",
-    "services_lead": "From a single bathroom vanity to a complete villa fit-out — designed, built in our workshop and installed by our own team.",
+    "services_lead": "From a single bathroom vanity to a complete villa fit-out, designed, built in our workshop and installed by our own team.",
     "areas_title": "Areas we serve",
     "areas_lead": "We measure, build and install across the whole south of Bali and Ubud. Pick your area for local information, styles and FAQs.",
     "features_title": "What we build",
@@ -70,7 +70,7 @@
     "trust": [
       {
         "t": "Own workshop",
-        "d": "Everything is built in our Bali workshop by our own carpenters — no anonymous subcontracting."
+        "d": "Everything is built in our Bali workshop by our own carpenters, no anonymous subcontracting."
       },
       {
         "t": "Made for the tropics",
@@ -82,7 +82,7 @@
       },
       {
         "t": "We speak your language",
-        "d": "Communicate in English, Bahasa Indonesia, French or Russian — with 3D drawings so nothing gets lost in translation."
+        "d": "Communicate in English, Bahasa Indonesia, French or Russian, with 3D drawings so nothing gets lost in translation."
       }
     ],
     "process": [
@@ -127,14 +127,58 @@
     ],
     "contact_role": "Master Carpenter",
     "contact_direct": "Talk directly to {name}, our master carpenter, on WhatsApp.",
-    "wa_greeting": "Hello {name}, I found you on carpenterbali.com."
+    "wa_greeting": "Hello {name}, I found you on carpenterbali.com.",
+    "groups": [
+      "Rooms & storage",
+      "Structure & outdoors",
+      "Whole projects"
+    ],
+    "materials_explorer_title": "Choose the right timber",
+    "materials_explorer_lead": "Every room in Bali asks for something different. Compare the materials we build with.",
+    "mat_labels": [
+      "Durability",
+      "Humidity stability",
+      "Termite resistance",
+      "Value"
+    ],
+    "mat_best": "Best for",
+    "mat_scale": "Relative guide, 1 to 5.",
+    "explore": "Explore",
+    "scroll_hint": "Swipe for more",
+    "materials": [
+      {
+        "name": "Teak (jati)",
+        "best": "Doors, vanities, outdoor furniture",
+        "d": "Naturally oily and stable. Resists water, rot and termites, with the warmest look in any villa."
+      },
+      {
+        "name": "Merbau",
+        "best": "Stairs, frames, decking",
+        "d": "Very hard, with a rich red-brown colour. Excellent value for structural and outdoor work."
+      },
+      {
+        "name": "Ulin (ironwood)",
+        "best": "Pool decks, posts, shingles",
+        "d": "Borneo ironwood, the toughest timber we use. Built for sun, rain and pool water."
+      },
+      {
+        "name": "Marine plywood",
+        "best": "Kitchen and wardrobe carcasses",
+        "d": "Cross-laminated layers and waterproof glue. Stays flat in humidity and holds screws for years."
+      },
+      {
+        "name": "HPL laminate",
+        "best": "Kitchen fronts, rentals, vanities",
+        "d": "A tough, waterproof, wipe-clean surface over plywood. The practical choice for busy kitchens."
+      }
+    ]
   },
   "home": {
     "title": "Carpenter Bali | Custom Kitchens, Wardrobes & Joinery for Villas",
     "meta": "Custom carpentry in Bali: kitchens, built-in & walk-in wardrobes, vanities, doors, decking and full villa fit-outs. Free site visit in Canggu, Seminyak, Uluwatu, Ubud & more.",
     "eyebrow": "Custom carpentry & joinery in Bali",
-    "h1": "Bespoke kitchens, wardrobes and woodwork, built for Bali",
-    "lead": "We design, build and install custom furniture for villas, homes and businesses — in solid teak, marine plywood and modern finishes made to survive tropical humidity.",
+    "h1": "Custom carpentry, made for Bali",
+    "lead": "Kitchens, wardrobes and villa interiors, built in our Bali workshop from timber chosen for tropical humidity.",
     "points": [
       "Free site visit & quote",
       "Own workshop in Bali",
@@ -142,10 +186,10 @@
     ],
     "intro_title": "Carpentry that is built for the tropics",
     "intro": [
-      "Bali is one of the most beautiful places in the world to live — and one of the toughest for furniture. Humidity sits between 70% and 90% for much of the year, salt air drifts in from the coast, and termites are a fact of life. Cheap cabinetry swells, doors stop closing, and hinges rust within a season.",
-      "{brand} builds furniture differently. We select the right material for each room — solid teak or merbau where it shows, marine-grade plywood where it needs to be stable, HPL or two-pack paint where it needs to be wipe-clean — and we treat, seal and ventilate every piece for life in Bali."
+      "Bali is one of the most beautiful places in the world to live, and one of the toughest for furniture. Humidity sits between 70% and 90% for much of the year, salt air drifts in from the coast, and termites are a fact of life. Cheap cabinetry swells, doors stop closing, and hinges rust within a season.",
+      "{brand} builds furniture differently. We select the right material for each room, solid teak or merbau where it shows, marine-grade plywood where it needs to be stable, HPL or two-pack paint where it needs to be wipe-clean, and we treat, seal and ventilate every piece for life in Bali."
     ],
-    "areas_teaser": "From Canggu and Pererenan to Uluwatu, Sanur and Ubud — we serve every main expat area in Bali."
+    "areas_teaser": "From Canggu and Pererenan to Uluwatu, Sanur and Ubud, we serve every main expat area in Bali."
   },
   "pages": {
     "services": {
@@ -174,7 +218,7 @@
       "body": [
         "{brand} is a custom carpentry and joinery workshop in Bali. We work with homeowners, villa owners, property developers, architects and hospitality businesses to design, build and install furniture that looks beautiful and lasts in the tropics.",
         "Our team combines traditional Balinese woodworking skill with modern European-style cabinet making: precise panel cutting, soft-close hardware, clean edge banding and proper finishing. Every project is managed by one point of contact, in your language, from the first sketch to the final hinge adjustment.",
-        "We believe in honest quotes, realistic timelines and materials chosen for Bali's climate — not for the cheapest price on paper."
+        "We believe in honest quotes, realistic timelines and materials chosen for Bali's climate, not for the cheapest price on paper."
       ],
       "values_title": "What we stand for",
       "values": [
@@ -199,7 +243,7 @@
       "h1": "Contact us",
       "lead": "The fastest way to reach us is WhatsApp. Send photos, plans or a rough sketch and we'll reply within one working day.",
       "hours_title": "Working hours",
-      "hours": "Monday – Saturday, 08:00 – 17:00 (WITA)",
+      "hours": "Monday to Saturday, 08:00-17:00 (WITA)",
       "area_title": "Service area",
       "area": "All of south Bali, the Bukit peninsula, Sanur, Denpasar, Tabanan and Ubud."
     },
@@ -218,9 +262,9 @@
       "title": "Custom Kitchens Bali | Kitchen Sets & Cabinets Made to Measure",
       "meta": "Custom kitchens in Bali built for humidity: marine plywood, teak, HPL or duco finishes, soft-close hardware, islands & pantries. Free design & quote.",
       "h1": "Custom kitchens in Bali",
-      "lead_time": "4–8 weeks",
+      "lead_time": "4-8 weeks",
       "intro": [
-        "The kitchen is the heart of every villa — and the room that suffers most in Bali's climate. Steam, splashes and tropical humidity destroy chipboard cabinets in months. We build kitchens on moisture-resistant marine plywood carcasses with sealed edges, stainless or aluminium plinths and quality soft-close hardware, so doors stay aligned and drawers keep gliding year after year.",
+        "The kitchen is the heart of every villa, and the room that suffers most in Bali's climate. Steam, splashes and tropical humidity destroy chipboard cabinets in months. We build kitchens on moisture-resistant marine plywood carcasses with sealed edges, stainless or aluminium plinths and quality soft-close hardware, so doors stay aligned and drawers keep gliding year after year.",
         "Whether you want a minimalist handle-less kitchen, a warm solid-teak tropical kitchen, a Japandi look in oak-tone veneer or a high-gloss painted finish, we design around your layout, appliances and the way you cook. We also build butler's pantries, kitchen islands with seating, open-air outdoor kitchens and compact kitchenettes for rental villas."
       ],
       "features": [
@@ -253,15 +297,15 @@
       "price": [
         [
           "Plywood + HPL kitchen (base + wall units)",
-          "from Rp 3.5 – 5 million / linear metre"
+          "from Rp 3.5-5 million / linear metre"
         ],
         [
           "Two-pack painted (duco) kitchen",
-          "from Rp 4.5 – 7 million / linear metre"
+          "from Rp 4.5-7 million / linear metre"
         ],
         [
           "Solid teak kitchen",
-          "from Rp 8 – 14 million / linear metre"
+          "from Rp 8-14 million / linear metre"
         ],
         [
           "Kitchen island",
@@ -275,7 +319,7 @@
       "faqs": [
         {
           "q": "What is the best material for a kitchen in Bali?",
-          "a": "For the cabinet boxes, marine-grade plywood is the most reliable choice in Bali's humidity — far more stable than MDF or particle board. For doors, HPL laminate is the most durable and easiest to clean, two-pack paint gives a seamless modern look, and solid teak gives the warmest tropical character."
+          "a": "For the cabinet boxes, marine-grade plywood is the most reliable choice in Bali's humidity, far more stable than MDF or particle board. For doors, HPL laminate is the most durable and easiest to clean, two-pack paint gives a seamless modern look, and solid teak gives the warmest tropical character."
         },
         {
           "q": "Do you install countertops and appliances?",
@@ -289,15 +333,15 @@
       "combo_title": "Custom Kitchens {in_area} | Kitchen Sets Made to Measure",
       "combo_meta": "Custom kitchen sets {in_area}, Bali: designed, built and installed by our own team. Marine plywood, teak or HPL, islands & pantries. Free site visit.",
       "combo_h1": "Custom kitchens {in_area}",
-      "combo_intro": "Looking for a custom kitchen {in_area}? {brand} designs, builds and installs made-to-measure kitchen sets for villas, homes, rentals and restaurants {in_area} — from compact kitchenettes to full kitchens with islands and walk-in pantries, all built to handle Bali's humidity.",
+      "combo_intro": "Looking for a custom kitchen {in_area}? {brand} designs, builds and installs made-to-measure kitchen sets for villas, homes, rentals and restaurants {in_area}, from compact kitchenettes to full kitchens with islands and walk-in pantries, all built to handle Bali's humidity.",
       "combo_faqs": [
         {
           "q": "How much does a custom kitchen cost {in_area}?",
-          "a": "A typical plywood and HPL kitchen {in_area} starts from around Rp 3.5–5 million per linear metre for base and wall units. Painted finishes and solid teak cost more. After a free site visit we give you an itemised quote, so you know exactly what you are paying for."
+          "a": "A typical plywood and HPL kitchen {in_area} starts from around Rp 3.5-5 million per linear metre for base and wall units. Painted finishes and solid teak cost more. After a free site visit we give you an itemised quote, so you know exactly what you are paying for."
         },
         {
           "q": "How long does it take to get a new kitchen {in_area}?",
-          "a": "Most kitchens take 4–8 weeks from approved design to installation, depending on size and finish. Installation on site {in_area} usually takes 2–4 days, plus countertop fitting."
+          "a": "Most kitchens take 4-8 weeks from approved design to installation, depending on size and finish. Installation on site {in_area} usually takes 2-4 days, plus countertop fitting."
         },
         {
           "q": "Can you replace an old kitchen in a rental villa {in_area} quickly?",
@@ -313,9 +357,9 @@
       "title": "Wardrobes Bali | Custom Built-in Wardrobes & Closets",
       "meta": "Custom built-in wardrobes in Bali: sliding or hinged doors, teak, rattan, HPL or painted, with ventilation and anti-mould details. Free measure & quote.",
       "h1": "Custom built-in wardrobes in Bali",
-      "lead_time": "3–6 weeks",
+      "lead_time": "3-6 weeks",
       "intro": [
-        "A good wardrobe in Bali does more than store clothes — it protects them. In a closed cupboard, tropical humidity quickly turns into mould and musty smells. Our built-in wardrobes are designed to breathe: ventilated plinths and tops, rattan or louvred door options, moisture-resistant boards inside and space for a dehumidifier or a low-wattage warm light.",
+        "A good wardrobe in Bali does more than store clothes, it protects them. In a closed cupboard, tropical humidity quickly turns into mould and musty smells. Our built-in wardrobes are designed to breathe: ventilated plinths and tops, rattan or louvred door options, moisture-resistant boards inside and space for a dehumidifier or a low-wattage warm light.",
         "We build floor-to-ceiling fitted wardrobes for master bedrooms, guest rooms, kids' rooms and rental villas, with hanging space, drawers, shoe racks, safes and luggage storage planned around how you live. Choose from sliding doors, hinged doors, Balinese rattan panels, teak louvres, mirrored fronts or seamless painted finishes."
       ],
       "features": [
@@ -348,15 +392,15 @@
       "price": [
         [
           "Plywood + HPL wardrobe, full height",
-          "from Rp 3 – 5 million / linear metre"
+          "from Rp 3-5 million / linear metre"
         ],
         [
           "Teak veneer or painted wardrobe",
-          "from Rp 4.5 – 7 million / linear metre"
+          "from Rp 4.5-7 million / linear metre"
         ],
         [
           "Solid teak frame + rattan doors",
-          "from Rp 6 – 10 million / linear metre"
+          "from Rp 6-10 million / linear metre"
         ],
         [
           "Interior upgrades (drawers, LED, pull-outs)",
@@ -369,7 +413,7 @@
           "a": "We design wardrobes to ventilate: vented plinths and tops, small gaps behind back panels so air can circulate off the wall, breathable rattan or louvred doors where suitable, and wipe-clean interiors. A small dehumidifier or a low-heat LED strip inside makes a big difference too."
         },
         {
-          "q": "Sliding or hinged doors — which is better?",
+          "q": "Sliding or hinged doors, which is better?",
           "a": "Sliding doors save space in smaller bedrooms and suit modern designs. Hinged doors give full access to the whole wardrobe at once and are easier to fit with rattan or louvred panels. We'll recommend what suits your room after measuring."
         },
         {
@@ -384,11 +428,11 @@
       "combo_faqs": [
         {
           "q": "How much does a built-in wardrobe cost {in_area}?",
-          "a": "A full-height plywood and HPL wardrobe {in_area} starts from around Rp 3–5 million per linear metre. Teak, rattan and painted finishes cost more. We give a free itemised quote after measuring your room."
+          "a": "A full-height plywood and HPL wardrobe {in_area} starts from around Rp 3-5 million per linear metre. Teak, rattan and painted finishes cost more. We give a free itemised quote after measuring your room."
         },
         {
           "q": "How quickly can you install wardrobes {in_area}?",
-          "a": "Most wardrobe projects take 3–6 weeks from design approval, and installation {in_area} usually takes one or two days per room."
+          "a": "Most wardrobe projects take 3-6 weeks from design approval, and installation {in_area} usually takes one or two days per room."
         },
         {
           "q": "Can you match wardrobes to my existing villa style {in_area}?",
@@ -404,9 +448,9 @@
       "title": "Walk-in Wardrobes Bali | Custom Walk-in Closets & Dressing Rooms",
       "meta": "Luxury walk-in wardrobes and dressing rooms in Bali: open shelving, glass doors, islands, LED lighting and climate-smart design. Free 3D design & quote.",
       "h1": "Walk-in wardrobes & dressing rooms in Bali",
-      "lead_time": "5–9 weeks",
+      "lead_time": "5-9 weeks",
       "intro": [
-        "A walk-in wardrobe turns getting dressed into a daily pleasure. We design and build bespoke walk-in closets and dressing rooms for villas and family homes across Bali — from a compact walk-through between bedroom and ensuite to a boutique-style dressing room with a central island, display shelving and statement lighting.",
+        "A walk-in wardrobe turns getting dressed into a daily pleasure. We design and build bespoke walk-in closets and dressing rooms for villas and family homes across Bali, from a compact walk-through between bedroom and ensuite to a boutique-style dressing room with a central island, display shelving and statement lighting.",
         "In the tropics, a walk-in wardrobe has to be planned around air. Open shelving, glass-fronted cabinets and air-conditioned or dehumidified rooms keep clothes, shoes and bags in perfect condition. We plan the layout in 3D with you, then build every section in our workshop for a precise, fast installation."
       ],
       "features": [
@@ -439,11 +483,11 @@
       "price": [
         [
           "Compact walk-through wardrobe",
-          "from Rp 25 – 45 million"
+          "from Rp 25-45 million"
         ],
         [
           "Medium walk-in closet (U-shape)",
-          "from Rp 45 – 90 million"
+          "from Rp 45-90 million"
         ],
         [
           "Luxury dressing room with island",
@@ -475,15 +519,15 @@
       "combo_faqs": [
         {
           "q": "What does a walk-in wardrobe cost {in_area}?",
-          "a": "Compact walk-through wardrobes {in_area} start from around Rp 25–45 million, while larger dressing rooms with islands and lighting typically start from Rp 90 million. Your quote depends on size, finishes and hardware."
+          "a": "Compact walk-through wardrobes {in_area} start from around Rp 25-45 million, while larger dressing rooms with islands and lighting typically start from Rp 90 million. Your quote depends on size, finishes and hardware."
         },
         {
           "q": "How long does a walk-in closet project take {in_area}?",
-          "a": "Allow 5–9 weeks from approved 3D design to completion. On-site installation {in_area} usually takes 3–5 days."
+          "a": "Allow 5-9 weeks from approved 3D design to completion. On-site installation {in_area} usually takes 3-5 days."
         },
         {
           "q": "Can you design a walk-in wardrobe for a villa still under construction {in_area}?",
-          "a": "Yes — and it's the best time. We can coordinate with your builder on wall positions, electrical points and air-conditioning so the walk-in closet is perfectly integrated."
+          "a": "Yes, and it's the best time. We can coordinate with your builder on wall positions, electrical points and air-conditioning so the walk-in closet is perfectly integrated."
         }
       ]
     },
@@ -495,10 +539,10 @@
       "title": "Bathroom Vanities Bali | Custom Teak & Waterproof Vanity Units",
       "meta": "Custom bathroom vanities in Bali: solid teak, marine plywood + HPL and compact laminate, floating or freestanding, with stone or terrazzo tops.",
       "h1": "Custom bathroom vanities in Bali",
-      "lead_time": "3–5 weeks",
+      "lead_time": "3-5 weeks",
       "intro": [
-        "Bali bathrooms are often open-air or semi-outdoor — beautiful, but brutal on furniture. We build vanities that are made to get wet: solid teak treated with marine oil, marine-grade plywood with waterproof HPL, or fully waterproof compact laminate for outdoor and rental use.",
-        "Choose a floating vanity for a clean, modern look, a freestanding teak console for a tropical resort feel, or a double vanity with deep drawers for a family bathroom. We coordinate the top — terrazzo, stone, concrete or solid surface — and the basin, mirror and storage."
+        "Bali bathrooms are often open-air or semi-outdoor, beautiful, but brutal on furniture. We build vanities that are made to get wet: solid teak treated with marine oil, marine-grade plywood with waterproof HPL, or fully waterproof compact laminate for outdoor and rental use.",
+        "Choose a floating vanity for a clean, modern look, a freestanding teak console for a tropical resort feel, or a double vanity with deep drawers for a family bathroom. We coordinate the top, terrazzo, stone, concrete or solid surface, and the basin, mirror and storage."
       ],
       "features": [
         {
@@ -530,15 +574,15 @@
       "price": [
         [
           "Single floating vanity (plywood + HPL)",
-          "from Rp 4 – 7 million"
+          "from Rp 4-7 million"
         ],
         [
           "Solid teak vanity",
-          "from Rp 6 – 12 million"
+          "from Rp 6-12 million"
         ],
         [
           "Double vanity with drawers",
-          "from Rp 8 – 16 million"
+          "from Rp 8-16 million"
         ],
         [
           "Framed mirror / mirror cabinet",
@@ -562,15 +606,15 @@
       "combo_title": "Bathroom Vanities {in_area} | Custom Teak & HPL Vanities",
       "combo_meta": "Custom bathroom vanities {in_area}, Bali: teak, waterproof HPL or compact laminate, floating or freestanding, with terrazzo & stone tops.",
       "combo_h1": "Bathroom vanities {in_area}",
-      "combo_intro": "Upgrading a bathroom {in_area}? {brand} builds custom vanity units for villas, homes and hotels {in_area} — waterproof by design and finished to match your interior.",
+      "combo_intro": "Upgrading a bathroom {in_area}? {brand} builds custom vanity units for villas, homes and hotels {in_area}, waterproof by design and finished to match your interior.",
       "combo_faqs": [
         {
           "q": "How much is a custom bathroom vanity {in_area}?",
-          "a": "A single floating vanity in plywood and HPL {in_area} starts from around Rp 4–7 million; solid teak and double vanities cost more. Tops and basins are quoted separately or as a package."
+          "a": "A single floating vanity in plywood and HPL {in_area} starts from around Rp 4-7 million; solid teak and double vanities cost more. Tops and basins are quoted separately or as a package."
         },
         {
           "q": "How long does it take to install a vanity {in_area}?",
-          "a": "Production takes 3–5 weeks. Installation {in_area} usually takes half a day per vanity, coordinated with your plumber."
+          "a": "Production takes 3-5 weeks. Installation {in_area} usually takes half a day per vanity, coordinated with your plumber."
         }
       ]
     },
@@ -582,10 +626,10 @@
       "title": "TV Units Bali | Custom TV Walls & Entertainment Units",
       "meta": "Custom TV units and media walls in Bali: floating consoles, slatted wall panels, hidden cabling and storage. Designed and built to measure.",
       "h1": "Custom TV & media units in Bali",
-      "lead_time": "3–5 weeks",
+      "lead_time": "3-5 weeks",
       "intro": [
         "A custom TV wall pulls a living room together. We design floating media consoles, full-height entertainment walls with shelving and display niches, and slatted timber feature walls that hide cables, routers and speakers.",
-        "Every unit is planned around your screen size, devices, ventilation for electronics and the best viewing height — and finished to match your floors, doors and furniture."
+        "Every unit is planned around your screen size, devices, ventilation for electronics and the best viewing height, and finished to match your floors, doors and furniture."
       ],
       "features": [
         {
@@ -617,15 +661,15 @@
       "price": [
         [
           "Floating media console",
-          "from Rp 5 – 10 million"
+          "from Rp 5-10 million"
         ],
         [
           "Full-height TV wall unit",
-          "from Rp 12 – 30 million"
+          "from Rp 12-30 million"
         ],
         [
           "Slatted timber feature wall",
-          "from Rp 1.5 – 3 million / m²"
+          "from Rp 1.5-3 million / m²"
         ]
       ],
       "faqs": [
@@ -645,11 +689,11 @@
       "combo_faqs": [
         {
           "q": "What does a custom TV unit cost {in_area}?",
-          "a": "Floating consoles {in_area} start from around Rp 5–10 million, and full-height TV walls from about Rp 12 million, depending on size and finish."
+          "a": "Floating consoles {in_area} start from around Rp 5-10 million, and full-height TV walls from about Rp 12 million, depending on size and finish."
         },
         {
           "q": "How long does a TV wall take {in_area}?",
-          "a": "Typically 3–5 weeks to build, with installation {in_area} in one day."
+          "a": "Typically 3-5 weeks to build, with installation {in_area} in one day."
         }
       ]
     },
@@ -661,10 +705,10 @@
       "title": "Teak Doors & Windows Bali | Custom Wooden Doors, Frames & Shutters",
       "meta": "Custom wooden doors and windows in Bali: solid teak and merbau doors, kusen frames, pivot doors, louvres and shutters. Made and installed to measure.",
       "h1": "Custom wooden doors, windows & frames in Bali",
-      "lead_time": "4–8 weeks",
+      "lead_time": "4-8 weeks",
       "intro": [
-        "Doors and windows have to fight Bali's weather every day — driving rain, intense sun, humidity and termites. We make them in kiln-dried solid teak, merbau or bengkirai, with proper joinery, so they stay straight and keep closing smoothly.",
-        "We build entrance and pivot doors, interior doors, folding and sliding doors to gardens and pools, window frames (kusen), louvred shutters and traditional carved Balinese doors — supplied as complete sets with frames, hardware and finishing."
+        "Doors and windows have to fight Bali's weather every day, driving rain, intense sun, humidity and termites. We make them in kiln-dried solid teak, merbau or bengkirai, with proper joinery, so they stay straight and keep closing smoothly.",
+        "We build entrance and pivot doors, interior doors, folding and sliding doors to gardens and pools, window frames (kusen), louvred shutters and traditional carved Balinese doors, supplied as complete sets with frames, hardware and finishing."
       ],
       "features": [
         {
@@ -696,32 +740,32 @@
       "price": [
         [
           "Solid teak interior door + frame",
-          "from Rp 6 – 12 million"
+          "from Rp 6-12 million"
         ],
         [
           "Entrance / pivot door",
-          "from Rp 15 – 45 million"
+          "from Rp 15-45 million"
         ],
         [
           "Window frame (kusen) + sash",
-          "from Rp 2.5 – 6 million per unit"
+          "from Rp 2.5-6 million per unit"
         ],
         [
           "Folding glass doors",
-          "from Rp 6 – 10 million / m²"
+          "from Rp 6-10 million / m²"
         ]
       ],
       "faqs": [
         {
           "q": "Why do wooden doors warp in Bali, and how do you prevent it?",
-          "a": "Warping happens when wood isn't dried properly or is sealed on one side only. We use kiln-dried timber, stable engineered cores for large doors, and seal all six faces — including top and bottom edges — before installation."
+          "a": "Warping happens when wood isn't dried properly or is sealed on one side only. We use kiln-dried timber, stable engineered cores for large doors, and seal all six faces, including top and bottom edges, before installation."
         },
         {
           "q": "Do you install doors and windows in existing villas?",
           "a": "Yes. We replace old doors and frames in existing buildings, including removal, adjusting openings and making good around the new frame."
         },
         {
-          "q": "Teak or merbau — which should I choose?",
+          "q": "Teak or merbau, which should I choose?",
           "a": "Teak is the most stable and naturally weather-resistant, with a beautiful golden tone. Merbau is very hard and durable with a darker reddish colour and is often more economical for large quantities."
         }
       ],
@@ -732,7 +776,7 @@
       "combo_faqs": [
         {
           "q": "How much does a teak door cost {in_area}?",
-          "a": "A solid teak interior door with frame {in_area} starts from around Rp 6–12 million. Large entrance and pivot doors are quoted per design."
+          "a": "A solid teak interior door with frame {in_area} starts from around Rp 6-12 million. Large entrance and pivot doors are quoted per design."
         },
         {
           "q": "Can you supply doors and frames for a new villa build {in_area}?",
@@ -748,9 +792,9 @@
       "title": "Decking Bali | Merbau, Ulin & Composite Pool Decks",
       "meta": "Timber and composite decking in Bali: pool decks, terraces, rooftops and walkways in merbau, ulin, bengkirai or WPC. Supplied and installed.",
       "h1": "Timber & composite decking in Bali",
-      "lead_time": "2–5 weeks",
+      "lead_time": "2-5 weeks",
       "intro": [
-        "Decking is where villa life happens — around the pool, on the terrace and on the rooftop at sunset. In Bali, a deck needs to cope with sun, heavy rain, chlorinated water and termites. We install hardwood decking in merbau, ulin (ironwood) and bengkirai, and premium WPC composite for low-maintenance areas.",
+        "Decking is where villa life happens, around the pool, on the terrace and on the rooftop at sunset. In Bali, a deck needs to cope with sun, heavy rain, chlorinated water and termites. We install hardwood decking in merbau, ulin (ironwood) and bengkirai, and premium WPC composite for low-maintenance areas.",
         "Correct installation matters as much as the timber: we build on treated or galvanised steel frames with proper spacing and drainage, use stainless steel fixings or hidden clips, and finish with UV-protective oil."
       ],
       "features": [
@@ -783,15 +827,15 @@
       "price": [
         [
           "Merbau / bengkirai decking, installed",
-          "from Rp 1.3 – 2 million / m²"
+          "from Rp 1.3-2 million / m²"
         ],
         [
           "Ulin (ironwood) decking, installed",
-          "from Rp 2 – 3 million / m²"
+          "from Rp 2-3 million / m²"
         ],
         [
           "WPC composite decking, installed",
-          "from Rp 1.3 – 2.3 million / m²"
+          "from Rp 1.3-2.3 million / m²"
         ],
         [
           "Deck sanding & re-oiling",
@@ -805,11 +849,11 @@
         },
         {
           "q": "How often does a timber deck need oiling?",
-          "a": "In Bali's sun we recommend re-oiling exposed decks every 6–12 months to keep the colour and protect the surface. Left unoiled, hardwood will weather naturally to a silver-grey."
+          "a": "In Bali's sun we recommend re-oiling exposed decks every 6-12 months to keep the colour and protect the surface. Left unoiled, hardwood will weather naturally to a silver-grey."
         },
         {
           "q": "Do you build the frame too?",
-          "a": "Yes. We build the substructure in treated hardwood or galvanised steel with correct spacing and drainage — the most important part for a deck that lasts."
+          "a": "Yes. We build the substructure in treated hardwood or galvanised steel with correct spacing and drainage, the most important part for a deck that lasts."
         }
       ],
       "combo_title": "Decking {in_area} | Pool Decks in Merbau, Ulin & Composite",
@@ -819,11 +863,11 @@
       "combo_faqs": [
         {
           "q": "How much does decking cost per square metre {in_area}?",
-          "a": "Installed merbau or bengkirai decking {in_area} starts from around Rp 1.3–2 million per m², ulin from about Rp 2 million per m², and WPC composite from about Rp 1.3 million per m², depending on the frame and access."
+          "a": "Installed merbau or bengkirai decking {in_area} starts from around Rp 1.3-2 million per m², ulin from about Rp 2 million per m², and WPC composite from about Rp 1.3 million per m², depending on the frame and access."
         },
         {
           "q": "How long does it take to install a deck {in_area}?",
-          "a": "A typical pool deck {in_area} takes 1–2 weeks on site once materials are ready."
+          "a": "A typical pool deck {in_area} takes 1-2 weeks on site once materials are ready."
         }
       ]
     },
@@ -835,9 +879,9 @@
       "title": "Pergolas & Gazebos Bali | Timber Pergolas, Carports & Balinese Bale",
       "meta": "Timber pergolas, gazebos, carports and traditional Balinese bale in Bali. Hardwood structures with alang-alang, ulin shingle or polycarbonate roofs.",
       "h1": "Pergolas, gazebos & Balinese bale",
-      "lead_time": "4–8 weeks",
+      "lead_time": "4-8 weeks",
       "intro": [
-        "Shade is everything in Bali. We design and build timber pergolas over terraces and pools, carports, poolside gazebos and traditional Balinese bale — open-sided pavilions perfect for lounging, massage or outdoor dining.",
+        "Shade is everything in Bali. We design and build timber pergolas over terraces and pools, carports, poolside gazebos and traditional Balinese bale, open-sided pavilions perfect for lounging, massage or outdoor dining.",
         "Structures are built from durable hardwoods with engineered joints and footings, and can be roofed with alang-alang grass thatch, ulin shingles, clay tiles, glass, polycarbonate or left open with climbing plants."
       ],
       "features": [
@@ -870,7 +914,7 @@
       "price": [
         [
           "Timber pergola (open)",
-          "from Rp 1.8 – 3.5 million / m²"
+          "from Rp 1.8-3.5 million / m²"
         ],
         [
           "Poolside gazebo",
@@ -888,7 +932,7 @@
       "faqs": [
         {
           "q": "How long does an alang-alang roof last?",
-          "a": "A well-installed alang-alang thatch typically lasts 5–8 years depending on exposure and maintenance. Ulin shingles last much longer, often 20 years or more."
+          "a": "A well-installed alang-alang thatch typically lasts 5-8 years depending on exposure and maintenance. Ulin shingles last much longer, often 20 years or more."
         },
         {
           "q": "Do I need a permit for a pergola or bale?",
@@ -902,11 +946,11 @@
       "combo_faqs": [
         {
           "q": "What does a pergola cost {in_area}?",
-          "a": "Open timber pergolas {in_area} start from around Rp 1.8–3.5 million per m². Gazebos start from about Rp 35 million and traditional bale from about Rp 60 million."
+          "a": "Open timber pergolas {in_area} start from around Rp 1.8-3.5 million per m². Gazebos start from about Rp 35 million and traditional bale from about Rp 60 million."
         },
         {
           "q": "How long does it take to build a bale {in_area}?",
-          "a": "Allow 4–8 weeks including fabrication, footings and roofing."
+          "a": "Allow 4-8 weeks including fabrication, footings and roofing."
         }
       ]
     },
@@ -918,10 +962,10 @@
       "title": "Wooden Staircases Bali | Floating Stairs, Treads & Railings",
       "meta": "Custom timber staircases in Bali: floating teak treads, cladding for concrete stairs, spiral stairs and railings in wood, steel or glass.",
       "h1": "Custom timber staircases in Bali",
-      "lead_time": "4–7 weeks",
+      "lead_time": "4-7 weeks",
       "intro": [
         "A staircase is often the first thing you see in a villa. We build floating stairs with solid teak or merbau treads, clad concrete stairs in timber, and make complete timber staircases for lofts and mezzanines.",
-        "We combine timber with steel stringers, glass balustrades, rope or slatted railings to suit tropical-modern, industrial or classic Balinese interiors — always designed for safety and stability."
+        "We combine timber with steel stringers, glass balustrades, rope or slatted railings to suit tropical-modern, industrial or classic Balinese interiors, always designed for safety and stability."
       ],
       "features": [
         {
@@ -949,15 +993,15 @@
           "d": "Grooved nosings and anti-slip oils for safety."
         }
       ],
-      "materials": "Solid teak, merbau or bengkirai treads (40–80 mm); steel stringers or spines; tempered glass, steel or timber balustrades; hard-wearing polyurethane or oil finishes.",
+      "materials": "Solid teak, merbau or bengkirai treads (40-80 mm); steel stringers or spines; tempered glass, steel or timber balustrades; hard-wearing polyurethane or oil finishes.",
       "price": [
         [
           "Timber cladding for concrete stairs",
-          "from Rp 1.2 – 2.5 million / step"
+          "from Rp 1.2-2.5 million / step"
         ],
         [
           "Floating stair (treads + fixing)",
-          "from Rp 2.5 – 5 million / step"
+          "from Rp 2.5-5 million / step"
         ],
         [
           "Complete timber staircase",
@@ -985,11 +1029,11 @@
       "combo_faqs": [
         {
           "q": "How much does a floating staircase cost {in_area}?",
-          "a": "Floating stairs {in_area} typically start from around Rp 2.5–5 million per step, including treads and fixings. Cladding existing stairs starts from about Rp 1.2 million per step."
+          "a": "Floating stairs {in_area} typically start from around Rp 2.5-5 million per step, including treads and fixings. Cladding existing stairs starts from about Rp 1.2 million per step."
         },
         {
           "q": "How long does stair installation take {in_area}?",
-          "a": "Usually 2–4 days on site after 4–7 weeks of fabrication."
+          "a": "Usually 2-4 days on site after 4-7 weeks of fabrication."
         }
       ]
     },
@@ -1001,7 +1045,7 @@
       "title": "Wooden Ceilings & Wall Panelling Bali | Slatted Panels & Cladding",
       "meta": "Timber ceilings, slatted wall panels and cladding in Bali: teak, merbau, bamboo and veneer panels for villas, restaurants and offices.",
       "h1": "Timber ceilings & wall panelling in Bali",
-      "lead_time": "3–6 weeks",
+      "lead_time": "3-6 weeks",
       "intro": [
         "Timber ceilings and wall panels add warmth, texture and acoustics to any space. We install tongue-and-groove and slatted ceilings, feature walls behind beds and TVs, acoustic slat panels for restaurants and offices, and exterior cladding.",
         "Choose from solid teak, merbau, bamboo, pine or veneer panels, with integrated lighting, hidden access hatches and ventilation for the tropics."
@@ -1036,19 +1080,19 @@
       "price": [
         [
           "Timber slat ceiling",
-          "from Rp 600,000 – 1.2 million / m²"
+          "from Rp 600,000-1.2 million / m²"
         ],
         [
           "Slatted feature wall",
-          "from Rp 1.5 – 3 million / m²"
+          "from Rp 1.5-3 million / m²"
         ],
         [
           "Acoustic slat panels",
-          "from Rp 1.2 – 2 million / m²"
+          "from Rp 1.2-2 million / m²"
         ],
         [
           "Bamboo ceiling",
-          "from Rp 350,000 – 700,000 / m²"
+          "from Rp 350,000-700,000 / m²"
         ]
       ],
       "faqs": [
@@ -1068,11 +1112,11 @@
       "combo_faqs": [
         {
           "q": "How much does a timber ceiling cost {in_area}?",
-          "a": "Timber slat ceilings {in_area} start from around Rp 600,000–1.2 million per m², and bamboo ceilings from about Rp 350,000 per m²."
+          "a": "Timber slat ceilings {in_area} start from around Rp 600,000-1.2 million per m², and bamboo ceilings from about Rp 350,000 per m²."
         },
         {
           "q": "How long does panelling installation take {in_area}?",
-          "a": "Most rooms are completed in 2–5 days on site after fabrication."
+          "a": "Most rooms are completed in 2-5 days on site after fabrication."
         }
       ]
     },
@@ -1084,7 +1128,7 @@
       "title": "Custom Beds Bali | Teak Beds, Headboards & Bedroom Furniture",
       "meta": "Custom beds and headboards in Bali: solid teak and plywood beds, upholstered and rattan headboards, bunk beds and bedside tables, made to measure.",
       "h1": "Custom beds & bedroom furniture in Bali",
-      "lead_time": "3–6 weeks",
+      "lead_time": "3-6 weeks",
       "intro": [
         "We build beds and bedroom furniture that make villas feel like boutique hotels: solid teak platform beds, wall-to-wall headboards with integrated bedside shelves and reading lights, rattan and upholstered headboards, and space-saving bunk beds for kids' rooms.",
         "Beds are made to standard mattress sizes or fully custom dimensions, with storage drawers, lift-up bases and slatted platforms that let mattresses breathe in the humidity."
@@ -1119,15 +1163,15 @@
       "price": [
         [
           "Solid teak queen/king bed",
-          "from Rp 9 – 20 million"
+          "from Rp 9-20 million"
         ],
         [
           "Wall-to-wall headboard with bedside",
-          "from Rp 7 – 18 million"
+          "from Rp 7-18 million"
         ],
         [
           "Bunk bed",
-          "from Rp 8 – 15 million"
+          "from Rp 8-15 million"
         ],
         [
           "Bedside table",
@@ -1137,7 +1181,7 @@
       "faqs": [
         {
           "q": "Can you make beds for European or US mattress sizes?",
-          "a": "Yes. We build to any mattress size — Indonesian, European, UK, US or Australian — or fully custom dimensions."
+          "a": "Yes. We build to any mattress size, Indonesian, European, UK, US or Australian, or fully custom dimensions."
         },
         {
           "q": "Why do you recommend slatted bases?",
@@ -1151,7 +1195,7 @@
       "combo_faqs": [
         {
           "q": "How much is a custom teak bed {in_area}?",
-          "a": "Solid teak queen or king beds {in_area} start from around Rp 9–20 million, depending on design and size."
+          "a": "Solid teak queen or king beds {in_area} start from around Rp 9-20 million, depending on design and size."
         },
         {
           "q": "Do you deliver and assemble beds {in_area}?",
@@ -1167,9 +1211,9 @@
       "title": "Home Office & Shelving Bali | Built-in Desks, Bookcases & Storage",
       "meta": "Built-in home offices, desks, bookcases and shelving in Bali for remote workers and families. Custom designed, built and installed.",
       "h1": "Built-in shelving & home offices in Bali",
-      "lead_time": "3–5 weeks",
+      "lead_time": "3-5 weeks",
       "intro": [
-        "Bali is home to thousands of remote workers, and a proper workspace changes everything. We build ergonomic home offices with built-in desks, cable management, storage and shelving — tucked into a bedroom corner or filling a dedicated study.",
+        "Bali is home to thousands of remote workers, and a proper workspace changes everything. We build ergonomic home offices with built-in desks, cable management, storage and shelving, tucked into a bedroom corner or filling a dedicated study.",
         "We also design bookcases, alcove shelving, under-stair storage, laundry cabinets and utility storage that make the most of every metre."
       ],
       "features": [
@@ -1202,11 +1246,11 @@
       "price": [
         [
           "Built-in desk with storage",
-          "from Rp 5 – 12 million"
+          "from Rp 5-12 million"
         ],
         [
           "Full-height bookcase / shelving",
-          "from Rp 3 – 6 million / linear metre"
+          "from Rp 3-6 million / linear metre"
         ],
         [
           "Solid timber floating shelf",
@@ -1224,7 +1268,7 @@
         },
         {
           "q": "Do you include cable management?",
-          "a": "Always — grommets, cable trays, hidden power and space for routers and UPS units."
+          "a": "Always, grommets, cable trays, hidden power and space for routers and UPS units."
         }
       ],
       "combo_title": "Home Office & Shelving {in_area} | Built-in Desks & Bookcases",
@@ -1234,11 +1278,11 @@
       "combo_faqs": [
         {
           "q": "How much does a built-in desk cost {in_area}?",
-          "a": "Built-in desks with storage {in_area} start from around Rp 5–12 million depending on size and finish."
+          "a": "Built-in desks with storage {in_area} start from around Rp 5-12 million depending on size and finish."
         },
         {
           "q": "How fast can you install a home office {in_area}?",
-          "a": "Usually 3–5 weeks from design to a one-day installation {in_area}."
+          "a": "Usually 3-5 weeks from design to a one-day installation {in_area}."
         }
       ]
     },
@@ -1250,10 +1294,10 @@
       "title": "Custom Furniture Bali | Teak Tables, Daybeds & Outdoor Furniture",
       "meta": "Made-to-measure furniture in Bali: solid teak dining tables, daybeds, benches, sofa frames, outdoor and loose furniture for villas and restaurants.",
       "h1": "Custom furniture made in Bali",
-      "lead_time": "3–6 weeks",
+      "lead_time": "3-6 weeks",
       "intro": [
         "Beyond built-ins, we make loose furniture to your design or ours: solid teak and suar dining tables, outdoor daybeds and loungers, sofa frames, coffee tables, benches, sideboards and consoles.",
-        "Send us a photo, a Pinterest board or a drawing — we'll suggest the right timber and finish for indoor or outdoor use and build it to your exact dimensions."
+        "Send us a photo, a Pinterest board or a drawing, we'll suggest the right timber and finish for indoor or outdoor use and build it to your exact dimensions."
       ],
       "features": [
         {
@@ -1284,16 +1328,16 @@
       "materials": "Plantation teak, suar, recycled teak, merbau, mango wood and rattan; steel and terrazzo combinations; oil, lacquer or outdoor marine finishes.",
       "price": [
         [
-          "Solid teak dining table (6–8 seats)",
-          "from Rp 12 – 30 million"
+          "Solid teak dining table (6-8 seats)",
+          "from Rp 12-30 million"
         ],
         [
           "Outdoor teak daybed",
-          "from Rp 12 – 25 million"
+          "from Rp 12-25 million"
         ],
         [
           "Built-in sofa / banquette frame",
-          "from Rp 3 – 6 million / linear metre"
+          "from Rp 3-6 million / linear metre"
         ],
         [
           "Coffee table",
@@ -1321,7 +1365,7 @@
         },
         {
           "q": "How long does custom furniture take {in_area}?",
-          "a": "Most pieces take 3–6 weeks to build and finish before delivery {in_area}."
+          "a": "Most pieces take 3-6 weeks to build and finish before delivery {in_area}."
         }
       ]
     },
@@ -1329,13 +1373,13 @@
       "slug": "villa-interior-fit-out-bali",
       "combo_slug": "villa-fit-out",
       "name": "Villa Interior Fit-out",
-      "short": "Complete joinery packages for new villas and renovations — kitchens, wardrobes, vanities, doors and more.",
+      "short": "Complete joinery packages for new villas and renovations, kitchens, wardrobes, vanities, doors and more.",
       "title": "Villa Fit-out Bali | Complete Interior Joinery for Villas",
       "meta": "Complete villa interior fit-out in Bali: kitchens, wardrobes, vanities, doors, ceilings and furniture in one coordinated package for owners and developers.",
       "h1": "Complete villa interior fit-out in Bali",
-      "lead_time": "8–16 weeks",
+      "lead_time": "8-16 weeks",
       "intro": [
-        "Building or renovating a villa means dozens of joinery items — and coordinating several suppliers is where projects go wrong. We deliver the complete joinery package: kitchen, wardrobes, vanities, doors and frames, TV units, ceilings, beds and loose furniture, all designed to work together and installed on one schedule.",
+        "Building or renovating a villa means dozens of joinery items, and coordinating several suppliers is where projects go wrong. We deliver the complete joinery package: kitchen, wardrobes, vanities, doors and frames, TV units, ceilings, beds and loose furniture, all designed to work together and installed on one schedule.",
         "We work directly for owners or alongside architects, interior designers and contractors, from single villas to multi-unit developments, with one project manager and a clear programme."
       ],
       "features": [
@@ -1367,12 +1411,12 @@
       "materials": "Specified per project: marine plywood carcasses, HPL, veneer, two-pack paint, solid teak and hardwood, rattan, stone and terrazzo tops, premium hardware.",
       "price": [
         [
-          "1–2 bedroom villa joinery package",
-          "from Rp 150 – 300 million"
+          "1-2 bedroom villa joinery package",
+          "from Rp 150-300 million"
         ],
         [
-          "3–4 bedroom villa joinery package",
-          "from Rp 300 – 650 million"
+          "3-4 bedroom villa joinery package",
+          "from Rp 300-650 million"
         ],
         [
           "Multi-villa developments",
@@ -1396,15 +1440,15 @@
       "combo_title": "Villa Fit-out {in_area} | Complete Interior Joinery Bali",
       "combo_meta": "Complete villa interior fit-out {in_area}: kitchens, wardrobes, vanities, doors and furniture in one package for owners, investors and developers.",
       "combo_h1": "Villa interior fit-out {in_area}",
-      "combo_intro": "Building or renovating a villa {in_area}? {brand} delivers complete interior joinery packages for owners, investors and developers {in_area} — designed, built and installed by one team on one schedule.",
+      "combo_intro": "Building or renovating a villa {in_area}? {brand} delivers complete interior joinery packages for owners, investors and developers {in_area}, designed, built and installed by one team on one schedule.",
       "combo_faqs": [
         {
           "q": "How much does a villa fit-out cost {in_area}?",
-          "a": "A complete joinery package for a 1–2 bedroom villa {in_area} typically starts from Rp 150–300 million, and from Rp 300 million for 3–4 bedrooms, depending on finishes and scope."
+          "a": "A complete joinery package for a 1-2 bedroom villa {in_area} typically starts from Rp 150-300 million, and from Rp 300 million for 3-4 bedrooms, depending on finishes and scope."
         },
         {
           "q": "How long does a full villa fit-out take {in_area}?",
-          "a": "Allow 8–16 weeks from approved drawings, coordinated with your builder's programme {in_area}."
+          "a": "Allow 8-16 weeks from approved drawings, coordinated with your builder's programme {in_area}."
         }
       ]
     },
@@ -1416,10 +1460,10 @@
       "title": "Restaurant & Café Fit-out Bali | Bars, Counters & Commercial Joinery",
       "meta": "Commercial joinery in Bali for restaurants, cafés, bars, beach clubs, shops and hotels: bar counters, banquettes, shelving and display units.",
       "h1": "Restaurant, café & retail fit-out in Bali",
-      "lead_time": "4–10 weeks",
+      "lead_time": "4-10 weeks",
       "intro": [
         "Hospitality is Bali's biggest industry, and the interior is a big part of the brand. We build bar counters, coffee counters, banquette seating, back-bar shelving, host stands, retail displays, hotel room joinery and reception desks.",
-        "Commercial joinery has to take heavy daily use. We specify hard-wearing surfaces, commercial-grade hardware and finishes that clean easily — and we work to tight opening dates."
+        "Commercial joinery has to take heavy daily use. We specify hard-wearing surfaces, commercial-grade hardware and finishes that clean easily, and we work to tight opening dates."
       ],
       "features": [
         {
@@ -1451,11 +1495,11 @@
       "price": [
         [
           "Bar / coffee counter",
-          "from Rp 4 – 9 million / linear metre"
+          "from Rp 4-9 million / linear metre"
         ],
         [
           "Banquette seating frame",
-          "from Rp 3 – 6 million / linear metre"
+          "from Rp 3-6 million / linear metre"
         ],
         [
           "Hotel room joinery package",
@@ -1479,11 +1523,11 @@
       "combo_faqs": [
         {
           "q": "How much does a bar counter cost {in_area}?",
-          "a": "Bar and coffee counters {in_area} typically start from Rp 4–9 million per linear metre, depending on the top and finish."
+          "a": "Bar and coffee counters {in_area} typically start from Rp 4-9 million per linear metre, depending on the top and finish."
         },
         {
           "q": "How fast can you fit out a café {in_area}?",
-          "a": "Small cafés can be completed in 4–6 weeks; larger restaurants and hotels in 6–10 weeks or more."
+          "a": "Small cafés can be completed in 4-6 weeks; larger restaurants and hotels in 6-10 weeks or more."
         }
       ]
     },
@@ -1495,10 +1539,10 @@
       "title": "Furniture Repair Bali | Carpentry Repairs, Restoration & Refinishing",
       "meta": "Carpentry repairs in Bali: swollen cabinets, sticking doors, broken hinges, termite damage, furniture restoration and teak refinishing.",
       "h1": "Furniture repair & restoration in Bali",
-      "lead_time": "1–3 weeks",
+      "lead_time": "1-3 weeks",
       "intro": [
         "Bali's climate is hard on wood, and even good furniture needs care. We repair swollen kitchen cabinets, sticking doors and drawers, broken hinges and runners, termite-damaged timber, and water-damaged vanities.",
-        "We also restore and refinish teak furniture, re-oil decks and doors, and refresh rental villas between seasons — often far cheaper than replacing."
+        "We also restore and refinish teak furniture, re-oil decks and doors, and refresh rental villas between seasons, often far cheaper than replacing."
       ],
       "features": [
         {
@@ -1579,14 +1623,14 @@
       "title": "Carpenter Canggu | Custom Kitchens, Wardrobes & Joinery",
       "meta": "Carpenter in Canggu, Bali: custom kitchens, wardrobes, walk-in closets, vanities, decking and villa fit-outs. Free site visit & quote.",
       "h1": "Carpenter in Canggu",
-      "intro": "Canggu is Bali's busiest expat and digital-nomad hub, packed with modern villas, rental properties, cafés and coworking spaces. We build custom kitchens, wardrobes, vanities, decking and complete villa fit-outs across Canggu — from Batu Bolong and Echo Beach to Padang Linjong and Tumbak Bayuh.",
+      "intro": "Canggu is Bali's busiest expat and digital-nomad hub, packed with modern villas, rental properties, cafés and coworking spaces. We build custom kitchens, wardrobes, vanities, decking and complete villa fit-outs across Canggu, from Batu Bolong and Echo Beach to Padang Linjong and Tumbak Bayuh.",
       "homes": "Most homes in Canggu are modern two- to four-bedroom villas, many built for holiday rental, plus a growing number of townhouses and apartments. Owners want durable, good-looking joinery that impresses guests and survives heavy use.",
       "climate": "Being close to the ocean and surrounded by rice fields, Canggu combines salt air with high humidity. We use marine-grade plywood, stainless steel or coated hardware and well-ventilated wardrobe designs to prevent swelling, rust and mould.",
       "style": "Tropical-modern, Japandi, Scandinavian-inspired whites and natural oak tones, terrazzo and rattan are the most requested looks in Canggu, often mixed with recycled teak accents.",
       "faqs": [
         {
           "q": "Do you work in all parts of Canggu?",
-          "a": "Yes — Batu Bolong, Echo Beach, Berawa, Padang Linjong, Tumbak Bayuh, Babakan, Nelayan and the surrounding rice-field areas."
+          "a": "Yes, Batu Bolong, Echo Beach, Berawa, Padang Linjong, Tumbak Bayuh, Babakan, Nelayan and the surrounding rice-field areas."
         },
         {
           "q": "Can you work around rental bookings in Canggu villas?",
@@ -1624,7 +1668,7 @@
       "meta": "Carpenter in Berawa, Canggu: custom kitchens, built-in and walk-in wardrobes, vanities, TV units and villa fit-outs. Free site visit.",
       "h1": "Carpenter in Berawa",
       "intro": "Berawa is one of Canggu's most established family neighbourhoods, close to international schools, beach clubs and gyms. We build custom kitchens, wardrobes, kids' bedrooms, home offices and outdoor decking for Berawa villas and family homes.",
-      "homes": "Berawa has a mix of family villas, long-stay rentals and newer gated communities. Families here often need extra storage — wardrobes, bunk beds, study desks and laundry cabinets.",
+      "homes": "Berawa has a mix of family villas, long-stay rentals and newer gated communities. Families here often need extra storage, wardrobes, bunk beds, study desks and laundry cabinets.",
       "climate": "Berawa sits close to the beach, so salt air and humidity are constant. We use marine-grade plywood, sealed edges and corrosion-resistant hardware throughout.",
       "style": "Bright, family-friendly interiors with white or light oak cabinetry, rattan accents and durable HPL finishes are popular in Berawa, alongside more luxurious teak villas near the beach.",
       "faqs": [
@@ -1647,7 +1691,7 @@
       "h1": "Carpenter in Seminyak",
       "intro": "Seminyak is Bali's original upscale district, home to luxury villas, boutique hotels, designer stores and some of the island's best restaurants. We deliver high-end kitchens, walk-in wardrobes, vanities and commercial joinery across Seminyak and Petitenget.",
       "homes": "Seminyak properties range from established luxury villas due for renovation to compact private-pool villas run as holiday rentals, plus a dense mix of restaurants, bars and boutiques.",
-      "climate": "Seminyak's beachfront location means salt-laden air and high humidity. Hardware corrosion and swelling of cheap boards are common problems we fix — and prevent with the right materials.",
+      "climate": "Seminyak's beachfront location means salt-laden air and high humidity. Hardware corrosion and swelling of cheap boards are common problems we fix, and prevent with the right materials.",
       "style": "Seminyak favours refined luxury: dark teak with brass, terrazzo and marble, boutique-hotel style walk-in closets, statement doors and polished commercial interiors.",
       "faqs": [
         {
@@ -1668,7 +1712,7 @@
       "meta": "Carpenter in Kerobokan, Bali: custom kitchens, wardrobes, vanities, doors and villa fit-outs for homes and rentals. Free site visit & quote.",
       "h1": "Carpenter in Kerobokan",
       "intro": "Kerobokan sits between Seminyak and Canggu and is popular with long-term expats and families who want space and value. We build custom kitchens, wardrobes, doors, vanities and furniture for homes and villas throughout Kerobokan.",
-      "homes": "Kerobokan offers larger plots, family houses, long-term rental villas and a growing number of renovated older homes — perfect for joinery upgrades that add real value.",
+      "homes": "Kerobokan offers larger plots, family houses, long-term rental villas and a growing number of renovated older homes, perfect for joinery upgrades that add real value.",
       "climate": "Inland Kerobokan is slightly less salty than the coast but still very humid, with occasional flooding in the wet season. Raised plinths and moisture-resistant boards are essential.",
       "style": "Kerobokan homes often blend classic Balinese teak and carved details with modern kitchens and practical family storage.",
       "faqs": [
@@ -1690,7 +1734,7 @@
       "meta": "Carpenter in Umalas, Bali: custom kitchens, walk-in wardrobes, built-in wardrobes and full villa fit-outs for family homes. Free quote.",
       "h1": "Carpenter in Umalas",
       "intro": "Umalas is a green, peaceful residential area between Kerobokan and Canggu, favoured by families and long-term expats for its large villas and rice-field views. We build kitchens, walk-in wardrobes, home offices and complete villa fit-outs throughout Umalas.",
-      "homes": "Umalas is known for spacious family villas with big gardens, many owner-occupied for the long term — ideal for investing in high-quality, lasting joinery.",
+      "homes": "Umalas is known for spacious family villas with big gardens, many owner-occupied for the long term, ideal for investing in high-quality, lasting joinery.",
       "climate": "Surrounded by rice fields and gardens, Umalas villas experience high humidity and plenty of insects. We use termite-treated materials and ventilated designs throughout.",
       "style": "Umalas families love warm, natural interiors: teak and oak tones, generous kitchens with islands, walk-in wardrobes and indoor-outdoor living spaces.",
       "faqs": [
@@ -1718,7 +1762,7 @@
       "faqs": [
         {
           "q": "Do you do hotel and guesthouse joinery in Kuta?",
-          "a": "Yes. We build room joinery packages — wardrobes, desks, headboards and vanities — for hotels and guesthouses in Kuta."
+          "a": "Yes. We build room joinery packages, wardrobes, desks, headboards and vanities, for hotels and guesthouses in Kuta."
         },
         {
           "q": "Do you work in Tuban near the airport?",
@@ -1800,7 +1844,7 @@
       "meta": "Carpenter in Ungasan, Bali: custom kitchens, wardrobes, walk-in closets, decking and villa fit-outs for luxury Bukit villas. Free quote.",
       "h1": "Carpenter in Ungasan",
       "intro": "Ungasan, on the southern tip of the Bukit, is home to luxury clifftop villas, resorts and family homes with sweeping ocean views. We build kitchens, walk-in wardrobes, decking and complete villa interiors throughout Ungasan, Kutuh and Melasti.",
-      "homes": "Ungasan villas tend to be large, high-end properties — many with multiple bedrooms, infinity pools and expansive terraces — where quality joinery is expected.",
+      "homes": "Ungasan villas tend to be large, high-end properties, many with multiple bedrooms, infinity pools and expansive terraces, where quality joinery is expected.",
       "climate": "Ungasan is dry, sunny and windy with salty sea air. We focus on UV-stable outdoor finishes, sealed indoor joinery and stainless or brass hardware.",
       "style": "High-end tropical luxury: teak and stone, walk-in dressing rooms, statement entrance doors and expansive outdoor decks.",
       "faqs": [
@@ -1844,7 +1888,7 @@
       "meta": "Carpenter in Sanur, Bali: custom kitchens, wardrobes, vanities, doors and repairs for family homes, retirees and villas. Free site visit.",
       "h1": "Carpenter in Sanur",
       "intro": "Sanur is a calm, family-friendly beach town with a long-established expat community of families and retirees, close to international schools and hospitals. We build kitchens, wardrobes, vanities, doors and furniture, and handle repairs across Sanur.",
-      "homes": "Sanur has many long-term family homes, older villas with classic Balinese architecture, and new residences — homes where owners value durability and comfort.",
+      "homes": "Sanur has many long-term family homes, older villas with classic Balinese architecture, and new residences, homes where owners value durability and comfort.",
       "climate": "Sanur's sheltered east-coast location is humid and salty near the beach. We use moisture-resistant boards, sealed edges and corrosion-resistant hardware.",
       "style": "Sanur interiors often balance classic Balinese teak and carving with comfortable, practical modern kitchens and storage.",
       "faqs": [
@@ -1866,7 +1910,7 @@
       "meta": "Carpenter in Ubud, Bali: custom kitchens, wardrobes, teak furniture, doors and villa fit-outs designed for Ubud's jungle humidity. Free quote.",
       "h1": "Carpenter in Ubud",
       "intro": "Ubud is Bali's cultural and wellness heart, surrounded by jungle, rivers and rice terraces. We build custom kitchens, wardrobes, teak doors, furniture and complete villa interiors in Ubud, Penestanan, Sayan, Mas and Tegallalang.",
-      "homes": "Ubud homes range from jungle villas and eco-retreats to long-term family houses, yoga retreats and boutique hotels — many with natural, open designs.",
+      "homes": "Ubud homes range from jungle villas and eco-retreats to long-term family houses, yoga retreats and boutique hotels, many with natural, open designs.",
       "climate": "Ubud is cooler but much wetter and more humid than the coast, with jungle humidity that encourages mould and termites. Ventilation, termite treatment and fully sealed timber are essential here.",
       "style": "Natural and handcrafted: solid teak, bamboo, rattan, recycled timber, carved details and earthy finishes that blend into the jungle.",
       "faqs": [
@@ -1876,7 +1920,7 @@
         },
         {
           "q": "Do you cover villages around Ubud?",
-          "a": "Yes — Penestanan, Sayan, Kedewatan, Mas, Peliatan, Lodtunduh, Tegallalang and Keliki."
+          "a": "Yes, Penestanan, Sayan, Kedewatan, Mas, Peliatan, Lodtunduh, Tegallalang and Keliki."
         }
       ]
     },
@@ -1887,8 +1931,8 @@
       "title": "Carpenter Tabanan | Custom Kitchens, Wardrobes & Joinery",
       "meta": "Carpenter in Tabanan, Bali: custom kitchens, wardrobes, doors, decking and villa fit-outs in Kedungu, Nyanyi, Tanah Lot and Kaba-Kaba.",
       "h1": "Carpenter in Tabanan",
-      "intro": "Tabanan's coastline — Kedungu, Nyanyi, Tanah Lot and Kaba-Kaba — is the new frontier for villa building west of Canggu. We build kitchens, wardrobes, doors, decking and complete joinery packages for new villas across Tabanan.",
-      "homes": "Tabanan is dominated by new-build villas, eco-retreats and developments surrounded by rice fields — perfect for joinery planned during construction.",
+      "intro": "Tabanan's coastline, Kedungu, Nyanyi, Tanah Lot and Kaba-Kaba, is the new frontier for villa building west of Canggu. We build kitchens, wardrobes, doors, decking and complete joinery packages for new villas across Tabanan.",
+      "homes": "Tabanan is dominated by new-build villas, eco-retreats and developments surrounded by rice fields, perfect for joinery planned during construction.",
       "climate": "Rice-field surroundings and coastal breezes make Tabanan very humid. We specify termite-treated timber, marine plywood and ventilated designs as standard.",
       "style": "Earthy, natural interiors with timber, rattan, stone and big openings to the rice fields are typical of new Tabanan villas.",
       "faqs": [
@@ -1910,7 +1954,7 @@
       "meta": "Carpenter in Denpasar, Bali: custom kitchen sets, wardrobes, doors, office and shop fit-outs, and furniture repair. Free site visit & quote.",
       "h1": "Carpenter in Denpasar",
       "intro": "Denpasar is Bali's capital and commercial centre, with family homes, offices, shops and clinics. We build kitchen sets, wardrobes, doors, office furniture and retail fit-outs, and offer repairs throughout Denpasar, including Renon and Sesetan.",
-      "homes": "Denpasar has a mix of family houses, shophouses, offices and clinics — projects where practical, durable joinery and good value matter.",
+      "homes": "Denpasar has a mix of family houses, shophouses, offices and clinics, projects where practical, durable joinery and good value matter.",
       "climate": "Urban Denpasar is hot and humid. Moisture-resistant boards and good ventilation keep cabinets and wardrobes in shape.",
       "style": "Clean modern designs, practical storage and professional office and retail interiors are most requested in Denpasar.",
       "faqs": [
@@ -1931,22 +1975,22 @@
       "title": "How Much Does a Custom Kitchen Cost in Bali? (2026 Guide)",
       "meta": "A practical 2026 guide to custom kitchen prices in Bali: cost per metre for HPL, painted and teak kitchens, countertops, hardware and what affects your quote.",
       "h1": "How much does a custom kitchen cost in Bali?",
-      "intro": "Kitchen prices in Bali vary enormously — from cheap particle-board kitchen sets that fall apart in a year to luxury teak kitchens that last decades. This guide explains how kitchens are priced in Bali, what drives the cost and how to compare quotes properly.",
+      "intro": "Kitchen prices in Bali vary enormously, from cheap particle-board kitchen sets that fall apart in a year to luxury teak kitchens that last decades. This guide explains how kitchens are priced in Bali, what drives the cost and how to compare quotes properly.",
       "sections": [
         {
           "h": "How kitchens are priced: per linear metre",
           "p": [
-            "Most Bali workshops price kitchens per linear metre (in Indonesian: per meter lari) — the length of the cabinet run measured along the wall. A price per metre usually includes the base cabinets and the wall cabinets above them. Tall units, islands, countertops, appliances and sinks are normally priced separately.",
+            "Most Bali workshops price kitchens per linear metre (in Indonesian: per meter lari), the length of the cabinet run measured along the wall. A price per metre usually includes the base cabinets and the wall cabinets above them. Tall units, islands, countertops, appliances and sinks are normally priced separately.",
             "When comparing quotes, always check whether the price per metre includes wall units, interiors in the same finish, edge banding on all edges, hardware brand and installation."
           ]
         },
         {
           "h": "Typical 2026 price ranges",
           "p": [
-            "Plywood carcass with HPL fronts: from around Rp 3.5–5 million per linear metre. This is the best-value, hard-wearing option for most villas and rentals.",
-            "Two-pack painted (duco) fronts: from around Rp 4.5–7 million per metre, for a seamless modern look in any colour.",
-            "Solid teak or teak veneer fronts: from around Rp 6–14 million per metre, depending on whether fronts are veneer or solid wood.",
-            "Kitchen islands start from about Rp 15 million; outdoor kitchens from about Rp 20 million. Stone tops typically add Rp 2.5–8 million per metre depending on the material."
+            "Plywood carcass with HPL fronts: from around Rp 3.5-5 million per linear metre. This is the best-value, hard-wearing option for most villas and rentals.",
+            "Two-pack painted (duco) fronts: from around Rp 4.5-7 million per metre, for a seamless modern look in any colour.",
+            "Solid teak or teak veneer fronts: from around Rp 6-14 million per metre, depending on whether fronts are veneer or solid wood.",
+            "Kitchen islands start from about Rp 15 million; outdoor kitchens from about Rp 20 million. Stone tops typically add Rp 2.5-8 million per metre depending on the material."
           ]
         },
         {
@@ -1959,7 +2003,7 @@
           ]
         },
         {
-          "h": "Where to save — and where not to",
+          "h": "Where to save, and where not to",
           "p": [
             "Save by choosing HPL for doors and fewer, wider drawers. Don't save on carcass material, edge sealing or hardware: these are what fail first in Bali.",
             "Never accept particle board (chipboard) in a kitchen in Bali. It swells permanently the first time water gets in."
@@ -1978,13 +2022,13 @@
       "title": "Best Wood & Materials for Furniture in Bali's Humidity",
       "meta": "Teak, merbau, ulin, marine plywood, MDF or HPL? A practical guide to choosing furniture materials that survive Bali's humidity, salt air and termites.",
       "h1": "The best wood and materials for furniture in Bali's climate",
-      "intro": "Bali's humidity, salt air and termites destroy the wrong materials quickly. Here is a straightforward guide to what works in the tropics — and what to avoid.",
+      "intro": "Bali's humidity, salt air and termites destroy the wrong materials quickly. Here is a straightforward guide to what works in the tropics, and what to avoid.",
       "sections": [
         {
           "h": "Solid hardwoods",
           "p": [
             "Teak (jati) is the gold standard: stable, naturally oily, resistant to water, rot and termites, and beautiful. Plantation teak is widely available in Bali; older recycled teak is prized for character.",
-            "Merbau is very hard and durable with a rich reddish-brown colour — excellent for doors, stairs and decking. Ulin (Borneo ironwood) is the toughest of all and ideal for decking, posts and shingles. Bengkirai is a durable, more economical choice for decking and outdoor structures."
+            "Merbau is very hard and durable with a rich reddish-brown colour, excellent for doors, stairs and decking. Ulin (Borneo ironwood) is the toughest of all and ideal for decking, posts and shingles. Bengkirai is a durable, more economical choice for decking and outdoor structures."
           ]
         },
         {
@@ -1997,7 +2041,7 @@
         {
           "h": "Finishes",
           "p": [
-            "HPL (high-pressure laminate) is tough, waterproof and wipe-clean — the most practical finish for kitchens and rentals. Two-pack (duco) paint gives a seamless look but needs careful application. Natural oils suit teak and outdoor timber; polyurethane gives a harder wearing surface indoors."
+            "HPL (high-pressure laminate) is tough, waterproof and wipe-clean, the most practical finish for kitchens and rentals. Two-pack (duco) paint gives a seamless look but needs careful application. Natural oils suit teak and outdoor timber; polyurethane gives a harder wearing surface indoors."
           ]
         },
         {

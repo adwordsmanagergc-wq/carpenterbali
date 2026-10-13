@@ -127,14 +127,58 @@
     ],
     "contact_role": "Maître menuisier",
     "contact_direct": "Parlez directement avec {name}, notre maître menuisier, sur WhatsApp.",
-    "wa_greeting": "Bonjour {name}, je vous ai trouvé sur carpenterbali.com."
+    "wa_greeting": "Bonjour {name}, je vous ai trouvé sur carpenterbali.com.",
+    "groups": [
+      "Pièces & rangements",
+      "Structure & extérieur",
+      "Projets complets"
+    ],
+    "materials_explorer_title": "Choisir le bon bois",
+    "materials_explorer_lead": "Chaque pièce à Bali a ses exigences. Comparez les matériaux que nous utilisons.",
+    "mat_labels": [
+      "Durabilité",
+      "Stabilité à l'humidité",
+      "Résistance aux termites",
+      "Rapport qualité-prix"
+    ],
+    "mat_best": "Idéal pour",
+    "mat_scale": "Repère relatif, de 1 à 5.",
+    "explore": "Voir",
+    "scroll_hint": "Faites défiler",
+    "materials": [
+      {
+        "name": "Teck (jati)",
+        "best": "Portes, meubles vasque, mobilier extérieur",
+        "d": "Naturellement huileux et stable. Il résiste à l'eau, à la pourriture et aux termites, avec le rendu le plus chaleureux."
+      },
+      {
+        "name": "Merbau",
+        "best": "Escaliers, encadrements, terrasses",
+        "d": "Très dur, d'une riche couleur brun-rouge. Excellent rapport qualité-prix pour la structure et l'extérieur."
+      },
+      {
+        "name": "Ulin (bois de fer)",
+        "best": "Decks de piscine, poteaux, bardeaux",
+        "d": "Le bois de fer de Bornéo, le plus résistant que nous utilisons. Fait pour le soleil, la pluie et l'eau de piscine."
+      },
+      {
+        "name": "Contreplaqué marine",
+        "best": "Caissons de cuisine et de placard",
+        "d": "Plis croisés et colle hydrofuge. Reste plat malgré l'humidité et tient les vis pendant des années."
+      },
+      {
+        "name": "Stratifié HPL",
+        "best": "Façades de cuisine, locations, meubles vasque",
+        "d": "Une surface dure, étanche et facile à nettoyer sur contreplaqué. Le choix pratique pour les cuisines actives."
+      }
+    ]
   },
   "home": {
     "title": "Menuisier Bali | Cuisines, placards et dressings sur mesure",
     "meta": "Menuisier à Bali : cuisine sur mesure, placards, dressing, meuble vasque, portes, terrasse bois et aménagement de villa. Visite gratuite à Canggu, Ubud…",
     "eyebrow": "Menuiserie et ébénisterie sur mesure à Bali",
-    "h1": "Cuisines, placards et boiseries sur mesure, pensés pour Bali",
-    "lead": "Nous concevons, fabriquons et posons des meubles sur mesure pour villas, maisons et commerces, en teck massif, contreplaqué marine et finitions modernes conçues pour résister à l'humidité tropicale.",
+    "h1": "Menuiserie sur mesure, pensée pour Bali",
+    "lead": "Cuisines, dressings et intérieurs de villa, fabriqués dans notre atelier à Bali avec des bois adaptés à l'humidité.",
     "points": [
       "Visite et devis gratuits",
       "Notre propre atelier à Bali",
@@ -253,15 +297,15 @@
       "price": [
         [
           "Cuisine contreplaqué + HPL (meubles bas et hauts)",
-          "à partir de 3,5 – 5 millions Rp / mètre linéaire"
+          "à partir de 3,5-5 millions Rp / mètre linéaire"
         ],
         [
           "Cuisine laquée (laque bi-composant)",
-          "à partir de 4,5 – 7 millions Rp / mètre linéaire"
+          "à partir de 4,5-7 millions Rp / mètre linéaire"
         ],
         [
           "Cuisine en teck massif",
-          "à partir de 8 – 14 millions Rp / mètre linéaire"
+          "à partir de 8-14 millions Rp / mètre linéaire"
         ],
         [
           "Îlot de cuisine",
@@ -293,7 +337,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte une cuisine sur mesure {in_area} ?",
-          "a": "Une cuisine en contreplaqué et HPL {in_area} démarre autour de 3,5 – 5 millions Rp par mètre linéaire pour les meubles bas et hauts. Les finitions laquées et le teck massif coûtent davantage. Après une visite gratuite, nous vous remettons un devis détaillé pour que vous sachiez exactement ce que vous payez."
+          "a": "Une cuisine en contreplaqué et HPL {in_area} démarre autour de 3,5-5 millions Rp par mètre linéaire pour les meubles bas et hauts. Les finitions laquées et le teck massif coûtent davantage. Après une visite gratuite, nous vous remettons un devis détaillé pour que vous sachiez exactement ce que vous payez."
         },
         {
           "q": "Quel délai pour une nouvelle cuisine {in_area} ?",
@@ -348,15 +392,15 @@
       "price": [
         [
           "Placard contreplaqué + HPL, pleine hauteur",
-          "à partir de 3 – 5 millions Rp / mètre linéaire"
+          "à partir de 3-5 millions Rp / mètre linéaire"
         ],
         [
           "Placard en placage teck ou laqué",
-          "à partir de 4,5 – 7 millions Rp / mètre linéaire"
+          "à partir de 4,5-7 millions Rp / mètre linéaire"
         ],
         [
           "Cadre en teck massif + portes en rotin",
-          "à partir de 6 – 10 millions Rp / mètre linéaire"
+          "à partir de 6-10 millions Rp / mètre linéaire"
         ],
         [
           "Options intérieures (tiroirs, LED, coulissants)",
@@ -384,7 +428,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un placard sur mesure {in_area} ?",
-          "a": "Un placard pleine hauteur en contreplaqué et HPL {in_area} démarre autour de 3 – 5 millions Rp par mètre linéaire. Les finitions teck, rotin et laquées coûtent davantage. Nous vous remettons un devis détaillé gratuit après avoir mesuré la pièce."
+          "a": "Un placard pleine hauteur en contreplaqué et HPL {in_area} démarre autour de 3-5 millions Rp par mètre linéaire. Les finitions teck, rotin et laquées coûtent davantage. Nous vous remettons un devis détaillé gratuit après avoir mesuré la pièce."
         },
         {
           "q": "En combien de temps pouvez-vous poser des placards {in_area} ?",
@@ -439,11 +483,11 @@
       "price": [
         [
           "Dressing de passage compact",
-          "à partir de 25 – 45 millions Rp"
+          "à partir de 25-45 millions Rp"
         ],
         [
           "Dressing moyen (en U)",
-          "à partir de 45 – 90 millions Rp"
+          "à partir de 45-90 millions Rp"
         ],
         [
           "Dressing de luxe avec îlot",
@@ -475,7 +519,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un dressing sur mesure {in_area} ?",
-          "a": "Un dressing de passage compact {in_area} démarre autour de 25 – 45 millions Rp, tandis qu'un grand dressing avec îlot et éclairage démarre généralement à 90 millions Rp. Le prix dépend de la taille, des finitions et de la quincaillerie."
+          "a": "Un dressing de passage compact {in_area} démarre autour de 25-45 millions Rp, tandis qu'un grand dressing avec îlot et éclairage démarre généralement à 90 millions Rp. Le prix dépend de la taille, des finitions et de la quincaillerie."
         },
         {
           "q": "Quel délai pour un projet de dressing {in_area} ?",
@@ -530,15 +574,15 @@
       "price": [
         [
           "Meuble vasque suspendu simple (contreplaqué + HPL)",
-          "à partir de 4 – 7 millions Rp"
+          "à partir de 4-7 millions Rp"
         ],
         [
           "Meuble vasque en teck massif",
-          "à partir de 6 – 12 millions Rp"
+          "à partir de 6-12 millions Rp"
         ],
         [
           "Double meuble vasque avec tiroirs",
-          "à partir de 8 – 16 millions Rp"
+          "à partir de 8-16 millions Rp"
         ],
         [
           "Miroir encadré / armoire de toilette",
@@ -566,7 +610,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un meuble de salle de bain sur mesure {in_area} ?",
-          "a": "Un meuble vasque suspendu simple en contreplaqué et HPL {in_area} démarre autour de 4 – 7 millions Rp ; le teck massif et les doubles vasques coûtent davantage. Plans et vasques sont chiffrés séparément ou en formule complète."
+          "a": "Un meuble vasque suspendu simple en contreplaqué et HPL {in_area} démarre autour de 4-7 millions Rp ; le teck massif et les doubles vasques coûtent davantage. Plans et vasques sont chiffrés séparément ou en formule complète."
         },
         {
           "q": "Combien de temps faut-il pour poser un meuble vasque {in_area} ?",
@@ -617,15 +661,15 @@
       "price": [
         [
           "Meuble TV suspendu",
-          "à partir de 5 – 10 millions Rp"
+          "à partir de 5-10 millions Rp"
         ],
         [
           "Mur TV pleine hauteur",
-          "à partir de 12 – 30 millions Rp"
+          "à partir de 12-30 millions Rp"
         ],
         [
           "Mur décoratif en tasseaux de bois",
-          "à partir de 1,5 – 3 millions Rp / m²"
+          "à partir de 1,5-3 millions Rp / m²"
         ]
       ],
       "faqs": [
@@ -645,7 +689,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un meuble TV sur mesure {in_area} ?",
-          "a": "Les meubles TV suspendus {in_area} démarrent autour de 5 – 10 millions Rp, et les murs TV pleine hauteur à environ 12 millions Rp, selon la taille et la finition."
+          "a": "Les meubles TV suspendus {in_area} démarrent autour de 5-10 millions Rp, et les murs TV pleine hauteur à environ 12 millions Rp, selon la taille et la finition."
         },
         {
           "q": "Quel délai pour un mur TV {in_area} ?",
@@ -696,19 +740,19 @@
       "price": [
         [
           "Porte intérieure en teck massif + huisserie",
-          "à partir de 6 – 12 millions Rp"
+          "à partir de 6-12 millions Rp"
         ],
         [
           "Porte d'entrée / pivotante",
-          "à partir de 15 – 45 millions Rp"
+          "à partir de 15-45 millions Rp"
         ],
         [
           "Huisserie de fenêtre (kusen) + ouvrant",
-          "à partir de 2,5 – 6 millions Rp l'unité"
+          "à partir de 2,5-6 millions Rp l'unité"
         ],
         [
           "Portes vitrées pliantes",
-          "à partir de 6 – 10 millions Rp / m²"
+          "à partir de 6-10 millions Rp / m²"
         ]
       ],
       "faqs": [
@@ -732,7 +776,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte une porte en teck {in_area} ?",
-          "a": "Une porte intérieure en teck massif avec huisserie {in_area} démarre autour de 6 – 12 millions Rp. Les grandes portes d'entrée et pivotantes sont chiffrées selon le modèle."
+          "a": "Une porte intérieure en teck massif avec huisserie {in_area} démarre autour de 6-12 millions Rp. Les grandes portes d'entrée et pivotantes sont chiffrées selon le modèle."
         },
         {
           "q": "Pouvez-vous fournir portes et huisseries pour une villa neuve {in_area} ?",
@@ -783,15 +827,15 @@
       "price": [
         [
           "Terrasse merbau / bengkirai, posée",
-          "à partir de 1,3 – 2 millions Rp / m²"
+          "à partir de 1,3-2 millions Rp / m²"
         ],
         [
           "Terrasse en ulin (bois de fer), posée",
-          "à partir de 2 – 3 millions Rp / m²"
+          "à partir de 2-3 millions Rp / m²"
         ],
         [
           "Terrasse composite WPC, posée",
-          "à partir de 1,3 – 2,3 millions Rp / m²"
+          "à partir de 1,3-2,3 millions Rp / m²"
         ],
         [
           "Ponçage et huilage de terrasse",
@@ -819,7 +863,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte une terrasse au mètre carré {in_area} ?",
-          "a": "Une terrasse en merbau ou bengkirai posée {in_area} démarre autour de 1,3 – 2 millions Rp le m², l'ulin à environ 2 millions Rp le m² et le composite WPC à environ 1,3 million Rp le m², selon l'ossature et l'accès."
+          "a": "Une terrasse en merbau ou bengkirai posée {in_area} démarre autour de 1,3-2 millions Rp le m², l'ulin à environ 2 millions Rp le m² et le composite WPC à environ 1,3 million Rp le m², selon l'ossature et l'accès."
         },
         {
           "q": "Combien de temps faut-il pour poser une terrasse {in_area} ?",
@@ -870,7 +914,7 @@
       "price": [
         [
           "Pergola en bois (ouverte)",
-          "à partir de 1,8 – 3,5 millions Rp / m²"
+          "à partir de 1,8-3,5 millions Rp / m²"
         ],
         [
           "Gazebo de bord de piscine",
@@ -902,7 +946,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte une pergola {in_area} ?",
-          "a": "Les pergolas ouvertes en bois {in_area} démarrent autour de 1,8 – 3,5 millions Rp le m². Les gazebos démarrent à environ 35 millions Rp et les balé traditionnels à environ 60 millions Rp."
+          "a": "Les pergolas ouvertes en bois {in_area} démarrent autour de 1,8-3,5 millions Rp le m². Les gazebos démarrent à environ 35 millions Rp et les balé traditionnels à environ 60 millions Rp."
         },
         {
           "q": "Combien de temps faut-il pour construire un balé {in_area} ?",
@@ -949,15 +993,15 @@
           "d": "Nez de marche rainurés et huiles antidérapantes pour plus de sécurité."
         }
       ],
-      "materials": "Marches en teck, merbau ou bengkirai massifs (40–80 mm) ; limons ou poutre centrale en acier ; garde-corps en verre trempé, acier ou bois ; finitions polyuréthane ou huile très résistantes.",
+      "materials": "Marches en teck, merbau ou bengkirai massifs (40-80 mm) ; limons ou poutre centrale en acier ; garde-corps en verre trempé, acier ou bois ; finitions polyuréthane ou huile très résistantes.",
       "price": [
         [
           "Habillage bois d'escalier béton",
-          "à partir de 1,2 – 2,5 millions Rp / marche"
+          "à partir de 1,2-2,5 millions Rp / marche"
         ],
         [
           "Escalier suspendu (marches + fixation)",
-          "à partir de 2,5 – 5 millions Rp / marche"
+          "à partir de 2,5-5 millions Rp / marche"
         ],
         [
           "Escalier complet en bois",
@@ -985,7 +1029,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un escalier suspendu {in_area} ?",
-          "a": "Un escalier suspendu {in_area} démarre généralement autour de 2,5 – 5 millions Rp par marche, marches et fixations comprises. L'habillage d'un escalier existant démarre à environ 1,2 million Rp par marche."
+          "a": "Un escalier suspendu {in_area} démarre généralement autour de 2,5-5 millions Rp par marche, marches et fixations comprises. L'habillage d'un escalier existant démarre à environ 1,2 million Rp par marche."
         },
         {
           "q": "Combien de temps dure la pose d'un escalier {in_area} ?",
@@ -1036,19 +1080,19 @@
       "price": [
         [
           "Plafond à tasseaux de bois",
-          "à partir de 600 000 Rp – 1,2 million Rp / m²"
+          "à partir de 600 000 Rp, 1,2 million Rp / m²"
         ],
         [
           "Mur décoratif à tasseaux",
-          "à partir de 1,5 – 3 millions Rp / m²"
+          "à partir de 1,5-3 millions Rp / m²"
         ],
         [
           "Panneaux acoustiques à tasseaux",
-          "à partir de 1,2 – 2 millions Rp / m²"
+          "à partir de 1,2-2 millions Rp / m²"
         ],
         [
           "Plafond en bambou",
-          "à partir de 350 000 – 700 000 Rp / m²"
+          "à partir de 350 000-700 000 Rp / m²"
         ]
       ],
       "faqs": [
@@ -1068,7 +1112,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un plafond en bois {in_area} ?",
-          "a": "Les plafonds à tasseaux de bois {in_area} démarrent autour de 600 000 Rp – 1,2 million Rp le m², et les plafonds en bambou à environ 350 000 Rp le m²."
+          "a": "Les plafonds à tasseaux de bois {in_area} démarrent autour de 600 000 Rp, 1,2 million Rp le m², et les plafonds en bambou à environ 350 000 Rp le m²."
         },
         {
           "q": "Combien de temps dure la pose de lambris {in_area} ?",
@@ -1119,15 +1163,15 @@
       "price": [
         [
           "Lit queen/king en teck massif",
-          "à partir de 9 – 20 millions Rp"
+          "à partir de 9-20 millions Rp"
         ],
         [
           "Tête de lit murale avec chevets",
-          "à partir de 7 – 18 millions Rp"
+          "à partir de 7-18 millions Rp"
         ],
         [
           "Lit superposé",
-          "à partir de 8 – 15 millions Rp"
+          "à partir de 8-15 millions Rp"
         ],
         [
           "Table de chevet",
@@ -1151,7 +1195,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un lit en teck sur mesure {in_area} ?",
-          "a": "Les lits queen ou king en teck massif {in_area} démarrent autour de 9 – 20 millions Rp, selon le modèle et la taille."
+          "a": "Les lits queen ou king en teck massif {in_area} démarrent autour de 9-20 millions Rp, selon le modèle et la taille."
         },
         {
           "q": "Livrez-vous et montez-vous les lits {in_area} ?",
@@ -1202,11 +1246,11 @@
       "price": [
         [
           "Bureau intégré avec rangements",
-          "à partir de 5 – 12 millions Rp"
+          "à partir de 5-12 millions Rp"
         ],
         [
           "Bibliothèque / étagères pleine hauteur",
-          "à partir de 3 – 6 millions Rp / mètre linéaire"
+          "à partir de 3-6 millions Rp / mètre linéaire"
         ],
         [
           "Étagère flottante en bois massif",
@@ -1234,7 +1278,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un bureau intégré {in_area} ?",
-          "a": "Les bureaux intégrés avec rangements {in_area} démarrent autour de 5 – 12 millions Rp selon la taille et la finition."
+          "a": "Les bureaux intégrés avec rangements {in_area} démarrent autour de 5-12 millions Rp selon la taille et la finition."
         },
         {
           "q": "En combien de temps pouvez-vous aménager un bureau {in_area} ?",
@@ -1284,16 +1328,16 @@
       "materials": "Teck de plantation, suar, teck recyclé, merbau, manguier et rotin ; associations acier et terrazzo ; finition huile, vernis ou marine pour l'extérieur.",
       "price": [
         [
-          "Table à manger en teck massif (6–8 places)",
-          "à partir de 12 – 30 millions Rp"
+          "Table à manger en teck massif (6-8 places)",
+          "à partir de 12-30 millions Rp"
         ],
         [
           "Daybed d'extérieur en teck",
-          "à partir de 12 – 25 millions Rp"
+          "à partir de 12-25 millions Rp"
         ],
         [
           "Structure de canapé / banquette intégrée",
-          "à partir de 3 – 6 millions Rp / mètre linéaire"
+          "à partir de 3-6 millions Rp / mètre linéaire"
         ],
         [
           "Table basse",
@@ -1367,12 +1411,12 @@
       "materials": "Définis selon le projet : caissons en contreplaqué marine, HPL, placage, laque bi-composant, teck massif et bois durs, rotin, plans en pierre et terrazzo, quincaillerie haut de gamme.",
       "price": [
         [
-          "Lot menuiserie villa 1–2 chambres",
-          "à partir de 150 – 300 millions Rp"
+          "Lot menuiserie villa 1-2 chambres",
+          "à partir de 150-300 millions Rp"
         ],
         [
-          "Lot menuiserie villa 3–4 chambres",
-          "à partir de 300 – 650 millions Rp"
+          "Lot menuiserie villa 3-4 chambres",
+          "à partir de 300-650 millions Rp"
         ],
         [
           "Programmes de plusieurs villas",
@@ -1400,7 +1444,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte l'aménagement d'une villa {in_area} ?",
-          "a": "Un lot menuiserie complet pour une villa de 1 à 2 chambres {in_area} démarre généralement à 150 – 300 millions Rp, et à 300 millions Rp pour 3 à 4 chambres, selon les finitions et le périmètre."
+          "a": "Un lot menuiserie complet pour une villa de 1 à 2 chambres {in_area} démarre généralement à 150-300 millions Rp, et à 300 millions Rp pour 3 à 4 chambres, selon les finitions et le périmètre."
         },
         {
           "q": "Combien de temps dure l'aménagement complet d'une villa {in_area} ?",
@@ -1451,11 +1495,11 @@
       "price": [
         [
           "Comptoir de bar / café",
-          "à partir de 4 – 9 millions Rp / mètre linéaire"
+          "à partir de 4-9 millions Rp / mètre linéaire"
         ],
         [
           "Structure de banquette",
-          "à partir de 3 – 6 millions Rp / mètre linéaire"
+          "à partir de 3-6 millions Rp / mètre linéaire"
         ],
         [
           "Lot menuiserie de chambre d'hôtel",
@@ -1479,7 +1523,7 @@
       "combo_faqs": [
         {
           "q": "Combien coûte un comptoir de bar {in_area} ?",
-          "a": "Les comptoirs de bar et de café {in_area} démarrent généralement à 4 – 9 millions Rp par mètre linéaire, selon le plan et la finition."
+          "a": "Les comptoirs de bar et de café {in_area} démarrent généralement à 4-9 millions Rp par mètre linéaire, selon le plan et la finition."
         },
         {
           "q": "En combien de temps pouvez-vous agencer un café {in_area} ?",
@@ -1943,10 +1987,10 @@
         {
           "h": "Fourchettes de prix 2026",
           "p": [
-            "Caissons en contreplaqué et façades HPL : à partir d'environ 3,5 – 5 millions Rp par mètre linéaire. C'est l'option la plus résistante et au meilleur rapport qualité-prix pour la plupart des villas et des locations.",
-            "Façades en laque bi-composant : à partir d'environ 4,5 – 7 millions Rp par mètre, pour un rendu moderne sans joint dans la couleur de votre choix.",
-            "Façades en teck massif ou en placage teck : à partir d'environ 6 – 14 millions Rp par mètre, selon que les façades sont en placage ou en bois massif.",
-            "Un îlot de cuisine démarre à environ 15 millions Rp, une cuisine d'extérieur à environ 20 millions Rp. Les plans de travail en pierre ajoutent généralement 2,5 – 8 millions Rp par mètre selon le matériau."
+            "Caissons en contreplaqué et façades HPL : à partir d'environ 3,5-5 millions Rp par mètre linéaire. C'est l'option la plus résistante et au meilleur rapport qualité-prix pour la plupart des villas et des locations.",
+            "Façades en laque bi-composant : à partir d'environ 4,5-7 millions Rp par mètre, pour un rendu moderne sans joint dans la couleur de votre choix.",
+            "Façades en teck massif ou en placage teck : à partir d'environ 6-14 millions Rp par mètre, selon que les façades sont en placage ou en bois massif.",
+            "Un îlot de cuisine démarre à environ 15 millions Rp, une cuisine d'extérieur à environ 20 millions Rp. Les plans de travail en pierre ajoutent généralement 2,5-8 millions Rp par mètre selon le matériau."
           ]
         },
         {

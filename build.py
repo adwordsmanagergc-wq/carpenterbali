@@ -27,6 +27,7 @@ CONTENT = os.path.join(ROOT, "content")
 IMAGES = os.path.join(ROOT, "images")
 ASSETS = os.path.join(ROOT, "assets")
 OUT = os.path.join(ROOT, "public")
+ICONS = os.path.join(ASSETS, "icons")
 IMG_EXTS = (".webp", ".jpg", ".jpeg", ".png", ".avif")
 TODAY = datetime.date.today().isoformat()
 
@@ -96,9 +97,6 @@ def abs_url(path):
 # --------------------------------------------------------------------------
 
 _copied = {}
-PLACEHOLDER_ICONS = {
-    "default": '<path d="M-90 40h180M-70 40v-70h140v70M-70-30l70-50 70 50" />',
-}
 
 
 def find_image(*keys):
@@ -134,13 +132,15 @@ def placeholder(key):
     return f"/images/placeholder/{name}"
 
 
-def img(keys, alt, cls="", eager=False, w=1200, h=800, L=None):
+def img(keys, alt, cls="", eager=False, w=1600, h=1067, L=None, sizes=None):
     if isinstance(keys, str):
         keys = [keys]
     src, real = find_image(*keys)
     if not src:
         src = placeholder(keys[-1] if len(keys) > 1 else keys[0])
     load = 'fetchpriority="high"' if eager else 'loading="lazy"'
+    if sizes:
+        load += f' sizes="{sizes}"'
     tag = (f'<img src="{src}" alt="{esc(alt)}" width="{w}" height="{h}" {load} '
            f'decoding="async"{(" class=" + chr(34) + cls + chr(34)) if cls else ""}>')
     if not real and L:
@@ -181,7 +181,7 @@ def business_ld(L):
             "@type": "ContactPoint",
             "telephone": "+" + site["whatsapp"],
             "contactType": "customer service",
-            "name": f"{site.get('contact_name', '')} — {L['ui'].get('contact_role', '')}".strip(" —"),
+            "name": f"{site.get('contact_name', '')}, {L['ui'].get('contact_role', '')}".strip(" ,"),
             "availableLanguage": ["English", "Indonesian", "French", "Russian"],
         },
         "knowsLanguage": ["en", "id", "fr", "ru"],
@@ -227,78 +227,106 @@ def service_ld(L, name, desc, url, area_names):
     }
 
 
+
+
 # --------------------------------------------------------------------------
-# Layout
+# Layout primitives
 # --------------------------------------------------------------------------
 
 CSS_VER = JS_VER = "1"
 
 
+def font_preload(lang):
+    sub = "cyrillic" if lang == "ru" else "latin"
+    return "\n".join(f'<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/{f}" crossorigin>'
+                     for f in sorted(os.listdir(os.path.join(ASSETS, "fonts"))) if f"-normal-{sub}-" in f and "ext" not in f)
+
+
+_icon_cache = {}
+
+
+def icon(name, cls="i"):
+    """Inline a Phosphor icon (assets/icons/<name>.svg)."""
+    if name not in _icon_cache:
+        _icon_cache[name] = open(os.path.join(ICONS, name + ".svg"), encoding="utf-8").read().strip()
+    return _icon_cache[name].replace("<svg ", f'<svg class="{cls}" aria-hidden="true" focusable="false" ', 1)
+
+
 def wa_link(L, text=""):
-    greet = fill(L["ui"].get("wa_greeting", ""), name=site.get("contact_name", ""))
-    msg = (greet + " " + text).strip()
     from urllib.parse import quote
-    return f"https://wa.me/{site['whatsapp']}?text={quote(msg)}"
+    greet = fill(L["ui"].get("wa_greeting", ""), name=site.get("contact_name", ""))
+    return f"https://wa.me/{site['whatsapp']}?text={quote((greet + ' ' + text).strip())}"
+
+
+def first_sentence(text):
+    m = re.search(r"^(.+?[.!?])\s+(.+)$", text, re.S)
+    return (m.group(1), m.group(2)) if m else (text, "")
+
+
+def split_words(text, em_last=False):
+    """Wrap each word for the masked headline reveal."""
+    words = text.split()
+    out = []
+    for i, w in enumerate(words):
+        inner = esc(w)
+        if em_last and i == len(words) - 1:
+            inner = f"<em>{inner}</em>"
+        out.append(f'<span class="w"><span style="--i:{i}">{inner}</span></span>')
+    return " ".join(out)
+
+
+def svc_img(k):
+    return find_image(k)[0] or placeholder(k)
+
+
+LOGO = ('<svg class="logo-mark" width="30" height="30" viewBox="0 0 40 40" aria-hidden="true">'
+        '<rect x="1" y="1" width="38" height="38" fill="none" stroke="currentColor" stroke-width="2"/>'
+        '<path d="M10 29h20M13 29V18l7-6 7 6v11M18 29v-6h4v6" fill="none" stroke="currentColor" stroke-width="2" '
+        'stroke-linejoin="round"/></svg>')
 
 
 def lang_switcher(L, pid):
-    cur = L["lang"]
     items = []
     for code, T in LANGS.items():
-        active = ' aria-current="true"' if code == cur else ""
+        cur = ' aria-current="true"' if code == L["lang"] else ""
         items.append(f'<li><a href="{page_path(code, pid)}" hreflang="{T["hreflang"]}" lang="{T["hreflang"]}" '
-                     f'data-lang="{code}"{active}><span class="lang-code">{T["short"]}</span> {esc(T["label"])}</a></li>')
-    return f"""<details class="lang">
-<summary aria-label="{esc(L['ui']['language'])}"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 3a9 9 0 100 18 9 9 0 000-18zm0 0c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9m0-18C9.5 5.6 8.2 8.6 8.2 12s1.3 6.4 3.8 9M3.5 9h17M3.5 15h17"/></svg><span>{L['short']}</span></summary>
-<ul>{''.join(items)}</ul></details>"""
-
-
-LOGO = ('<svg class="logo-mark" width="34" height="34" viewBox="0 0 40 40" aria-hidden="true">'
-        '<rect width="40" height="40" rx="9" fill="currentColor"/>'
-        '<path d="M10 28h20M12 28V17l8-6 8 6v11M17 28v-6h6v6" fill="none" stroke="#fff" stroke-width="2.4" '
-        'stroke-linecap="round" stroke-linejoin="round"/></svg>')
+                     f'data-lang="{code}"{cur}><span class="lang-code">{T["short"]}</span>{esc(T["label"])}</a></li>')
+    return (f'<details class="lang"><summary aria-label="{esc(L["ui"]["language"])}">{icon("globe-simple")}'
+            f'<span>{L["short"]}</span></summary><ul>{"".join(items)}</ul></details>')
 
 
 def header(L, pid):
-    u = L["ui"]
-    nav = [
-        (("index", "services"), u["nav_services"]),
-        (("index", "areas"), u["nav_areas"]),
-        (("index", "guides"), u["nav_guides"]),
-        (("page", "about"), u["nav_about"]),
-        (("page", "contact"), u["nav_contact"]),
-    ]
-    links = "".join(
-        f'<li><a href="{page_path(L["lang"], p)}"{" aria-current=" + chr(34) + "page" + chr(34) if p == pid else ""}>{esc(t)}</a></li>'
-        for p, t in nav)
+    u, lg = L["ui"], L["lang"]
+    nav = [(("index", "services"), u["nav_services"]), (("index", "areas"), u["nav_areas"]),
+           (("index", "guides"), u["nav_guides"]), (("page", "about"), u["nav_about"]),
+           (("page", "contact"), u["nav_contact"])]
+    links = "".join(f'<li><a href="{page_path(lg, p)}"{" aria-current=" + chr(34) + "page" + chr(34) if p == pid else ""}>{esc(t)}</a></li>'
+                    for p, t in nav)
     return f"""<a class="skip" href="#main">{esc(u['skip'])}</a>
+<div class="ruler" aria-hidden="true"></div>
 <header class="site-header"><div class="wrap header-inner">
-<a class="logo" href="{prefix(L['lang'])}" aria-label="{BRAND} — {esc(u['home'])}">{LOGO}<span>{BRAND}</span></a>
+<a class="logo" href="{prefix(lg)}" aria-label="{BRAND}, {esc(u['home'])}">{LOGO}<span>{BRAND}</span></a>
 <nav class="nav" id="nav" aria-label="Main"><ul>{links}</ul></nav>
 <div class="header-actions">{lang_switcher(L, pid)}
-<a class="btn btn-sm btn-wa header-cta" href="{wa_link(L)}" target="_blank" rel="noopener">{WA_ICON}<span>{esc(u['cta_whatsapp'])}</span></a>
-<button class="nav-toggle" aria-controls="nav" aria-expanded="false" aria-label="{esc(u['menu'])}"><span></span><span></span><span></span></button>
+<a class="btn btn-sm header-cta" href="{wa_link(L)}" target="_blank" rel="noopener">{icon('whatsapp-logo')}<span>{esc(u['cta_whatsapp'])}</span></a>
+<button class="nav-toggle" aria-controls="nav" aria-expanded="false" aria-label="{esc(u['menu'])}">{icon('list', 'i i-open')}{icon('x', 'i i-close')}</button>
 </div></div></header>"""
 
 
-WA_ICON = ('<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.2-.4.2-.4.7-1.3a.5.5 0 000-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 11.9 11.9 0 004.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 001.8-1.3 2.3 2.3 0 00.2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg>')
-
-
 def footer(L, pid):
-    u = L["ui"]
-    lg = L["lang"]
-    svc = "".join(f'<li><a href="{page_path(lg, ("service", k))}">{esc(L["services"][k]["name"])}</a></li>'
-                  for k in site["services"])
-    areas = "".join(f'<li><a href="{page_path(lg, ("area", a["key"]))}">{esc(L["areas"][a["key"]]["name"])}</a></li>'
-                    for a in site["areas"])
-    langs = " · ".join(f'<a href="{page_path(c, pid)}" hreflang="{T["hreflang"]}" lang="{T["hreflang"]}">{esc(T["label"])}</a>'
-                       for c, T in LANGS.items())
+    u, lg = L["ui"], L["lang"]
+    svc = "".join(f'<li><a href="{page_path(lg, ("service", k))}">{esc(L["services"][k]["name"])}</a></li>' for k in site["services"])
+    areas = "".join(f'<li><a href="{page_path(lg, ("area", a["key"]))}">{esc(L["areas"][a["key"]]["name"])}</a></li>' for a in site["areas"])
+    langs = "".join(f'<a href="{page_path(c, pid)}" hreflang="{T["hreflang"]}" lang="{T["hreflang"]}">{esc(T["label"])}</a>' for c, T in LANGS.items())
     guides = "".join(f'<li><a href="{page_path(lg, ("guide", g))}">{esc(L["guides"][g]["h1"])}</a></li>' for g in site["guides"])
-    return f"""<footer class="site-footer"><div class="wrap footer-grid">
-<div class="footer-brand"><a class="logo logo-light" href="{prefix(lg)}">{LOGO}<span>{BRAND}</span></a>
+    return f"""<footer class="site-footer"><div class="wrap">
+<div class="footer-top"><p class="footer-big">{esc(u['cta_band_title'])}</p>
+<a class="btn" href="{wa_link(L)}" target="_blank" rel="noopener">{icon('whatsapp-logo')}<span>{esc(u['cta_whatsapp'])}</span></a></div>
+<div class="footer-grid">
+<div class="footer-brand"><a class="logo" href="{prefix(lg)}">{LOGO}<span>{BRAND}</span></a>
 <p>{esc(u['footer_about'])}</p>
-<p class="footer-contact"><strong>{esc(site.get('contact_name', ''))}</strong> — {esc(u.get('contact_role', ''))}<br>
-<a href="{wa_link(L)}" target="_blank" rel="noopener">WhatsApp {esc(site['phone_display'])}</a><br>
+<p><strong>{esc(site.get('contact_name', ''))}</strong>, {esc(u.get('contact_role', ''))}<br>
+<a href="{wa_link(L)}" target="_blank" rel="noopener">{esc(site['phone_display'])}</a><br>
 <a href="mailto:{site['email']}">{site['email']}</a></p></div>
 <div><h2>{esc(u['footer_services'])}</h2><ul class="cols-2">{svc}</ul></div>
 <div><h2>{esc(u['footer_areas'])}</h2><ul class="cols-2">{areas}</ul></div>
@@ -307,25 +335,25 @@ def footer(L, pid):
 <li><a href="{page_path(lg, ('page', 'contact'))}">{esc(u['nav_contact'])}</a></li>
 <li><a href="{page_path(lg, ('index', 'guides'))}">{esc(u['nav_guides'])}</a></li>{guides}</ul></div>
 </div>
-<div class="wrap footer-bottom"><p>© {datetime.date.today().year} {BRAND}. {esc(u['footer_rights'])}</p><p class="footer-langs">{langs}</p></div>
-</footer>
-<a class="wa-float" href="{wa_link(L)}" target="_blank" rel="noopener" aria-label="{esc(u['cta_whatsapp'])}">{WA_ICON}</a>"""
+<div class="footer-bottom"><p>© {datetime.date.today().year} {BRAND}. {esc(u['footer_rights'])}</p><p class="footer-langs">{langs}</p></div>
+</div></footer>
+<a class="wa-float" href="{wa_link(L)}" target="_blank" rel="noopener" aria-label="{esc(u['cta_whatsapp'])}">{icon('whatsapp-logo')}</a>"""
 
 
 def i18n_blob():
-    data = {c: [T["ui"]["lang_suggest"], T["ui"]["lang_suggest_btn"], T["ui"]["close"]] for c, T in LANGS.items()}
-    return json.dumps(data, ensure_ascii=False)
+    return json.dumps({c: [T["ui"]["lang_suggest"], T["ui"]["lang_suggest_btn"], T["ui"]["close"]] for c, T in LANGS.items()},
+                      ensure_ascii=False)
 
 
-def layout(L, pid, title, meta, body, ld=(), og_keys=(), og_type="website"):
+def layout(L, pid, title, meta, body, ld=(), og_keys=(), og_type="website", preload=None):
     lg = L["lang"]
     path = page_path(lg, pid)
-    alts = "\n".join(f'<link rel="alternate" hreflang="{T["hreflang"]}" href="{abs_url(page_path(c, pid))}">'
-                     for c, T in LANGS.items())
+    alts = "\n".join(f'<link rel="alternate" hreflang="{T["hreflang"]}" href="{abs_url(page_path(c, pid))}">' for c, T in LANGS.items())
     alts += f'\n<link rel="alternate" hreflang="x-default" href="{abs_url(page_path(DEFAULT, pid))}">'
     og_alt = "\n".join(f'<meta property="og:locale:alternate" content="{T["locale"]}">' for c, T in LANGS.items() if c != lg)
     im = og_image(og_keys)
     og_img = f'<meta property="og:image" content="{im}">\n<meta name="twitter:image" content="{im}">' if im else ""
+    pre = f'<link rel="preload" as="image" href="{preload}" fetchpriority="high">' if preload else ""
     lds = "\n".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>'
                     for x in (business_ld(L),) + tuple(ld))
     return f"""<!doctype html>
@@ -333,6 +361,7 @@ def layout(L, pid, title, meta, body, ld=(), og_keys=(), og_type="website"):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add('js')</script>
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(meta)}">
 <link rel="canonical" href="{abs_url(path)}">
@@ -347,15 +376,16 @@ def layout(L, pid, title, meta, body, ld=(), og_keys=(), og_type="website"):
 {og_alt}
 {og_img}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#2b211a">
+<meta name="theme-color" content="#0f1a15">
+<meta name="color-scheme" content="dark">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+{pre}
+{font_preload(lg)}
 <link rel="stylesheet" href="/assets/css/style.css?v={CSS_VER}">
 {lds}
 </head>
 <body data-lang="{lg}">
+<div class="grain" aria-hidden="true"></div>
 {header(L, pid)}
 <main id="main">
 {body}
@@ -375,126 +405,196 @@ def layout(L, pid, title, meta, body, ld=(), og_keys=(), og_type="website"):
 # --------------------------------------------------------------------------
 
 def breadcrumbs(L, items):
-    lis = []
-    for i, (name, url) in enumerate(items):
-        if i == len(items) - 1:
-            lis.append(f'<li aria-current="page">{esc(name)}</li>')
-        else:
-            lis.append(f'<li><a href="{url}">{esc(name)}</a></li>')
-    return f'<nav class="crumbs" aria-label="{esc(L["ui"]["breadcrumb"])}"><ol>{"".join(lis)}</ol></nav>'
+    lis = "".join(f'<li aria-current="page">{esc(n)}</li>' if i == len(items) - 1 else f'<li><a href="{u}">{esc(n)}</a></li>'
+                  for i, (n, u) in enumerate(items))
+    return f'<nav class="crumbs" aria-label="{esc(L["ui"]["breadcrumb"])}"><ol>{lis}</ol></nav>'
 
 
-def hero(L, h1, lead, image_html, crumbs_html="", eyebrow="", points=(), wa_text=""):
+def btn_wa(L, text="", cls="btn"):
+    return f'<a class="{cls}" href="{wa_link(L, text)}" target="_blank" rel="noopener">{icon("whatsapp-logo")}<span>{esc(L["ui"]["cta_whatsapp"])}</span></a>'
+
+
+def hero(L, h1, lead, keys, crumbs_html="", eyebrow="", wa_text="", home=False):
     u = L["ui"]
-    pts = "".join(f"<li>{esc(p)}</li>" for p in points)
-    return f"""<section class="hero"><div class="wrap hero-grid">
+    keys = [keys] if isinstance(keys, str) else keys
+    planks = "".join(f'<i style="--i:{i}"></i>' for i in range(5))
+    return f"""<section class="hero{' hero-home' if home else ''}"><div class="wrap hero-grid">
 <div class="hero-text">{crumbs_html}
 {f'<p class="eyebrow">{esc(eyebrow)}</p>' if eyebrow else ''}
-<h1>{esc(h1)}</h1>
-<p class="lead">{esc(lead)}</p>
-<div class="btns"><a class="btn btn-wa" href="{wa_link(L, wa_text)}" target="_blank" rel="noopener">{WA_ICON}<span>{esc(u['cta_whatsapp'])}</span></a>
-<a class="btn btn-ghost" href="#quote">{esc(u['cta_quote'])}</a></div>
-{f'<ul class="ticks">{pts}</ul>' if pts else ''}
+<h1 class="split">{split_words(h1, em_last=home)}</h1>
+<p class="lead rise" style="--d:5">{esc(lead)}</p>
+<div class="btns rise" style="--d:6">{btn_wa(L, wa_text)}<a class="btn btn-line" href="#quote">{esc(u['cta_quote'])}{icon('arrow-right')}</a></div>
 </div>
-<div class="hero-media">{image_html}</div>
+<figure class="hero-media"><div class="hero-img"><div class="px">{img(keys, h1, eager=True, L=L, sizes="(max-width: 860px) 100vw, 50vw")}</div></div>
+<div class="planks" aria-hidden="true">{planks}</div></figure>
 </div></section>"""
 
 
-def service_cards(L, keys, area=None):
-    lg = L["lang"]
-    cards = []
-    for k in keys:
-        S = L["services"][k]
-        if area:
-            url = page_path(lg, ("combo", k, area))
-            title = fill(S["combo_h1"], in_area=L["areas"][area]["in_area"], area=L["areas"][area]["name"])
-            im = img([f"{k}-{area}", k], title, w=600, h=400, L=L)
-        else:
-            url = page_path(lg, ("service", k))
-            title = S["name"]
-            im = img(k, title, w=600, h=400, L=L)
-        cards.append(f"""<article class="card"><a href="{url}" class="card-link">
-<div class="card-media">{im}</div>
-<div class="card-body"><h3>{esc(title)}</h3><p>{esc(S['short'])}</p><span class="more">{esc(L['ui']['cta_view'])} →</span></div></a></article>""")
-    return f'<div class="cards">{"".join(cards)}</div>'
-
-
-def area_chips(L, keys, service=None):
-    lg = L["lang"]
-    out = []
-    for a in keys:
-        A = L["areas"][a]
-        if service:
-            url = page_path(lg, ("combo", service, a))
-            label = fill(L["services"][service]["combo_h1"], in_area=A["in_area"], area=A["name"])
-        else:
-            url = page_path(lg, ("area", a))
-            label = A["name"]
-        out.append(f'<li><a href="{url}"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z"/></svg>{esc(label)}</a></li>')
-    return f'<ul class="chips">{"".join(out)}</ul>'
-
-
-def section(title, inner, cls="", sid=""):
+def section(title, inner, cls="", sid="", lead=""):
+    head = ""
+    if title:
+        head = f'<div class="sec-head rv"><h2>{esc(title)}</h2>{f"<p>{esc(lead)}</p>" if lead else ""}</div>'
     return (f'<section class="section {cls}"{f" id={chr(34)}{sid}{chr(34)}" if sid else ""}><div class="wrap">'
-            f'{f"<h2>{esc(title)}</h2>" if title else ""}{inner}</div></section>')
+            f'{head}{inner}</div></section>')
 
 
 def paras(ps):
     return "".join(f"<p>{esc(p)}</p>" for p in ps)
 
 
-def features(items):
-    return '<div class="features">' + "".join(
-        f'<div class="feature"><h3>{esc(f["t"])}</h3><p>{esc(f["d"])}</p></div>' for f in items) + "</div>"
+def points_strip(points):
+    return ('<div class="points"><div class="wrap"><ul>' +
+            "".join(f'<li class="rv" style="--i:{i}">{icon("check")}<span>{esc(p)}</span></li>' for i, p in enumerate(points)) +
+            "</ul></div></div>")
 
 
-def trust(L):
-    return '<div class="trust">' + "".join(
-        f'<div class="trust-item"><span class="trust-num">{i + 1:02d}</span><h3>{esc(t["t"])}</h3><p>{esc(t["d"])}</p></div>'
-        for i, t in enumerate(L["ui"]["trust"])) + "</div>"
+def bento_why(L):
+    t = L["ui"]["trust"]
+    cells = [f'<div class="b-cell b-photo rv">{img("workshop", t[0]["t"], L=L, sizes="(max-width: 860px) 100vw, 60vw")}'
+             f'<div class="b-over"><h3>{esc(t[0]["t"])}</h3><p>{esc(t[0]["d"])}</p></div></div>']
+    for i, x in enumerate(t[1:], 1):
+        cells.append(f'<div class="b-cell b-{i} rv" style="--i:{i}"><h3>{esc(x["t"])}</h3><p>{esc(x["d"])}</p></div>')
+    return f'<div class="bento">{"".join(cells)}</div>'
 
 
-def process(L):
-    return '<ol class="process">' + "".join(
-        f'<li><span class="step">{i + 1}</span><h3>{esc(p["t"])}</h3><p>{esc(p["d"])}</p></li>'
-        for i, p in enumerate(L["ui"]["process"])) + "</ol>"
+def service_index(L, area=None):
+    """Grouped index of services with a cursor-following photo preview on desktop."""
+    lg, u = L["lang"], L["ui"]
+    cols = []
+    for gi, keys in enumerate(site["service_groups"]):
+        rows = []
+        for k in keys:
+            S = L["services"][k]
+            url = page_path(lg, ("combo", k, area) if area else ("service", k))
+            src = svc_img(k)
+            rows.append(f'<li><a href="{url}" data-img="{src}"><img src="{src}" alt="" width="1600" height="1067" loading="lazy" decoding="async">'
+                        f'<span class="ix-name">{esc(S["name"])}</span>{icon("arrow-up-right")}</a></li>')
+        cols.append(f'<div class="ix-col rv" style="--i:{gi}"><h3>{esc(u["groups"][gi])}</h3><ul>{"".join(rows)}</ul></div>')
+    return f'<div class="ix">{"".join(cols)}<div class="ix-preview" aria-hidden="true"><img alt="" width="1600" height="1067"></div></div>'
+
+
+def material_explorer(L):
+    u = L["ui"]
+    tabs, panels = [], []
+    for i, (m, cfg) in enumerate(zip(u["materials"], site["materials"])):
+        sel = "true" if i == 0 else "false"
+        tabs.append(f'<button role="tab" id="mt-{cfg["key"]}" aria-controls="mp-{cfg["key"]}" aria-selected="{sel}"'
+                    f'{"" if i == 0 else " tabindex=" + chr(34) + "-1" + chr(34)}>{esc(m["name"])}</button>')
+        bars = "".join(f'<div class="bar"><dt>{esc(lbl)}</dt><dd><span class="track"><span class="fill" style="--v:{v / 5}"></span></span>'
+                       f'<span class="val">{v}/5</span></dd></div>' for lbl, v in zip(u["mat_labels"], cfg["ratings"]))
+        panels.append(f"""<div class="m-panel" role="tabpanel" id="mp-{cfg['key']}" aria-labelledby="mt-{cfg['key']}">
+<div class="m-img">{img(cfg['image'], m['name'], L=L, sizes="(max-width: 860px) 100vw, 45vw")}</div>
+<div class="m-body"><h3>{esc(m['name'])}</h3><p>{esc(m['d'])}</p>
+<p class="m-best"><strong>{esc(u['mat_best'])}:</strong> {esc(m['best'])}</p>
+<dl class="bars">{bars}</dl><p class="note">{esc(u['mat_scale'])}</p></div></div>""")
+    return f'<div class="mx rv"><div class="m-tabs" role="tablist" aria-label="{esc(u["materials_explorer_title"])}">{"".join(tabs)}</div>{"".join(panels)}</div>'
+
+
+def timeline(L):
+    steps = "".join(f'<li class="rv"><h3>{esc(p["t"])}</h3><p>{esc(p["d"])}</p></li>' for p in L["ui"]["process"])
+    return f'<div class="tl"><div class="tl-line" aria-hidden="true"><span></span></div><ol>{steps}</ol></div>'
+
+
+def marquee(L, keys, service=None):
+    lg = L["lang"]
+
+    def items(hidden):
+        out = []
+        for a in keys:
+            A = L["areas"][a]
+            url = page_path(lg, ("combo", service, a) if service else ("area", a))
+            tab = ' tabindex="-1"' if hidden else ""
+            out.append(f'<li><a href="{url}"{tab}>{esc(A["name"])}</a>{icon("map-pin")}</li>')
+        return "".join(out)
+    return (f'<div class="mq"><ul class="mq-track">{items(False)}</ul>'
+            f'<ul class="mq-track" aria-hidden="true">{items(True)}</ul></div>')
+
+
+def chips(L, keys, service=None):
+    lg = L["lang"]
+    out = []
+    for a in keys:
+        A = L["areas"][a]
+        if service:
+            url, label = page_path(lg, ("combo", service, a)), fill(L["services"][service]["combo_h1"], in_area=A["in_area"], area=A["name"])
+        else:
+            url, label = page_path(lg, ("area", a)), A["name"]
+        out.append(f'<li><a href="{url}">{icon("map-pin")}<span>{esc(label)}</span></a></li>')
+    return f'<ul class="chips rv">{"".join(out)}</ul>'
+
+
+def spec_grid(items):
+    return '<dl class="spec">' + "".join(
+        f'<div class="rv" style="--i:{i % 2}"><dt>{esc(f["t"])}</dt><dd>{esc(f["d"])}</dd></div>' for i, f in enumerate(items)) + "</dl>"
+
+
+def notes_bento(L, A, kw, image_keys):
+    u = L["ui"]
+    n = [(fill(u["local_title"], **kw), A["climate"]), (fill(u["style_title"], **kw), A["style"]), (fill(u["homes_title"], **kw), A["homes"])]
+    return f"""<div class="notes">
+<div class="n-main rv"><div class="n-img">{img(image_keys, n[0][0], L=L, sizes="(max-width: 860px) 100vw, 55vw")}</div><div class="n-txt"><h2>{esc(n[0][0])}</h2><p>{esc(n[0][1])}</p></div></div>
+<div class="n-side"><div class="rv" style="--i:1"><h2>{esc(n[1][0])}</h2><p>{esc(n[1][1])}</p></div>
+<div class="rv" style="--i:2"><h2>{esc(n[2][0])}</h2><p>{esc(n[2][1])}</p></div></div></div>"""
 
 
 def price_table(L, rows, lead_time=None):
     u = L["ui"]
-    trs = "".join(f"<tr><th scope=\"row\">{esc(r[0])}</th><td>{esc(r[1])}</td></tr>" for r in rows)
-    lt = f'<p class="lead-time"><strong>{esc(u["lead_time"])}:</strong> {esc(lead_time)}</p>' if lead_time else ""
-    return f"""<div class="table-wrap"><table class="prices"><thead><tr><th scope="col">{esc(u['pricing_item'])}</th><th scope="col">{esc(u['pricing_price'])}</th></tr></thead>
-<tbody>{trs}</tbody></table></div>{lt}<p class="note">{esc(u['pricing_note'])}</p>"""
+    trs = "".join(f'<tr><th scope="row">{esc(r[0])}</th><td>{esc(r[1])}</td></tr>' for r in rows)
+    lt = f'<p class="lead-time"><span>{esc(u["lead_time"])}</span><strong>{esc(lead_time)}</strong></p>' if lead_time else ""
+    return f"""<div class="price rv"><div class="table-wrap"><table class="prices"><thead><tr><th scope="col">{esc(u['pricing_item'])}</th><th scope="col">{esc(u['pricing_price'])}</th></tr></thead>
+<tbody>{trs}</tbody></table></div><aside>{lt}<p class="note">{esc(u['pricing_note'])}</p></aside></div>"""
 
 
 def faq_block(faqs):
     return '<div class="faq">' + "".join(
-        f'<details><summary>{esc(f["q"])}</summary><div><p>{esc(f["a"])}</p></div></details>' for f in faqs) + "</div>"
+        f'<details class="rv"><summary><span>{esc(f["q"])}</span>{icon("plus")}</summary><div><p>{esc(f["a"])}</p></div></details>'
+        for f in faqs) + "</div>"
+
+
+def carousel(L, keys, area=None):
+    lg, u = L["lang"], L["ui"]
+    tiles = []
+    for k in keys:
+        S = L["services"][k]
+        if area:
+            url, title = page_path(lg, ("combo", k, area)), fill(S["combo_h1"], in_area=L["areas"][area]["in_area"], area=L["areas"][area]["name"])
+            im = img([f"{k}-{area}", k], title, L=L, sizes="(max-width: 600px) 80vw, 30vw")
+        else:
+            url, title = page_path(lg, ("service", k)), S["name"]
+            im = img(k, title, L=L, sizes="(max-width: 600px) 80vw, 30vw")
+        tiles.append(f'<li><a href="{url}"><div class="c-img">{im}</div><h3>{esc(title)}</h3><p>{esc(S["short"])}</p></a></li>')
+    return f'<div class="car rv"><ul class="car-track">{"".join(tiles)}</ul><p class="car-hint">{esc(u["scroll_hint"])} {icon("arrow-right")}</p></div>'
+
+
+def mosaic(items):
+    """items: list of (url, title, text, image_html). Varied tile sizes."""
+    out = []
+    for i, (url, title, text, im) in enumerate(items):
+        out.append(f'<li class="mo-{i % 7} rv" style="--i:{i % 3}"><a href="{url}"><div class="mo-img">{im}</div>'
+                   f'<div class="mo-txt"><h3>{esc(title)}</h3><p>{esc(text)}</p></div></a></li>')
+    return f'<ul class="mosaic">{"".join(out)}</ul>'
 
 
 def quote_form(L, service=None, area=None):
     u = L["ui"]
-    svc_opts = "".join(
-        f'<option value="{esc(L["services"][k]["name"])}"{" selected" if k == service else ""}>{esc(L["services"][k]["name"])}</option>'
-        for k in site["services"])
-    area_opts = "".join(
-        f'<option value="{esc(L["areas"][a["key"]]["name"])}"{" selected" if a["key"] == area else ""}>{esc(L["areas"][a["key"]]["name"])}</option>'
-        for a in site["areas"])
-    direct = fill(u.get("contact_direct", ""), name=site.get("contact_name", ""))
-    return f"""<section class="section cta-band" id="quote"><div class="wrap cta-grid">
-<div class="cta-text"><h2>{esc(u['cta_band_title'])}</h2><p>{esc(u['cta_band_text'])}</p>
-<div class="contact-card"><div class="avatar" aria-hidden="true">{esc(site.get('contact_name', 'G')[:1])}</div>
-<div><strong>{esc(site.get('contact_name', ''))}</strong><span>{esc(u.get('contact_role', ''))}</span>
-<a href="{wa_link(L)}" target="_blank" rel="noopener">{esc(site['phone_display'])}</a></div></div>
-<p class="small">{esc(direct)}</p></div>
-<form class="quote-form" data-wa="{site['whatsapp']}" data-greeting="{esc(fill(u.get('wa_greeting', ''), name=site.get('contact_name', '')))}" action="https://wa.me/{site['whatsapp']}" method="get" target="_blank">
+    svc_opts = "".join(f'<option value="{esc(L["services"][k]["name"])}"{" selected" if k == service else ""}>{esc(L["services"][k]["name"])}</option>'
+                       for k in site["services"])
+    area_opts = "".join(f'<option value="{esc(L["areas"][a["key"]]["name"])}"{" selected" if a["key"] == area else ""}>{esc(L["areas"][a["key"]]["name"])}</option>'
+                        for a in site["areas"])
+    name = site.get("contact_name", "")
+    return f"""<section class="section quote" id="quote"><div class="wrap q-grid">
+<div class="q-text rv"><h2>{esc(u['cta_band_title'])}</h2><p>{esc(u['cta_band_text'])}</p>
+<div class="contact-card"><div class="avatar" aria-hidden="true">{esc(name[:1])}</div>
+<div><strong>{esc(name)}</strong><span>{esc(u.get('contact_role', ''))}</span>
+<a href="{wa_link(L)}" target="_blank" rel="noopener">{icon('whatsapp-logo')}{esc(site['phone_display'])}</a></div></div>
+<p class="small">{esc(fill(u.get('contact_direct', ''), name=name))}</p></div>
+<form class="quote-form rv" style="--i:1" data-wa="{site['whatsapp']}" data-greeting="{esc(fill(u.get('wa_greeting', ''), name=name))}" action="https://wa.me/{site['whatsapp']}" method="get" target="_blank">
 <h3>{esc(u['form_title'])}</h3>
 <label>{esc(u['form_name'])}<input name="name" autocomplete="name" required></label>
 <div class="row2"><label>{esc(u['form_service'])}<select name="service"><option value="">{esc(u['form_select'])}</option>{svc_opts}<option value="{esc(u['form_other'])}">{esc(u['form_other'])}</option></select></label>
 <label>{esc(u['form_area'])}<select name="area"><option value="">{esc(u['form_select'])}</option>{area_opts}<option value="{esc(u['form_other'])}">{esc(u['form_other'])}</option></select></label></div>
 <label>{esc(u['form_message'])}<textarea name="text" rows="4"></textarea></label>
-<button class="btn btn-wa btn-block" type="submit">{WA_ICON}<span>{esc(u['form_send'])}</span></button>
+<button class="btn btn-block" type="submit">{icon('whatsapp-logo')}<span>{esc(u['form_send'])}</span></button>
 <p class="small center"><a href="mailto:{site['email']}">{esc(u['form_email'])}: {site['email']}</a></p>
 </form></div></section>"""
 
@@ -507,108 +607,105 @@ pages_written = []
 
 
 def write(lang, pid, content):
-    path = page_path(lang, pid)
-    fp = os.path.join(OUT, path.strip("/"), "index.html")
+    fp = os.path.join(OUT, page_path(lang, pid).strip("/"), "index.html")
     os.makedirs(os.path.dirname(fp), exist_ok=True)
     open(fp, "w", encoding="utf-8").write(content)
     if lang == DEFAULT:
         pages_written.append(pid)
 
 
+def pre(keys):
+    keys = [keys] if isinstance(keys, str) else keys
+    return find_image(*keys)[0]
+
+
 def build_home(L):
     lg, u, H = L["lang"], L["ui"], L["home"]
     pid = ("home",)
-    body = hero(L, H["h1"], H["lead"], img("hero", H["h1"], eager=True, L=L), eyebrow=H["eyebrow"], points=H["points"])
-    body += section(u["why_title"], trust(L), "section-trust")
-    body += section(u["services_title"], f'<p class="section-lead">{esc(u["services_lead"])}</p>'
-                    + service_cards(L, site["services"]), sid="services")
-    body += section("", f"""<div class="split"><div><h2>{esc(H['intro_title'])}</h2>{paras(fill(p) for p in H['intro'])}
-<p><a class="btn btn-ghost" href="{page_path(lg, ('guide', 'materials'))}">{esc(L['guides']['materials']['h1'])} →</a></p></div>
-<div>{img('workshop', H['intro_title'], L=L)}</div></div>""", "section-alt")
-    body += section(u["process_title"], process(L))
-    body += section(u["areas_title"], f'<p class="section-lead">{esc(H["areas_teaser"])}</p>' + area_chips(L, [a["key"] for a in site["areas"]]), "section-alt")
-    guides = "".join(f"""<article class="guide-card"><a href="{page_path(lg, ('guide', g))}"><h3>{esc(L['guides'][g]['h1'])}</h3>
-<p>{esc(L['guides'][g]['meta'])}</p><span class="more">{esc(u['read_more'])} →</span></a></article>""" for g in site["guides"])
-    body += section(u["guides_title"], f'<div class="guide-cards">{guides}</div>')
-    faqs = u["faq_general"]
-    body += section(u["faq_title"], faq_block(faqs), "section-alt")
+    body = hero(L, H["h1"], H["lead"], "hero", eyebrow=H["eyebrow"], home=True)
+    body += points_strip(H["points"])
+    body += section(u["why_title"], bento_why(L), "sec-why")
+    body += section(u["services_title"], service_index(L), "sec-ix", sid="services", lead=u["services_lead"])
+    intro = f"""<div class="intro"><div class="intro-txt rv"><h2>{esc(H['intro_title'])}</h2>{paras(fill(p) for p in H['intro'])}</div>
+<div class="intro-mx"><div class="sec-head rv"><h2 class="h-sm">{esc(u['materials_explorer_title'])}</h2><p>{esc(u['materials_explorer_lead'])}</p></div>{material_explorer(L)}</div></div>"""
+    body += section("", intro, "sec-intro")
+    body += section("", f'<div class="tl-wrap"><div class="tl-head rv"><h2>{esc(u["process_title"])}</h2></div>{timeline(L)}</div>', "sec-tl")
+    body += f'<section class="section sec-areas"><div class="wrap"><div class="sec-head rv"><h2>{esc(u["areas_title"])}</h2><p>{esc(H["areas_teaser"])}</p></div></div>{marquee(L, [a["key"] for a in site["areas"]])}</section>'
+    guides = "".join(f"""<a class="g-link rv" style="--i:{i}" href="{page_path(lg, ('guide', g))}"><div class="g-img">{img('guide-' + g, L['guides'][g]['h1'], L=L, sizes="(max-width: 860px) 100vw, 50vw")}</div>
+<h3>{esc(L['guides'][g]['h1'])}</h3><p>{esc(L['guides'][g]['meta'])}</p><span class="more">{esc(u['read_more'])}{icon('arrow-right')}</span></a>""" for i, g in enumerate(site["guides"]))
+    body += section(u["guides_title"], f'<div class="guides">{guides}</div>', "sec-guides")
+    body += section(u["faq_title"], faq_block(u["faq_general"]), "sec-faq narrow-sec")
     body += quote_form(L)
-    website_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": abs_url(prefix(lg)),
-                  "inLanguage": L["hreflang"]}
-    write(lg, pid, layout(L, pid, H["title"], H["meta"], body, ld=(website_ld, faq_ld(faqs)), og_keys=["hero"]))
+    website_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": abs_url(prefix(lg)), "inLanguage": L["hreflang"]}
+    write(lg, pid, layout(L, pid, H["title"], H["meta"], body, ld=(website_ld, faq_ld(u["faq_general"])), og_keys=["hero"], preload=pre("hero")))
 
 
 def build_services_index(L):
     lg, u, P = L["lang"], L["ui"], L["pages"]["services"]
     pid = ("index", "services")
     cr = [(u["home"], prefix(lg)), (P["h1"], page_path(lg, pid))]
-    body = hero(L, P["h1"], u["services_lead"], img("services", P["h1"], eager=True, L=L), breadcrumbs(L, cr))
-    body += section("", service_cards(L, site["services"]))
-    body += section(u["process_title"], process(L), "section-alt")
+    body = hero(L, P["h1"], first_sentence(u["services_lead"])[0], "services", breadcrumbs(L, cr))
+    items = [(page_path(lg, ("service", k)), L["services"][k]["name"], L["services"][k]["short"],
+              img(k, L["services"][k]["name"], L=L, sizes="(max-width: 860px) 100vw, 40vw")) for k in site["services"]]
+    body += section("", mosaic(items))
+    body += section("", f'<div class="tl-wrap"><div class="tl-head rv"><h2>{esc(u["process_title"])}</h2></div>{timeline(L)}</div>', "sec-tl")
     body += quote_form(L)
-    write(lg, pid, layout(L, pid, P["title"], P["meta"], body, ld=(crumbs_ld(cr),)))
+    write(lg, pid, layout(L, pid, P["title"], P["meta"], body, ld=(crumbs_ld(cr),), preload=pre("services")))
 
 
 def build_areas_index(L):
     lg, u, P = L["lang"], L["ui"], L["pages"]["areas"]
     pid = ("index", "areas")
     cr = [(u["home"], prefix(lg)), (P["h1"], page_path(lg, pid))]
-    body = hero(L, P["h1"], u["areas_lead"], img("areas", P["h1"], eager=True, L=L), breadcrumbs(L, cr))
-    cards = []
-    for a in site["areas"]:
-        A = L["areas"][a["key"]]
-        cards.append(f"""<article class="card"><a href="{page_path(lg, ('area', a['key']))}" class="card-link">
-<div class="card-media">{img('area-' + a['key'], A['h1'], w=600, h=400, L=L)}</div>
-<div class="card-body"><h3>{esc(A['h1'])}</h3><p>{esc(A['intro'][:150].rsplit(' ', 1)[0])}…</p><span class="more">{esc(u['cta_view'])} →</span></div></a></article>""")
-    body += section("", f'<div class="cards">{"".join(cards)}</div>')
+    body = hero(L, P["h1"], first_sentence(u["areas_lead"])[0], "areas", breadcrumbs(L, cr))
+    items = [(page_path(lg, ("area", a["key"])), L["areas"][a["key"]]["h1"], first_sentence(L["areas"][a["key"]]["intro"])[0],
+              img("area-" + a["key"], L["areas"][a["key"]]["h1"], L=L, sizes="(max-width: 860px) 100vw, 40vw")) for a in site["areas"]]
+    body += section("", mosaic(items))
     body += quote_form(L)
-    write(lg, pid, layout(L, pid, P["title"], P["meta"], body, ld=(crumbs_ld(cr),)))
+    write(lg, pid, layout(L, pid, P["title"], P["meta"], body, ld=(crumbs_ld(cr),), preload=pre("areas")))
 
 
 def build_service(L, k):
     lg, u, S = L["lang"], L["ui"], L["services"][k]
     pid = ("service", k)
-    cr = [(u["home"], prefix(lg)), (L["pages"]["services"]["h1"], page_path(lg, ("index", "services"))),
-          (S["name"], page_path(lg, pid))]
-    body = hero(L, S["h1"], S["short"], img(k, S["h1"], eager=True, L=L), breadcrumbs(L, cr), wa_text=S["name"])
-    body += section("", f'<div class="prose">{paras(fill(p) for p in S["intro"])}</div>')
-    body += section(u["features_title"], features(S["features"]), "section-alt")
-    body += section(u["materials_title"], f'<div class="prose"><p>{esc(S["materials"])}</p></div>')
-    body += section(u["pricing_title"], price_table(L, S["price"], S["lead_time"]), "section-alt")
-    body += section(fill(u["service_areas_title"], service=S["name"]), area_chips(L, [a["key"] for a in site["areas"]], k), "section-alt")
-    body += section(u["process_title"], process(L))
+    cr = [(u["home"], prefix(lg)), (L["pages"]["services"]["h1"], page_path(lg, ("index", "services"))), (S["name"], page_path(lg, pid))]
+    body = hero(L, S["h1"], S["short"], k, breadcrumbs(L, cr), wa_text=S["name"])
+    body += section("", f"""<div class="two-col"><div class="prose rv">{paras(fill(p) for p in S['intro'])}</div>
+<aside class="aside rv" style="--i:1"><h2 class="h-sm">{esc(u['materials_title'])}</h2><p>{esc(S['materials'])}</p></aside></div>""")
+    body += section(u["features_title"], spec_grid(S["features"]), "sec-spec")
+    body += section(u["pricing_title"], price_table(L, S["price"], S["lead_time"]))
+    body += section(fill(u["service_areas_title"], service=S["name"]), chips(L, [a["key"] for a in site["areas"]], k), "sec-chips")
+    body += section("", f'<div class="tl-wrap"><div class="tl-head rv"><h2>{esc(u["process_title"])}</h2></div>{timeline(L)}</div>', "sec-tl")
     faqs = S["faqs"] + u["faq_general"]
-    body += section(u["faq_title"], faq_block(faqs), "section-alt")
-    others = [s for s in site["services"] if s != k][:6]
-    body += section(u["services_title"], service_cards(L, others))
+    body += section(u["faq_title"], faq_block(faqs), "narrow-sec")
+    body += section(u["services_title"], carousel(L, [s for s in site["services"] if s != k][:8]), "sec-car")
     body += quote_form(L, service=k)
     area_names = [L["areas"][a["key"]]["name"] + ", Bali" for a in site["areas"]]
     lds = (service_ld(L, S["name"], S["meta"], page_path(lg, pid), area_names), faq_ld(faqs), crumbs_ld(cr))
-    write(lg, pid, layout(L, pid, S["title"], S["meta"], body, ld=lds, og_keys=[k]))
+    write(lg, pid, layout(L, pid, S["title"], S["meta"], body, ld=lds, og_keys=[k], preload=pre(k)))
 
 
 def build_area(L, a):
     lg, u, A = L["lang"], L["ui"], L["areas"][a]
+    kw = dict(in_area=A["in_area"], area=A["name"])
     pid = ("area", a)
-    cr = [(u["home"], prefix(lg)), (L["pages"]["areas"]["h1"], page_path(lg, ("index", "areas"))),
-          (A["name"], page_path(lg, pid))]
-    body = hero(L, A["h1"], A["intro"], img("area-" + a, A["h1"], eager=True, L=L), breadcrumbs(L, cr), wa_text=A["name"])
-    body += section("", f"""<div class="info-grid">
-<div><h2>{esc(fill(u['homes_title'], in_area=A['in_area'], area=A['name']))}</h2><p>{esc(A['homes'])}</p></div>
-<div><h2>{esc(fill(u['local_title'], in_area=A['in_area'], area=A['name']))}</h2><p>{esc(A['climate'])}</p></div>
-<div><h2>{esc(fill(u['style_title'], in_area=A['in_area'], area=A['name']))}</h2><p>{esc(A['style'])}</p></div></div>""")
-    body += section(fill(u["services_in_area"], in_area=A["in_area"], area=A["name"]), service_cards(L, site["services"], area=a), "section-alt")
-    body += section(u["why_title"], trust(L))
-    body += section(u["process_title"], process(L), "section-alt")
+    cr = [(u["home"], prefix(lg)), (L["pages"]["areas"]["h1"], page_path(lg, ("index", "areas"))), (A["name"], page_path(lg, pid))]
+    lead, rest = first_sentence(A["intro"])
+    body = hero(L, A["h1"], lead, "area-" + a, breadcrumbs(L, cr), wa_text=A["name"])
+    if rest:
+        body += section("", f'<div class="prose big rv"><p>{esc(rest)}</p></div>')
+    body += section("", notes_bento(L, A, kw, "area-" + a), "sec-notes")
+    body += section(fill(u["services_in_area"], **kw), service_index(L, area=a), "sec-ix")
+    body += section("", f'<div class="tl-wrap"><div class="tl-head rv"><h2>{esc(u["process_title"])}</h2></div>{timeline(L)}</div>', "sec-tl")
     faqs = A["faqs"] + u["faq_general"]
-    body += section(u["faq_title"], faq_block(faqs))
-    body += section(u["areas_title"], area_chips(L, AREA_CFG[a]["nearby"]), "section-alt")
+    body += section(u["faq_title"], faq_block(faqs), "narrow-sec")
+    body += section(u["areas_title"], chips(L, AREA_CFG[a]["nearby"]), "sec-chips")
     body += quote_form(L, area=a)
     place_ld = {"@context": "https://schema.org", "@type": "Service", "name": A["h1"], "url": abs_url(page_path(lg, pid)),
                 "provider": {"@id": DOMAIN + "/#business"},
                 "areaServed": {"@type": "Place", "name": A["name"] + ", Bali",
                                "geo": {"@type": "GeoCoordinates", "latitude": AREA_CFG[a]["lat"], "longitude": AREA_CFG[a]["lng"]}}}
-    write(lg, pid, layout(L, pid, A["title"], A["meta"], body, ld=(place_ld, faq_ld(faqs), crumbs_ld(cr)), og_keys=["area-" + a]))
+    write(lg, pid, layout(L, pid, A["title"], A["meta"], body, ld=(place_ld, faq_ld(faqs), crumbs_ld(cr)), og_keys=["area-" + a], preload=pre("area-" + a)))
 
 
 def build_combo(L, k, a):
@@ -616,28 +713,22 @@ def build_combo(L, k, a):
     kw = dict(in_area=A["in_area"], area=A["name"], service=S["name"])
     pid = ("combo", k, a)
     h1 = fill(S["combo_h1"], **kw)
-    cr = [(u["home"], prefix(lg)), (S["name"], page_path(lg, ("service", k))),
-          (A["name"], page_path(lg, ("area", a))), (h1, page_path(lg, pid))]
-    body = hero(L, h1, fill(S["combo_intro"], **kw), img([f"{k}-{a}", k], h1, eager=True, L=L),
-                breadcrumbs(L, cr), wa_text=h1)
-    body += section("", f'<div class="prose">{paras(fill(p, **kw) for p in S["intro"])}</div>')
-    body += section("", f"""<div class="info-grid">
-<div><h2>{esc(fill(u['local_title'], **kw))}</h2><p>{esc(A['climate'])}</p></div>
-<div><h2>{esc(fill(u['style_title'], **kw))}</h2><p>{esc(A['style'])}</p></div>
-<div><h2>{esc(fill(u['homes_title'], **kw))}</h2><p>{esc(A['homes'])}</p></div></div>""", "section-alt")
-    body += section(u["features_title"], features(S["features"]))
-    body += section(u["materials_title"], f'<div class="prose"><p>{esc(S["materials"])}</p></div>', "section-alt")
+    cr = [(u["home"], prefix(lg)), (S["name"], page_path(lg, ("service", k))), (A["name"], page_path(lg, ("area", a))), (h1, page_path(lg, pid))]
+    lead, rest = first_sentence(fill(S["combo_intro"], **kw))
+    body = hero(L, h1, lead, [f"{k}-{a}", k], breadcrumbs(L, cr), wa_text=h1)
+    body += section("", f"""<div class="two-col"><div class="prose rv">{f'<p class="big">{esc(rest)}</p>' if rest else ''}{paras(fill(p, **kw) for p in S['intro'])}</div>
+<aside class="aside rv" style="--i:1"><h2 class="h-sm">{esc(u['materials_title'])}</h2><p>{esc(S['materials'])}</p></aside></div>""")
+    body += section("", notes_bento(L, A, kw, "area-" + a), "sec-notes")
+    body += section(u["features_title"], spec_grid(S["features"]), "sec-spec")
     body += section(u["pricing_title"], price_table(L, S["price"], S["lead_time"]))
-    body += section(u["process_title"], process(L), "section-alt")
     faqs = [{"q": fill(f["q"], **kw), "a": fill(f["a"], **kw)} for f in S["combo_faqs"]] + S["faqs"][:2] + A["faqs"]
-    body += section(u["faq_title"], faq_block(faqs))
-    body += section(fill(u["nearby_areas"], **kw), area_chips(L, AREA_CFG[a]["nearby"], k), "section-alt")
-    others = [s for s in site["services"] if s != k][:6]
-    body += section(fill(u["related_services"], **kw), service_cards(L, others, area=a))
+    body += section(u["faq_title"], faq_block(faqs), "narrow-sec")
+    body += section(fill(u["nearby_areas"], **kw), chips(L, AREA_CFG[a]["nearby"], k), "sec-chips")
+    body += section(fill(u["related_services"], **kw), carousel(L, [s for s in site["services"] if s != k][:8], area=a), "sec-car")
     body += quote_form(L, service=k, area=a)
     sld = service_ld(L, h1, fill(S["combo_meta"], **kw), page_path(lg, pid), [A["name"] + ", Bali"])
     write(lg, pid, layout(L, pid, fill(S["combo_title"], **kw), fill(S["combo_meta"], **kw), body,
-                          ld=(sld, faq_ld(faqs), crumbs_ld(cr)), og_keys=[f"{k}-{a}", k]))
+                          ld=(sld, faq_ld(faqs), crumbs_ld(cr)), og_keys=[f"{k}-{a}", k], preload=pre([f"{k}-{a}", k])))
 
 
 def build_about(L):
@@ -645,29 +736,30 @@ def build_about(L):
     pid = ("page", "about")
     h1 = fill(P["h1"])
     cr = [(u["home"], prefix(lg)), (u["nav_about"], page_path(lg, pid))]
-    body = hero(L, h1, fill(P["body"][0]), img("about", h1, eager=True, L=L), breadcrumbs(L, cr))
-    body += section("", f'<div class="split"><div class="prose">{paras(fill(p) for p in P["body"][1:])}</div><div>{img("workshop", h1, L=L)}</div></div>')
-    body += section(P["values_title"], features(P["values"]), "section-alt")
-    body += section(u["why_title"], trust(L))
-    body += section(u["process_title"], process(L), "section-alt")
+    lead, rest = first_sentence(fill(P["body"][0]))
+    body = hero(L, h1, lead, "about", breadcrumbs(L, cr))
+    body += section("", f'<div class="two-col"><div class="prose rv">{f"<p class=big>{esc(rest)}</p>" if rest else ""}{paras(fill(p) for p in P["body"][1:])}</div>'
+                        f'<div class="aside-img rv" style="--i:1">{img("workshop", h1, L=L, sizes="(max-width: 860px) 100vw, 40vw")}</div></div>')
+    body += section(P["values_title"], spec_grid(P["values"]), "sec-spec")
+    body += section(u["why_title"], bento_why(L), "sec-why")
+    body += section("", f'<div class="tl-wrap"><div class="tl-head rv"><h2>{esc(u["process_title"])}</h2></div>{timeline(L)}</div>', "sec-tl")
     body += quote_form(L)
-    write(lg, pid, layout(L, pid, P["title"], P["meta"], body, ld=(crumbs_ld(cr),)))
+    write(lg, pid, layout(L, pid, P["title"], P["meta"], body, ld=(crumbs_ld(cr),), preload=pre("about")))
 
 
 def build_contact(L):
     lg, u, P = L["lang"], L["ui"], L["pages"]["contact"]
     pid = ("page", "contact")
     cr = [(u["home"], prefix(lg)), (u["nav_contact"], page_path(lg, pid))]
-    body = f"""<section class="hero hero-slim"><div class="wrap">{breadcrumbs(L, cr)}<h1>{esc(P['h1'])}</h1><p class="lead">{esc(P['lead'])}</p></div></section>"""
-    body += section("", f"""<div class="info-grid">
-<div><h2>WhatsApp</h2><p><strong>{esc(site.get('contact_name', ''))}</strong> — {esc(u.get('contact_role', ''))}<br><a href="{wa_link(L)}" target="_blank" rel="noopener">{esc(site['phone_display'])}</a></p>
-<p><a href="mailto:{site['email']}">{site['email']}</a></p></div>
-<div><h2>{esc(P['hours_title'])}</h2><p>{esc(P['hours'])}</p></div>
-<div><h2>{esc(P['area_title'])}</h2><p>{esc(P['area'])}</p>{area_chips(L, [a['key'] for a in site['areas']])}</div></div>""")
+    body = f"""<section class="hero hero-slim"><div class="wrap">{breadcrumbs(L, cr)}<h1 class="split">{split_words(P['h1'])}</h1><p class="lead rise" style="--d:3">{esc(P['lead'])}</p></div></section>"""
     body += quote_form(L)
-    body += section(u["faq_title"], faq_block(u["faq_general"]))
-    cp = {"@context": "https://schema.org", "@type": "ContactPage", "name": P["h1"], "url": abs_url(page_path(lg, pid)),
-          "about": {"@id": DOMAIN + "/#business"}}
+    body += section("", f"""<dl class="spec spec-3">
+<div class="rv"><dt>WhatsApp</dt><dd><strong>{esc(site.get('contact_name', ''))}</strong>, {esc(u.get('contact_role', ''))}<br><a href="{wa_link(L)}" target="_blank" rel="noopener">{esc(site['phone_display'])}</a><br><a href="mailto:{site['email']}">{site['email']}</a></dd></div>
+<div class="rv" style="--i:1"><dt>{esc(P['hours_title'])}</dt><dd>{esc(P['hours'])}</dd></div>
+<div class="rv" style="--i:2"><dt>{esc(P['area_title'])}</dt><dd>{esc(P['area'])}</dd></div></dl>""")
+    body += section(u["areas_title"], chips(L, [a["key"] for a in site["areas"]]), "sec-chips")
+    body += section(u["faq_title"], faq_block(u["faq_general"]), "narrow-sec")
+    cp = {"@context": "https://schema.org", "@type": "ContactPage", "name": P["h1"], "url": abs_url(page_path(lg, pid)), "about": {"@id": DOMAIN + "/#business"}}
     write(lg, pid, layout(L, pid, P["title"], P["meta"], body, ld=(cp, crumbs_ld(cr), faq_ld(u["faq_general"]))))
 
 
@@ -675,10 +767,10 @@ def build_guides_index(L):
     lg, u, P = L["lang"], L["ui"], L["pages"]["guides"]
     pid = ("index", "guides")
     cr = [(u["home"], prefix(lg)), (P["h1"], page_path(lg, pid))]
-    cards = "".join(f"""<article class="guide-card"><a href="{page_path(lg, ('guide', g))}"><h2>{esc(L['guides'][g]['h1'])}</h2>
-<p>{esc(L['guides'][g]['intro'])}</p><span class="more">{esc(u['read_more'])} →</span></a></article>""" for g in site["guides"])
-    body = f"""<section class="hero hero-slim"><div class="wrap">{breadcrumbs(L, cr)}<h1>{esc(P['h1'])}</h1><p class="lead">{esc(u['guides_lead'])}</p></div></section>"""
-    body += section("", f'<div class="guide-cards">{cards}</div>')
+    guides = "".join(f"""<a class="g-link rv" style="--i:{i}" href="{page_path(lg, ('guide', g))}"><div class="g-img">{img('guide-' + g, L['guides'][g]['h1'], L=L, sizes="(max-width: 860px) 100vw, 50vw")}</div>
+<h2 class="h-sm">{esc(L['guides'][g]['h1'])}</h2><p>{esc(L['guides'][g]['intro'])}</p><span class="more">{esc(u['read_more'])}{icon('arrow-right')}</span></a>""" for i, g in enumerate(site["guides"]))
+    body = f"""<section class="hero hero-slim"><div class="wrap">{breadcrumbs(L, cr)}<h1 class="split">{split_words(P['h1'])}</h1><p class="lead rise" style="--d:3">{esc(u['guides_lead'])}</p></div></section>"""
+    body += section("", f'<div class="guides">{guides}</div>')
     body += quote_form(L)
     write(lg, pid, layout(L, pid, P["title"], P["meta"], body, ld=(crumbs_ld(cr),)))
 
@@ -689,11 +781,12 @@ def build_guide(L, g):
     cr = [(u["home"], prefix(lg)), (L["pages"]["guides"]["h1"], page_path(lg, ("index", "guides"))), (G["h1"], page_path(lg, pid))]
     toc = "".join(f'<li><a href="#s{i + 1}">{esc(s["h"])}</a></li>' for i, s in enumerate(G["sections"]))
     secs = "".join(f'<h2 id="s{i + 1}">{esc(s["h"])}</h2>{paras(s["p"])}' for i, s in enumerate(G["sections"]))
-    body = f"""<article class="article"><header class="hero hero-slim"><div class="wrap narrow">{breadcrumbs(L, cr)}<h1>{esc(G['h1'])}</h1>
-<p class="lead">{esc(G['intro'])}</p><p class="small">{esc(u['updated'])}: <time datetime="{TODAY}">{TODAY}</time></p></div></header>
-<div class="section"><div class="wrap narrow prose">{img('guide-' + g, G['h1'], eager=True, L=L)}<nav class="toc"><ol>{toc}</ol></nav>{secs}</div></div></article>"""
-    related = ["kitchens", "wardrobes", "bathroom-vanities"] if g == "kitchen-cost" else ["doors-windows", "decking", "custom-furniture"]
-    body += section(u["services_title"], service_cards(L, related), "section-alt")
+    body = f"""<article><header class="hero hero-slim"><div class="wrap narrow">{breadcrumbs(L, cr)}<h1 class="split">{split_words(G['h1'])}</h1>
+<p class="lead rise" style="--d:4">{esc(G['intro'])}</p><p class="small rise" style="--d:5">{esc(u['updated'])}: <time datetime="{TODAY}">{TODAY}</time></p></div></header>
+<div class="section"><div class="wrap article-grid"><nav class="toc"><ol>{toc}</ol></nav><div class="prose article">
+<div class="a-img">{img('guide-' + g, G['h1'], eager=True, L=L, sizes="(max-width: 860px) 100vw, 60vw")}</div>{secs}</div></div></div></article>"""
+    related = ["kitchens", "wardrobes", "bathroom-vanities", "walk-in-wardrobes"] if g == "kitchen-cost" else ["doors-windows", "decking", "custom-furniture", "staircases"]
+    body += section(u["services_title"], carousel(L, related), "sec-car")
     body += quote_form(L)
     art = {"@context": "https://schema.org", "@type": "Article", "headline": G["h1"], "description": G["meta"],
            "inLanguage": L["hreflang"], "datePublished": TODAY, "dateModified": TODAY,
@@ -705,10 +798,10 @@ def build_guide(L, g):
 def build_404():
     L = LANGS[DEFAULT]
     u, P = L["ui"], L["pages"]["notfound"]
-    body = f"""<section class="hero hero-slim"><div class="wrap"><h1>{esc(P['h1'])}</h1><p class="lead">{esc(P['text'])}</p>
-<p class="btns"><a class="btn" href="{page_path(DEFAULT, ('index', 'services'))}">{esc(u['cta_all_services'])}</a>
-<a class="btn btn-ghost" href="{page_path(DEFAULT, ('index', 'areas'))}">{esc(u['cta_all_areas'])}</a></p></div></section>"""
-    body += section("", service_cards(L, site["featured_services"]))
+    body = f"""<section class="hero hero-slim"><div class="wrap"><h1 class="split">{split_words(P['h1'])}</h1><p class="lead rise" style="--d:3">{esc(P['text'])}</p>
+<p class="btns rise" style="--d:4"><a class="btn" href="{page_path(DEFAULT, ('index', 'services'))}">{esc(u['cta_all_services'])}</a>
+<a class="btn btn-line" href="{page_path(DEFAULT, ('index', 'areas'))}">{esc(u['cta_all_areas'])}</a></p></div></section>"""
+    body += section("", service_index(L))
     html_ = layout(L, ("home",), P["title"], P["text"], body).replace(
         '<meta name="robots" content="index, follow, max-image-preview:large">', '<meta name="robots" content="noindex">')
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(html_)
@@ -717,8 +810,7 @@ def build_404():
 def build_sitemap():
     urls = []
     for pid in pages_written:
-        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{T["hreflang"]}" href="{abs_url(page_path(c, pid))}"/>'
-                       for c, T in LANGS.items())
+        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{T["hreflang"]}" href="{abs_url(page_path(c, pid))}"/>' for c, T in LANGS.items())
         alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{abs_url(page_path(DEFAULT, pid))}"/>'
         pr = {"home": "1.0", "service": "0.9", "area": "0.8", "combo": "0.7"}.get(pid[0], "0.6")
         for c in LANGS:
@@ -731,7 +823,7 @@ def build_sitemap():
 
 
 def check_slugs():
-    for c, L in LANGS.items():
+    for c in LANGS:
         seen = {}
         pids = [("home",)] + [("index", p) for p in ("services", "areas", "guides")] + [("page", p) for p in ("about", "contact")]
         pids += [("service", k) for k in site["services"]] + [("area", a["key"]) for a in site["areas"]]
@@ -751,12 +843,11 @@ def main():
     if os.path.exists(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT)
-    shutil.copytree(ASSETS, os.path.join(OUT, "assets"))
+    shutil.copytree(ASSETS, os.path.join(OUT, "assets"), ignore=shutil.ignore_patterns("icons"))
     CSS_VER = hashlib.md5(open(os.path.join(ASSETS, "css", "style.css"), "rb").read()).hexdigest()[:8]
     JS_VER = hashlib.md5(open(os.path.join(ASSETS, "js", "main.js"), "rb").read()).hexdigest()[:8]
     for f in os.listdir(os.path.join(ROOT, "static")):
         shutil.copy2(os.path.join(ROOT, "static", f), os.path.join(OUT, f))
-
     for L in LANGS.values():
         build_home(L)
         build_services_index(L)

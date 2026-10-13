@@ -232,5 +232,81 @@
     "kitchen-cost",
     "materials"
   ],
-  "contact_name": "Gede"
+  "contact_name": "Gede",
+  "service_groups": [
+    [
+      "kitchens",
+      "wardrobes",
+      "walk-in-wardrobes",
+      "bathroom-vanities",
+      "tv-units",
+      "beds",
+      "shelving-office"
+    ],
+    [
+      "doors-windows",
+      "staircases",
+      "ceilings-panelling",
+      "decking",
+      "pergolas"
+    ],
+    [
+      "villa-fitout",
+      "commercial-fitout",
+      "custom-furniture",
+      "repairs"
+    ]
+  ],
+  "materials": [
+    {
+      "key": "teak",
+      "image": "doors-windows",
+      "ratings": [
+        5,
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "key": "merbau",
+      "image": "staircases",
+      "ratings": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "key": "ulin",
+      "image": "decking",
+      "ratings": [
+        5,
+        4,
+        5,
+        2
+      ]
+    },
+    {
+      "key": "plywood",
+      "image": "wardrobes",
+      "ratings": [
+        4,
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "key": "hpl",
+      "image": "kitchens",
+      "ratings": [
+        4,
+        5,
+        3,
+        5
+      ]
+    }
+  ]
 }
