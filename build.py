@@ -182,9 +182,9 @@ def business_ld(L):
             "telephone": "+" + site["whatsapp"],
             "contactType": "customer service",
             "name": f"{site.get('contact_name', '')}, {L['ui'].get('contact_role', '')}".strip(" ,"),
-            "availableLanguage": ["English", "Indonesian", "French", "Russian"],
+            "availableLanguage": ["English", "Indonesian"],
         },
-        "knowsLanguage": ["en", "id", "fr", "ru"],
+        "knowsLanguage": ["en", "id"],
     }
     same = [u for u in (site.get("instagram"), site.get("facebook")) if u]
     if same:

@@ -81,8 +81,8 @@
         "d": "Des devis détaillés avec matériaux, finitions et planning, par écrit, avant tout acompte."
       },
       {
-        "t": "Nous parlons votre langue",
-        "d": "Échangez en français, en anglais, en indonésien ou en russe, avec des plans 3D pour que rien ne se perde en route."
+        "t": "Nous parlons anglais",
+        "d": "Gede et l'équipe parlent anglais : vous expliquez votre projet directement, sans intermédiaire. Devis, plans et suivi sont rédigés en anglais clair."
       }
     ],
     "process": [
@@ -182,7 +182,7 @@
     "points": [
       "Visite et devis gratuits",
       "Notre propre atelier à Bali",
-      "English · Bahasa · Français · Русский"
+      "Équipe anglophone"
     ],
     "intro_title": "Une menuiserie conçue pour les tropiques",
     "intro": [
@@ -217,7 +217,7 @@
       "h1": "À propos de {brand}",
       "body": [
         "{brand} est un atelier de menuiserie et d'agencement sur mesure à Bali. Nous travaillons avec des particuliers, des propriétaires de villas, des promoteurs, des architectes et des professionnels de l'hôtellerie pour concevoir, fabriquer et poser des meubles beaux et durables sous les tropiques.",
-        "Notre équipe allie le savoir-faire traditionnel des artisans balinais à une ébénisterie moderne de style européen : découpe de panneaux précise, quincaillerie à fermeture amortie, chants nets et finitions soignées. Chaque projet est suivi par un interlocuteur unique, dans votre langue, du premier croquis au dernier réglage de charnière.",
+        "Notre équipe allie le savoir-faire traditionnel des artisans balinais à une ébénisterie moderne de style européen : découpe de panneaux précise, quincaillerie à fermeture amortie, chants nets et finitions soignées. Chaque projet est suivi par un interlocuteur unique, en anglais, du premier croquis au dernier réglage de charnière.",
         "Nous croyons aux devis honnêtes, aux délais réalistes et aux matériaux choisis pour le climat de Bali, pas pour afficher le prix le plus bas sur le papier."
       ],
       "values_title": "Nos engagements",
